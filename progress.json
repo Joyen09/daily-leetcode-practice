@@ -1,0 +1,19 @@
+{
+  "total_problems": 1,
+  "problems_by_difficulty": {
+    "Easy": 0,
+    "Medium": 1,
+    "Hard": 0
+  },
+  "tags_frequency": {
+    "algorithm": 1
+  },
+  "daily_records": [
+    {
+      "date": "2025-02-17",
+      "problem_id": "3474",
+      "problem_title": "Better Compression of String",
+      "difficulty": "Medium"
+    }
+  ]
+}
