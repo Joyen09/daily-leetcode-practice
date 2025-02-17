@@ -40,8 +40,19 @@ class TechLearningTracker:
         self.logger = logging.getLogger(__name__)
 
     def _load_config(self, config_path: str) -> dict:
-        with open(config_path, 'r', encoding='utf-8') as f:
-            return yaml.safe_load(f)
+        try:
+            with open(config_path, 'r', encoding='utf-8') as f:
+                return yaml.safe_load(f)
+        except Exception as e:
+            self.logger.error(f"無法載入配置文件: {e}")
+            return {
+                'leetcode_api': "https://leetcode.com/api",
+                'api_headers': {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                },
+                'notes_dir': "learning_notes",
+                'progress_file': "progress.json"
+            }
 
     def analyze_solution(self, problem_title: str, code: str, tags: List[str]) -> dict:
         """分析解題方案"""
@@ -144,7 +155,7 @@ class TechLearningTracker:
                 '資料庫索引優化'
             ]
         }
-        
+
         # 根據標籤選擇應用場景
         relevant_applications = []
         for tag in algorithms:
@@ -188,7 +199,15 @@ class TechLearningTracker:
                 headers=self.config['api_headers']
             )
             
+            if response.status_code != 200:
+                self.logger.error(f"API 請求失敗，狀態碼: {response.status_code}")
+                return None
+
             data = response.json()
+            if 'data' not in data or 'question' not in data['data']:
+                self.logger.error("API 回應格式不正確")
+                return None
+
             return data['data']['question']
         except Exception as e:
             self.logger.error(f"獲取題目詳情失敗: {e}")
@@ -224,25 +243,35 @@ class TechLearningTracker:
             
             # 獲取 Python 代碼模板
             python_code = "# 請在此實現您的解答\ndef solution():\n    pass"
-            if details and 'codeSnippets' in details:
-                for snippet in details['codeSnippets']:
-                    if snippet['lang'] == 'Python3':
-                        python_code = snippet['code']
-                        break
+            try:
+                if details and details.get('codeSnippets'):
+                    for snippet in details['codeSnippets']:
+                        if snippet['lang'] == 'Python3':
+                            python_code = snippet['code']
+                            break
+            except Exception as e:
+                self.logger.warning(f"無法獲取程式碼模板: {e}")
+                # 使用預設模板
             
             # 獲取題目標籤
             tags = []
-            if details and 'topicTags' in details:
-                tags = [tag['name'] for tag in details['topicTags']]
-            
-            # 題目描述和示例
+            try:
+                if details and details.get('topicTags'):
+                    tags = [tag.get('name', 'Algorithm') for tag in details['topicTags']]
+            except Exception as e:
+                self.logger.warning(f"無法獲取題目標籤: {e}")
+                tags = ['Algorithm']  # 使用預設標籤
+
+        # 題目描述和示例
             content = "無法獲取題目描述"
-            if details and 'content' in details:
-                content = details['content']
-                
             sample_test_case = "無示例測試案例"
-            if details and 'sampleTestCase' in details:
-                sample_test_case = details['sampleTestCase']
+            try:
+                if details:
+                    content = details.get('content', content)
+                    sample_test_case = details.get('sampleTestCase', sample_test_case)
+            except Exception as e:
+                self.logger.warning(f"無法獲取題目詳情: {e}")
+                # 使用預設值
             
             return Problem(
                 id=question_id,
@@ -308,106 +337,60 @@ class TechLearningTracker:
 ### 學習重點
 1. 使用的資料結構：
    - {chr(10) + '   - '.join(analysis['data_structures'])}
+
 2. 時間複雜度分析：
    - {analysis['time_complexity']}
+
 3. 空間複雜度分析：
    - {analysis['space_complexity']}
 
 ### 相關延伸學習
 1. 相關演算法：
    - {chr(10) + '   - '.join(analysis['algorithms'])}
+
 2. 實際應用場景：
    - {chr(10) + '   - '.join(analysis['applications'])}
 """
         return template
-
-    def update_learning_progress(self) -> None:
-        """更新學習進度"""
+def save_learning_note(self, problem: Problem) -> str:
+    """
+    保存學習筆記到文件系統
+    
+    Args:
+        problem (Problem): 要保存筆記的題目對象
+    
+    Returns:
+        str: 保存的文件路徑
+    """
+    # 確保筆記目錄存在
+    notes_dir = Path(self.config.get('notes_dir', 'learning_notes'))
+    notes_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 生成文件名：日期_題目ID_題目標題.md
+    filename = f"{datetime.now().strftime('%Y%m%d')}_{problem.id}_{problem.title.replace(' ', '_')}.md"
+    file_path = notes_dir / filename
+    
+    try:
+        # 生成學習筆記內容
+        learning_note = self.create_learning_note(problem)
+        
+        # 寫入文件
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(learning_note)
+        
+        # 記錄日誌
+        self.logger.info(f"學習筆記已保存：{file_path}")
+        
+        # 嘗試將筆記加入 Git 版本控制
         try:
-            # 獲取每日題目
-            problem = self.get_daily_problem()
-            
-            # 生成學習筆記
-            note_content = self.create_learning_note(problem)
-            
-            # 保存筆記
-            date_str = datetime.now().strftime('%Y-%m-%d')
-            notes_dir = Path(self.config['notes_dir'])
-            
-            # 強制重新創建目錄
-            if notes_dir.exists():
-                if notes_dir.is_file():
-                    notes_dir.unlink()  # 如果是文件則刪除
-            
-            # 創建目錄
-            notes_dir.mkdir(parents=True, exist_ok=True)
-                
-            note_path = notes_dir / f"note_{date_str}.md"
-            
-            with open(note_path, 'w', encoding='utf-8') as f:
-                f.write(note_content)
-            
-            # 更新進度追蹤
-            self.update_progress_tracking(problem)
-            
-            # 提交到 GitHub
-            self.commit_changes(date_str)
-            
-            self.logger.info(f"成功更新學習進度: {date_str}")
-            
-        except Exception as e:
-            self.logger.error(f"更新學習進度失敗: {e}")
-            raise
-
-    def update_progress_tracking(self, problem: Problem) -> None:
-        """更新進度追蹤檔案"""
-        progress_path = Path(self.config['progress_file'])
+            self.repo.index.add(str(file_path))
+            self.repo.index.commit(f"Add learning note for {problem.title}")
+            self.logger.info(f"筆記已提交到 Git 倉庫")
+        except Exception as git_error:
+            self.logger.warning(f"無法提交到 Git 倉庫：{git_error}")
         
-        if progress_path.exists():
-            with open(progress_path, 'r', encoding='utf-8') as f:
-                progress = json.load(f)
-        else:
-            progress = {
-                'total_problems': 0,
-                'problems_by_difficulty': {'Easy': 0, 'Medium': 0, 'Hard': 0},
-                'tags_frequency': {},
-                'daily_records': []
-            }
-        
-        # 更新統計
-        progress['total_problems'] += 1
-        progress['problems_by_difficulty'][problem.difficulty] += 1
-        
-        for tag in problem.tags:
-            progress['tags_frequency'][tag] = progress['tags_frequency'].get(tag, 0) + 1
-        
-        # 添加每日記錄
-        progress['daily_records'].append({'date': datetime.now().strftime('%Y-%m-%d'),
-            'problem_id': problem.id,
-            'problem_title': problem.title,
-            'difficulty': problem.difficulty,
-            'url': problem.url,
-            'tags': problem.tags
-        })
-        
-        # 保存更新後的進度
-        with open(progress_path, 'w', encoding='utf-8') as f:
-            json.dump(progress, f, indent=2, ensure_ascii=False)
-
-    def commit_changes(self, date_str: str) -> None:
-        """提交更改到 GitHub"""
-        try:
-            self.repo.index.add('*')
-            commit_message = f"每日技術學習更新: {date_str}"
-            self.repo.index.commit(commit_message)
-            origin = self.repo.remote(name='origin')
-            origin.push()
-            self.logger.info(f"成功提交到 GitHub: {commit_message}")
-        except Exception as e:
-            self.logger.error(f"GitHub 提交失敗: {e}")
-            raise
-
-if __name__ == "__main__":
-    config_path = "config.yaml"
-    tracker = TechLearningTracker(config_path)
-    tracker.update_learning_progress()
+        return str(file_path)
+    
+    except Exception as e:
+        self.logger.error(f"保存學習筆記時出錯：{e}")
+        raise
