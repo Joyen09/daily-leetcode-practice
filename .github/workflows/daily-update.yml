@@ -7,8 +7,12 @@ on:
 jobs:
   update-learning:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 添加寫入權限
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub Token
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -18,10 +22,14 @@ jobs:
           pip install requests beautifulsoup4 pyyaml gitpython markdown
       - name: Run tracker
         run: python leetcode_tracker.py
-      - name: Commit and push changes
+      - name: Configure Git
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           git add .
           git commit -m "Daily learning update" || echo "No changes to commit"
           git push
