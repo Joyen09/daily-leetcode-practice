@@ -1,0 +1,27 @@
+name: Daily Learning Update
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜執行
+  workflow_dispatch:     # 允許手動觸發
+
+jobs:
+  update-learning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 pyyaml gitpython markdown
+      - name: Run tracker
+        run: python leetcode_tracker.py
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Daily learning update" || echo "No changes to commit"
+          git push
