@@ -9,7 +9,6 @@ import git
 import markdown
 from bs4 import BeautifulSoup
 import yaml
-import random
 
 @dataclass
 class Problem:
@@ -19,7 +18,6 @@ class Problem:
     tags: List[str]
     solution: str
     explanation: str
-    url: str
 
 class TechLearningTracker:
     def __init__(self, config_path: str):
@@ -45,7 +43,7 @@ class TechLearningTracker:
     def get_daily_problem(self) -> Problem:
         """獲取每日演算法題目"""
         try:
-            # 使用 LeetCode 題目列表
+            # 使用 LeetCode 題目列表頁面
             response = requests.get(
                 "https://leetcode.com/api/problems/all/",
                 headers=self.config['api_headers']
@@ -58,24 +56,22 @@ class TechLearningTracker:
             if 'stat_status_pairs' not in data:
                 raise Exception("Unexpected API response format")
                 
-            # 隨機選擇一個題目
+            # 從所有題目中隨機選擇一個
+            import random
             problem_data = random.choice(data['stat_status_pairs'])
             
             # 獲取題目詳細信息
             title = problem_data['stat']['question__title']
-            title_slug = problem_data['stat']['question__title_slug']
             question_id = str(problem_data['stat']['question_id'])
             difficulty = ['Easy', 'Medium', 'Hard'][problem_data['difficulty']['level']-1]
-            problem_url = f"https://leetcode.com/problems/{title_slug}"
             
             return Problem(
                 id=question_id,
                 title=title,
                 difficulty=difficulty,
-                tags=['algorithm'],
-                solution='# 在此添加您的解答\n\ndef solution(self):\n    pass',
-                explanation='請在此描述您的解題思路\n',
-                url=problem_url
+                tags=['algorithm'],  # 簡化標籤
+                solution='# 在此添加您的解答\n',
+                explanation='請在此描述您的解題思路\n'
             )
         except Exception as e:
             self.logger.error(f"獲取題目失敗: {e}")
@@ -86,8 +82,7 @@ class TechLearningTracker:
         template = f"""# 每日技術學習筆記 - {datetime.now().strftime('%Y-%m-%d')}
 
 ## 今日演算法題目
-- 題目編號: {problem.id}
-- 題目：[{problem.title}]({problem.url})
+- 題目：{problem.title}
 - 難度：{problem.difficulty}
 - 標籤：{', '.join(problem.tags)}
 
@@ -138,7 +133,7 @@ class TechLearningTracker:
             date_str = datetime.now().strftime('%Y-%m-%d')
             notes_dir = Path(self.config['notes_dir'])
             
-            # 確保目錄存在
+            # 確保目錄存在，不會因為目錄已存在而報錯
             if not notes_dir.exists():
                 notes_dir.mkdir(parents=True)
                 
@@ -186,8 +181,7 @@ class TechLearningTracker:
             'date': datetime.now().strftime('%Y-%m-%d'),
             'problem_id': problem.id,
             'problem_title': problem.title,
-            'difficulty': problem.difficulty,
-            'url': problem.url
+            'difficulty': problem.difficulty
         })
         
         # 保存更新後的進度
@@ -206,6 +200,11 @@ class TechLearningTracker:
         except Exception as e:
             self.logger.error(f"GitHub 提交失敗: {e}")
             raise
+
+    def generate_weekly_report(self) -> None:
+        """生成週報告"""
+        # 待實現：生成每週學習總結報告
+        pass
 
 if __name__ == "__main__":
     config_path = "config.yaml"
