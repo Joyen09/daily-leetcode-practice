@@ -10,6 +10,7 @@ import markdown
 from bs4 import BeautifulSoup
 import yaml
 import random
+import re
 
 @dataclass
 class Problem:
@@ -41,6 +42,122 @@ class TechLearningTracker:
     def _load_config(self, config_path: str) -> dict:
         with open(config_path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f)
+
+    def analyze_solution(self, problem_title: str, code: str, tags: List[str]) -> dict:
+        """分析解題方案"""
+        
+        # 分析使用的資料結構
+        data_structures = {
+            'Array/List': ['List', 'list', '[]', 'array'],
+            'Dictionary/Hash Table': ['dict', '{}', 'hashmap', 'hash table'],
+            'Set': ['set', 'hashset'],
+            'Queue/Deque': ['queue', 'deque', 'collections.deque'],
+            'Stack': ['stack', '[]'],
+            'Tree': ['TreeNode', 'tree', 'binary tree'],
+            'Heap': ['heapq', 'heap', 'priority queue'],
+            'Graph': ['graph', 'adjacency', 'vertex', 'edge']
+        }
+        
+        used_structures = []
+        for structure, keywords in data_structures.items():
+            if any(keyword in code for keyword in keywords):
+                used_structures.append(structure)
+        
+        # 分析時間複雜度
+        def analyze_time_complexity(code: str, tags: List[str]) -> str:
+            if any('dp' in tag.lower() for tag in tags):
+                return "O(n²) - 動態規劃通常需要二維狀態轉移"
+            if 'binary search' in ' '.join(tags).lower():
+                return "O(log n) - 二分搜尋的標準時間複雜度"
+            if re.search(r'for.*for', code):
+                return "O(n²) - 包含巢狀迴圈"
+            if 'sort' in code or 'sorted' in code:
+                return "O(n log n) - 包含排序操作"
+            if re.search(r'for|while', code):
+                return "O(n) - 包含單層迴圈"
+            return "O(1) - 常數時間操作"
+
+        # 分析空間複雜度
+        def analyze_space_complexity(code: str, tags: List[str]) -> str:
+            if any('dp' in tag.lower() for tag in tags):
+                return "O(n²) - 動態規劃通常需要二維陣列儲存狀態"
+            if re.search(r'new_array|list\(|dict\(|set\(', code):
+                return "O(n) - 需要額外的資料結構儲存資料"
+            return "O(1) - 只使用常數額外空間"
+        
+        # 根據標籤和代碼特徵推斷演算法類型
+        algorithm_patterns = {
+            'Dynamic Programming': ['dp', 'dynamic', 'memo', 'tabulation'],
+            'Greedy': ['greedy', 'maximum', 'minimum'],
+            'Divide and Conquer': ['divide', 'merge', 'recursive'],
+            'DFS/BFS': ['dfs', 'bfs', 'depth', 'breadth', 'traverse'],
+            'Binary Search': ['binary search', 'left, right'],
+            'Two Pointers': ['two pointer', 'left, right', 'start, end'],
+            'Sliding Window': ['window', 'substring', 'subarray']
+        }
+        
+        algorithms = set(tags)  # 從題目標籤開始
+        for algo, keywords in algorithm_patterns.items():
+            if any(keyword in code.lower() for keyword in keywords):
+                algorithms.add(algo)
+        
+        # 分析應用場景
+        applications = {
+            'Dynamic Programming': [
+                '背包問題最佳化',
+                '資源分配規劃',
+                '路徑規劃最佳化'
+            ],
+            'Graph': [
+                '社交網絡分析',
+                '網路路由規劃',
+                '地圖導航系統'
+            ],
+            'Tree': [
+                '檔案系統結構',
+                '組織架構管理',
+                '決策樹分析'
+            ],
+            'Binary Search': [
+                '數據庫查詢優化',
+                '搜尋引擎實作',
+                '機器學習模型調參'
+            ],
+            'Two Pointers': [
+                '資料流處理',
+                '序列比對',
+                '字串處理優化'
+            ],
+            'Stack': [
+                '編譯器語法分析',
+                '瀏覽器歷史記錄',
+                '函數調用追蹤'
+            ],
+            'Queue': [
+                '任務排程系統',
+                '消息佇列處理',
+                '列印工作管理'
+            ],
+            'Hash Table': [
+                '快取系統實作',
+                '資料去重處理',
+                '資料庫索引優化'
+            ]
+        }
+        
+        # 根據標籤選擇應用場景
+        relevant_applications = []
+        for tag in algorithms:
+            if tag in applications:
+                relevant_applications.extend(applications[tag])
+        
+        return {
+            'data_structures': used_structures if used_structures else ['需要根據具體實現確定'],
+            'time_complexity': analyze_time_complexity(code, tags),
+            'space_complexity': analyze_space_complexity(code, tags),
+            'algorithms': list(algorithms) if algorithms else ['需要根據具體實現確定'],
+            'applications': relevant_applications[:3] if relevant_applications else ['需要根據具體實現確定']
+        }
 
     def get_problem_details(self, title_slug: str) -> dict:
         """獲取題目詳細信息，包括描述和示例"""
@@ -141,8 +258,26 @@ class TechLearningTracker:
 {sample_test_case}
 ```
 
-## 解題思路
-[在此記錄您的解題思路]
+## 建議解題思路
+1. 理解問題需求：
+   - 仔細閱讀題目要求
+   - 分析輸入輸出格式
+   - 注意邊界條件
+
+2. 思考解決方案：
+   - 考慮可能的演算法策略
+   - 評估時間和空間複雜度
+   - 選擇最佳解決方案
+
+3. 實現步驟：
+   - 先實現基本功能
+   - 處理特殊情況
+   - 優化程式碼
+
+4. 測試驗證：
+   - 使用題目提供的測試案例
+   - 考慮極端情況
+   - 驗證解決方案的正確性
 """,
                 url=problem_url
             )
@@ -152,6 +287,9 @@ class TechLearningTracker:
 
     def create_learning_note(self, problem: Problem) -> str:
         """生成學習筆記"""
+        # 分析解決方案
+        analysis = self.analyze_solution(problem.title, problem.solution, problem.tags)
+        
         template = f"""# 每日技術學習筆記 - {datetime.now().strftime('%Y-%m-%d')}
 
 ## LeetCode 題目練習
@@ -169,17 +307,17 @@ class TechLearningTracker:
 
 ### 學習重點
 1. 使用的資料結構：
-   - [列出使用的主要資料結構]
+   - {chr(10) + '   - '.join(analysis['data_structures'])}
 2. 時間複雜度分析：
-   - [分析解法的時間複雜度]
+   - {analysis['time_complexity']}
 3. 空間複雜度分析：
-   - [分析解法的空間複雜度]
+   - {analysis['space_complexity']}
 
 ### 相關延伸學習
 1. 相關演算法：
-   - [列出相關的演算法]
+   - {chr(10) + '   - '.join(analysis['algorithms'])}
 2. 實際應用場景：
-   - [描述此演算法的實際應用場景]
+   - {chr(10) + '   - '.join(analysis['applications'])}
 """
         return template
 
@@ -244,8 +382,7 @@ class TechLearningTracker:
             progress['tags_frequency'][tag] = progress['tags_frequency'].get(tag, 0) + 1
         
         # 添加每日記錄
-        progress['daily_records'].append({
-            'date': datetime.now().strftime('%Y-%m-%d'),
+        progress['daily_records'].append({'date': datetime.now().strftime('%Y-%m-%d'),
             'problem_id': problem.id,
             'problem_title': problem.title,
             'difficulty': problem.difficulty,
