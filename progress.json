@@ -1,18 +1,24 @@
 {
-  "total_problems": 1,
+  "total_problems": 2,
   "problems_by_difficulty": {
     "Easy": 0,
-    "Medium": 1,
+    "Medium": 2,
     "Hard": 0
   },
   "tags_frequency": {
-    "algorithm": 1
+    "algorithm": 2
   },
   "daily_records": [
     {
       "date": "2025-02-17",
       "problem_id": "3474",
       "problem_title": "Better Compression of String",
+      "difficulty": "Medium"
+    },
+    {
+      "date": "2025-02-17",
+      "problem_id": "3573",
+      "problem_title": "Count Substrings That Can Be Rearranged to Contain a String I",
       "difficulty": "Medium"
     }
   ]
