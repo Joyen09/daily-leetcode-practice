@@ -42,36 +42,36 @@ class TechLearningTracker:
         with open(config_path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f)
 
-    async def get_problem_details(self, title_slug: str) -> dict:
-        """獲取題目詳細信息，包括描述和示例"""
-        try:
-            query = """
-                query questionData($titleSlug: String!) {
-                    question(titleSlug: $titleSlug) {
-                        content
-                        codeSnippets {
-                            lang
-                            code
-                        }
-                        sampleTestCase
+    def get_problem_details(self, title_slug: str) -> dict:
+    """獲取題目詳細信息，包括描述和示例"""
+    try:
+        query = """
+            query questionData($titleSlug: String!) {
+                question(titleSlug: $titleSlug) {
+                    content
+                    codeSnippets {
+                        lang
+                        code
                     }
+                    sampleTestCase
                 }
-            """
-            
-            url = "https://leetcode.com/graphql"
-            response = requests.post(url,
-                json={
-                    'query': query,
-                    'variables': {'titleSlug': title_slug}
-                },
-                headers=self.config['api_headers']
-            )
-            
-            data = response.json()
-            return data['data']['question']
-        except Exception as e:
-            self.logger.error(f"獲取題目詳情失敗: {e}")
-            return None
+            }
+        """
+        
+        url = "https://leetcode.com/graphql"
+        response = requests.post(url,
+            json={
+                'query': query,
+                'variables': {'titleSlug': title_slug}
+            },
+            headers=self.config['api_headers']
+        )
+        
+        data = response.json()
+        return data['data']['question']
+    except Exception as e:
+        self.logger.error(f"獲取題目詳情失敗: {e}")
+        return None
 
     def get_daily_problem(self) -> Problem:
         """獲取每日演算法題目"""
