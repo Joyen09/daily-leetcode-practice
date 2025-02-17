@@ -42,21 +42,36 @@ class TechLearningTracker:
 
     def get_daily_problem(self) -> Problem:
         """獲取每日演算法題目"""
-        # 這裡可以連接到 LeetCode API 或其他程式題目平台
         try:
+            # 使用 LeetCode 題目列表頁面
             response = requests.get(
-                f"{self.config['leetcode_api']}/problems/random",
+                "https://leetcode.com/api/problems/all/",
                 headers=self.config['api_headers']
             )
+            
+            if response.status_code != 200:
+                raise Exception(f"API request failed with status {response.status_code}")
+                
             data = response.json()
+            if 'stat_status_pairs' not in data:
+                raise Exception("Unexpected API response format")
+                
+            # 從所有題目中隨機選擇一個
+            import random
+            problem_data = random.choice(data['stat_status_pairs'])
+            
+            # 獲取題目詳細信息
+            title = problem_data['stat']['question__title']
+            question_id = str(problem_data['stat']['question_id'])
+            difficulty = ['Easy', 'Medium', 'Hard'][problem_data['difficulty']['level']-1]
             
             return Problem(
-                id=data['id'],
-                title=data['title'],
-                difficulty=data['difficulty'],
-                tags=data['tags'],
-                solution='',  # 將在解題後填充
-                explanation=''  # 將在解題後填充
+                id=question_id,
+                title=title,
+                difficulty=difficulty,
+                tags=['algorithm'],  # 簡化標籤
+                solution='# 在此添加您的解答\n',
+                explanation='請在此描述您的解題思路\n'
             )
         except Exception as e:
             self.logger.error(f"獲取題目失敗: {e}")
