@@ -1,7 +1,7 @@
 {
-  "total_problems": 3,
+  "total_problems": 4,
   "problems_by_difficulty": {
-    "Easy": 0,
+    "Easy": 1,
     "Medium": 2,
     "Hard": 1
   },
@@ -9,7 +9,10 @@
     "algorithm": 2,
     "Array": 1,
     "Dynamic Programming": 1,
-    "Prefix Sum": 1
+    "Prefix Sum": 1,
+    "Hash Table": 1,
+    "String": 1,
+    "Enumeration": 1
   },
   "daily_records": [
     {
@@ -34,6 +37,18 @@
         "Array",
         "Dynamic Programming",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "problem_id": "1363",
+      "problem_title": "Greatest English Letter in Upper and Lower Case",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Enumeration"
       ]
     }
   ]
