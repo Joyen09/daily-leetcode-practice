@@ -1,0 +1,5 @@
+leetcode_api: "https://leetcode.com/api"
+api_headers:
+  User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+notes_dir: "learning_notes"
+progress_file: "progress.json"
