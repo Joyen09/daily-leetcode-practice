@@ -1,12 +1,15 @@
 {
-  "total_problems": 2,
+  "total_problems": 3,
   "problems_by_difficulty": {
     "Easy": 0,
     "Medium": 2,
-    "Hard": 0
+    "Hard": 1
   },
   "tags_frequency": {
-    "algorithm": 2
+    "algorithm": 2,
+    "Array": 1,
+    "Dynamic Programming": 1,
+    "Prefix Sum": 1
   },
   "daily_records": [
     {
@@ -20,6 +23,18 @@
       "problem_id": "3573",
       "problem_title": "Count Substrings That Can Be Rearranged to Contain a String I",
       "difficulty": "Medium"
+    },
+    {
+      "date": "2025-02-17",
+      "problem_id": "1042",
+      "problem_title": "Minimum Cost to Merge Stones",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-cost-to-merge-stones",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Prefix Sum"
+      ]
     }
   ]
 }
