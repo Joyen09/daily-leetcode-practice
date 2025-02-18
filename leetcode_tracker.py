@@ -56,7 +56,6 @@ class TechLearningTracker:
 
     def analyze_solution(self, problem_title: str, code: str, tags: List[str]) -> dict:
         """分析解題方案"""
-        
         # 分析使用的資料結構
         data_structures = {
             'Array/List': ['List', 'list', '[]', 'array'],
@@ -138,24 +137,9 @@ class TechLearningTracker:
                 '資料流處理',
                 '序列比對',
                 '字串處理優化'
-            ],
-            'Stack': [
-                '編譯器語法分析',
-                '瀏覽器歷史記錄',
-                '函數調用追蹤'
-            ],
-            'Queue': [
-                '任務排程系統',
-                '消息佇列處理',
-                '列印工作管理'
-            ],
-            'Hash Table': [
-                '快取系統實作',
-                '資料去重處理',
-                '資料庫索引優化'
             ]
         }
-
+        
         # 根據標籤選擇應用場景
         relevant_applications = []
         for tag in algorithms:
@@ -251,7 +235,6 @@ class TechLearningTracker:
                             break
             except Exception as e:
                 self.logger.warning(f"無法獲取程式碼模板: {e}")
-                # 使用預設模板
             
             # 獲取題目標籤
             tags = []
@@ -260,9 +243,9 @@ class TechLearningTracker:
                     tags = [tag.get('name', 'Algorithm') for tag in details['topicTags']]
             except Exception as e:
                 self.logger.warning(f"無法獲取題目標籤: {e}")
-                tags = ['Algorithm']  # 使用預設標籤
-
-        # 題目描述和示例
+                tags = ['Algorithm']
+            
+            # 題目描述和示例
             content = "無法獲取題目描述"
             sample_test_case = "無示例測試案例"
             try:
@@ -271,7 +254,6 @@ class TechLearningTracker:
                     sample_test_case = details.get('sampleTestCase', sample_test_case)
             except Exception as e:
                 self.logger.warning(f"無法獲取題目詳情: {e}")
-                # 使用預設值
             
             return Problem(
                 id=question_id,
@@ -352,7 +334,8 @@ class TechLearningTracker:
    - {chr(10) + '   - '.join(analysis['applications'])}
 """
         return template
-def update_learning_progress(self) -> None:
+
+    def update_learning_progress(self) -> None:
         """更新學習進度"""
         try:
             # 獲取每日題目
