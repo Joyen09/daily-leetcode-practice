@@ -352,45 +352,99 @@ class TechLearningTracker:
    - {chr(10) + '   - '.join(analysis['applications'])}
 """
         return template
-def save_learning_note(self, problem: Problem) -> str:
-    """
-    保存學習筆記到文件系統
-    
-    Args:
-        problem (Problem): 要保存筆記的題目對象
-    
-    Returns:
-        str: 保存的文件路徑
-    """
-    # 確保筆記目錄存在
-    notes_dir = Path(self.config.get('notes_dir', 'learning_notes'))
-    notes_dir.mkdir(parents=True, exist_ok=True)
-    
-    # 生成文件名：日期_題目ID_題目標題.md
-    filename = f"{datetime.now().strftime('%Y%m%d')}_{problem.id}_{problem.title.replace(' ', '_')}.md"
-    file_path = notes_dir / filename
-    
-    try:
-        # 生成學習筆記內容
-        learning_note = self.create_learning_note(problem)
-        
-        # 寫入文件
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(learning_note)
-        
-        # 記錄日誌
-        self.logger.info(f"學習筆記已保存：{file_path}")
-        
-        # 嘗試將筆記加入 Git 版本控制
+def update_learning_progress(self) -> None:
+        """更新學習進度"""
         try:
-            self.repo.index.add(str(file_path))
-            self.repo.index.commit(f"Add learning note for {problem.title}")
-            self.logger.info(f"筆記已提交到 Git 倉庫")
-        except Exception as git_error:
-            self.logger.warning(f"無法提交到 Git 倉庫：{git_error}")
+            # 獲取每日題目
+            problem = self.get_daily_problem()
+            
+            # 生成學習筆記
+            note_content = self.create_learning_note(problem)
+            
+            # 保存筆記
+            date_str = datetime.now().strftime('%Y-%m-%d')
+            notes_dir = Path(self.config['notes_dir'])
+            
+            # 強制重新創建目錄
+            if notes_dir.exists():
+                if notes_dir.is_file():
+                    notes_dir.unlink()  # 如果是文件則刪除
+            
+            # 創建目錄
+            notes_dir.mkdir(parents=True, exist_ok=True)
+                
+            note_path = notes_dir / f"note_{date_str}.md"
+            
+            with open(note_path, 'w', encoding='utf-8') as f:
+                f.write(note_content)
+            
+            # 更新進度追蹤
+            self.update_progress_tracking(problem)
+            
+            # 提交到 GitHub
+            self.commit_changes(date_str)
+            
+            self.logger.info(f"成功更新學習進度: {date_str}")
+            
+        except Exception as e:
+            self.logger.error(f"更新學習進度失敗: {e}")
+            raise
+
+    def update_progress_tracking(self, problem: Problem) -> None:
+        """更新進度追蹤檔案"""
+        progress_path = Path(self.config['progress_file'])
         
-        return str(file_path)
-    
-    except Exception as e:
-        self.logger.error(f"保存學習筆記時出錯：{e}")
-        raise
+        try:
+            if progress_path.exists():
+                with open(progress_path, 'r', encoding='utf-8') as f:
+                    progress = json.load(f)
+            else:
+                progress = {
+                    'total_problems': 0,
+                    'problems_by_difficulty': {'Easy': 0, 'Medium': 0, 'Hard': 0},
+                    'tags_frequency': {},
+                    'daily_records': []
+                }
+            
+            # 更新統計
+            progress['total_problems'] += 1
+            progress['problems_by_difficulty'][problem.difficulty] += 1
+            
+            for tag in problem.tags:
+                progress['tags_frequency'][tag] = progress['tags_frequency'].get(tag, 0) + 1
+            
+            # 添加每日記錄
+            progress['daily_records'].append({
+                'date': datetime.now().strftime('%Y-%m-%d'),
+                'problem_id': problem.id,
+                'problem_title': problem.title,
+                'difficulty': problem.difficulty,
+                'url': problem.url,
+                'tags': problem.tags
+            })
+            
+            # 保存更新後的進度
+            with open(progress_path, 'w', encoding='utf-8') as f:
+                json.dump(progress, f, indent=2, ensure_ascii=False)
+        
+        except Exception as e:
+            self.logger.error(f"更新進度追蹤失敗: {e}")
+            # 繼續執行，不中斷程序
+
+    def commit_changes(self, date_str: str) -> None:
+        """提交更改到 GitHub"""
+        try:
+            self.repo.index.add('*')
+            commit_message = f"每日技術學習更新: {date_str}"
+            self.repo.index.commit(commit_message)
+            origin = self.repo.remote(name='origin')
+            origin.push()
+            self.logger.info(f"成功提交到 GitHub: {commit_message}")
+        except Exception as e:
+            self.logger.error(f"GitHub 提交失敗: {e}")
+            raise
+
+if __name__ == "__main__":
+    config_path = "config.yaml"
+    tracker = TechLearningTracker(config_path)
+    tracker.update_learning_progress()
