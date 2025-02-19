@@ -220,23 +220,47 @@ def solution(self) -> None:
     def monitor_and_update(self, notes_dir: str) -> None:
         """監控並更新新的筆記"""
         try:
-            notes_path = Path(notes_dir)
+            # 獲取當前工作目錄
+            current_dir = Path.cwd()
+            notes_path = current_dir / notes_dir
+            self.logger.info(f"正在檢查目錄: {notes_path}")
+            
             if not notes_path.exists():
-                self.logger.error(f"目錄不存在: {notes_dir}")
+                self.logger.error(f"目錄不存在: {notes_path}")
                 return
             
             # 獲取最新的筆記
             notes = list(notes_path.glob("note_*.md"))
+            self.logger.info(f"找到 {len(notes)} 個筆記文件")
+            
             if not notes:
                 self.logger.info("沒有找到筆記文件")
                 return
             
+            # 打印所有找到的筆記文件
+            for note in notes:
+                self.logger.info(f"找到筆記: {note}")
+            
             latest_note = max(notes, key=lambda x: x.stat().st_mtime)
+            self.logger.info(f"最新筆記: {latest_note}")
+            
+            # 讀取並打印筆記內容
+            try:
+                with open(latest_note, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                self.logger.info(f"成功讀取筆記內容，長度: {len(content)}")
+            except Exception as e:
+                self.logger.error(f"讀取筆記失敗: {e}")
+                return
+            
+            # 更新筆記
             self.update_note_content(str(latest_note))
+            self.logger.info("完成筆記更新")
             
         except Exception as e:
             self.logger.error(f"監控更新失敗: {e}")
-
+            raise
+            
 if __name__ == "__main__":
     updater = SolutionUpdater()
     updater.monitor_and_update("learning_notes")
