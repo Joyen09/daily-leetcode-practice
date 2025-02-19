@@ -1,18 +1,21 @@
 {
-  "total_problems": 5,
+  "total_problems": 6,
   "problems_by_difficulty": {
     "Easy": 1,
-    "Medium": 3,
+    "Medium": 4,
     "Hard": 1
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 2,
-    "Dynamic Programming": 1,
+    "Array": 3,
+    "Dynamic Programming": 2,
     "Prefix Sum": 2,
     "Hash Table": 2,
     "String": 1,
-    "Enumeration": 1
+    "Enumeration": 1,
+    "Backtracking": 1,
+    "Bit Manipulation": 1,
+    "Bitmask": 1
   },
   "daily_records": [
     {
@@ -61,6 +64,20 @@
         "Array",
         "Hash Table",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-02-19",
+      "problem_id": "473",
+      "problem_title": "Matchsticks to Square",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/matchsticks-to-square",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Backtracking",
+        "Bit Manipulation",
+        "Bitmask"
       ]
     }
   ]
