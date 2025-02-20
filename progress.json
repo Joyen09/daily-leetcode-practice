@@ -1,7 +1,7 @@
 {
-  "total_problems": 6,
+  "total_problems": 7,
   "problems_by_difficulty": {
-    "Easy": 1,
+    "Easy": 2,
     "Medium": 4,
     "Hard": 1
   },
@@ -11,11 +11,12 @@
     "Dynamic Programming": 2,
     "Prefix Sum": 2,
     "Hash Table": 2,
-    "String": 1,
+    "String": 2,
     "Enumeration": 1,
     "Backtracking": 1,
     "Bit Manipulation": 1,
-    "Bitmask": 1
+    "Bitmask": 1,
+    "String Matching": 1
   },
   "daily_records": [
     {
@@ -78,6 +79,17 @@
         "Backtracking",
         "Bit Manipulation",
         "Bitmask"
+      ]
+    },
+    {
+      "date": "2025-02-20",
+      "problem_id": "812",
+      "problem_title": "Rotate String",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
       ]
     }
   ]
