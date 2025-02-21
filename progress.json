@@ -1,22 +1,24 @@
 {
-  "total_problems": 7,
+  "total_problems": 8,
   "problems_by_difficulty": {
-    "Easy": 2,
+    "Easy": 3,
     "Medium": 4,
     "Hard": 1
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 3,
+    "Array": 4,
     "Dynamic Programming": 2,
     "Prefix Sum": 2,
-    "Hash Table": 2,
+    "Hash Table": 3,
     "String": 2,
     "Enumeration": 1,
     "Backtracking": 1,
     "Bit Manipulation": 1,
     "Bitmask": 1,
-    "String Matching": 1
+    "String Matching": 1,
+    "Math": 1,
+    "Counting": 1
   },
   "daily_records": [
     {
@@ -90,6 +92,19 @@
       "tags": [
         "String",
         "String Matching"
+      ]
+    },
+    {
+      "date": "2025-02-21",
+      "problem_id": "1635",
+      "problem_title": "Number of Good Pairs",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-of-good-pairs",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Counting"
       ]
     }
   ]
