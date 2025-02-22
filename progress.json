@@ -1,13 +1,13 @@
 {
-  "total_problems": 8,
+  "total_problems": 9,
   "problems_by_difficulty": {
     "Easy": 3,
-    "Medium": 4,
+    "Medium": 5,
     "Hard": 1
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 4,
+    "Array": 5,
     "Dynamic Programming": 2,
     "Prefix Sum": 2,
     "Hash Table": 3,
@@ -18,7 +18,9 @@
     "Bitmask": 1,
     "String Matching": 1,
     "Math": 1,
-    "Counting": 1
+    "Counting": 1,
+    "Matrix": 1,
+    "Simulation": 1
   },
   "daily_records": [
     {
@@ -105,6 +107,18 @@
         "Hash Table",
         "Math",
         "Counting"
+      ]
+    },
+    {
+      "date": "2025-02-22",
+      "problem_id": "54",
+      "problem_title": "Spiral Matrix",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/spiral-matrix",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Simulation"
       ]
     }
   ]
