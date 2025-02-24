@@ -1,8 +1,8 @@
 {
-  "total_problems": 10,
+  "total_problems": 11,
   "problems_by_difficulty": {
     "Easy": 3,
-    "Medium": 5,
+    "Medium": 6,
     "Hard": 2
   },
   "tags_frequency": {
@@ -11,18 +11,19 @@
     "Dynamic Programming": 2,
     "Prefix Sum": 2,
     "Hash Table": 3,
-    "String": 2,
+    "String": 3,
     "Enumeration": 1,
     "Backtracking": 1,
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
-    "Math": 1,
+    "Math": 2,
     "Counting": 1,
     "Matrix": 1,
     "Simulation": 1,
     "Stack": 1,
-    "Monotonic Stack": 1
+    "Monotonic Stack": 1,
+    "Two Pointers": 1
   },
   "daily_records": [
     {
@@ -133,6 +134,18 @@
         "Array",
         "Stack",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "problem_id": "556",
+      "problem_title": "Next Greater Element III",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/next-greater-element-iii",
+      "tags": [
+        "Math",
+        "Two Pointers",
+        "String"
       ]
     }
   ]
