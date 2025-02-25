@@ -1,8 +1,8 @@
 {
-  "total_problems": 11,
+  "total_problems": 12,
   "problems_by_difficulty": {
     "Easy": 3,
-    "Medium": 6,
+    "Medium": 7,
     "Hard": 2
   },
   "tags_frequency": {
@@ -23,7 +23,8 @@
     "Simulation": 1,
     "Stack": 1,
     "Monotonic Stack": 1,
-    "Two Pointers": 1
+    "Two Pointers": 1,
+    "Shell": 1
   },
   "daily_records": [
     {
@@ -146,6 +147,16 @@
         "Math",
         "Two Pointers",
         "String"
+      ]
+    },
+    {
+      "date": "2025-02-25",
+      "problem_id": "192",
+      "problem_title": "Word Frequency",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/word-frequency",
+      "tags": [
+        "Shell"
       ]
     }
   ]
