@@ -1,7 +1,7 @@
 {
-  "total_problems": 14,
+  "total_problems": 15,
   "problems_by_difficulty": {
-    "Easy": 4,
+    "Easy": 5,
     "Medium": 8,
     "Hard": 2
   },
@@ -17,7 +17,7 @@
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
-    "Math": 2,
+    "Math": 3,
     "Counting": 1,
     "Matrix": 1,
     "Simulation": 1,
@@ -178,6 +178,16 @@
       "url": "https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2025-02-28",
+      "problem_id": "1289",
+      "problem_title": "Day of the Week",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/day-of-the-week",
+      "tags": [
+        "Math"
       ]
     }
   ]
