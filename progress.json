@@ -1,13 +1,13 @@
 {
-  "total_problems": 15,
+  "total_problems": 16,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 8,
+    "Medium": 9,
     "Hard": 2
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 7,
+    "Array": 8,
     "Dynamic Programming": 2,
     "Prefix Sum": 2,
     "Hash Table": 3,
@@ -19,12 +19,15 @@
     "String Matching": 1,
     "Math": 3,
     "Counting": 1,
-    "Matrix": 1,
+    "Matrix": 2,
     "Simulation": 1,
     "Stack": 1,
     "Monotonic Stack": 1,
     "Two Pointers": 1,
-    "Shell": 1
+    "Shell": 1,
+    "Depth-First Search": 1,
+    "Breadth-First Search": 1,
+    "Union Find": 1
   },
   "daily_records": [
     {
@@ -188,6 +191,20 @@
       "url": "https://leetcode.com/problems/day-of-the-week",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2025-03-01",
+      "problem_id": "1663",
+      "problem_title": "Detect Cycles in 2D Grid",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/detect-cycles-in-2d-grid",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Matrix"
       ]
     }
   ]
