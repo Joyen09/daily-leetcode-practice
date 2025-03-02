@@ -1,14 +1,14 @@
 {
-  "total_problems": 16,
+  "total_problems": 17,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 9,
+    "Medium": 10,
     "Hard": 2
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 8,
-    "Dynamic Programming": 2,
+    "Array": 9,
+    "Dynamic Programming": 3,
     "Prefix Sum": 2,
     "Hash Table": 3,
     "String": 4,
@@ -27,7 +27,8 @@
     "Shell": 1,
     "Depth-First Search": 1,
     "Breadth-First Search": 1,
-    "Union Find": 1
+    "Union Find": 1,
+    "Sorting": 1
   },
   "daily_records": [
     {
@@ -205,6 +206,18 @@
         "Breadth-First Search",
         "Union Find",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-03-02",
+      "problem_id": "1748",
+      "problem_title": "Best Team With No Conflicts",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/best-team-with-no-conflicts",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Sorting"
       ]
     }
   ]
