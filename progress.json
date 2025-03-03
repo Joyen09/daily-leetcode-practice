@@ -1,17 +1,17 @@
 {
-  "total_problems": 17,
+  "total_problems": 18,
   "problems_by_difficulty": {
     "Easy": 5,
     "Medium": 10,
-    "Hard": 2
+    "Hard": 3
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 9,
+    "Array": 10,
     "Dynamic Programming": 3,
     "Prefix Sum": 2,
-    "Hash Table": 3,
-    "String": 4,
+    "Hash Table": 4,
+    "String": 5,
     "Enumeration": 2,
     "Backtracking": 1,
     "Bit Manipulation": 1,
@@ -28,7 +28,9 @@
     "Depth-First Search": 1,
     "Breadth-First Search": 1,
     "Union Find": 1,
-    "Sorting": 1
+    "Sorting": 1,
+    "Design": 1,
+    "Trie": 1
   },
   "daily_records": [
     {
@@ -218,6 +220,20 @@
         "Array",
         "Dynamic Programming",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-03-03",
+      "problem_id": "1433",
+      "problem_title": "Encrypt and Decrypt Strings",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/encrypt-and-decrypt-strings",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Design",
+        "Trie"
       ]
     }
   ]
