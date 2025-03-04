@@ -1,8 +1,8 @@
 {
-  "total_problems": 18,
+  "total_problems": 19,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 10,
+    "Medium": 11,
     "Hard": 3
   },
   "tags_frequency": {
@@ -10,8 +10,8 @@
     "Array": 10,
     "Dynamic Programming": 3,
     "Prefix Sum": 2,
-    "Hash Table": 4,
-    "String": 5,
+    "Hash Table": 5,
+    "String": 6,
     "Enumeration": 2,
     "Backtracking": 1,
     "Bit Manipulation": 1,
@@ -234,6 +234,17 @@
         "String",
         "Design",
         "Trie"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "problem_id": "3405",
+      "problem_title": "Count the Number of Special Characters II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-the-number-of-special-characters-ii",
+      "tags": [
+        "Hash Table",
+        "String"
       ]
     }
   ]
