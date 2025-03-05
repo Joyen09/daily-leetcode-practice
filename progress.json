@@ -1,15 +1,15 @@
 {
-  "total_problems": 19,
+  "total_problems": 20,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 11,
+    "Medium": 12,
     "Hard": 3
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 10,
+    "Array": 11,
     "Dynamic Programming": 3,
-    "Prefix Sum": 2,
+    "Prefix Sum": 3,
     "Hash Table": 5,
     "String": 6,
     "Enumeration": 2,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
-    "Math": 3,
+    "Math": 4,
     "Counting": 1,
     "Matrix": 2,
     "Simulation": 1,
@@ -245,6 +245,18 @@
       "tags": [
         "Hash Table",
         "String"
+      ]
+    },
+    {
+      "date": "2025-03-05",
+      "problem_id": "1787",
+      "problem_title": "Sum of Absolute Differences in a Sorted Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array",
+      "tags": [
+        "Array",
+        "Math",
+        "Prefix Sum"
       ]
     }
   ]
