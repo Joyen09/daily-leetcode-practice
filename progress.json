@@ -1,9 +1,9 @@
 {
-  "total_problems": 20,
+  "total_problems": 21,
   "problems_by_difficulty": {
     "Easy": 5,
     "Medium": 12,
-    "Hard": 3
+    "Hard": 4
   },
   "tags_frequency": {
     "algorithm": 2,
@@ -30,7 +30,8 @@
     "Union Find": 1,
     "Sorting": 1,
     "Design": 1,
-    "Trie": 1
+    "Trie": 1,
+    "Database": 1
   },
   "daily_records": [
     {
@@ -257,6 +258,16 @@
         "Array",
         "Math",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-03-06",
+      "problem_id": "3302",
+      "problem_title": "Viewers Turned Streamers",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/viewers-turned-streamers",
+      "tags": [
+        "Database"
       ]
     }
   ]
