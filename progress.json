@@ -1,8 +1,8 @@
 {
-  "total_problems": 21,
+  "total_problems": 22,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 12,
+    "Medium": 13,
     "Hard": 4
   },
   "tags_frequency": {
@@ -13,7 +13,7 @@
     "Hash Table": 5,
     "String": 6,
     "Enumeration": 2,
-    "Backtracking": 1,
+    "Backtracking": 2,
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
@@ -25,13 +25,15 @@
     "Monotonic Stack": 1,
     "Two Pointers": 1,
     "Shell": 1,
-    "Depth-First Search": 1,
+    "Depth-First Search": 2,
     "Breadth-First Search": 1,
     "Union Find": 1,
     "Sorting": 1,
     "Design": 1,
     "Trie": 1,
-    "Database": 1
+    "Database": 1,
+    "Tree": 1,
+    "Binary Tree": 1
   },
   "daily_records": [
     {
@@ -268,6 +270,19 @@
       "url": "https://leetcode.com/problems/viewers-turned-streamers",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-03-07",
+      "problem_id": "113",
+      "problem_title": "Path Sum II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/path-sum-ii",
+      "tags": [
+        "Backtracking",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
