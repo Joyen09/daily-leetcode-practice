@@ -1,13 +1,13 @@
 {
-  "total_problems": 22,
+  "total_problems": 23,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 13,
+    "Medium": 14,
     "Hard": 4
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 11,
+    "Array": 12,
     "Dynamic Programming": 3,
     "Prefix Sum": 3,
     "Hash Table": 5,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
-    "Math": 4,
+    "Math": 5,
     "Counting": 1,
     "Matrix": 2,
     "Simulation": 1,
@@ -28,12 +28,13 @@
     "Depth-First Search": 2,
     "Breadth-First Search": 1,
     "Union Find": 1,
-    "Sorting": 1,
+    "Sorting": 2,
     "Design": 1,
     "Trie": 1,
     "Database": 1,
     "Tree": 1,
-    "Binary Tree": 1
+    "Binary Tree": 1,
+    "Greedy": 1
   },
   "daily_records": [
     {
@@ -283,6 +284,19 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-03-08",
+      "problem_id": "2305",
+      "problem_title": "Append K Integers With Minimal Sum",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/append-k-integers-with-minimal-sum",
+      "tags": [
+        "Array",
+        "Math",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
