@@ -1,8 +1,8 @@
 {
-  "total_problems": 25,
+  "total_problems": 26,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 15,
+    "Medium": 16,
     "Hard": 5
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 1,
     "Bitmask": 1,
     "String Matching": 1,
-    "Math": 5,
+    "Math": 6,
     "Counting": 2,
     "Matrix": 2,
     "Simulation": 1,
@@ -322,6 +322,16 @@
       "tags": [
         "Breadth-First Search",
         "Graph"
+      ]
+    },
+    {
+      "date": "2025-03-11",
+      "problem_id": "172",
+      "problem_title": "Factorial Trailing Zeroes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/factorial-trailing-zeroes",
+      "tags": [
+        "Math"
       ]
     }
   ]
