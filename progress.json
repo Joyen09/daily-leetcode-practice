@@ -1,8 +1,8 @@
 {
-  "total_problems": 26,
+  "total_problems": 27,
   "problems_by_difficulty": {
     "Easy": 5,
-    "Medium": 16,
+    "Medium": 17,
     "Hard": 5
   },
   "tags_frequency": {
@@ -32,10 +32,11 @@
     "Design": 1,
     "Trie": 1,
     "Database": 1,
-    "Tree": 1,
-    "Binary Tree": 1,
+    "Tree": 2,
+    "Binary Tree": 2,
     "Greedy": 1,
-    "Graph": 1
+    "Graph": 1,
+    "Binary Search Tree": 1
   },
   "daily_records": [
     {
@@ -332,6 +333,18 @@
       "url": "https://leetcode.com/problems/factorial-trailing-zeroes",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2025-03-12",
+      "problem_id": "450",
+      "problem_title": "Delete Node in a BST",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/delete-node-in-a-bst",
+      "tags": [
+        "Tree",
+        "Binary Search Tree",
+        "Binary Tree"
       ]
     }
   ]
