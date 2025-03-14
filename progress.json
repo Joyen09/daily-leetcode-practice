@@ -1,13 +1,13 @@
 {
-  "total_problems": 28,
+  "total_problems": 29,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 17,
+    "Medium": 18,
     "Hard": 5
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 14,
+    "Array": 15,
     "Dynamic Programming": 3,
     "Prefix Sum": 3,
     "Hash Table": 7,
@@ -36,7 +36,8 @@
     "Binary Tree": 2,
     "Greedy": 1,
     "Graph": 1,
-    "Binary Search Tree": 1
+    "Binary Search Tree": 1,
+    "Binary Search": 1
   },
   "daily_records": [
     {
@@ -357,6 +358,17 @@
         "Array",
         "Hash Table",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-03-14",
+      "problem_id": "1059",
+      "problem_title": "Missing Element in Sorted Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/missing-element-in-sorted-array",
+      "tags": [
+        "Array",
+        "Binary Search"
       ]
     }
   ]
