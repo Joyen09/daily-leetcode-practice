@@ -1,23 +1,23 @@
 {
-  "total_problems": 29,
+  "total_problems": 30,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 18,
+    "Medium": 19,
     "Hard": 5
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 15,
-    "Dynamic Programming": 3,
+    "Array": 16,
+    "Dynamic Programming": 4,
     "Prefix Sum": 3,
     "Hash Table": 7,
     "String": 6,
     "Enumeration": 2,
     "Backtracking": 2,
-    "Bit Manipulation": 1,
-    "Bitmask": 1,
+    "Bit Manipulation": 2,
+    "Bitmask": 2,
     "String Matching": 1,
-    "Math": 6,
+    "Math": 7,
     "Counting": 2,
     "Matrix": 2,
     "Simulation": 1,
@@ -369,6 +369,20 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-03-15",
+      "problem_id": "2709",
+      "problem_title": "Count the Number of Square-Free Subsets",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-the-number-of-square-free-subsets",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Bitmask"
       ]
     }
   ]
