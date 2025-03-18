@@ -1,16 +1,16 @@
 {
-  "total_problems": 32,
+  "total_problems": 33,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 21,
+    "Medium": 22,
     "Hard": 5
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 16,
+    "Array": 17,
     "Dynamic Programming": 4,
     "Prefix Sum": 3,
-    "Hash Table": 7,
+    "Hash Table": 8,
     "String": 7,
     "Enumeration": 2,
     "Backtracking": 2,
@@ -20,7 +20,7 @@
     "Math": 8,
     "Counting": 2,
     "Matrix": 2,
-    "Simulation": 1,
+    "Simulation": 2,
     "Stack": 1,
     "Monotonic Stack": 1,
     "Two Pointers": 1,
@@ -37,7 +37,7 @@
     "Greedy": 2,
     "Graph": 1,
     "Binary Search Tree": 1,
-    "Binary Search": 1,
+    "Binary Search": 2,
     "Heap (Priority Queue)": 1
   },
   "daily_records": [
@@ -406,6 +406,19 @@
         "Math",
         "Greedy",
         "Heap (Priority Queue)"
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "problem_id": "1684",
+      "problem_title": "Find Latest Group of Size M",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-latest-group-of-size-m",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Binary Search",
+        "Simulation"
       ]
     }
   ]
