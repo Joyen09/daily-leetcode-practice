@@ -1,8 +1,8 @@
 {
-  "total_problems": 34,
+  "total_problems": 35,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 22,
+    "Medium": 23,
     "Hard": 6
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 4,
     "Design": 1,
     "Trie": 1,
-    "Database": 1,
+    "Database": 2,
     "Tree": 2,
     "Binary Tree": 2,
     "Greedy": 2,
@@ -431,6 +431,16 @@
         "Array",
         "Binary Search",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-03-20",
+      "problem_id": "2523",
+      "problem_title": "Change Null Values in a Table to the Previous Value",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value",
+      "tags": [
+        "Database"
       ]
     }
   ]
