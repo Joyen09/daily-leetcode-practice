@@ -1,14 +1,14 @@
 {
-  "total_problems": 35,
+  "total_problems": 36,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 23,
+    "Medium": 24,
     "Hard": 6
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 18,
-    "Dynamic Programming": 4,
+    "Array": 19,
+    "Dynamic Programming": 5,
     "Prefix Sum": 4,
     "Hash Table": 8,
     "String": 7,
@@ -441,6 +441,17 @@
       "url": "https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-03-21",
+      "problem_id": "1130",
+      "problem_title": "Last Stone Weight II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/last-stone-weight-ii",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
