@@ -1,15 +1,15 @@
 {
-  "total_problems": 37,
+  "total_problems": 38,
   "problems_by_difficulty": {
     "Easy": 6,
     "Medium": 25,
-    "Hard": 6
+    "Hard": 7
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 19,
+    "Array": 20,
     "Dynamic Programming": 5,
-    "Prefix Sum": 4,
+    "Prefix Sum": 5,
     "Hash Table": 9,
     "String": 7,
     "Enumeration": 2,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 8,
     "Counting": 2,
-    "Matrix": 2,
+    "Matrix": 3,
     "Simulation": 2,
     "Stack": 1,
     "Monotonic Stack": 1,
@@ -37,9 +37,10 @@
     "Greedy": 2,
     "Graph": 1,
     "Binary Search Tree": 1,
-    "Binary Search": 3,
+    "Binary Search": 4,
     "Heap (Priority Queue)": 1,
-    "Hash Function": 1
+    "Hash Function": 1,
+    "Ordered Set": 1
   },
   "daily_records": [
     {
@@ -467,6 +468,20 @@
         "Breadth-First Search",
         "Union Find",
         "Hash Function"
+      ]
+    },
+    {
+      "date": "2025-03-23",
+      "problem_id": "363",
+      "problem_title": "Max Sum of Rectangle No Larger Than K",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Matrix",
+        "Prefix Sum",
+        "Ordered Set"
       ]
     }
   ]
