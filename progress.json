@@ -1,25 +1,25 @@
 {
-  "total_problems": 38,
+  "total_problems": 39,
   "problems_by_difficulty": {
     "Easy": 6,
     "Medium": 25,
-    "Hard": 7
+    "Hard": 8
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 20,
+    "Array": 21,
     "Dynamic Programming": 5,
     "Prefix Sum": 5,
-    "Hash Table": 9,
+    "Hash Table": 10,
     "String": 7,
     "Enumeration": 2,
-    "Backtracking": 2,
+    "Backtracking": 3,
     "Bit Manipulation": 2,
     "Bitmask": 2,
     "String Matching": 1,
     "Math": 8,
     "Counting": 2,
-    "Matrix": 3,
+    "Matrix": 4,
     "Simulation": 2,
     "Stack": 1,
     "Monotonic Stack": 1,
@@ -482,6 +482,19 @@
         "Matrix",
         "Prefix Sum",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "problem_id": "37",
+      "problem_title": "Sudoku Solver",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/sudoku-solver",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Backtracking",
+        "Matrix"
       ]
     }
   ]
