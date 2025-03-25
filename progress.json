@@ -1,13 +1,13 @@
 {
-  "total_problems": 39,
+  "total_problems": 40,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 25,
+    "Medium": 26,
     "Hard": 8
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 21,
+    "Array": 22,
     "Dynamic Programming": 5,
     "Prefix Sum": 5,
     "Hash Table": 10,
@@ -23,18 +23,18 @@
     "Simulation": 2,
     "Stack": 1,
     "Monotonic Stack": 1,
-    "Two Pointers": 1,
+    "Two Pointers": 2,
     "Shell": 1,
     "Depth-First Search": 3,
     "Breadth-First Search": 3,
     "Union Find": 2,
-    "Sorting": 4,
+    "Sorting": 5,
     "Design": 1,
     "Trie": 1,
     "Database": 2,
     "Tree": 2,
     "Binary Tree": 2,
-    "Greedy": 2,
+    "Greedy": 3,
     "Graph": 1,
     "Binary Search Tree": 1,
     "Binary Search": 4,
@@ -495,6 +495,19 @@
         "Hash Table",
         "Backtracking",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-03-25",
+      "problem_id": "917",
+      "problem_title": "Boats to Save People",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/boats-to-save-people",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
