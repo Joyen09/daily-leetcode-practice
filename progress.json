@@ -1,16 +1,16 @@
 {
-  "total_problems": 40,
+  "total_problems": 41,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 26,
+    "Medium": 27,
     "Hard": 8
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 22,
+    "Array": 23,
     "Dynamic Programming": 5,
     "Prefix Sum": 5,
-    "Hash Table": 10,
+    "Hash Table": 11,
     "String": 7,
     "Enumeration": 2,
     "Backtracking": 3,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 3,
     "Union Find": 2,
     "Sorting": 5,
-    "Design": 1,
+    "Design": 2,
     "Trie": 1,
     "Database": 2,
     "Tree": 2,
@@ -508,6 +508,18 @@
         "Two Pointers",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "problem_id": "1459",
+      "problem_title": "Apply Discount Every n Orders",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/apply-discount-every-n-orders",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Design"
       ]
     }
   ]
