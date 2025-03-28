@@ -1,13 +1,13 @@
 {
-  "total_problems": 42,
+  "total_problems": 43,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 28,
+    "Medium": 29,
     "Hard": 8
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 23,
+    "Array": 24,
     "Dynamic Programming": 5,
     "Prefix Sum": 5,
     "Hash Table": 12,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 2,
     "Bitmask": 2,
     "String Matching": 1,
-    "Math": 8,
+    "Math": 9,
     "Counting": 3,
     "Matrix": 4,
     "Simulation": 2,
@@ -40,7 +40,8 @@
     "Binary Search": 4,
     "Heap (Priority Queue)": 1,
     "Hash Function": 1,
-    "Ordered Set": 1
+    "Ordered Set": 1,
+    "Number Theory": 1
   },
   "daily_records": [
     {
@@ -533,6 +534,18 @@
         "String",
         "Greedy",
         "Counting"
+      ]
+    },
+    {
+      "date": "2025-03-28",
+      "problem_id": "3593",
+      "problem_title": "Find the Maximum Factor Score of Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-maximum-factor-score-of-array",
+      "tags": [
+        "Array",
+        "Math",
+        "Number Theory"
       ]
     }
   ]
