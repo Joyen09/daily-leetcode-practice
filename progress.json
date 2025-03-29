@@ -1,17 +1,17 @@
 {
-  "total_problems": 43,
+  "total_problems": 44,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 29,
+    "Medium": 30,
     "Hard": 8
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 24,
+    "Array": 25,
     "Dynamic Programming": 5,
     "Prefix Sum": 5,
-    "Hash Table": 12,
-    "String": 8,
+    "Hash Table": 13,
+    "String": 9,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 2,
@@ -546,6 +546,18 @@
         "Array",
         "Math",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2025-03-29",
+      "problem_id": "1934",
+      "problem_title": "Evaluate the Bracket Pairs of a String",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String"
       ]
     }
   ]
