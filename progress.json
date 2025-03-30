@@ -1,8 +1,8 @@
 {
-  "total_problems": 44,
+  "total_problems": 45,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 30,
+    "Medium": 31,
     "Hard": 8
   },
   "tags_frequency": {
@@ -35,13 +35,14 @@
     "Tree": 2,
     "Binary Tree": 2,
     "Greedy": 4,
-    "Graph": 1,
+    "Graph": 2,
     "Binary Search Tree": 1,
     "Binary Search": 4,
-    "Heap (Priority Queue)": 1,
+    "Heap (Priority Queue)": 2,
     "Hash Function": 1,
     "Ordered Set": 1,
-    "Number Theory": 1
+    "Number Theory": 1,
+    "Shortest Path": 1
   },
   "daily_records": [
     {
@@ -558,6 +559,18 @@
         "Array",
         "Hash Table",
         "String"
+      ]
+    },
+    {
+      "date": "2025-03-30",
+      "problem_id": "2230",
+      "problem_title": "Minimum Cost to Reach City With Discounts",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts",
+      "tags": [
+        "Graph",
+        "Heap (Priority Queue)",
+        "Shortest Path"
       ]
     }
   ]
