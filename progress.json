@@ -1,20 +1,20 @@
 {
-  "total_problems": 45,
+  "total_problems": 46,
   "problems_by_difficulty": {
     "Easy": 6,
     "Medium": 31,
-    "Hard": 8
+    "Hard": 9
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 25,
+    "Array": 26,
     "Dynamic Programming": 5,
-    "Prefix Sum": 5,
+    "Prefix Sum": 6,
     "Hash Table": 13,
     "String": 9,
     "Enumeration": 2,
     "Backtracking": 3,
-    "Bit Manipulation": 2,
+    "Bit Manipulation": 3,
     "Bitmask": 2,
     "String Matching": 1,
     "Math": 9,
@@ -42,7 +42,9 @@
     "Hash Function": 1,
     "Ordered Set": 1,
     "Number Theory": 1,
-    "Shortest Path": 1
+    "Shortest Path": 1,
+    "Queue": 1,
+    "Sliding Window": 1
   },
   "daily_records": [
     {
@@ -571,6 +573,20 @@
         "Graph",
         "Heap (Priority Queue)",
         "Shortest Path"
+      ]
+    },
+    {
+      "date": "2025-03-31",
+      "problem_id": "1037",
+      "problem_title": "Minimum Number of K Consecutive Bit Flips",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips",
+      "tags": [
+        "Array",
+        "Bit Manipulation",
+        "Queue",
+        "Sliding Window",
+        "Prefix Sum"
       ]
     }
   ]
