@@ -1,15 +1,15 @@
 {
-  "total_problems": 46,
+  "total_problems": 47,
   "problems_by_difficulty": {
     "Easy": 6,
-    "Medium": 31,
+    "Medium": 32,
     "Hard": 9
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 26,
+    "Array": 27,
     "Dynamic Programming": 5,
-    "Prefix Sum": 6,
+    "Prefix Sum": 7,
     "Hash Table": 13,
     "String": 9,
     "Enumeration": 2,
@@ -23,22 +23,22 @@
     "Simulation": 2,
     "Stack": 1,
     "Monotonic Stack": 1,
-    "Two Pointers": 2,
+    "Two Pointers": 3,
     "Shell": 1,
     "Depth-First Search": 3,
     "Breadth-First Search": 3,
     "Union Find": 2,
-    "Sorting": 5,
+    "Sorting": 6,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
     "Tree": 2,
     "Binary Tree": 2,
-    "Greedy": 4,
+    "Greedy": 5,
     "Graph": 2,
     "Binary Search Tree": 1,
     "Binary Search": 4,
-    "Heap (Priority Queue)": 2,
+    "Heap (Priority Queue)": 3,
     "Hash Function": 1,
     "Ordered Set": 1,
     "Number Theory": 1,
@@ -586,6 +586,21 @@
         "Bit Manipulation",
         "Queue",
         "Sliding Window",
+        "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "problem_id": "2488",
+      "problem_title": "Divide Intervals Into Minimum Number of Groups",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)",
         "Prefix Sum"
       ]
     }
