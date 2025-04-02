@@ -1,9 +1,9 @@
 {
-  "total_problems": 47,
+  "total_problems": 48,
   "problems_by_difficulty": {
     "Easy": 6,
     "Medium": 32,
-    "Hard": 9
+    "Hard": 10
   },
   "tags_frequency": {
     "algorithm": 2,
@@ -11,7 +11,7 @@
     "Dynamic Programming": 5,
     "Prefix Sum": 7,
     "Hash Table": 13,
-    "String": 9,
+    "String": 10,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
@@ -21,7 +21,7 @@
     "Counting": 3,
     "Matrix": 4,
     "Simulation": 2,
-    "Stack": 1,
+    "Stack": 2,
     "Monotonic Stack": 1,
     "Two Pointers": 3,
     "Shell": 1,
@@ -32,8 +32,8 @@
     "Design": 2,
     "Trie": 1,
     "Database": 2,
-    "Tree": 2,
-    "Binary Tree": 2,
+    "Tree": 3,
+    "Binary Tree": 3,
     "Greedy": 5,
     "Graph": 2,
     "Binary Search Tree": 1,
@@ -602,6 +602,19 @@
         "Sorting",
         "Heap (Priority Queue)",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-04-02",
+      "problem_id": "1736",
+      "problem_title": "Build Binary Expression Tree From Infix Expression",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression",
+      "tags": [
+        "String",
+        "Stack",
+        "Tree",
+        "Binary Tree"
       ]
     }
   ]
