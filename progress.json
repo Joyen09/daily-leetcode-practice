@@ -1,7 +1,7 @@
 {
-  "total_problems": 48,
+  "total_problems": 49,
   "problems_by_difficulty": {
-    "Easy": 6,
+    "Easy": 7,
     "Medium": 32,
     "Hard": 10
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 5,
     "Prefix Sum": 7,
     "Hash Table": 13,
-    "String": 10,
+    "String": 11,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
@@ -20,7 +20,7 @@
     "Math": 9,
     "Counting": 3,
     "Matrix": 4,
-    "Simulation": 2,
+    "Simulation": 3,
     "Stack": 2,
     "Monotonic Stack": 1,
     "Two Pointers": 3,
@@ -615,6 +615,17 @@
         "Stack",
         "Tree",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-04-03",
+      "problem_id": "3426",
+      "problem_title": "Minimum Number of Chairs in a Waiting Room",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room",
+      "tags": [
+        "String",
+        "Simulation"
       ]
     }
   ]
