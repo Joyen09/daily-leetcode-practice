@@ -1,8 +1,8 @@
 {
-  "total_problems": 49,
+  "total_problems": 50,
   "problems_by_difficulty": {
     "Easy": 7,
-    "Medium": 32,
+    "Medium": 33,
     "Hard": 10
   },
   "tags_frequency": {
@@ -23,12 +23,12 @@
     "Simulation": 3,
     "Stack": 2,
     "Monotonic Stack": 1,
-    "Two Pointers": 3,
+    "Two Pointers": 4,
     "Shell": 1,
     "Depth-First Search": 3,
     "Breadth-First Search": 3,
     "Union Find": 2,
-    "Sorting": 6,
+    "Sorting": 7,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
@@ -44,7 +44,8 @@
     "Number Theory": 1,
     "Shortest Path": 1,
     "Queue": 1,
-    "Sliding Window": 1
+    "Sliding Window": 1,
+    "Linked List": 1
   },
   "daily_records": [
     {
@@ -626,6 +627,18 @@
       "tags": [
         "String",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-04-04",
+      "problem_id": "1992",
+      "problem_title": "Sort Linked List Already Sorted Using Absolute Values",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values",
+      "tags": [
+        "Linked List",
+        "Two Pointers",
+        "Sorting"
       ]
     }
   ]
