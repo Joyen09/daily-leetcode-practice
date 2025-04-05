@@ -1,9 +1,9 @@
 {
-  "total_problems": 50,
+  "total_problems": 51,
   "problems_by_difficulty": {
     "Easy": 7,
     "Medium": 33,
-    "Hard": 10
+    "Hard": 11
   },
   "tags_frequency": {
     "algorithm": 2,
@@ -11,13 +11,13 @@
     "Dynamic Programming": 5,
     "Prefix Sum": 7,
     "Hash Table": 13,
-    "String": 11,
+    "String": 12,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
     "Bitmask": 2,
     "String Matching": 1,
-    "Math": 9,
+    "Math": 10,
     "Counting": 3,
     "Matrix": 4,
     "Simulation": 3,
@@ -28,7 +28,7 @@
     "Depth-First Search": 3,
     "Breadth-First Search": 3,
     "Union Find": 2,
-    "Sorting": 7,
+    "Sorting": 8,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
@@ -638,6 +638,18 @@
       "tags": [
         "Linked List",
         "Two Pointers",
+        "Sorting"
+      ]
+    },
+    {
+      "date": "2025-04-05",
+      "problem_id": "935",
+      "problem_title": "Orderly Queue",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/orderly-queue",
+      "tags": [
+        "Math",
+        "String",
         "Sorting"
       ]
     }
