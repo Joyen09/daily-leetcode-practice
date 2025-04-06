@@ -1,16 +1,16 @@
 {
-  "total_problems": 51,
+  "total_problems": 52,
   "problems_by_difficulty": {
     "Easy": 7,
     "Medium": 33,
-    "Hard": 11
+    "Hard": 12
   },
   "tags_frequency": {
     "algorithm": 2,
     "Array": 27,
     "Dynamic Programming": 5,
     "Prefix Sum": 7,
-    "Hash Table": 13,
+    "Hash Table": 14,
     "String": 12,
     "Enumeration": 2,
     "Backtracking": 3,
@@ -35,7 +35,7 @@
     "Tree": 3,
     "Binary Tree": 3,
     "Greedy": 5,
-    "Graph": 2,
+    "Graph": 3,
     "Binary Search Tree": 1,
     "Binary Search": 4,
     "Heap (Priority Queue)": 3,
@@ -651,6 +651,17 @@
         "Math",
         "String",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-04-06",
+      "problem_id": "2596",
+      "problem_title": "Add Edges to Make Degrees of All Nodes Even",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even",
+      "tags": [
+        "Hash Table",
+        "Graph"
       ]
     }
   ]
