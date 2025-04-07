@@ -1,14 +1,14 @@
 {
-  "total_problems": 52,
+  "total_problems": 53,
   "problems_by_difficulty": {
     "Easy": 7,
     "Medium": 33,
-    "Hard": 12
+    "Hard": 13
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 27,
-    "Dynamic Programming": 5,
+    "Array": 28,
+    "Dynamic Programming": 6,
     "Prefix Sum": 7,
     "Hash Table": 14,
     "String": 12,
@@ -662,6 +662,17 @@
       "tags": [
         "Hash Table",
         "Graph"
+      ]
+    },
+    {
+      "date": "2025-04-07",
+      "problem_id": "123",
+      "problem_title": "Best Time to Buy and Sell Stock III",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
