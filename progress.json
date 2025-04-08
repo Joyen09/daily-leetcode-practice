@@ -1,14 +1,14 @@
 {
-  "total_problems": 53,
+  "total_problems": 54,
   "problems_by_difficulty": {
     "Easy": 7,
     "Medium": 33,
-    "Hard": 13
+    "Hard": 14
   },
   "tags_frequency": {
     "algorithm": 2,
     "Array": 28,
-    "Dynamic Programming": 6,
+    "Dynamic Programming": 7,
     "Prefix Sum": 7,
     "Hash Table": 14,
     "String": 12,
@@ -25,15 +25,15 @@
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
-    "Depth-First Search": 3,
+    "Depth-First Search": 4,
     "Breadth-First Search": 3,
     "Union Find": 2,
     "Sorting": 8,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
-    "Tree": 3,
-    "Binary Tree": 3,
+    "Tree": 4,
+    "Binary Tree": 4,
     "Greedy": 5,
     "Graph": 3,
     "Binary Search Tree": 1,
@@ -673,6 +673,19 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-04-08",
+      "problem_id": "124",
+      "problem_title": "Binary Tree Maximum Path Sum",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+      "tags": [
+        "Dynamic Programming",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
