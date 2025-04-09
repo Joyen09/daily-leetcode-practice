@@ -1,7 +1,7 @@
 {
-  "total_problems": 54,
+  "total_problems": 55,
   "problems_by_difficulty": {
-    "Easy": 7,
+    "Easy": 8,
     "Medium": 33,
     "Hard": 14
   },
@@ -17,10 +17,10 @@
     "Bit Manipulation": 3,
     "Bitmask": 2,
     "String Matching": 1,
-    "Math": 10,
+    "Math": 11,
     "Counting": 3,
     "Matrix": 4,
-    "Simulation": 3,
+    "Simulation": 4,
     "Stack": 2,
     "Monotonic Stack": 1,
     "Two Pointers": 4,
@@ -686,6 +686,17 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-04-09",
+      "problem_id": "3625",
+      "problem_title": "Stone Removal Game",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/stone-removal-game",
+      "tags": [
+        "Math",
+        "Simulation"
       ]
     }
   ]
