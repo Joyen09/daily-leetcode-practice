@@ -1,17 +1,17 @@
 {
-  "total_problems": 55,
+  "total_problems": 56,
   "problems_by_difficulty": {
     "Easy": 8,
-    "Medium": 33,
+    "Medium": 34,
     "Hard": 14
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 28,
+    "Array": 29,
     "Dynamic Programming": 7,
     "Prefix Sum": 7,
-    "Hash Table": 14,
-    "String": 12,
+    "Hash Table": 15,
+    "String": 13,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
@@ -25,10 +25,10 @@
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
-    "Depth-First Search": 4,
-    "Breadth-First Search": 3,
-    "Union Find": 2,
-    "Sorting": 8,
+    "Depth-First Search": 5,
+    "Breadth-First Search": 4,
+    "Union Find": 3,
+    "Sorting": 9,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
@@ -697,6 +697,22 @@
       "tags": [
         "Math",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-04-10",
+      "problem_id": "721",
+      "problem_title": "Accounts Merge",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/accounts-merge",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Sorting"
       ]
     }
   ]
