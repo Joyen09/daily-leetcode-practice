@@ -1,8 +1,8 @@
 {
-  "total_problems": 57,
+  "total_problems": 58,
   "problems_by_difficulty": {
     "Easy": 8,
-    "Medium": 34,
+    "Medium": 35,
     "Hard": 15
   },
   "tags_frequency": {
@@ -25,15 +25,15 @@
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
-    "Depth-First Search": 5,
-    "Breadth-First Search": 4,
+    "Depth-First Search": 6,
+    "Breadth-First Search": 5,
     "Union Find": 3,
     "Sorting": 9,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
-    "Tree": 4,
-    "Binary Tree": 4,
+    "Tree": 5,
+    "Binary Tree": 5,
     "Greedy": 5,
     "Graph": 3,
     "Binary Search Tree": 1,
@@ -724,6 +724,19 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-04-12",
+      "problem_id": "1243",
+      "problem_title": "Sum of Nodes with Even-Valued Grandparent",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
       ]
     }
   ]
