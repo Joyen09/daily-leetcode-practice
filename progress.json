@@ -1,7 +1,7 @@
 {
-  "total_problems": 58,
+  "total_problems": 59,
   "problems_by_difficulty": {
-    "Easy": 8,
+    "Easy": 9,
     "Medium": 35,
     "Hard": 15
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 15,
-    "String": 13,
+    "String": 14,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
@@ -737,6 +737,16 @@
         "Depth-First Search",
         "Breadth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-04-13",
+      "problem_id": "1434",
+      "problem_title": "Decrypt String from Alphabet to Integer Mapping",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping",
+      "tags": [
+        "String"
       ]
     }
   ]
