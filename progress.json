@@ -1,17 +1,17 @@
 {
-  "total_problems": 62,
+  "total_problems": 63,
   "problems_by_difficulty": {
     "Easy": 10,
-    "Medium": 37,
+    "Medium": 38,
     "Hard": 15
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 32,
+    "Array": 33,
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
-    "Hash Table": 16,
-    "String": 14,
+    "Hash Table": 17,
+    "String": 15,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 3,
@@ -28,7 +28,7 @@
     "Depth-First Search": 7,
     "Breadth-First Search": 6,
     "Union Find": 3,
-    "Sorting": 9,
+    "Sorting": 10,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
@@ -782,6 +782,19 @@
       "url": "https://leetcode.com/problems/valid-mountain-array",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2025-04-17",
+      "problem_id": "49",
+      "problem_title": "Group Anagrams",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/group-anagrams",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Sorting"
       ]
     }
   ]
