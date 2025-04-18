@@ -1,8 +1,8 @@
 {
-  "total_problems": 63,
+  "total_problems": 64,
   "problems_by_difficulty": {
     "Easy": 10,
-    "Medium": 38,
+    "Medium": 39,
     "Hard": 15
   },
   "tags_frequency": {
@@ -14,10 +14,10 @@
     "String": 15,
     "Enumeration": 2,
     "Backtracking": 3,
-    "Bit Manipulation": 3,
+    "Bit Manipulation": 4,
     "Bitmask": 2,
     "String Matching": 1,
-    "Math": 11,
+    "Math": 12,
     "Counting": 4,
     "Matrix": 4,
     "Simulation": 4,
@@ -34,7 +34,7 @@
     "Database": 2,
     "Tree": 6,
     "Binary Tree": 6,
-    "Greedy": 5,
+    "Greedy": 6,
     "Graph": 3,
     "Binary Search Tree": 1,
     "Binary Search": 4,
@@ -795,6 +795,18 @@
         "Hash Table",
         "String",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-04-18",
+      "problem_id": "3192",
+      "problem_title": "Maximum Xor Product",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-xor-product",
+      "tags": [
+        "Math",
+        "Greedy",
+        "Bit Manipulation"
       ]
     }
   ]
