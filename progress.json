@@ -1,13 +1,13 @@
 {
-  "total_problems": 64,
+  "total_problems": 65,
   "problems_by_difficulty": {
-    "Easy": 10,
+    "Easy": 11,
     "Medium": 39,
     "Hard": 15
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 33,
+    "Array": 34,
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
@@ -19,8 +19,8 @@
     "String Matching": 1,
     "Math": 12,
     "Counting": 4,
-    "Matrix": 4,
-    "Simulation": 4,
+    "Matrix": 5,
+    "Simulation": 5,
     "Stack": 2,
     "Monotonic Stack": 1,
     "Two Pointers": 4,
@@ -807,6 +807,18 @@
         "Math",
         "Greedy",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2025-04-19",
+      "problem_id": "566",
+      "problem_title": "Reshape the Matrix",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reshape-the-matrix",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Simulation"
       ]
     }
   ]
