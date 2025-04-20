@@ -1,20 +1,20 @@
 {
-  "total_problems": 65,
+  "total_problems": 66,
   "problems_by_difficulty": {
     "Easy": 11,
-    "Medium": 39,
+    "Medium": 40,
     "Hard": 15
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 34,
+    "Array": 35,
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
     "String": 15,
     "Enumeration": 2,
     "Backtracking": 3,
-    "Bit Manipulation": 4,
+    "Bit Manipulation": 5,
     "Bitmask": 2,
     "String Matching": 1,
     "Math": 12,
@@ -819,6 +819,17 @@
         "Array",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-04-20",
+      "problem_id": "3611",
+      "problem_title": "Construct the Minimum Bitwise Array II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
       ]
     }
   ]
