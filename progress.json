@@ -1,13 +1,13 @@
 {
-  "total_problems": 66,
+  "total_problems": 67,
   "problems_by_difficulty": {
-    "Easy": 11,
+    "Easy": 12,
     "Medium": 40,
     "Hard": 15
   },
   "tags_frequency": {
     "algorithm": 2,
-    "Array": 35,
+    "Array": 36,
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
@@ -28,7 +28,7 @@
     "Depth-First Search": 7,
     "Breadth-First Search": 6,
     "Union Find": 3,
-    "Sorting": 10,
+    "Sorting": 11,
     "Design": 2,
     "Trie": 1,
     "Database": 2,
@@ -44,7 +44,7 @@
     "Number Theory": 1,
     "Shortest Path": 1,
     "Queue": 1,
-    "Sliding Window": 1,
+    "Sliding Window": 2,
     "Linked List": 1
   },
   "daily_records": [
@@ -830,6 +830,18 @@
       "tags": [
         "Array",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2025-04-21",
+      "problem_id": "2112",
+      "problem_title": "Minimum Difference Between Highest and Lowest of K Scores",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores",
+      "tags": [
+        "Array",
+        "Sliding Window",
+        "Sorting"
       ]
     }
   ]
