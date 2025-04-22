@@ -1,8 +1,8 @@
 {
-  "total_problems": 67,
+  "total_problems": 68,
   "problems_by_difficulty": {
     "Easy": 12,
-    "Medium": 40,
+    "Medium": 41,
     "Hard": 15
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 11,
     "Design": 2,
     "Trie": 1,
-    "Database": 2,
+    "Database": 3,
     "Tree": 6,
     "Binary Tree": 6,
     "Greedy": 6,
@@ -842,6 +842,16 @@
         "Array",
         "Sliding Window",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-04-22",
+      "problem_id": "2185",
+      "problem_title": "Accepted Candidates From the Interviews",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/accepted-candidates-from-the-interviews",
+      "tags": [
+        "Database"
       ]
     }
   ]
