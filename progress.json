@@ -1,8 +1,8 @@
 {
-  "total_problems": 69,
+  "total_problems": 70,
   "problems_by_difficulty": {
     "Easy": 12,
-    "Medium": 41,
+    "Medium": 42,
     "Hard": 16
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
-    "String": 15,
+    "String": 16,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 5,
@@ -25,15 +25,15 @@
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
-    "Depth-First Search": 7,
+    "Depth-First Search": 8,
     "Breadth-First Search": 6,
     "Union Find": 3,
     "Sorting": 11,
     "Design": 2,
     "Trie": 1,
     "Database": 3,
-    "Tree": 6,
-    "Binary Tree": 6,
+    "Tree": 7,
+    "Binary Tree": 7,
     "Greedy": 6,
     "Graph": 3,
     "Binary Search Tree": 1,
@@ -862,6 +862,19 @@
       "url": "https://leetcode.com/problems/convert-json-string-to-object",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2025-04-24",
+      "problem_id": "606",
+      "problem_title": "Construct String from Binary Tree",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/construct-string-from-binary-tree",
+      "tags": [
+        "String",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
