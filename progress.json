@@ -1,9 +1,9 @@
 {
-  "total_problems": 70,
+  "total_problems": 71,
   "problems_by_difficulty": {
     "Easy": 12,
     "Medium": 42,
-    "Hard": 16
+    "Hard": 17
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -11,7 +11,7 @@
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
-    "String": 16,
+    "String": 17,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 5,
@@ -875,6 +875,16 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-04-25",
+      "problem_id": "65",
+      "problem_title": "Valid Number",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/valid-number",
+      "tags": [
+        "String"
       ]
     }
   ]
