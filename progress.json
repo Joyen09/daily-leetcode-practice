@@ -1,7 +1,7 @@
 {
-  "total_problems": 71,
+  "total_problems": 72,
   "problems_by_difficulty": {
-    "Easy": 12,
+    "Easy": 13,
     "Medium": 42,
     "Hard": 17
   },
@@ -31,7 +31,7 @@
     "Sorting": 11,
     "Design": 2,
     "Trie": 1,
-    "Database": 3,
+    "Database": 4,
     "Tree": 7,
     "Binary Tree": 7,
     "Greedy": 6,
@@ -885,6 +885,16 @@
       "url": "https://leetcode.com/problems/valid-number",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-04-26",
+      "problem_id": "1686",
+      "problem_title": "Fix Product Name Format",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/fix-product-name-format",
+      "tags": [
+        "Database"
       ]
     }
   ]
