@@ -1,7 +1,7 @@
 {
-  "total_problems": 72,
+  "total_problems": 73,
   "problems_by_difficulty": {
-    "Easy": 13,
+    "Easy": 14,
     "Medium": 42,
     "Hard": 17
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 8,
     "Prefix Sum": 7,
     "Hash Table": 17,
-    "String": 17,
+    "String": 18,
     "Enumeration": 2,
     "Backtracking": 3,
     "Bit Manipulation": 5,
@@ -20,8 +20,8 @@
     "Math": 12,
     "Counting": 4,
     "Matrix": 5,
-    "Simulation": 5,
-    "Stack": 2,
+    "Simulation": 6,
+    "Stack": 3,
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
@@ -895,6 +895,18 @@
       "url": "https://leetcode.com/problems/fix-product-name-format",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-04-27",
+      "problem_id": "3447",
+      "problem_title": "Clear Digits",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/clear-digits",
+      "tags": [
+        "String",
+        "Stack",
+        "Simulation"
       ]
     }
   ]
