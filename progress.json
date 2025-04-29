@@ -1,7 +1,7 @@
 {
-  "total_problems": 74,
+  "total_problems": 75,
   "problems_by_difficulty": {
-    "Easy": 14,
+    "Easy": 15,
     "Medium": 42,
     "Hard": 18
   },
@@ -31,7 +31,7 @@
     "Sorting": 11,
     "Design": 2,
     "Trie": 1,
-    "Database": 4,
+    "Database": 5,
     "Tree": 8,
     "Binary Tree": 7,
     "Greedy": 6,
@@ -921,6 +921,16 @@
         "Tree",
         "Depth-First Search",
         "Bitmask"
+      ]
+    },
+    {
+      "date": "2025-04-29",
+      "problem_id": "1415",
+      "problem_title": "Students and Examinations",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/students-and-examinations",
+      "tags": [
+        "Database"
       ]
     }
   ]
