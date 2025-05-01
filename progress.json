@@ -1,13 +1,13 @@
 {
-  "total_problems": 76,
+  "total_problems": 77,
   "problems_by_difficulty": {
-    "Easy": 15,
+    "Easy": 16,
     "Medium": 42,
     "Hard": 19
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 37,
+    "Array": 38,
     "Dynamic Programming": 9,
     "Prefix Sum": 7,
     "Hash Table": 17,
@@ -19,8 +19,8 @@
     "String Matching": 1,
     "Math": 12,
     "Counting": 4,
-    "Matrix": 6,
-    "Simulation": 6,
+    "Matrix": 7,
+    "Simulation": 7,
     "Stack": 3,
     "Monotonic Stack": 1,
     "Two Pointers": 4,
@@ -947,6 +947,18 @@
         "Union Find",
         "Heap (Priority Queue)",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-05-01",
+      "problem_id": "1386",
+      "problem_title": "Shift 2D Grid",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/shift-2d-grid",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Simulation"
       ]
     }
   ]
