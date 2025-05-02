@@ -1,8 +1,8 @@
 {
-  "total_problems": 77,
+  "total_problems": 78,
   "problems_by_difficulty": {
     "Easy": 16,
-    "Medium": 42,
+    "Medium": 43,
     "Hard": 19
   },
   "tags_frequency": {
@@ -11,10 +11,10 @@
     "Dynamic Programming": 9,
     "Prefix Sum": 7,
     "Hash Table": 17,
-    "String": 18,
+    "String": 19,
     "Enumeration": 2,
     "Backtracking": 3,
-    "Bit Manipulation": 6,
+    "Bit Manipulation": 7,
     "Bitmask": 3,
     "String Matching": 1,
     "Math": 12,
@@ -959,6 +959,17 @@
         "Array",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-05-02",
+      "problem_id": "2632",
+      "problem_title": "Apply Bitwise Operations to Make Strings Equal",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal",
+      "tags": [
+        "String",
+        "Bit Manipulation"
       ]
     }
   ]
