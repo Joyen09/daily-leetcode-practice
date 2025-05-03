@@ -1,23 +1,23 @@
 {
-  "total_problems": 78,
+  "total_problems": 79,
   "problems_by_difficulty": {
     "Easy": 16,
-    "Medium": 43,
+    "Medium": 44,
     "Hard": 19
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 38,
+    "Array": 39,
     "Dynamic Programming": 9,
     "Prefix Sum": 7,
     "Hash Table": 17,
     "String": 19,
-    "Enumeration": 2,
+    "Enumeration": 3,
     "Backtracking": 3,
     "Bit Manipulation": 7,
     "Bitmask": 3,
     "String Matching": 1,
-    "Math": 12,
+    "Math": 13,
     "Counting": 4,
     "Matrix": 7,
     "Simulation": 7,
@@ -28,7 +28,7 @@
     "Depth-First Search": 10,
     "Breadth-First Search": 7,
     "Union Find": 4,
-    "Sorting": 11,
+    "Sorting": 12,
     "Design": 2,
     "Trie": 1,
     "Database": 5,
@@ -45,7 +45,10 @@
     "Shortest Path": 1,
     "Queue": 1,
     "Sliding Window": 2,
-    "Linked List": 1
+    "Linked List": 1,
+    "Binary Indexed Tree": 1,
+    "Segment Tree": 1,
+    "Geometry": 1
   },
   "daily_records": [
     {
@@ -970,6 +973,22 @@
       "tags": [
         "String",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2025-05-03",
+      "problem_id": "3681",
+      "problem_title": "Maximum Area Rectangle With Point Constraints I",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i",
+      "tags": [
+        "Array",
+        "Math",
+        "Binary Indexed Tree",
+        "Segment Tree",
+        "Geometry",
+        "Sorting",
+        "Enumeration"
       ]
     }
   ]
