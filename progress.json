@@ -1,18 +1,18 @@
 {
-  "total_problems": 79,
+  "total_problems": 80,
   "problems_by_difficulty": {
-    "Easy": 16,
+    "Easy": 17,
     "Medium": 44,
     "Hard": 19
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 39,
+    "Array": 40,
     "Dynamic Programming": 9,
     "Prefix Sum": 7,
     "Hash Table": 17,
     "String": 19,
-    "Enumeration": 3,
+    "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
     "Bitmask": 3,
@@ -988,6 +988,17 @@
         "Segment Tree",
         "Geometry",
         "Sorting",
+        "Enumeration"
+      ]
+    },
+    {
+      "date": "2025-05-04",
+      "problem_id": "2870",
+      "problem_title": "Longest Alternating Subarray",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/longest-alternating-subarray",
+      "tags": [
+        "Array",
         "Enumeration"
       ]
     }
