@@ -1,8 +1,8 @@
 {
-  "total_problems": 80,
+  "total_problems": 81,
   "problems_by_difficulty": {
     "Easy": 17,
-    "Medium": 44,
+    "Medium": 45,
     "Hard": 19
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 12,
     "Design": 2,
     "Trie": 1,
-    "Database": 5,
+    "Database": 6,
     "Tree": 8,
     "Binary Tree": 7,
     "Greedy": 6,
@@ -1000,6 +1000,16 @@
       "tags": [
         "Array",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2025-05-05",
+      "problem_id": "2224",
+      "problem_title": "Drop Type 1 Orders for Customers With Type 0 Orders",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders",
+      "tags": [
+        "Database"
       ]
     }
   ]
