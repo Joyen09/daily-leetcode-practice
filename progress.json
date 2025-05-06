@@ -1,16 +1,16 @@
 {
-  "total_problems": 81,
+  "total_problems": 82,
   "problems_by_difficulty": {
     "Easy": 17,
     "Medium": 45,
-    "Hard": 19
+    "Hard": 20
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 40,
     "Dynamic Programming": 9,
     "Prefix Sum": 7,
-    "Hash Table": 17,
+    "Hash Table": 18,
     "String": 19,
     "Enumeration": 4,
     "Backtracking": 3,
@@ -25,19 +25,19 @@
     "Monotonic Stack": 1,
     "Two Pointers": 4,
     "Shell": 1,
-    "Depth-First Search": 10,
+    "Depth-First Search": 11,
     "Breadth-First Search": 7,
     "Union Find": 4,
     "Sorting": 12,
     "Design": 2,
     "Trie": 1,
     "Database": 6,
-    "Tree": 8,
-    "Binary Tree": 7,
+    "Tree": 9,
+    "Binary Tree": 8,
     "Greedy": 6,
     "Graph": 3,
     "Binary Search Tree": 1,
-    "Binary Search": 5,
+    "Binary Search": 6,
     "Heap (Priority Queue)": 4,
     "Hash Function": 1,
     "Ordered Set": 1,
@@ -1010,6 +1010,20 @@
       "url": "https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-05-06",
+      "problem_id": "2060",
+      "problem_title": "Merge BSTs to Create Single BST",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/merge-bsts-to-create-single-bst",
+      "tags": [
+        "Hash Table",
+        "Binary Search",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
