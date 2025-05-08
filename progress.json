@@ -1,13 +1,13 @@
 {
-  "total_problems": 83,
+  "total_problems": 84,
   "problems_by_difficulty": {
     "Easy": 17,
-    "Medium": 45,
+    "Medium": 46,
     "Hard": 21
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 40,
+    "Array": 41,
     "Dynamic Programming": 10,
     "Prefix Sum": 7,
     "Hash Table": 18,
@@ -25,14 +25,14 @@
     "Monotonic Stack": 1,
     "Two Pointers": 5,
     "Shell": 1,
-    "Depth-First Search": 11,
-    "Breadth-First Search": 7,
+    "Depth-First Search": 12,
+    "Breadth-First Search": 8,
     "Union Find": 4,
     "Sorting": 12,
     "Design": 2,
     "Trie": 1,
     "Database": 6,
-    "Tree": 9,
+    "Tree": 10,
     "Binary Tree": 8,
     "Greedy": 6,
     "Graph": 3,
@@ -1036,6 +1036,19 @@
         "Two Pointers",
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-05-08",
+      "problem_id": "1201",
+      "problem_title": "Delete Tree Nodes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/delete-tree-nodes",
+      "tags": [
+        "Array",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search"
       ]
     }
   ]
