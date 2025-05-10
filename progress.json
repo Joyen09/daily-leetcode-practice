@@ -1,13 +1,13 @@
 {
-  "total_problems": 85,
+  "total_problems": 86,
   "problems_by_difficulty": {
     "Easy": 17,
-    "Medium": 47,
+    "Medium": 48,
     "Hard": 21
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 42,
+    "Array": 43,
     "Dynamic Programming": 10,
     "Prefix Sum": 7,
     "Hash Table": 19,
@@ -21,14 +21,14 @@
     "Counting": 4,
     "Matrix": 7,
     "Simulation": 7,
-    "Stack": 3,
-    "Monotonic Stack": 1,
+    "Stack": 4,
+    "Monotonic Stack": 2,
     "Two Pointers": 5,
     "Shell": 1,
     "Depth-First Search": 12,
     "Breadth-First Search": 8,
     "Union Find": 4,
-    "Sorting": 12,
+    "Sorting": 13,
     "Design": 3,
     "Trie": 1,
     "Database": 6,
@@ -1064,6 +1064,19 @@
         "Design",
         "Queue",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-05-10",
+      "problem_id": "2485",
+      "problem_title": "Finding the Number of Visible Mountains",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/finding-the-number-of-visible-mountains",
+      "tags": [
+        "Array",
+        "Stack",
+        "Sorting",
+        "Monotonic Stack"
       ]
     }
   ]
