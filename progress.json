@@ -1,8 +1,8 @@
 {
-  "total_problems": 86,
+  "total_problems": 87,
   "problems_by_difficulty": {
     "Easy": 17,
-    "Medium": 48,
+    "Medium": 49,
     "Hard": 21
   },
   "tags_frequency": {
@@ -25,8 +25,8 @@
     "Monotonic Stack": 2,
     "Two Pointers": 5,
     "Shell": 1,
-    "Depth-First Search": 12,
-    "Breadth-First Search": 8,
+    "Depth-First Search": 13,
+    "Breadth-First Search": 9,
     "Union Find": 4,
     "Sorting": 13,
     "Design": 3,
@@ -35,7 +35,7 @@
     "Tree": 10,
     "Binary Tree": 8,
     "Greedy": 6,
-    "Graph": 3,
+    "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 7,
     "Heap (Priority Queue)": 4,
@@ -48,7 +48,8 @@
     "Linked List": 1,
     "Binary Indexed Tree": 1,
     "Segment Tree": 1,
-    "Geometry": 1
+    "Geometry": 1,
+    "Topological Sort": 1
   },
   "daily_records": [
     {
@@ -1077,6 +1078,19 @@
         "Stack",
         "Sorting",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2025-05-11",
+      "problem_id": "1431",
+      "problem_title": "All Ancestors of a Node in a Directed Acyclic Graph",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "tags": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph",
+        "Topological Sort"
       ]
     }
   ]
