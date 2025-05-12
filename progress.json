@@ -1,17 +1,17 @@
 {
-  "total_problems": 87,
+  "total_problems": 88,
   "problems_by_difficulty": {
     "Easy": 17,
     "Medium": 49,
-    "Hard": 21
+    "Hard": 22
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 43,
+    "Array": 44,
     "Dynamic Programming": 10,
     "Prefix Sum": 7,
     "Hash Table": 19,
-    "String": 20,
+    "String": 21,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -30,7 +30,7 @@
     "Union Find": 4,
     "Sorting": 13,
     "Design": 3,
-    "Trie": 1,
+    "Trie": 2,
     "Database": 6,
     "Tree": 10,
     "Binary Tree": 8,
@@ -1091,6 +1091,18 @@
         "Breadth-First Search",
         "Graph",
         "Topological Sort"
+      ]
+    },
+    {
+      "date": "2025-05-12",
+      "problem_id": "3376",
+      "problem_title": "Longest Common Suffix Queries",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/longest-common-suffix-queries",
+      "tags": [
+        "Array",
+        "String",
+        "Trie"
       ]
     }
   ]
