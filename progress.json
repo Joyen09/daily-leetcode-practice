@@ -1,17 +1,17 @@
 {
-  "total_problems": 88,
+  "total_problems": 89,
   "problems_by_difficulty": {
     "Easy": 17,
     "Medium": 49,
-    "Hard": 22
+    "Hard": 23
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 44,
-    "Dynamic Programming": 10,
+    "Dynamic Programming": 11,
     "Prefix Sum": 7,
     "Hash Table": 19,
-    "String": 21,
+    "String": 22,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -1103,6 +1103,17 @@
         "Array",
         "String",
         "Trie"
+      ]
+    },
+    {
+      "date": "2025-05-13",
+      "problem_id": "1517",
+      "problem_title": "Restore The Array",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/restore-the-array",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
