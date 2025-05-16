@@ -1,17 +1,17 @@
 {
-  "total_problems": 91,
+  "total_problems": 92,
   "problems_by_difficulty": {
     "Easy": 17,
-    "Medium": 50,
+    "Medium": 51,
     "Hard": 24
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 45,
+    "Array": 46,
     "Dynamic Programming": 11,
     "Prefix Sum": 7,
     "Hash Table": 20,
-    "String": 23,
+    "String": 24,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -23,12 +23,12 @@
     "Simulation": 7,
     "Stack": 4,
     "Monotonic Stack": 2,
-    "Two Pointers": 5,
+    "Two Pointers": 6,
     "Shell": 1,
     "Depth-First Search": 15,
     "Breadth-First Search": 10,
     "Union Find": 5,
-    "Sorting": 13,
+    "Sorting": 14,
     "Design": 3,
     "Trie": 2,
     "Database": 6,
@@ -1141,6 +1141,19 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-05-16",
+      "problem_id": "524",
+      "problem_title": "Longest Word in Dictionary through Deleting",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "String",
+        "Sorting"
       ]
     }
   ]
