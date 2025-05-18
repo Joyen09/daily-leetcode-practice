@@ -1,14 +1,14 @@
 {
-  "total_problems": 93,
+  "total_problems": 94,
   "problems_by_difficulty": {
     "Easy": 18,
-    "Medium": 51,
+    "Medium": 52,
     "Hard": 24
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 46,
-    "Dynamic Programming": 11,
+    "Array": 47,
+    "Dynamic Programming": 12,
     "Prefix Sum": 7,
     "Hash Table": 20,
     "String": 24,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 7,
     "Bitmask": 3,
     "String Matching": 1,
-    "Math": 14,
+    "Math": 15,
     "Counting": 4,
     "Matrix": 7,
     "Simulation": 7,
@@ -49,7 +49,8 @@
     "Binary Indexed Tree": 1,
     "Segment Tree": 1,
     "Geometry": 1,
-    "Topological Sort": 1
+    "Topological Sort": 1,
+    "Combinatorics": 1
   },
   "daily_records": [
     {
@@ -1164,6 +1165,19 @@
       "url": "https://leetcode.com/problems/a-number-after-a-double-reversal",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2025-05-18",
+      "problem_id": "3537",
+      "problem_title": "Number of Subsequences with Odd Sum",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-subsequences-with-odd-sum",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Combinatorics"
       ]
     }
   ]
