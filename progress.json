@@ -1,17 +1,17 @@
 {
-  "total_problems": 94,
+  "total_problems": 95,
   "problems_by_difficulty": {
     "Easy": 18,
-    "Medium": 52,
+    "Medium": 53,
     "Hard": 24
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 47,
-    "Dynamic Programming": 12,
+    "Dynamic Programming": 13,
     "Prefix Sum": 7,
     "Hash Table": 20,
-    "String": 24,
+    "String": 25,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -23,7 +23,7 @@
     "Simulation": 7,
     "Stack": 4,
     "Monotonic Stack": 2,
-    "Two Pointers": 6,
+    "Two Pointers": 7,
     "Shell": 1,
     "Depth-First Search": 15,
     "Breadth-First Search": 10,
@@ -1178,6 +1178,18 @@
         "Math",
         "Dynamic Programming",
         "Combinatorics"
+      ]
+    },
+    {
+      "date": "2025-05-19",
+      "problem_id": "5",
+      "problem_title": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-palindromic-substring",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
