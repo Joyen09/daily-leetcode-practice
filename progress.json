@@ -1,8 +1,8 @@
 {
-  "total_problems": 97,
+  "total_problems": 98,
   "problems_by_difficulty": {
     "Easy": 18,
-    "Medium": 54,
+    "Medium": 55,
     "Hard": 25
   },
   "tags_frequency": {
@@ -10,14 +10,14 @@
     "Array": 48,
     "Dynamic Programming": 13,
     "Prefix Sum": 7,
-    "Hash Table": 20,
+    "Hash Table": 21,
     "String": 25,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
     "Bitmask": 3,
     "String Matching": 1,
-    "Math": 15,
+    "Math": 16,
     "Counting": 4,
     "Matrix": 8,
     "Simulation": 8,
@@ -1214,6 +1214,17 @@
         "Two Pointers",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "problem_id": "1064",
+      "problem_title": "Smallest Integer Divisible by K",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/smallest-integer-divisible-by-k",
+      "tags": [
+        "Hash Table",
+        "Math"
       ]
     }
   ]
