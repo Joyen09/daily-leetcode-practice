@@ -1,17 +1,17 @@
 {
-  "total_problems": 98,
+  "total_problems": 99,
   "problems_by_difficulty": {
     "Easy": 18,
     "Medium": 55,
-    "Hard": 25
+    "Hard": 26
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 48,
-    "Dynamic Programming": 13,
+    "Dynamic Programming": 14,
     "Prefix Sum": 7,
     "Hash Table": 21,
-    "String": 25,
+    "String": 26,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -23,7 +23,7 @@
     "Simulation": 8,
     "Stack": 4,
     "Monotonic Stack": 2,
-    "Two Pointers": 8,
+    "Two Pointers": 9,
     "Shell": 1,
     "Depth-First Search": 16,
     "Breadth-First Search": 10,
@@ -1225,6 +1225,18 @@
       "tags": [
         "Hash Table",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "problem_id": "2879",
+      "problem_title": "Minimum Changes to Make K Semi-palindromes",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
