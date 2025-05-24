@@ -1,8 +1,8 @@
 {
-  "total_problems": 99,
+  "total_problems": 100,
   "problems_by_difficulty": {
     "Easy": 18,
-    "Medium": 55,
+    "Medium": 56,
     "Hard": 26
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 14,
     "Prefix Sum": 7,
     "Hash Table": 21,
-    "String": 26,
+    "String": 27,
     "Enumeration": 4,
     "Backtracking": 3,
     "Bit Manipulation": 7,
@@ -1237,6 +1237,16 @@
         "Two Pointers",
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-05-24",
+      "problem_id": "2373",
+      "problem_title": "Apply Discount to Prices",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/apply-discount-to-prices",
+      "tags": [
+        "String"
       ]
     }
   ]
