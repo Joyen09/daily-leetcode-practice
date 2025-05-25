@@ -1,18 +1,18 @@
 {
-  "total_problems": 100,
+  "total_problems": 101,
   "problems_by_difficulty": {
-    "Easy": 18,
+    "Easy": 19,
     "Medium": 56,
     "Hard": 26
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 48,
+    "Array": 49,
     "Dynamic Programming": 14,
     "Prefix Sum": 7,
     "Hash Table": 21,
     "String": 27,
-    "Enumeration": 4,
+    "Enumeration": 5,
     "Backtracking": 3,
     "Bit Manipulation": 7,
     "Bitmask": 3,
@@ -1247,6 +1247,17 @@
       "url": "https://leetcode.com/problems/apply-discount-to-prices",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-05-25",
+      "problem_id": "1689",
+      "problem_title": "Detect Pattern of Length M Repeated K or More Times",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times",
+      "tags": [
+        "Array",
+        "Enumeration"
       ]
     }
   ]
