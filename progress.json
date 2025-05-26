@@ -1,13 +1,13 @@
 {
-  "total_problems": 101,
+  "total_problems": 102,
   "problems_by_difficulty": {
     "Easy": 19,
-    "Medium": 56,
+    "Medium": 57,
     "Hard": 26
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 49,
+    "Array": 50,
     "Dynamic Programming": 14,
     "Prefix Sum": 7,
     "Hash Table": 21,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 10,
     "Union Find": 5,
     "Sorting": 14,
-    "Design": 3,
+    "Design": 4,
     "Trie": 2,
     "Database": 6,
     "Tree": 12,
@@ -43,9 +43,9 @@
     "Ordered Set": 2,
     "Number Theory": 1,
     "Shortest Path": 1,
-    "Queue": 2,
+    "Queue": 3,
     "Sliding Window": 2,
-    "Linked List": 1,
+    "Linked List": 2,
     "Binary Indexed Tree": 1,
     "Segment Tree": 1,
     "Geometry": 1,
@@ -1258,6 +1258,19 @@
       "tags": [
         "Array",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2025-05-26",
+      "problem_id": "859",
+      "problem_title": "Design Circular Deque",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/design-circular-deque",
+      "tags": [
+        "Array",
+        "Linked List",
+        "Design",
+        "Queue"
       ]
     }
   ]
