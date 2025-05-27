@@ -1,8 +1,8 @@
 {
-  "total_problems": 102,
+  "total_problems": 103,
   "problems_by_difficulty": {
     "Easy": 19,
-    "Medium": 57,
+    "Medium": 58,
     "Hard": 26
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 50,
     "Dynamic Programming": 14,
     "Prefix Sum": 7,
-    "Hash Table": 21,
+    "Hash Table": 22,
     "String": 27,
     "Enumeration": 5,
     "Backtracking": 3,
@@ -18,7 +18,7 @@
     "Bitmask": 3,
     "String Matching": 1,
     "Math": 16,
-    "Counting": 4,
+    "Counting": 5,
     "Matrix": 8,
     "Simulation": 8,
     "Stack": 4,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 10,
     "Union Find": 5,
     "Sorting": 14,
-    "Design": 4,
+    "Design": 5,
     "Trie": 2,
     "Database": 6,
     "Tree": 12,
@@ -43,14 +43,15 @@
     "Ordered Set": 2,
     "Number Theory": 1,
     "Shortest Path": 1,
-    "Queue": 3,
+    "Queue": 4,
     "Sliding Window": 2,
     "Linked List": 2,
     "Binary Indexed Tree": 1,
     "Segment Tree": 1,
     "Geometry": 1,
     "Topological Sort": 1,
-    "Combinatorics": 1
+    "Combinatorics": 1,
+    "Data Stream": 1
   },
   "daily_records": [
     {
@@ -1271,6 +1272,20 @@
         "Linked List",
         "Design",
         "Queue"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "problem_id": "2620",
+      "problem_title": "Find Consecutive Integers from a Data Stream",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream",
+      "tags": [
+        "Hash Table",
+        "Design",
+        "Queue",
+        "Counting",
+        "Data Stream"
       ]
     }
   ]
