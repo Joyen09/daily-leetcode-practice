@@ -1,7 +1,7 @@
 {
-  "total_problems": 103,
+  "total_problems": 104,
   "problems_by_difficulty": {
-    "Easy": 19,
+    "Easy": 20,
     "Medium": 58,
     "Hard": 26
   },
@@ -31,7 +31,7 @@
     "Sorting": 14,
     "Design": 5,
     "Trie": 2,
-    "Database": 6,
+    "Database": 7,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 6,
@@ -1286,6 +1286,16 @@
         "Queue",
         "Counting",
         "Data Stream"
+      ]
+    },
+    {
+      "date": "2025-05-28",
+      "problem_id": "3284",
+      "problem_title": "Find Expensive Cities",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-expensive-cities",
+      "tags": [
+        "Database"
       ]
     }
   ]
