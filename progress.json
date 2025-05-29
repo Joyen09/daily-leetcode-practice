@@ -1,13 +1,13 @@
 {
-  "total_problems": 104,
+  "total_problems": 105,
   "problems_by_difficulty": {
     "Easy": 20,
     "Medium": 58,
-    "Hard": 26
+    "Hard": 27
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 50,
+    "Array": 51,
     "Dynamic Programming": 14,
     "Prefix Sum": 7,
     "Hash Table": 22,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 7,
     "Bitmask": 3,
     "String Matching": 1,
-    "Math": 16,
+    "Math": 17,
     "Counting": 5,
     "Matrix": 8,
     "Simulation": 8,
@@ -27,8 +27,8 @@
     "Shell": 1,
     "Depth-First Search": 16,
     "Breadth-First Search": 10,
-    "Union Find": 5,
-    "Sorting": 14,
+    "Union Find": 6,
+    "Sorting": 15,
     "Design": 5,
     "Trie": 2,
     "Database": 7,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 4,
     "Hash Function": 1,
     "Ordered Set": 2,
-    "Number Theory": 1,
+    "Number Theory": 2,
     "Shortest Path": 1,
     "Queue": 4,
     "Sliding Window": 2,
@@ -1296,6 +1296,20 @@
       "url": "https://leetcode.com/problems/find-expensive-cities",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "problem_id": "2125",
+      "problem_title": "GCD Sort of an Array",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/gcd-sort-of-an-array",
+      "tags": [
+        "Array",
+        "Math",
+        "Union Find",
+        "Sorting",
+        "Number Theory"
       ]
     }
   ]
