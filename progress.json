@@ -1,14 +1,14 @@
 {
-  "total_problems": 105,
+  "total_problems": 106,
   "problems_by_difficulty": {
     "Easy": 20,
-    "Medium": 58,
+    "Medium": 59,
     "Hard": 27
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 51,
-    "Dynamic Programming": 14,
+    "Dynamic Programming": 15,
     "Prefix Sum": 7,
     "Hash Table": 22,
     "String": 27,
@@ -1310,6 +1310,16 @@
         "Union Find",
         "Sorting",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2025-05-30",
+      "problem_id": "2672",
+      "problem_title": "Number of Good Binary Strings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-good-binary-strings",
+      "tags": [
+        "Dynamic Programming"
       ]
     }
   ]
