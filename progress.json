@@ -1,13 +1,13 @@
 {
-  "total_problems": 106,
+  "total_problems": 107,
   "problems_by_difficulty": {
     "Easy": 20,
-    "Medium": 59,
+    "Medium": 60,
     "Hard": 27
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 51,
+    "Array": 52,
     "Dynamic Programming": 15,
     "Prefix Sum": 7,
     "Hash Table": 22,
@@ -28,13 +28,13 @@
     "Depth-First Search": 16,
     "Breadth-First Search": 10,
     "Union Find": 6,
-    "Sorting": 15,
+    "Sorting": 16,
     "Design": 5,
     "Trie": 2,
     "Database": 7,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 6,
+    "Greedy": 7,
     "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 7,
@@ -1320,6 +1320,18 @@
       "url": "https://leetcode.com/problems/number-of-good-binary-strings",
       "tags": [
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-05-31",
+      "problem_id": "2458",
+      "problem_title": "Find Minimum Time to Finish All Jobs II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
