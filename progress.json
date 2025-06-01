@@ -1,13 +1,13 @@
 {
-  "total_problems": 107,
+  "total_problems": 108,
   "problems_by_difficulty": {
-    "Easy": 20,
+    "Easy": 21,
     "Medium": 60,
     "Hard": 27
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 52,
+    "Array": 53,
     "Dynamic Programming": 15,
     "Prefix Sum": 7,
     "Hash Table": 22,
@@ -34,7 +34,7 @@
     "Database": 7,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 7,
+    "Greedy": 8,
     "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 7,
@@ -1332,6 +1332,17 @@
         "Array",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-06-01",
+      "problem_id": "1938",
+      "problem_title": "Minimum Operations to Make the Array Increasing",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing",
+      "tags": [
+        "Array",
+        "Greedy"
       ]
     }
   ]
