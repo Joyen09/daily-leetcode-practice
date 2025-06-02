@@ -1,7 +1,7 @@
 {
-  "total_problems": 108,
+  "total_problems": 109,
   "problems_by_difficulty": {
-    "Easy": 21,
+    "Easy": 22,
     "Medium": 60,
     "Hard": 27
   },
@@ -14,10 +14,10 @@
     "String": 27,
     "Enumeration": 5,
     "Backtracking": 3,
-    "Bit Manipulation": 7,
+    "Bit Manipulation": 8,
     "Bitmask": 3,
     "String Matching": 1,
-    "Math": 17,
+    "Math": 18,
     "Counting": 5,
     "Matrix": 8,
     "Simulation": 8,
@@ -51,7 +51,8 @@
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 1,
-    "Data Stream": 1
+    "Data Stream": 1,
+    "Recursion": 1
   },
   "daily_records": [
     {
@@ -1343,6 +1344,18 @@
       "tags": [
         "Array",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "problem_id": "342",
+      "problem_title": "Power of Four",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/power-of-four",
+      "tags": [
+        "Math",
+        "Bit Manipulation",
+        "Recursion"
       ]
     }
   ]
