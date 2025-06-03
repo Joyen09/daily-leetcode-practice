@@ -1,23 +1,23 @@
 {
-  "total_problems": 109,
+  "total_problems": 110,
   "problems_by_difficulty": {
     "Easy": 22,
     "Medium": 60,
-    "Hard": 27
+    "Hard": 28
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 53,
-    "Dynamic Programming": 15,
+    "Array": 54,
+    "Dynamic Programming": 16,
     "Prefix Sum": 7,
     "Hash Table": 22,
     "String": 27,
     "Enumeration": 5,
     "Backtracking": 3,
-    "Bit Manipulation": 8,
-    "Bitmask": 3,
+    "Bit Manipulation": 9,
+    "Bitmask": 4,
     "String Matching": 1,
-    "Math": 18,
+    "Math": 19,
     "Counting": 5,
     "Matrix": 8,
     "Simulation": 8,
@@ -1356,6 +1356,20 @@
         "Math",
         "Bit Manipulation",
         "Recursion"
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "problem_id": "823",
+      "problem_title": "Split Array With Same Average",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/split-array-with-same-average",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Bitmask"
       ]
     }
   ]
