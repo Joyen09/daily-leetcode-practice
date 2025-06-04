@@ -1,7 +1,7 @@
 {
-  "total_problems": 110,
+  "total_problems": 111,
   "problems_by_difficulty": {
-    "Easy": 22,
+    "Easy": 23,
     "Medium": 60,
     "Hard": 28
   },
@@ -31,7 +31,7 @@
     "Sorting": 16,
     "Design": 5,
     "Trie": 2,
-    "Database": 7,
+    "Database": 8,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 8,
@@ -1370,6 +1370,16 @@
         "Dynamic Programming",
         "Bit Manipulation",
         "Bitmask"
+      ]
+    },
+    {
+      "date": "2025-06-04",
+      "problem_id": "3481",
+      "problem_title": "Second Day Verification",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/second-day-verification",
+      "tags": [
+        "Database"
       ]
     }
   ]
