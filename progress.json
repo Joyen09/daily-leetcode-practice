@@ -1,15 +1,15 @@
 {
-  "total_problems": 112,
+  "total_problems": 113,
   "problems_by_difficulty": {
     "Easy": 23,
-    "Medium": 60,
+    "Medium": 61,
     "Hard": 29
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 55,
+    "Array": 56,
     "Dynamic Programming": 16,
-    "Prefix Sum": 7,
+    "Prefix Sum": 8,
     "Hash Table": 23,
     "String": 27,
     "Enumeration": 5,
@@ -1394,6 +1394,17 @@
         "Sorting",
         "Heap (Priority Queue)",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-06-06",
+      "problem_id": "2249",
+      "problem_title": "Count the Hidden Sequences",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-the-hidden-sequences",
+      "tags": [
+        "Array",
+        "Prefix Sum"
       ]
     }
   ]
