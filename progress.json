@@ -1,8 +1,8 @@
 {
-  "total_problems": 113,
+  "total_problems": 114,
   "problems_by_difficulty": {
     "Easy": 23,
-    "Medium": 61,
+    "Medium": 62,
     "Hard": 29
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 16,
     "Prefix Sum": 8,
     "Hash Table": 23,
-    "String": 27,
+    "String": 28,
     "Enumeration": 5,
     "Backtracking": 3,
     "Bit Manipulation": 9,
@@ -21,8 +21,8 @@
     "Counting": 5,
     "Matrix": 8,
     "Simulation": 9,
-    "Stack": 4,
-    "Monotonic Stack": 2,
+    "Stack": 5,
+    "Monotonic Stack": 3,
     "Two Pointers": 9,
     "Shell": 1,
     "Depth-First Search": 16,
@@ -34,7 +34,7 @@
     "Database": 8,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 8,
+    "Greedy": 9,
     "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 7,
@@ -1405,6 +1405,19 @@
       "tags": [
         "Array",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-06-07",
+      "problem_id": "316",
+      "problem_title": "Remove Duplicate Letters",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/remove-duplicate-letters",
+      "tags": [
+        "String",
+        "Stack",
+        "Greedy",
+        "Monotonic Stack"
       ]
     }
   ]
