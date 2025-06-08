@@ -1,13 +1,13 @@
 {
-  "total_problems": 114,
+  "total_problems": 115,
   "problems_by_difficulty": {
-    "Easy": 23,
+    "Easy": 24,
     "Medium": 62,
     "Hard": 29
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 56,
+    "Array": 57,
     "Dynamic Programming": 16,
     "Prefix Sum": 8,
     "Hash Table": 23,
@@ -44,7 +44,7 @@
     "Number Theory": 2,
     "Shortest Path": 1,
     "Queue": 4,
-    "Sliding Window": 2,
+    "Sliding Window": 3,
     "Linked List": 2,
     "Binary Indexed Tree": 1,
     "Segment Tree": 1,
@@ -1418,6 +1418,17 @@
         "Stack",
         "Greedy",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2025-06-08",
+      "problem_id": "643",
+      "problem_title": "Maximum Average Subarray I",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/maximum-average-subarray-i",
+      "tags": [
+        "Array",
+        "Sliding Window"
       ]
     }
   ]
