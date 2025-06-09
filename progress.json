@@ -1,7 +1,7 @@
 {
-  "total_problems": 115,
+  "total_problems": 116,
   "problems_by_difficulty": {
-    "Easy": 24,
+    "Easy": 25,
     "Medium": 62,
     "Hard": 29
   },
@@ -31,7 +31,7 @@
     "Sorting": 17,
     "Design": 5,
     "Trie": 2,
-    "Database": 8,
+    "Database": 9,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 9,
@@ -1429,6 +1429,16 @@
       "tags": [
         "Array",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-06-09",
+      "problem_id": "1291",
+      "problem_title": "Immediate Food Delivery I",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/immediate-food-delivery-i",
+      "tags": [
+        "Database"
       ]
     }
   ]
