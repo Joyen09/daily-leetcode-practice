@@ -1,14 +1,14 @@
 {
-  "total_problems": 116,
+  "total_problems": 117,
   "problems_by_difficulty": {
     "Easy": 25,
-    "Medium": 62,
+    "Medium": 63,
     "Hard": 29
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 57,
-    "Dynamic Programming": 16,
+    "Dynamic Programming": 17,
     "Prefix Sum": 8,
     "Hash Table": 23,
     "String": 28,
@@ -1439,6 +1439,16 @@
       "url": "https://leetcode.com/problems/immediate-food-delivery-i",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-06-10",
+      "problem_id": "3614",
+      "problem_title": "Find the Number of K-Even Arrays",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-number-of-k-even-arrays",
+      "tags": [
+        "Dynamic Programming"
       ]
     }
   ]
