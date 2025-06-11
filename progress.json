@@ -1,9 +1,9 @@
 {
-  "total_problems": 117,
+  "total_problems": 118,
   "problems_by_difficulty": {
     "Easy": 25,
     "Medium": 63,
-    "Hard": 29
+    "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -12,12 +12,12 @@
     "Prefix Sum": 8,
     "Hash Table": 23,
     "String": 28,
-    "Enumeration": 5,
+    "Enumeration": 6,
     "Backtracking": 3,
     "Bit Manipulation": 9,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 19,
+    "Math": 20,
     "Counting": 5,
     "Matrix": 8,
     "Simulation": 9,
@@ -1449,6 +1449,17 @@
       "url": "https://leetcode.com/problems/find-the-number-of-k-even-arrays",
       "tags": [
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-06-11",
+      "problem_id": "856",
+      "problem_title": "Consecutive Numbers Sum",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/consecutive-numbers-sum",
+      "tags": [
+        "Math",
+        "Enumeration"
       ]
     }
   ]
