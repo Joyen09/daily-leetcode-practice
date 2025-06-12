@@ -1,14 +1,14 @@
 {
-  "total_problems": 118,
+  "total_problems": 119,
   "problems_by_difficulty": {
     "Easy": 25,
-    "Medium": 63,
+    "Medium": 64,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 57,
-    "Dynamic Programming": 17,
+    "Array": 58,
+    "Dynamic Programming": 18,
     "Prefix Sum": 8,
     "Hash Table": 23,
     "String": 28,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 20,
     "Counting": 5,
-    "Matrix": 8,
+    "Matrix": 9,
     "Simulation": 9,
     "Stack": 5,
     "Monotonic Stack": 3,
@@ -1460,6 +1460,18 @@
       "tags": [
         "Math",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2025-06-12",
+      "problem_id": "3587",
+      "problem_title": "Maximum Points Tourist Can Earn",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-points-tourist-can-earn",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
       ]
     }
   ]
