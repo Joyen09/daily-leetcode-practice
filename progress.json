@@ -1,13 +1,13 @@
 {
-  "total_problems": 119,
+  "total_problems": 120,
   "problems_by_difficulty": {
     "Easy": 25,
-    "Medium": 64,
+    "Medium": 65,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 58,
+    "Array": 59,
     "Dynamic Programming": 18,
     "Prefix Sum": 8,
     "Hash Table": 23,
@@ -37,7 +37,7 @@
     "Greedy": 9,
     "Graph": 4,
     "Binary Search Tree": 1,
-    "Binary Search": 7,
+    "Binary Search": 8,
     "Heap (Priority Queue)": 5,
     "Hash Function": 1,
     "Ordered Set": 2,
@@ -1472,6 +1472,17 @@
         "Array",
         "Dynamic Programming",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-06-13",
+      "problem_id": "3619",
+      "problem_title": "Adjacent Increasing Subarrays Detection II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii",
+      "tags": [
+        "Array",
+        "Binary Search"
       ]
     }
   ]
