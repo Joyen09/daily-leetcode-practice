@@ -1,13 +1,13 @@
 {
-  "total_problems": 120,
+  "total_problems": 121,
   "problems_by_difficulty": {
-    "Easy": 25,
+    "Easy": 26,
     "Medium": 65,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 59,
+    "Array": 60,
     "Dynamic Programming": 18,
     "Prefix Sum": 8,
     "Hash Table": 23,
@@ -23,18 +23,18 @@
     "Simulation": 9,
     "Stack": 5,
     "Monotonic Stack": 3,
-    "Two Pointers": 9,
+    "Two Pointers": 10,
     "Shell": 1,
     "Depth-First Search": 16,
     "Breadth-First Search": 10,
     "Union Find": 6,
-    "Sorting": 17,
+    "Sorting": 18,
     "Design": 5,
     "Trie": 2,
     "Database": 9,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 9,
+    "Greedy": 10,
     "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 8,
@@ -1483,6 +1483,19 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-06-14",
+      "problem_id": "455",
+      "problem_title": "Assign Cookies",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/assign-cookies",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
