@@ -1,8 +1,8 @@
 {
-  "total_problems": 121,
+  "total_problems": 122,
   "problems_by_difficulty": {
     "Easy": 26,
-    "Medium": 65,
+    "Medium": 66,
     "Hard": 30
   },
   "tags_frequency": {
@@ -10,15 +10,15 @@
     "Array": 60,
     "Dynamic Programming": 18,
     "Prefix Sum": 8,
-    "Hash Table": 23,
-    "String": 28,
+    "Hash Table": 24,
+    "String": 29,
     "Enumeration": 6,
     "Backtracking": 3,
     "Bit Manipulation": 9,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 20,
-    "Counting": 5,
+    "Math": 21,
+    "Counting": 6,
     "Matrix": 9,
     "Simulation": 9,
     "Stack": 5,
@@ -1496,6 +1496,19 @@
         "Two Pointers",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-06-15",
+      "problem_id": "3754",
+      "problem_title": "Maximum Manhattan Distance After K Changes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "String",
+        "Counting"
       ]
     }
   ]
