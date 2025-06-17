@@ -1,14 +1,14 @@
 {
-  "total_problems": 123,
+  "total_problems": 124,
   "problems_by_difficulty": {
-    "Easy": 27,
+    "Easy": 28,
     "Medium": 66,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 61,
-    "Dynamic Programming": 18,
+    "Array": 62,
+    "Dynamic Programming": 19,
     "Prefix Sum": 8,
     "Hash Table": 24,
     "String": 29,
@@ -1523,6 +1523,17 @@
         "Bit Manipulation",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-06-17",
+      "problem_id": "747",
+      "problem_title": "Min Cost Climbing Stairs",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/min-cost-climbing-stairs",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
