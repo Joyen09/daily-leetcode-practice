@@ -1,8 +1,8 @@
 {
-  "total_problems": 124,
+  "total_problems": 125,
   "problems_by_difficulty": {
     "Easy": 28,
-    "Medium": 66,
+    "Medium": 67,
     "Hard": 30
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 10,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 21,
+    "Math": 22,
     "Counting": 6,
     "Matrix": 10,
     "Simulation": 10,
@@ -25,8 +25,8 @@
     "Monotonic Stack": 3,
     "Two Pointers": 11,
     "Shell": 1,
-    "Depth-First Search": 16,
-    "Breadth-First Search": 10,
+    "Depth-First Search": 17,
+    "Breadth-First Search": 11,
     "Union Find": 6,
     "Sorting": 18,
     "Design": 5,
@@ -1534,6 +1534,18 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-06-18",
+      "problem_id": "365",
+      "problem_title": "Water and Jug Problem",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/water-and-jug-problem",
+      "tags": [
+        "Math",
+        "Depth-First Search",
+        "Breadth-First Search"
       ]
     }
   ]
