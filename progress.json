@@ -1,13 +1,13 @@
 {
-  "total_problems": 125,
+  "total_problems": 126,
   "problems_by_difficulty": {
     "Easy": 28,
-    "Medium": 67,
+    "Medium": 68,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 62,
+    "Array": 63,
     "Dynamic Programming": 19,
     "Prefix Sum": 8,
     "Hash Table": 24,
@@ -34,10 +34,10 @@
     "Database": 9,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 10,
+    "Greedy": 11,
     "Graph": 4,
     "Binary Search Tree": 1,
-    "Binary Search": 8,
+    "Binary Search": 9,
     "Heap (Priority Queue)": 5,
     "Hash Function": 1,
     "Ordered Set": 2,
@@ -1546,6 +1546,18 @@
         "Math",
         "Depth-First Search",
         "Breadth-First Search"
+      ]
+    },
+    {
+      "date": "2025-06-19",
+      "problem_id": "2188",
+      "problem_title": "Minimized Maximum of Products Distributed to Any Store",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Greedy"
       ]
     }
   ]
