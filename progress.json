@@ -1,8 +1,8 @@
 {
-  "total_problems": 126,
+  "total_problems": 127,
   "problems_by_difficulty": {
     "Easy": 28,
-    "Medium": 68,
+    "Medium": 69,
     "Hard": 30
   },
   "tags_frequency": {
@@ -10,15 +10,15 @@
     "Array": 63,
     "Dynamic Programming": 19,
     "Prefix Sum": 8,
-    "Hash Table": 24,
+    "Hash Table": 25,
     "String": 29,
-    "Enumeration": 6,
+    "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 10,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 22,
-    "Counting": 6,
+    "Math": 23,
+    "Counting": 7,
     "Matrix": 10,
     "Simulation": 10,
     "Stack": 5,
@@ -28,7 +28,7 @@
     "Depth-First Search": 17,
     "Breadth-First Search": 11,
     "Union Find": 6,
-    "Sorting": 18,
+    "Sorting": 19,
     "Design": 5,
     "Trie": 2,
     "Database": 9,
@@ -1558,6 +1558,20 @@
         "Array",
         "Binary Search",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-06-20",
+      "problem_id": "900",
+      "problem_title": "Reordered Power of 2",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/reordered-power-of-2",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "Sorting",
+        "Counting",
+        "Enumeration"
       ]
     }
   ]
