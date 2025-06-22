@@ -1,13 +1,13 @@
 {
-  "total_problems": 128,
+  "total_problems": 129,
   "problems_by_difficulty": {
-    "Easy": 29,
+    "Easy": 30,
     "Medium": 69,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 63,
+    "Array": 64,
     "Dynamic Programming": 19,
     "Prefix Sum": 8,
     "Hash Table": 25,
@@ -23,12 +23,12 @@
     "Simulation": 10,
     "Stack": 6,
     "Monotonic Stack": 3,
-    "Two Pointers": 11,
+    "Two Pointers": 12,
     "Shell": 1,
     "Depth-First Search": 17,
     "Breadth-First Search": 11,
     "Union Find": 6,
-    "Sorting": 19,
+    "Sorting": 20,
     "Design": 5,
     "Trie": 2,
     "Database": 9,
@@ -1583,6 +1583,18 @@
       "tags": [
         "String",
         "Stack"
+      ]
+    },
+    {
+      "date": "2025-06-22",
+      "problem_id": "3471",
+      "problem_title": "Minimum Average of Smallest and Largest Elements",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
       ]
     }
   ]
