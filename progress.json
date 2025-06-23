@@ -1,13 +1,13 @@
 {
-  "total_problems": 129,
+  "total_problems": 130,
   "problems_by_difficulty": {
     "Easy": 30,
-    "Medium": 69,
+    "Medium": 70,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 64,
+    "Array": 65,
     "Dynamic Programming": 19,
     "Prefix Sum": 8,
     "Hash Table": 25,
@@ -17,8 +17,8 @@
     "Bit Manipulation": 10,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 23,
-    "Counting": 7,
+    "Math": 24,
+    "Counting": 8,
     "Matrix": 10,
     "Simulation": 10,
     "Stack": 6,
@@ -34,7 +34,7 @@
     "Database": 9,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 11,
+    "Greedy": 12,
     "Graph": 4,
     "Binary Search Tree": 1,
     "Binary Search": 9,
@@ -52,7 +52,8 @@
     "Topological Sort": 1,
     "Combinatorics": 1,
     "Data Stream": 1,
-    "Recursion": 1
+    "Recursion": 1,
+    "Game Theory": 1
   },
   "daily_records": [
     {
@@ -1595,6 +1596,20 @@
         "Array",
         "Two Pointers",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-06-23",
+      "problem_id": "2156",
+      "problem_title": "Stone Game IX",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/stone-game-ix",
+      "tags": [
+        "Array",
+        "Math",
+        "Greedy",
+        "Counting",
+        "Game Theory"
       ]
     }
   ]
