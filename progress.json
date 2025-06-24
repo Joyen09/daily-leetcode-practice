@@ -1,23 +1,23 @@
 {
-  "total_problems": 130,
+  "total_problems": 131,
   "problems_by_difficulty": {
     "Easy": 30,
-    "Medium": 70,
+    "Medium": 71,
     "Hard": 30
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 65,
-    "Dynamic Programming": 19,
+    "Dynamic Programming": 20,
     "Prefix Sum": 8,
     "Hash Table": 25,
-    "String": 30,
+    "String": 31,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 10,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 24,
+    "Math": 25,
     "Counting": 8,
     "Matrix": 10,
     "Simulation": 10,
@@ -50,7 +50,7 @@
     "Segment Tree": 1,
     "Geometry": 1,
     "Topological Sort": 1,
-    "Combinatorics": 1,
+    "Combinatorics": 2,
     "Data Stream": 1,
     "Recursion": 1,
     "Game Theory": 1
@@ -1610,6 +1610,19 @@
         "Greedy",
         "Counting",
         "Game Theory"
+      ]
+    },
+    {
+      "date": "2025-06-24",
+      "problem_id": "2187",
+      "problem_title": "Vowels of All Substrings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/vowels-of-all-substrings",
+      "tags": [
+        "Math",
+        "String",
+        "Dynamic Programming",
+        "Combinatorics"
       ]
     }
   ]
