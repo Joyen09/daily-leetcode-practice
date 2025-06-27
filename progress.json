@@ -1,9 +1,9 @@
 {
-  "total_problems": 133,
+  "total_problems": 134,
   "problems_by_difficulty": {
     "Easy": 30,
     "Medium": 72,
-    "Hard": 31
+    "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -31,7 +31,7 @@
     "Sorting": 20,
     "Design": 5,
     "Trie": 2,
-    "Database": 9,
+    "Database": 10,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 12,
@@ -1644,6 +1644,16 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-06-27",
+      "problem_id": "1357",
+      "problem_title": "Report Contiguous Dates",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/report-contiguous-dates",
+      "tags": [
+        "Database"
       ]
     }
   ]
