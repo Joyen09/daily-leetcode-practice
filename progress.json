@@ -1,17 +1,17 @@
 {
-  "total_problems": 134,
+  "total_problems": 135,
   "problems_by_difficulty": {
     "Easy": 30,
-    "Medium": 72,
+    "Medium": 73,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 66,
+    "Array": 67,
     "Dynamic Programming": 21,
     "Prefix Sum": 8,
-    "Hash Table": 25,
-    "String": 31,
+    "Hash Table": 26,
+    "String": 32,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 10,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 11,
     "Union Find": 6,
     "Sorting": 20,
-    "Design": 5,
+    "Design": 6,
     "Trie": 2,
     "Database": 10,
     "Tree": 12,
@@ -1654,6 +1654,19 @@
       "url": "https://leetcode.com/problems/report-contiguous-dates",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-06-28",
+      "problem_id": "2285",
+      "problem_title": "Design Bitset",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/design-bitset",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Design"
       ]
     }
   ]
