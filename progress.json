@@ -1,8 +1,8 @@
 {
-  "total_problems": 135,
+  "total_problems": 136,
   "problems_by_difficulty": {
     "Easy": 30,
-    "Medium": 73,
+    "Medium": 74,
     "Hard": 32
   },
   "tags_frequency": {
@@ -25,9 +25,9 @@
     "Monotonic Stack": 3,
     "Two Pointers": 12,
     "Shell": 1,
-    "Depth-First Search": 17,
-    "Breadth-First Search": 11,
-    "Union Find": 6,
+    "Depth-First Search": 18,
+    "Breadth-First Search": 12,
+    "Union Find": 7,
     "Sorting": 20,
     "Design": 6,
     "Trie": 2,
@@ -35,7 +35,7 @@
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 12,
-    "Graph": 4,
+    "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 10,
     "Heap (Priority Queue)": 5,
@@ -1667,6 +1667,19 @@
         "Hash Table",
         "String",
         "Design"
+      ]
+    },
+    {
+      "date": "2025-06-29",
+      "problem_id": "1442",
+      "problem_title": "Number of Operations to Make Network Connected",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected",
+      "tags": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Graph"
       ]
     }
   ]
