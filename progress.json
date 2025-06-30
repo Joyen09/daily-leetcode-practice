@@ -1,15 +1,15 @@
 {
-  "total_problems": 136,
+  "total_problems": 137,
   "problems_by_difficulty": {
     "Easy": 30,
-    "Medium": 74,
+    "Medium": 75,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 67,
+    "Array": 68,
     "Dynamic Programming": 21,
-    "Prefix Sum": 8,
+    "Prefix Sum": 9,
     "Hash Table": 26,
     "String": 32,
     "Enumeration": 7,
@@ -1680,6 +1680,17 @@
         "Breadth-First Search",
         "Union Find",
         "Graph"
+      ]
+    },
+    {
+      "date": "2025-06-30",
+      "problem_id": "3355",
+      "problem_title": "Minimum Levels to Gain More Points",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-levels-to-gain-more-points",
+      "tags": [
+        "Array",
+        "Prefix Sum"
       ]
     }
   ]
