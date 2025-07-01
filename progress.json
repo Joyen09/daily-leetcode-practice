@@ -1,29 +1,29 @@
 {
-  "total_problems": 137,
+  "total_problems": 138,
   "problems_by_difficulty": {
-    "Easy": 30,
+    "Easy": 31,
     "Medium": 75,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 68,
+    "Array": 69,
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
     "Hash Table": 26,
     "String": 32,
     "Enumeration": 7,
     "Backtracking": 3,
-    "Bit Manipulation": 10,
+    "Bit Manipulation": 11,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 25,
     "Counting": 8,
-    "Matrix": 10,
-    "Simulation": 10,
+    "Matrix": 11,
+    "Simulation": 11,
     "Stack": 6,
     "Monotonic Stack": 3,
-    "Two Pointers": 12,
+    "Two Pointers": 13,
     "Shell": 1,
     "Depth-First Search": 18,
     "Breadth-First Search": 12,
@@ -1691,6 +1691,20 @@
       "tags": [
         "Array",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-07-01",
+      "problem_id": "861",
+      "problem_title": "Flipping an Image",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/flipping-an-image",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Bit Manipulation",
+        "Matrix",
+        "Simulation"
       ]
     }
   ]
