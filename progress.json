@@ -1,16 +1,16 @@
 {
-  "total_problems": 138,
+  "total_problems": 139,
   "problems_by_difficulty": {
-    "Easy": 31,
+    "Easy": 32,
     "Medium": 75,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 69,
+    "Array": 70,
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
-    "Hash Table": 26,
+    "Hash Table": 27,
     "String": 32,
     "Enumeration": 7,
     "Backtracking": 3,
@@ -28,7 +28,7 @@
     "Depth-First Search": 18,
     "Breadth-First Search": 12,
     "Union Find": 7,
-    "Sorting": 20,
+    "Sorting": 21,
     "Design": 6,
     "Trie": 2,
     "Database": 10,
@@ -1705,6 +1705,18 @@
         "Bit Manipulation",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-02",
+      "problem_id": "3236",
+      "problem_title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
       ]
     }
   ]
