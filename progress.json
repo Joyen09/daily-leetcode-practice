@@ -1,7 +1,7 @@
 {
-  "total_problems": 139,
+  "total_problems": 140,
   "problems_by_difficulty": {
-    "Easy": 32,
+    "Easy": 33,
     "Medium": 75,
     "Hard": 32
   },
@@ -17,10 +17,10 @@
     "Bit Manipulation": 11,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 25,
+    "Math": 26,
     "Counting": 8,
     "Matrix": 11,
-    "Simulation": 11,
+    "Simulation": 12,
     "Stack": 6,
     "Monotonic Stack": 3,
     "Two Pointers": 13,
@@ -1717,6 +1717,17 @@
         "Array",
         "Hash Table",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-07-03",
+      "problem_id": "3450",
+      "problem_title": "Find the Child Who Has the Ball After K Seconds",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds",
+      "tags": [
+        "Math",
+        "Simulation"
       ]
     }
   ]
