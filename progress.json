@@ -1,8 +1,8 @@
 {
-  "total_problems": 140,
+  "total_problems": 141,
   "problems_by_difficulty": {
     "Easy": 33,
-    "Medium": 75,
+    "Medium": 76,
     "Hard": 32
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 21,
     "Design": 6,
     "Trie": 2,
-    "Database": 10,
+    "Database": 11,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 12,
@@ -1728,6 +1728,16 @@
       "tags": [
         "Math",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-04",
+      "problem_id": "3624",
+      "problem_title": "Find Top Performing Driver",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-top-performing-driver",
+      "tags": [
+        "Database"
       ]
     }
   ]
