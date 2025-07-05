@@ -1,13 +1,13 @@
 {
-  "total_problems": 141,
+  "total_problems": 142,
   "problems_by_difficulty": {
     "Easy": 33,
-    "Medium": 76,
+    "Medium": 77,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 70,
+    "Array": 71,
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
     "Hash Table": 27,
@@ -28,13 +28,13 @@
     "Depth-First Search": 18,
     "Breadth-First Search": 12,
     "Union Find": 7,
-    "Sorting": 21,
+    "Sorting": 22,
     "Design": 6,
     "Trie": 2,
     "Database": 11,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 12,
+    "Greedy": 13,
     "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 10,
@@ -1738,6 +1738,18 @@
       "url": "https://leetcode.com/problems/find-top-performing-driver",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "problem_id": "3151",
+      "problem_title": "Minimum Processing Time",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-processing-time",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
