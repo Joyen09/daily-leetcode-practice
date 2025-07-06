@@ -1,8 +1,8 @@
 {
-  "total_problems": 142,
+  "total_problems": 143,
   "problems_by_difficulty": {
     "Easy": 33,
-    "Medium": 77,
+    "Medium": 78,
     "Hard": 32
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
     "Hash Table": 27,
-    "String": 32,
+    "String": 33,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 11,
@@ -20,8 +20,8 @@
     "Math": 26,
     "Counting": 8,
     "Matrix": 11,
-    "Simulation": 12,
-    "Stack": 6,
+    "Simulation": 13,
+    "Stack": 7,
     "Monotonic Stack": 3,
     "Two Pointers": 13,
     "Shell": 1,
@@ -1750,6 +1750,18 @@
         "Array",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-07-06",
+      "problem_id": "2021",
+      "problem_title": "Remove All Occurrences of a Substring",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring",
+      "tags": [
+        "String",
+        "Stack",
+        "Simulation"
       ]
     }
   ]
