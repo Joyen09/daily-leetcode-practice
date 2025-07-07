@@ -1,13 +1,13 @@
 {
-  "total_problems": 143,
+  "total_problems": 144,
   "problems_by_difficulty": {
     "Easy": 33,
-    "Medium": 78,
+    "Medium": 79,
     "Hard": 32
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 71,
+    "Array": 72,
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
     "Hash Table": 27,
@@ -34,7 +34,7 @@
     "Database": 11,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 13,
+    "Greedy": 14,
     "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 10,
@@ -1762,6 +1762,17 @@
         "String",
         "Stack",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-07",
+      "problem_id": "3904",
+      "problem_title": "Minimum Adjacent Swaps to Alternate Parity",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-adjacent-swaps-to-alternate-parity",
+      "tags": [
+        "Array",
+        "Greedy"
       ]
     }
   ]
