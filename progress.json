@@ -1,9 +1,9 @@
 {
-  "total_problems": 144,
+  "total_problems": 145,
   "problems_by_difficulty": {
     "Easy": 33,
     "Medium": 79,
-    "Hard": 32
+    "Hard": 33
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -11,7 +11,7 @@
     "Dynamic Programming": 21,
     "Prefix Sum": 9,
     "Hash Table": 27,
-    "String": 33,
+    "String": 34,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 11,
@@ -28,13 +28,13 @@
     "Depth-First Search": 18,
     "Breadth-First Search": 12,
     "Union Find": 7,
-    "Sorting": 22,
+    "Sorting": 23,
     "Design": 6,
     "Trie": 2,
     "Database": 11,
     "Tree": 12,
     "Binary Tree": 9,
-    "Greedy": 14,
+    "Greedy": 15,
     "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 10,
@@ -1773,6 +1773,18 @@
       "tags": [
         "Array",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-07-08",
+      "problem_id": "1707",
+      "problem_title": "Check If String Is Transformable With Substring Sort Operations",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations",
+      "tags": [
+        "String",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
