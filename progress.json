@@ -1,7 +1,7 @@
 {
-  "total_problems": 145,
+  "total_problems": 146,
   "problems_by_difficulty": {
-    "Easy": 33,
+    "Easy": 34,
     "Medium": 79,
     "Hard": 33
   },
@@ -31,7 +31,7 @@
     "Sorting": 23,
     "Design": 6,
     "Trie": 2,
-    "Database": 11,
+    "Database": 12,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 15,
@@ -1785,6 +1785,16 @@
         "String",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-07-09",
+      "problem_id": "3256",
+      "problem_title": "Find Candidates for Data Scientist Position",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-candidates-for-data-scientist-position",
+      "tags": [
+        "Database"
       ]
     }
   ]
