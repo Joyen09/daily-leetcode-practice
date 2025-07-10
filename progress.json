@@ -1,9 +1,9 @@
 {
-  "total_problems": 146,
+  "total_problems": 147,
   "problems_by_difficulty": {
     "Easy": 34,
     "Medium": 79,
-    "Hard": 33
+    "Hard": 34
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -31,7 +31,7 @@
     "Sorting": 23,
     "Design": 6,
     "Trie": 2,
-    "Database": 12,
+    "Database": 13,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 15,
@@ -1793,6 +1793,16 @@
       "problem_title": "Find Candidates for Data Scientist Position",
       "difficulty": "Easy",
       "url": "https://leetcode.com/problems/find-candidates-for-data-scientist-position",
+      "tags": [
+        "Database"
+      ]
+    },
+    {
+      "date": "2025-07-10",
+      "problem_id": "2253",
+      "problem_title": "Build the Equation",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/build-the-equation",
       "tags": [
         "Database"
       ]
