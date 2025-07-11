@@ -1,15 +1,15 @@
 {
-  "total_problems": 147,
+  "total_problems": 148,
   "problems_by_difficulty": {
     "Easy": 34,
-    "Medium": 79,
+    "Medium": 80,
     "Hard": 34
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 72,
+    "Array": 73,
     "Dynamic Programming": 21,
-    "Prefix Sum": 9,
+    "Prefix Sum": 10,
     "Hash Table": 27,
     "String": 34,
     "Enumeration": 7,
@@ -21,8 +21,8 @@
     "Counting": 8,
     "Matrix": 11,
     "Simulation": 13,
-    "Stack": 7,
-    "Monotonic Stack": 3,
+    "Stack": 8,
+    "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
     "Depth-First Search": 18,
@@ -1805,6 +1805,19 @@
       "url": "https://leetcode.com/problems/build-the-equation",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-07-11",
+      "problem_id": "1985",
+      "problem_title": "Maximum Subarray Min-Product",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-subarray-min-product",
+      "tags": [
+        "Array",
+        "Stack",
+        "Monotonic Stack",
+        "Prefix Sum"
       ]
     }
   ]
