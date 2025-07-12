@@ -1,17 +1,17 @@
 {
-  "total_problems": 148,
+  "total_problems": 149,
   "problems_by_difficulty": {
     "Easy": 34,
     "Medium": 80,
-    "Hard": 34
+    "Hard": 35
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 73,
-    "Dynamic Programming": 21,
+    "Dynamic Programming": 22,
     "Prefix Sum": 10,
     "Hash Table": 27,
-    "String": 34,
+    "String": 35,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 11,
@@ -53,7 +53,8 @@
     "Combinatorics": 2,
     "Data Stream": 1,
     "Recursion": 1,
-    "Game Theory": 1
+    "Game Theory": 1,
+    "Suffix Array": 1
   },
   "daily_records": [
     {
@@ -1818,6 +1819,18 @@
         "Stack",
         "Monotonic Stack",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-07-12",
+      "problem_id": "2091",
+      "problem_title": "Number of Ways to Separate Numbers",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-ways-to-separate-numbers",
+      "tags": [
+        "String",
+        "Dynamic Programming",
+        "Suffix Array"
       ]
     }
   ]
