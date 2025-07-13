@@ -1,20 +1,20 @@
 {
-  "total_problems": 149,
+  "total_problems": 150,
   "problems_by_difficulty": {
     "Easy": 34,
     "Medium": 80,
-    "Hard": 35
+    "Hard": 36
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 73,
-    "Dynamic Programming": 22,
+    "Array": 74,
+    "Dynamic Programming": 23,
     "Prefix Sum": 10,
     "Hash Table": 27,
     "String": 35,
     "Enumeration": 7,
     "Backtracking": 3,
-    "Bit Manipulation": 11,
+    "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 26,
@@ -1831,6 +1831,18 @@
         "String",
         "Dynamic Programming",
         "Suffix Array"
+      ]
+    },
+    {
+      "date": "2025-07-13",
+      "problem_id": "3575",
+      "problem_title": "Find the Maximum Sequence Value of Array",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-the-maximum-sequence-value-of-array",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Bit Manipulation"
       ]
     }
   ]
