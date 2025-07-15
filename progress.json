@@ -1,7 +1,7 @@
 {
-  "total_problems": 151,
+  "total_problems": 152,
   "problems_by_difficulty": {
-    "Easy": 34,
+    "Easy": 35,
     "Medium": 81,
     "Hard": 36
   },
@@ -31,7 +31,7 @@
     "Sorting": 23,
     "Design": 6,
     "Trie": 2,
-    "Database": 13,
+    "Database": 14,
     "Tree": 12,
     "Binary Tree": 9,
     "Greedy": 15,
@@ -1855,6 +1855,16 @@
         "String",
         "Stack",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-15",
+      "problem_id": "2172",
+      "problem_title": "Low-Quality Problems",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/low-quality-problems",
+      "tags": [
+        "Database"
       ]
     }
   ]
