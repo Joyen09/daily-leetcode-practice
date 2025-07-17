@@ -1,8 +1,8 @@
 {
-  "total_problems": 153,
+  "total_problems": 154,
   "problems_by_difficulty": {
     "Easy": 35,
-    "Medium": 81,
+    "Medium": 82,
     "Hard": 37
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 26,
+    "Math": 27,
     "Counting": 8,
     "Matrix": 11,
     "Simulation": 14,
@@ -28,7 +28,7 @@
     "Depth-First Search": 18,
     "Breadth-First Search": 12,
     "Union Find": 7,
-    "Sorting": 23,
+    "Sorting": 24,
     "Design": 6,
     "Trie": 2,
     "Database": 14,
@@ -1876,6 +1876,17 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-07-17",
+      "problem_id": "2284",
+      "problem_title": "Smallest Value of the Rearranged Number",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/smallest-value-of-the-rearranged-number",
+      "tags": [
+        "Math",
+        "Sorting"
       ]
     }
   ]
