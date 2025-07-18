@@ -1,9 +1,9 @@
 {
-  "total_problems": 154,
+  "total_problems": 155,
   "problems_by_difficulty": {
     "Easy": 35,
     "Medium": 82,
-    "Hard": 37
+    "Hard": 38
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -25,14 +25,14 @@
     "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
-    "Depth-First Search": 18,
-    "Breadth-First Search": 12,
+    "Depth-First Search": 19,
+    "Breadth-First Search": 13,
     "Union Find": 7,
     "Sorting": 24,
     "Design": 6,
     "Trie": 2,
     "Database": 14,
-    "Tree": 12,
+    "Tree": 13,
     "Binary Tree": 9,
     "Greedy": 15,
     "Graph": 5,
@@ -1887,6 +1887,18 @@
       "tags": [
         "Math",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-07-18",
+      "problem_id": "3645",
+      "problem_title": "Maximize the Number of Target Nodes After Connecting Trees II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search"
       ]
     }
   ]
