@@ -1,13 +1,13 @@
 {
-  "total_problems": 155,
+  "total_problems": 156,
   "problems_by_difficulty": {
-    "Easy": 35,
+    "Easy": 36,
     "Medium": 82,
     "Hard": 38
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 75,
+    "Array": 76,
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
     "Hash Table": 27,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 27,
     "Counting": 8,
-    "Matrix": 11,
+    "Matrix": 12,
     "Simulation": 14,
     "Stack": 9,
     "Monotonic Stack": 4,
@@ -1899,6 +1899,17 @@
         "Tree",
         "Depth-First Search",
         "Breadth-First Search"
+      ]
+    },
+    {
+      "date": "2025-07-19",
+      "problem_id": "3330",
+      "problem_title": "Modify the Matrix",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/modify-the-matrix",
+      "tags": [
+        "Array",
+        "Matrix"
       ]
     }
   ]
