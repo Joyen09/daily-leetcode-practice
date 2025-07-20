@@ -1,13 +1,13 @@
 {
-  "total_problems": 156,
+  "total_problems": 157,
   "problems_by_difficulty": {
     "Easy": 36,
-    "Medium": 82,
+    "Medium": 83,
     "Hard": 38
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 76,
+    "Array": 77,
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
     "Hash Table": 27,
@@ -18,16 +18,16 @@
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 27,
-    "Counting": 8,
-    "Matrix": 12,
+    "Counting": 9,
+    "Matrix": 13,
     "Simulation": 14,
     "Stack": 9,
     "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
-    "Depth-First Search": 19,
-    "Breadth-First Search": 13,
-    "Union Find": 7,
+    "Depth-First Search": 20,
+    "Breadth-First Search": 14,
+    "Union Find": 8,
     "Sorting": 24,
     "Design": 6,
     "Trie": 2,
@@ -1910,6 +1910,21 @@
       "tags": [
         "Array",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-07-20",
+      "problem_id": "1396",
+      "problem_title": "Count Servers that Communicate",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-servers-that-communicate",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Matrix",
+        "Counting"
       ]
     }
   ]
