@@ -1,8 +1,8 @@
 {
-  "total_problems": 157,
+  "total_problems": 158,
   "problems_by_difficulty": {
     "Easy": 36,
-    "Medium": 83,
+    "Medium": 84,
     "Hard": 38
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 27,
+    "Math": 28,
     "Counting": 9,
     "Matrix": 13,
     "Simulation": 14,
@@ -34,7 +34,7 @@
     "Database": 14,
     "Tree": 13,
     "Binary Tree": 9,
-    "Greedy": 15,
+    "Greedy": 16,
     "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 10,
@@ -1925,6 +1925,17 @@
         "Union Find",
         "Matrix",
         "Counting"
+      ]
+    },
+    {
+      "date": "2025-07-21",
+      "problem_id": "1529",
+      "problem_title": "Max Difference You Can Get From Changing an Integer",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer",
+      "tags": [
+        "Math",
+        "Greedy"
       ]
     }
   ]
