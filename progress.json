@@ -1,8 +1,8 @@
 {
-  "total_problems": 158,
+  "total_problems": 159,
   "problems_by_difficulty": {
     "Easy": 36,
-    "Medium": 84,
+    "Medium": 85,
     "Hard": 38
   },
   "tags_frequency": {
@@ -11,16 +11,16 @@
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
     "Hash Table": 27,
-    "String": 36,
+    "String": 37,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 28,
+    "Math": 29,
     "Counting": 9,
     "Matrix": 13,
-    "Simulation": 14,
+    "Simulation": 15,
     "Stack": 9,
     "Monotonic Stack": 4,
     "Two Pointers": 13,
@@ -1936,6 +1936,18 @@
       "tags": [
         "Math",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-07-22",
+      "problem_id": "592",
+      "problem_title": "Fraction Addition and Subtraction",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/fraction-addition-and-subtraction",
+      "tags": [
+        "Math",
+        "String",
+        "Simulation"
       ]
     }
   ]
