@@ -1,13 +1,13 @@
 {
-  "total_problems": 159,
+  "total_problems": 160,
   "problems_by_difficulty": {
     "Easy": 36,
     "Medium": 85,
-    "Hard": 38
+    "Hard": 39
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 77,
+    "Array": 78,
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
     "Hash Table": 27,
@@ -37,7 +37,7 @@
     "Greedy": 16,
     "Graph": 5,
     "Binary Search Tree": 1,
-    "Binary Search": 10,
+    "Binary Search": 11,
     "Heap (Priority Queue)": 5,
     "Hash Function": 1,
     "Ordered Set": 2,
@@ -47,14 +47,15 @@
     "Sliding Window": 3,
     "Linked List": 2,
     "Binary Indexed Tree": 1,
-    "Segment Tree": 1,
+    "Segment Tree": 2,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 2,
     "Data Stream": 1,
     "Recursion": 1,
     "Game Theory": 1,
-    "Suffix Array": 1
+    "Suffix Array": 1,
+    "Line Sweep": 1
   },
   "daily_records": [
     {
@@ -1948,6 +1949,19 @@
         "Math",
         "String",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-23",
+      "problem_id": "3775",
+      "problem_title": "Separate Squares II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/separate-squares-ii",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Segment Tree",
+        "Line Sweep"
       ]
     }
   ]
