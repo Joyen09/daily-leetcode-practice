@@ -1,17 +1,17 @@
 {
-  "total_problems": 161,
+  "total_problems": 162,
   "problems_by_difficulty": {
-    "Easy": 37,
+    "Easy": 38,
     "Medium": 85,
     "Hard": 39
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 78,
+    "Array": 79,
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
-    "Hash Table": 27,
-    "String": 38,
+    "Hash Table": 28,
+    "String": 39,
     "Enumeration": 7,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -1973,6 +1973,18 @@
       "tags": [
         "String",
         "Stack"
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "problem_id": "1044",
+      "problem_title": "Find Common Characters",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-common-characters",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String"
       ]
     }
   ]
