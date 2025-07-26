@@ -1,13 +1,13 @@
 {
-  "total_problems": 162,
+  "total_problems": 163,
   "problems_by_difficulty": {
     "Easy": 38,
-    "Medium": 85,
+    "Medium": 86,
     "Hard": 39
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 79,
+    "Array": 80,
     "Dynamic Programming": 24,
     "Prefix Sum": 10,
     "Hash Table": 28,
@@ -20,7 +20,7 @@
     "Math": 29,
     "Counting": 9,
     "Matrix": 13,
-    "Simulation": 15,
+    "Simulation": 16,
     "Stack": 10,
     "Monotonic Stack": 4,
     "Two Pointers": 13,
@@ -38,7 +38,7 @@
     "Graph": 5,
     "Binary Search Tree": 1,
     "Binary Search": 11,
-    "Heap (Priority Queue)": 5,
+    "Heap (Priority Queue)": 6,
     "Hash Function": 1,
     "Ordered Set": 2,
     "Number Theory": 2,
@@ -1985,6 +1985,18 @@
         "Array",
         "Hash Table",
         "String"
+      ]
+    },
+    {
+      "date": "2025-07-26",
+      "problem_id": "1928",
+      "problem_title": "Number of Orders in the Backlog",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-orders-in-the-backlog",
+      "tags": [
+        "Array",
+        "Heap (Priority Queue)",
+        "Simulation"
       ]
     }
   ]
