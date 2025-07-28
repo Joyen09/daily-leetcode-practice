@@ -1,17 +1,17 @@
 {
-  "total_problems": 164,
+  "total_problems": 165,
   "problems_by_difficulty": {
     "Easy": 39,
     "Medium": 86,
-    "Hard": 39
+    "Hard": 40
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 81,
-    "Dynamic Programming": 24,
+    "Dynamic Programming": 25,
     "Prefix Sum": 10,
     "Hash Table": 28,
-    "String": 39,
+    "String": 40,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2011,6 +2011,17 @@
         "Sliding Window",
         "Enumeration",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2025-07-28",
+      "problem_id": "1170",
+      "problem_title": "Shortest Common Supersequence ",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/shortest-common-supersequence",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
