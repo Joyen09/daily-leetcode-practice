@@ -1,8 +1,8 @@
 {
-  "total_problems": 165,
+  "total_problems": 166,
   "problems_by_difficulty": {
     "Easy": 39,
-    "Medium": 86,
+    "Medium": 87,
     "Hard": 40
   },
   "tags_frequency": {
@@ -10,14 +10,14 @@
     "Array": 81,
     "Dynamic Programming": 25,
     "Prefix Sum": 10,
-    "Hash Table": 28,
+    "Hash Table": 29,
     "String": 40,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 30,
+    "Math": 31,
     "Counting": 9,
     "Matrix": 13,
     "Simulation": 16,
@@ -55,7 +55,9 @@
     "Recursion": 1,
     "Game Theory": 1,
     "Suffix Array": 1,
-    "Line Sweep": 1
+    "Line Sweep": 1,
+    "Reservoir Sampling": 1,
+    "Randomized": 1
   },
   "daily_records": [
     {
@@ -2022,6 +2024,19 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-07-29",
+      "problem_id": "913",
+      "problem_title": "Random Flip Matrix",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/random-flip-matrix",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "Reservoir Sampling",
+        "Randomized"
       ]
     }
   ]
