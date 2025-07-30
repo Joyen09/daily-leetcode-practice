@@ -1,13 +1,13 @@
 {
-  "total_problems": 166,
+  "total_problems": 167,
   "problems_by_difficulty": {
     "Easy": 39,
-    "Medium": 87,
+    "Medium": 88,
     "Hard": 40
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 81,
+    "Array": 82,
     "Dynamic Programming": 25,
     "Prefix Sum": 10,
     "Hash Table": 29,
@@ -17,10 +17,10 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 31,
+    "Math": 32,
     "Counting": 9,
     "Matrix": 13,
-    "Simulation": 16,
+    "Simulation": 17,
     "Stack": 10,
     "Monotonic Stack": 4,
     "Two Pointers": 13,
@@ -2037,6 +2037,18 @@
         "Math",
         "Reservoir Sampling",
         "Randomized"
+      ]
+    },
+    {
+      "date": "2025-07-30",
+      "problem_id": "2155",
+      "problem_title": "Find Missing Observations",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-missing-observations",
+      "tags": [
+        "Array",
+        "Math",
+        "Simulation"
       ]
     }
   ]
