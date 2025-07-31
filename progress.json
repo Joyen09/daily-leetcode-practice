@@ -1,13 +1,13 @@
 {
-  "total_problems": 167,
+  "total_problems": 168,
   "problems_by_difficulty": {
     "Easy": 39,
-    "Medium": 88,
+    "Medium": 89,
     "Hard": 40
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 82,
+    "Array": 83,
     "Dynamic Programming": 25,
     "Prefix Sum": 10,
     "Hash Table": 29,
@@ -37,14 +37,14 @@
     "Greedy": 16,
     "Graph": 5,
     "Binary Search Tree": 1,
-    "Binary Search": 11,
+    "Binary Search": 12,
     "Heap (Priority Queue)": 6,
     "Hash Function": 1,
     "Ordered Set": 2,
     "Number Theory": 3,
     "Shortest Path": 1,
     "Queue": 4,
-    "Sliding Window": 4,
+    "Sliding Window": 5,
     "Linked List": 2,
     "Binary Indexed Tree": 1,
     "Segment Tree": 2,
@@ -2049,6 +2049,18 @@
         "Array",
         "Math",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-07-31",
+      "problem_id": "2069",
+      "problem_title": "Kth Smallest Subarray Sum",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/kth-smallest-subarray-sum",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Sliding Window"
       ]
     }
   ]
