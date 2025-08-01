@@ -1,15 +1,15 @@
 {
-  "total_problems": 168,
+  "total_problems": 169,
   "problems_by_difficulty": {
     "Easy": 39,
     "Medium": 89,
-    "Hard": 40
+    "Hard": 41
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 83,
-    "Dynamic Programming": 25,
-    "Prefix Sum": 10,
+    "Array": 84,
+    "Dynamic Programming": 26,
+    "Prefix Sum": 11,
     "Hash Table": 29,
     "String": 40,
     "Enumeration": 8,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 32,
+    "Math": 33,
     "Counting": 9,
     "Matrix": 13,
     "Simulation": 17,
@@ -50,7 +50,7 @@
     "Segment Tree": 2,
     "Geometry": 1,
     "Topological Sort": 1,
-    "Combinatorics": 2,
+    "Combinatorics": 3,
     "Data Stream": 1,
     "Recursion": 1,
     "Game Theory": 1,
@@ -2061,6 +2061,20 @@
         "Array",
         "Binary Search",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-08-01",
+      "problem_id": "3535",
+      "problem_title": "Find the Count of Monotonic Pairs I",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Combinatorics",
+        "Prefix Sum"
       ]
     }
   ]
