@@ -1,8 +1,8 @@
 {
-  "total_problems": 170,
+  "total_problems": 171,
   "problems_by_difficulty": {
     "Easy": 40,
-    "Medium": 89,
+    "Medium": 90,
     "Hard": 41
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 84,
     "Dynamic Programming": 26,
     "Prefix Sum": 11,
-    "Hash Table": 29,
+    "Hash Table": 30,
     "String": 41,
     "Enumeration": 8,
     "Backtracking": 3,
@@ -27,9 +27,9 @@
     "Shell": 1,
     "Depth-First Search": 20,
     "Breadth-First Search": 14,
-    "Union Find": 8,
+    "Union Find": 9,
     "Sorting": 24,
-    "Design": 6,
+    "Design": 7,
     "Trie": 2,
     "Database": 14,
     "Tree": 13,
@@ -37,17 +37,17 @@
     "Greedy": 16,
     "Graph": 5,
     "Binary Search Tree": 1,
-    "Binary Search": 12,
-    "Heap (Priority Queue)": 6,
+    "Binary Search": 13,
+    "Heap (Priority Queue)": 7,
     "Hash Function": 1,
-    "Ordered Set": 2,
+    "Ordered Set": 3,
     "Number Theory": 3,
     "Shortest Path": 1,
     "Queue": 4,
     "Sliding Window": 5,
     "Linked List": 2,
-    "Binary Indexed Tree": 1,
-    "Segment Tree": 2,
+    "Binary Indexed Tree": 2,
+    "Segment Tree": 3,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 3,
@@ -2085,6 +2085,23 @@
       "url": "https://leetcode.com/problems/largest-3-same-digit-number-in-string",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-08-03",
+      "problem_id": "2512",
+      "problem_title": "Longest Uploaded Prefix",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-uploaded-prefix",
+      "tags": [
+        "Hash Table",
+        "Binary Search",
+        "Union Find",
+        "Design",
+        "Binary Indexed Tree",
+        "Segment Tree",
+        "Heap (Priority Queue)",
+        "Ordered Set"
       ]
     }
   ]
