@@ -1,13 +1,13 @@
 {
-  "total_problems": 171,
+  "total_problems": 172,
   "problems_by_difficulty": {
     "Easy": 40,
-    "Medium": 90,
+    "Medium": 91,
     "Hard": 41
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 84,
+    "Array": 85,
     "Dynamic Programming": 26,
     "Prefix Sum": 11,
     "Hash Table": 30,
@@ -35,14 +35,14 @@
     "Tree": 13,
     "Binary Tree": 9,
     "Greedy": 16,
-    "Graph": 5,
+    "Graph": 6,
     "Binary Search Tree": 1,
     "Binary Search": 13,
-    "Heap (Priority Queue)": 7,
+    "Heap (Priority Queue)": 8,
     "Hash Function": 1,
     "Ordered Set": 3,
     "Number Theory": 3,
-    "Shortest Path": 1,
+    "Shortest Path": 2,
     "Queue": 4,
     "Sliding Window": 5,
     "Linked List": 2,
@@ -2102,6 +2102,19 @@
         "Segment Tree",
         "Heap (Priority Queue)",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-08-04",
+      "problem_id": "2880",
+      "problem_title": "Find the Closest Marked Node",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-closest-marked-node",
+      "tags": [
+        "Array",
+        "Graph",
+        "Heap (Priority Queue)",
+        "Shortest Path"
       ]
     }
   ]
