@@ -1,8 +1,8 @@
 {
-  "total_problems": 173,
+  "total_problems": 174,
   "problems_by_difficulty": {
     "Easy": 40,
-    "Medium": 92,
+    "Medium": 93,
     "Hard": 41
   },
   "tags_frequency": {
@@ -10,8 +10,8 @@
     "Array": 86,
     "Dynamic Programming": 26,
     "Prefix Sum": 11,
-    "Hash Table": 31,
-    "String": 41,
+    "Hash Table": 32,
+    "String": 42,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -39,7 +39,7 @@
     "Binary Search Tree": 1,
     "Binary Search": 14,
     "Heap (Priority Queue)": 8,
-    "Hash Function": 1,
+    "Hash Function": 2,
     "Ordered Set": 3,
     "Number Theory": 3,
     "Shortest Path": 2,
@@ -57,7 +57,8 @@
     "Suffix Array": 1,
     "Line Sweep": 1,
     "Reservoir Sampling": 1,
-    "Randomized": 1
+    "Randomized": 1,
+    "Rolling Hash": 1
   },
   "daily_records": [
     {
@@ -2127,6 +2128,19 @@
         "Array",
         "Hash Table",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-08-06",
+      "problem_id": "1697",
+      "problem_title": "Strings Differ by One Character",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/strings-differ-by-one-character",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Rolling Hash",
+        "Hash Function"
       ]
     }
   ]
