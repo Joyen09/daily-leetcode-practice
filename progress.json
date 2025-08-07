@@ -1,7 +1,7 @@
 {
-  "total_problems": 174,
+  "total_problems": 175,
   "problems_by_difficulty": {
-    "Easy": 40,
+    "Easy": 41,
     "Medium": 93,
     "Hard": 41
   },
@@ -45,14 +45,14 @@
     "Shortest Path": 2,
     "Queue": 4,
     "Sliding Window": 5,
-    "Linked List": 2,
+    "Linked List": 3,
     "Binary Indexed Tree": 2,
     "Segment Tree": 3,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 3,
     "Data Stream": 1,
-    "Recursion": 1,
+    "Recursion": 2,
     "Game Theory": 1,
     "Suffix Array": 1,
     "Line Sweep": 1,
@@ -2141,6 +2141,17 @@
         "String",
         "Rolling Hash",
         "Hash Function"
+      ]
+    },
+    {
+      "date": "2025-08-07",
+      "problem_id": "21",
+      "problem_title": "Merge Two Sorted Lists",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists",
+      "tags": [
+        "Linked List",
+        "Recursion"
       ]
     }
   ]
