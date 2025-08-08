@@ -1,14 +1,14 @@
 {
-  "total_problems": 175,
+  "total_problems": 176,
   "problems_by_difficulty": {
     "Easy": 41,
     "Medium": 93,
-    "Hard": 41
+    "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 86,
-    "Dynamic Programming": 26,
+    "Array": 87,
+    "Dynamic Programming": 27,
     "Prefix Sum": 11,
     "Hash Table": 32,
     "String": 42,
@@ -2152,6 +2152,17 @@
       "tags": [
         "Linked List",
         "Recursion"
+      ]
+    },
+    {
+      "date": "2025-08-08",
+      "problem_id": "403",
+      "problem_title": "Frog Jump",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/frog-jump",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
