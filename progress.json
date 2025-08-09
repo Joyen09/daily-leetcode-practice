@@ -1,17 +1,17 @@
 {
-  "total_problems": 176,
+  "total_problems": 177,
   "problems_by_difficulty": {
     "Easy": 41,
-    "Medium": 93,
+    "Medium": 94,
     "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 87,
-    "Dynamic Programming": 27,
+    "Dynamic Programming": 28,
     "Prefix Sum": 11,
     "Hash Table": 32,
-    "String": 42,
+    "String": 43,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2162,6 +2162,17 @@
       "url": "https://leetcode.com/problems/frog-jump",
       "tags": [
         "Array",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-08-09",
+      "problem_id": "3033",
+      "problem_title": "Apply Operations to Make Two Strings Equal",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/apply-operations-to-make-two-strings-equal",
+      "tags": [
+        "String",
         "Dynamic Programming"
       ]
     }
