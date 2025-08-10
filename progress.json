@@ -1,7 +1,7 @@
 {
-  "total_problems": 177,
+  "total_problems": 178,
   "problems_by_difficulty": {
-    "Easy": 41,
+    "Easy": 42,
     "Medium": 94,
     "Hard": 42
   },
@@ -25,18 +25,18 @@
     "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
-    "Depth-First Search": 20,
+    "Depth-First Search": 21,
     "Breadth-First Search": 14,
     "Union Find": 9,
     "Sorting": 24,
     "Design": 7,
     "Trie": 2,
     "Database": 14,
-    "Tree": 13,
-    "Binary Tree": 9,
+    "Tree": 14,
+    "Binary Tree": 10,
     "Greedy": 16,
     "Graph": 6,
-    "Binary Search Tree": 1,
+    "Binary Search Tree": 2,
     "Binary Search": 14,
     "Heap (Priority Queue)": 8,
     "Hash Function": 2,
@@ -2174,6 +2174,19 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-08-10",
+      "problem_id": "975",
+      "problem_title": "Range Sum of BST",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/range-sum-of-bst",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
       ]
     }
   ]
