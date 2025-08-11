@@ -1,8 +1,8 @@
 {
-  "total_problems": 178,
+  "total_problems": 179,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 94,
+    "Medium": 95,
     "Hard": 42
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 28,
     "Prefix Sum": 11,
     "Hash Table": 32,
-    "String": 43,
+    "String": 44,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2187,6 +2187,16 @@
         "Depth-First Search",
         "Binary Search Tree",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-08-11",
+      "problem_id": "38",
+      "problem_title": "Count and Say",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-and-say",
+      "tags": [
+        "String"
       ]
     }
   ]
