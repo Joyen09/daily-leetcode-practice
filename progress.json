@@ -1,13 +1,13 @@
 {
-  "total_problems": 179,
+  "total_problems": 180,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 95,
+    "Medium": 96,
     "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 87,
+    "Array": 88,
     "Dynamic Programming": 28,
     "Prefix Sum": 11,
     "Hash Table": 32,
@@ -35,14 +35,14 @@
     "Tree": 14,
     "Binary Tree": 10,
     "Greedy": 16,
-    "Graph": 6,
+    "Graph": 7,
     "Binary Search Tree": 2,
     "Binary Search": 14,
-    "Heap (Priority Queue)": 8,
+    "Heap (Priority Queue)": 9,
     "Hash Function": 2,
     "Ordered Set": 3,
     "Number Theory": 3,
-    "Shortest Path": 2,
+    "Shortest Path": 3,
     "Queue": 4,
     "Sliding Window": 5,
     "Linked List": 3,
@@ -2197,6 +2197,19 @@
       "url": "https://leetcode.com/problems/count-and-say",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-08-12",
+      "problem_id": "3389",
+      "problem_title": "Minimum Time to Visit Disappearing Nodes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes",
+      "tags": [
+        "Array",
+        "Graph",
+        "Heap (Priority Queue)",
+        "Shortest Path"
       ]
     }
   ]
