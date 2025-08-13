@@ -1,8 +1,8 @@
 {
-  "total_problems": 180,
+  "total_problems": 181,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 96,
+    "Medium": 97,
     "Hard": 42
   },
   "tags_frequency": {
@@ -27,17 +27,17 @@
     "Shell": 1,
     "Depth-First Search": 21,
     "Breadth-First Search": 14,
-    "Union Find": 9,
-    "Sorting": 24,
+    "Union Find": 10,
+    "Sorting": 25,
     "Design": 7,
     "Trie": 2,
     "Database": 14,
     "Tree": 14,
     "Binary Tree": 10,
     "Greedy": 16,
-    "Graph": 7,
+    "Graph": 8,
     "Binary Search Tree": 2,
-    "Binary Search": 14,
+    "Binary Search": 15,
     "Heap (Priority Queue)": 9,
     "Hash Function": 2,
     "Ordered Set": 3,
@@ -2210,6 +2210,19 @@
         "Graph",
         "Heap (Priority Queue)",
         "Shortest Path"
+      ]
+    },
+    {
+      "date": "2025-08-13",
+      "problem_id": "3908",
+      "problem_title": "Minimum Time for K Connected Components",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-time-for-k-connected-components",
+      "tags": [
+        "Binary Search",
+        "Union Find",
+        "Graph",
+        "Sorting"
       ]
     }
   ]
