@@ -1,8 +1,8 @@
 {
-  "total_problems": 181,
+  "total_problems": 182,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 97,
+    "Medium": 98,
     "Hard": 42
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 25,
     "Design": 7,
     "Trie": 2,
-    "Database": 14,
+    "Database": 15,
     "Tree": 14,
     "Binary Tree": 10,
     "Greedy": 16,
@@ -2223,6 +2223,16 @@
         "Union Find",
         "Graph",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-08-14",
+      "problem_id": "1862",
+      "problem_title": "Count Apples and Oranges",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-apples-and-oranges",
+      "tags": [
+        "Database"
       ]
     }
   ]
