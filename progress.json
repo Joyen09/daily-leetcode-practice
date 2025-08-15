@@ -1,13 +1,13 @@
 {
-  "total_problems": 182,
+  "total_problems": 183,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 98,
+    "Medium": 99,
     "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 88,
+    "Array": 89,
     "Dynamic Programming": 28,
     "Prefix Sum": 11,
     "Hash Table": 32,
@@ -19,14 +19,14 @@
     "String Matching": 1,
     "Math": 33,
     "Counting": 9,
-    "Matrix": 13,
+    "Matrix": 14,
     "Simulation": 17,
     "Stack": 10,
     "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
-    "Depth-First Search": 21,
-    "Breadth-First Search": 14,
+    "Depth-First Search": 22,
+    "Breadth-First Search": 15,
     "Union Find": 10,
     "Sorting": 25,
     "Design": 7,
@@ -2233,6 +2233,19 @@
       "url": "https://leetcode.com/problems/count-apples-and-oranges",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-08-15",
+      "problem_id": "490",
+      "problem_title": "The Maze",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/the-maze",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Matrix"
       ]
     }
   ]
