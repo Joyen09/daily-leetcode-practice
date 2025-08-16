@@ -1,14 +1,14 @@
 {
-  "total_problems": 183,
+  "total_problems": 184,
   "problems_by_difficulty": {
     "Easy": 42,
-    "Medium": 99,
+    "Medium": 100,
     "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 89,
-    "Dynamic Programming": 28,
+    "Dynamic Programming": 29,
     "Prefix Sum": 11,
     "Hash Table": 32,
     "String": 44,
@@ -2246,6 +2246,16 @@
         "Depth-First Search",
         "Breadth-First Search",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-08-16",
+      "problem_id": "2397",
+      "problem_title": "Count Number of Ways to Place Houses",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-number-of-ways-to-place-houses",
+      "tags": [
+        "Dynamic Programming"
       ]
     }
   ]
