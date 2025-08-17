@@ -1,16 +1,16 @@
 {
-  "total_problems": 184,
+  "total_problems": 185,
   "problems_by_difficulty": {
-    "Easy": 42,
+    "Easy": 43,
     "Medium": 100,
     "Hard": 42
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 89,
+    "Array": 90,
     "Dynamic Programming": 29,
     "Prefix Sum": 11,
-    "Hash Table": 32,
+    "Hash Table": 33,
     "String": 44,
     "Enumeration": 8,
     "Backtracking": 3,
@@ -28,7 +28,7 @@
     "Depth-First Search": 22,
     "Breadth-First Search": 15,
     "Union Find": 10,
-    "Sorting": 25,
+    "Sorting": 26,
     "Design": 7,
     "Trie": 2,
     "Database": 15,
@@ -2256,6 +2256,18 @@
       "url": "https://leetcode.com/problems/count-number-of-ways-to-place-houses",
       "tags": [
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-08-17",
+      "problem_id": "2566",
+      "problem_title": "Number of Unequal Triplets in Array",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-of-unequal-triplets-in-array",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
       ]
     }
   ]
