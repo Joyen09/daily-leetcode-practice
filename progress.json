@@ -1,9 +1,9 @@
 {
-  "total_problems": 185,
+  "total_problems": 186,
   "problems_by_difficulty": {
     "Easy": 43,
     "Medium": 100,
-    "Hard": 42
+    "Hard": 43
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -25,17 +25,17 @@
     "Monotonic Stack": 4,
     "Two Pointers": 13,
     "Shell": 1,
-    "Depth-First Search": 22,
-    "Breadth-First Search": 15,
+    "Depth-First Search": 23,
+    "Breadth-First Search": 16,
     "Union Find": 10,
     "Sorting": 26,
     "Design": 7,
     "Trie": 2,
     "Database": 15,
-    "Tree": 14,
+    "Tree": 15,
     "Binary Tree": 10,
     "Greedy": 16,
-    "Graph": 8,
+    "Graph": 9,
     "Binary Search Tree": 2,
     "Binary Search": 15,
     "Heap (Priority Queue)": 9,
@@ -2268,6 +2268,19 @@
         "Array",
         "Hash Table",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-08-18",
+      "problem_id": "3439",
+      "problem_title": "Find Minimum Diameter After Merging Two Trees",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph"
       ]
     }
   ]
