@@ -1,13 +1,13 @@
 {
-  "total_problems": 186,
+  "total_problems": 187,
   "problems_by_difficulty": {
     "Easy": 43,
     "Medium": 100,
-    "Hard": 43
+    "Hard": 44
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 90,
+    "Array": 91,
     "Dynamic Programming": 29,
     "Prefix Sum": 11,
     "Hash Table": 33,
@@ -32,10 +32,10 @@
     "Design": 7,
     "Trie": 2,
     "Database": 15,
-    "Tree": 15,
+    "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 16,
-    "Graph": 9,
+    "Graph": 10,
     "Binary Search Tree": 2,
     "Binary Search": 15,
     "Heap (Priority Queue)": 9,
@@ -58,7 +58,8 @@
     "Line Sweep": 1,
     "Reservoir Sampling": 1,
     "Randomized": 1,
-    "Rolling Hash": 1
+    "Rolling Hash": 1,
+    "Strongly Connected Component": 1
   },
   "daily_records": [
     {
@@ -2281,6 +2282,19 @@
         "Depth-First Search",
         "Breadth-First Search",
         "Graph"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "problem_id": "3079",
+      "problem_title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree",
+      "tags": [
+        "Array",
+        "Tree",
+        "Graph",
+        "Strongly Connected Component"
       ]
     }
   ]
