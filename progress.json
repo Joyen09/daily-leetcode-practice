@@ -1,13 +1,13 @@
 {
-  "total_problems": 187,
+  "total_problems": 188,
   "problems_by_difficulty": {
     "Easy": 43,
-    "Medium": 100,
+    "Medium": 101,
     "Hard": 44
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 91,
+    "Array": 92,
     "Dynamic Programming": 29,
     "Prefix Sum": 11,
     "Hash Table": 33,
@@ -17,9 +17,9 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 33,
+    "Math": 34,
     "Counting": 9,
-    "Matrix": 14,
+    "Matrix": 15,
     "Simulation": 17,
     "Stack": 10,
     "Monotonic Stack": 4,
@@ -28,7 +28,7 @@
     "Depth-First Search": 23,
     "Breadth-First Search": 16,
     "Union Find": 10,
-    "Sorting": 26,
+    "Sorting": 27,
     "Design": 7,
     "Trie": 2,
     "Database": 15,
@@ -2295,6 +2295,19 @@
         "Tree",
         "Graph",
         "Strongly Connected Component"
+      ]
+    },
+    {
+      "date": "2025-08-20",
+      "problem_id": "2160",
+      "problem_title": "Minimum Operations to Make a Uni-Value Grid",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting",
+        "Matrix"
       ]
     }
   ]
