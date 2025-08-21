@@ -1,17 +1,17 @@
 {
-  "total_problems": 188,
+  "total_problems": 189,
   "problems_by_difficulty": {
     "Easy": 43,
-    "Medium": 101,
+    "Medium": 102,
     "Hard": 44
   },
   "tags_frequency": {
     "algorithm": 3,
     "Array": 92,
-    "Dynamic Programming": 29,
+    "Dynamic Programming": 30,
     "Prefix Sum": 11,
-    "Hash Table": 33,
-    "String": 44,
+    "Hash Table": 34,
+    "String": 45,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -28,13 +28,13 @@
     "Depth-First Search": 23,
     "Breadth-First Search": 16,
     "Union Find": 10,
-    "Sorting": 27,
+    "Sorting": 28,
     "Design": 7,
     "Trie": 2,
     "Database": 15,
     "Tree": 16,
     "Binary Tree": 10,
-    "Greedy": 16,
+    "Greedy": 17,
     "Graph": 10,
     "Binary Search Tree": 2,
     "Binary Search": 15,
@@ -2308,6 +2308,20 @@
         "Math",
         "Sorting",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-08-21",
+      "problem_id": "3771",
+      "problem_title": "Select K Disjoint Special Substrings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/select-k-disjoint-special-substrings",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Dynamic Programming",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
