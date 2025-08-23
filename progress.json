@@ -1,9 +1,9 @@
 {
-  "total_problems": 190,
+  "total_problems": 191,
   "problems_by_difficulty": {
     "Easy": 43,
     "Medium": 103,
-    "Hard": 44
+    "Hard": 45
   },
   "tags_frequency": {
     "algorithm": 3,
@@ -35,14 +35,14 @@
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 17,
-    "Graph": 10,
+    "Graph": 11,
     "Binary Search Tree": 2,
     "Binary Search": 15,
-    "Heap (Priority Queue)": 9,
+    "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 3,
     "Number Theory": 3,
-    "Shortest Path": 3,
+    "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 5,
     "Linked List": 3,
@@ -2335,6 +2335,18 @@
         "Hash Table",
         "Sorting",
         "Counting"
+      ]
+    },
+    {
+      "date": "2025-08-23",
+      "problem_id": "2865",
+      "problem_title": "Find Shortest Path with K Hops",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-shortest-path-with-k-hops",
+      "tags": [
+        "Graph",
+        "Heap (Priority Queue)",
+        "Shortest Path"
       ]
     }
   ]
