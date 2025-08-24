@@ -1,17 +1,17 @@
 {
-  "total_problems": 191,
+  "total_problems": 192,
   "problems_by_difficulty": {
     "Easy": 43,
-    "Medium": 103,
+    "Medium": 104,
     "Hard": 45
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 93,
+    "Array": 94,
     "Dynamic Programming": 30,
     "Prefix Sum": 11,
-    "Hash Table": 35,
-    "String": 45,
+    "Hash Table": 36,
+    "String": 46,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2347,6 +2347,18 @@
         "Graph",
         "Heap (Priority Queue)",
         "Shortest Path"
+      ]
+    },
+    {
+      "date": "2025-08-24",
+      "problem_id": "1562",
+      "problem_title": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String"
       ]
     }
   ]
