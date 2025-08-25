@@ -1,7 +1,7 @@
 {
-  "total_problems": 192,
+  "total_problems": 193,
   "problems_by_difficulty": {
-    "Easy": 43,
+    "Easy": 44,
     "Medium": 104,
     "Hard": 45
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 30,
     "Prefix Sum": 11,
     "Hash Table": 36,
-    "String": 46,
+    "String": 47,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2358,6 +2358,16 @@
       "tags": [
         "Array",
         "Hash Table",
+        "String"
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "problem_id": "2723",
+      "problem_title": "Find the Longest Balanced Substring of a Binary String",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string",
+      "tags": [
         "String"
       ]
     }
