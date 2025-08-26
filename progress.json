@@ -1,8 +1,8 @@
 {
-  "total_problems": 193,
+  "total_problems": 194,
   "problems_by_difficulty": {
     "Easy": 44,
-    "Medium": 104,
+    "Medium": 105,
     "Hard": 45
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 34,
+    "Math": 35,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -34,7 +34,7 @@
     "Database": 15,
     "Tree": 16,
     "Binary Tree": 10,
-    "Greedy": 17,
+    "Greedy": 18,
     "Graph": 11,
     "Binary Search Tree": 2,
     "Binary Search": 15,
@@ -2369,6 +2369,17 @@
       "url": "https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-08-26",
+      "problem_id": "1529",
+      "problem_title": "Max Difference You Can Get From Changing an Integer",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer",
+      "tags": [
+        "Math",
+        "Greedy"
       ]
     }
   ]
