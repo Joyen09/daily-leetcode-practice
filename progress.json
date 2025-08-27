@@ -1,8 +1,8 @@
 {
-  "total_problems": 194,
+  "total_problems": 195,
   "problems_by_difficulty": {
     "Easy": 44,
-    "Medium": 105,
+    "Medium": 106,
     "Hard": 45
   },
   "tags_frequency": {
@@ -23,7 +23,7 @@
     "Simulation": 17,
     "Stack": 10,
     "Monotonic Stack": 4,
-    "Two Pointers": 13,
+    "Two Pointers": 14,
     "Shell": 1,
     "Depth-First Search": 23,
     "Breadth-First Search": 16,
@@ -35,7 +35,7 @@
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 18,
-    "Graph": 11,
+    "Graph": 12,
     "Binary Search Tree": 2,
     "Binary Search": 15,
     "Heap (Priority Queue)": 10,
@@ -59,7 +59,8 @@
     "Reservoir Sampling": 1,
     "Randomized": 1,
     "Rolling Hash": 1,
-    "Strongly Connected Component": 1
+    "Strongly Connected Component": 1,
+    "Interactive": 1
   },
   "daily_records": [
     {
@@ -2380,6 +2381,18 @@
       "tags": [
         "Math",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-08-27",
+      "problem_id": "277",
+      "problem_title": "Find the Celebrity",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-celebrity",
+      "tags": [
+        "Two Pointers",
+        "Graph",
+        "Interactive"
       ]
     }
   ]
