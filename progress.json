@@ -1,7 +1,7 @@
 {
-  "total_problems": 195,
+  "total_problems": 196,
   "problems_by_difficulty": {
-    "Easy": 44,
+    "Easy": 45,
     "Medium": 106,
     "Hard": 45
   },
@@ -10,8 +10,8 @@
     "Array": 94,
     "Dynamic Programming": 30,
     "Prefix Sum": 11,
-    "Hash Table": 36,
-    "String": 47,
+    "Hash Table": 37,
+    "String": 48,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
@@ -2393,6 +2393,17 @@
         "Two Pointers",
         "Graph",
         "Interactive"
+      ]
+    },
+    {
+      "date": "2025-08-28",
+      "problem_id": "1123",
+      "problem_title": "Single-Row Keyboard",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/single-row-keyboard",
+      "tags": [
+        "Hash Table",
+        "String"
       ]
     }
   ]
