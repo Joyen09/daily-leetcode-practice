@@ -1,13 +1,13 @@
 {
-  "total_problems": 196,
+  "total_problems": 197,
   "problems_by_difficulty": {
-    "Easy": 45,
+    "Easy": 46,
     "Medium": 106,
     "Hard": 45
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 94,
+    "Array": 95,
     "Dynamic Programming": 30,
     "Prefix Sum": 11,
     "Hash Table": 37,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 35,
+    "Math": 36,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -2404,6 +2404,17 @@
       "tags": [
         "Hash Table",
         "String"
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "problem_id": "3869",
+      "problem_title": "Smallest Index With Digit Sum Equal to Index",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index",
+      "tags": [
+        "Array",
+        "Math"
       ]
     }
   ]
