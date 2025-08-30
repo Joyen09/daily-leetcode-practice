@@ -1,8 +1,8 @@
 {
-  "total_problems": 197,
+  "total_problems": 198,
   "problems_by_difficulty": {
     "Easy": 46,
-    "Medium": 106,
+    "Medium": 107,
     "Hard": 45
   },
   "tags_frequency": {
@@ -10,14 +10,14 @@
     "Array": 95,
     "Dynamic Programming": 30,
     "Prefix Sum": 11,
-    "Hash Table": 37,
-    "String": 48,
+    "Hash Table": 38,
+    "String": 49,
     "Enumeration": 8,
     "Backtracking": 3,
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 36,
+    "Math": 37,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -2415,6 +2415,18 @@
       "tags": [
         "Array",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-08-30",
+      "problem_id": "423",
+      "problem_title": "Reconstruct Original Digits from English",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/reconstruct-original-digits-from-english",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "String"
       ]
     }
   ]
