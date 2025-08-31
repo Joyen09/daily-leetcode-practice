@@ -1,8 +1,8 @@
 {
-  "total_problems": 198,
+  "total_problems": 199,
   "problems_by_difficulty": {
     "Easy": 46,
-    "Medium": 107,
+    "Medium": 108,
     "Hard": 45
   },
   "tags_frequency": {
@@ -45,7 +45,7 @@
     "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 5,
-    "Linked List": 3,
+    "Linked List": 4,
     "Binary Indexed Tree": 2,
     "Segment Tree": 3,
     "Geometry": 1,
@@ -2427,6 +2427,16 @@
         "Hash Table",
         "Math",
         "String"
+      ]
+    },
+    {
+      "date": "2025-08-31",
+      "problem_id": "1765",
+      "problem_title": "Merge In Between Linked Lists",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/merge-in-between-linked-lists",
+      "tags": [
+        "Linked List"
       ]
     }
   ]
