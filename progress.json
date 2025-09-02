@@ -1,7 +1,7 @@
 {
-  "total_problems": 200,
+  "total_problems": 201,
   "problems_by_difficulty": {
-    "Easy": 46,
+    "Easy": 47,
     "Medium": 108,
     "Hard": 46
   },
@@ -12,12 +12,12 @@
     "Prefix Sum": 12,
     "Hash Table": 38,
     "String": 50,
-    "Enumeration": 9,
+    "Enumeration": 10,
     "Backtracking": 3,
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 37,
+    "Math": 38,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -2450,6 +2450,17 @@
         "Sliding Window",
         "Enumeration",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "problem_id": "2037",
+      "problem_title": "Count Square Sum Triples",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/count-square-sum-triples",
+      "tags": [
+        "Math",
+        "Enumeration"
       ]
     }
   ]
