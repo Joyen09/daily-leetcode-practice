@@ -1,13 +1,13 @@
 {
-  "total_problems": 201,
+  "total_problems": 202,
   "problems_by_difficulty": {
     "Easy": 47,
-    "Medium": 108,
+    "Medium": 109,
     "Hard": 46
   },
   "tags_frequency": {
     "algorithm": 3,
-    "Array": 95,
+    "Array": 96,
     "Dynamic Programming": 30,
     "Prefix Sum": 12,
     "Hash Table": 38,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 38,
+    "Math": 39,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -2461,6 +2461,17 @@
       "tags": [
         "Math",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2025-09-03",
+      "problem_id": "667",
+      "problem_title": "Beautiful Arrangement II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/beautiful-arrangement-ii",
+      "tags": [
+        "Array",
+        "Math"
       ]
     }
   ]
