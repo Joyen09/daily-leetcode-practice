@@ -1,8 +1,8 @@
 {
-  "total_problems": 202,
+  "total_problems": 203,
   "problems_by_difficulty": {
     "Easy": 47,
-    "Medium": 109,
+    "Medium": 110,
     "Hard": 46
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 29,
     "Design": 7,
     "Trie": 2,
-    "Database": 15,
+    "Database": 16,
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 18,
@@ -2472,6 +2472,16 @@
       "tags": [
         "Array",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-09-04",
+      "problem_id": "3816",
+      "problem_title": "DNA Pattern Recognition ",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/dna-pattern-recognition",
+      "tags": [
+        "Database"
       ]
     }
   ]
