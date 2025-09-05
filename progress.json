@@ -1,12 +1,12 @@
 {
-  "total_problems": 203,
+  "total_problems": 204,
   "problems_by_difficulty": {
     "Easy": 47,
-    "Medium": 110,
+    "Medium": 111,
     "Hard": 46
   },
   "tags_frequency": {
-    "algorithm": 3,
+    "algorithm": 4,
     "Array": 96,
     "Dynamic Programming": 30,
     "Prefix Sum": 12,
@@ -2482,6 +2482,16 @@
       "url": "https://leetcode.com/problems/dna-pattern-recognition",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-09-05",
+      "problem_id": "2898",
+      "problem_title": "Parallel Execution of Promises for Individual Results Retrieval",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval",
+      "tags": [
+        "algorithm"
       ]
     }
   ]
