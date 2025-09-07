@@ -1,13 +1,13 @@
 {
-  "total_problems": 205,
+  "total_problems": 206,
   "problems_by_difficulty": {
-    "Easy": 47,
+    "Easy": 48,
     "Medium": 111,
     "Hard": 47
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 96,
+    "Array": 97,
     "Dynamic Programming": 31,
     "Prefix Sum": 12,
     "Hash Table": 38,
@@ -2503,6 +2503,16 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-09-07",
+      "problem_id": "2277",
+      "problem_title": "Count Equal and Divisible Pairs in an Array",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array",
+      "tags": [
+        "Array"
       ]
     }
   ]
