@@ -1,7 +1,7 @@
 {
-  "total_problems": 206,
+  "total_problems": 207,
   "problems_by_difficulty": {
-    "Easy": 48,
+    "Easy": 49,
     "Medium": 111,
     "Hard": 47
   },
@@ -10,14 +10,14 @@
     "Array": 97,
     "Dynamic Programming": 31,
     "Prefix Sum": 12,
-    "Hash Table": 38,
+    "Hash Table": 39,
     "String": 51,
     "Enumeration": 10,
     "Backtracking": 3,
     "Bit Manipulation": 12,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 39,
+    "Math": 40,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 17,
@@ -2513,6 +2513,17 @@
       "url": "https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2025-09-08",
+      "problem_id": "1500",
+      "problem_title": "Count Largest Group",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/count-largest-group",
+      "tags": [
+        "Hash Table",
+        "Math"
       ]
     }
   ]
