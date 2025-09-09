@@ -1,20 +1,20 @@
 {
-  "total_problems": 207,
+  "total_problems": 208,
   "problems_by_difficulty": {
-    "Easy": 49,
+    "Easy": 50,
     "Medium": 111,
     "Hard": 47
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 97,
+    "Array": 98,
     "Dynamic Programming": 31,
     "Prefix Sum": 12,
     "Hash Table": 39,
     "String": 51,
     "Enumeration": 10,
     "Backtracking": 3,
-    "Bit Manipulation": 12,
+    "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 40,
@@ -2524,6 +2524,17 @@
       "tags": [
         "Hash Table",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-09-09",
+      "problem_id": "3183",
+      "problem_title": "Find the K-or of an Array",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-k-or-of-an-array",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
       ]
     }
   ]
