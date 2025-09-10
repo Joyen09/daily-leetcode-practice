@@ -1,13 +1,13 @@
 {
-  "total_problems": 208,
+  "total_problems": 209,
   "problems_by_difficulty": {
-    "Easy": 50,
+    "Easy": 51,
     "Medium": 111,
     "Hard": 47
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 98,
+    "Array": 99,
     "Dynamic Programming": 31,
     "Prefix Sum": 12,
     "Hash Table": 39,
@@ -44,7 +44,7 @@
     "Number Theory": 3,
     "Shortest Path": 4,
     "Queue": 4,
-    "Sliding Window": 6,
+    "Sliding Window": 7,
     "Linked List": 4,
     "Binary Indexed Tree": 2,
     "Segment Tree": 3,
@@ -2535,6 +2535,17 @@
       "tags": [
         "Array",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "problem_id": "1280",
+      "problem_title": "Diet Plan Performance",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/diet-plan-performance",
+      "tags": [
+        "Array",
+        "Sliding Window"
       ]
     }
   ]
