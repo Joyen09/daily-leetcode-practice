@@ -1,7 +1,7 @@
 {
-  "total_problems": 209,
+  "total_problems": 210,
   "problems_by_difficulty": {
-    "Easy": 51,
+    "Easy": 52,
     "Medium": 111,
     "Hard": 47
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 31,
     "Prefix Sum": 12,
     "Hash Table": 39,
-    "String": 51,
+    "String": 52,
     "Enumeration": 10,
     "Backtracking": 3,
     "Bit Manipulation": 13,
@@ -20,8 +20,8 @@
     "Math": 40,
     "Counting": 10,
     "Matrix": 15,
-    "Simulation": 17,
-    "Stack": 10,
+    "Simulation": 18,
+    "Stack": 11,
     "Monotonic Stack": 4,
     "Two Pointers": 14,
     "Shell": 1,
@@ -2546,6 +2546,18 @@
       "tags": [
         "Array",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "problem_id": "2800",
+      "problem_title": "Minimum String Length After Removing Substrings",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings",
+      "tags": [
+        "String",
+        "Stack",
+        "Simulation"
       ]
     }
   ]
