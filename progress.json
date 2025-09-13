@@ -1,14 +1,14 @@
 {
-  "total_problems": 211,
+  "total_problems": 212,
   "problems_by_difficulty": {
     "Easy": 52,
     "Medium": 112,
-    "Hard": 47
+    "Hard": 48
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 99,
-    "Dynamic Programming": 31,
+    "Array": 100,
+    "Dynamic Programming": 32,
     "Prefix Sum": 12,
     "Hash Table": 39,
     "String": 53,
@@ -47,7 +47,7 @@
     "Sliding Window": 8,
     "Linked List": 4,
     "Binary Indexed Tree": 2,
-    "Segment Tree": 3,
+    "Segment Tree": 4,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 3,
@@ -2569,6 +2569,18 @@
       "tags": [
         "String",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "problem_id": "3688",
+      "problem_title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Segment Tree"
       ]
     }
   ]
