@@ -1,7 +1,7 @@
 {
-  "total_problems": 212,
+  "total_problems": 213,
   "problems_by_difficulty": {
-    "Easy": 52,
+    "Easy": 53,
     "Medium": 112,
     "Hard": 48
   },
@@ -31,7 +31,7 @@
     "Sorting": 29,
     "Design": 7,
     "Trie": 2,
-    "Database": 16,
+    "Database": 17,
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 18,
@@ -2581,6 +2581,16 @@
         "Array",
         "Dynamic Programming",
         "Segment Tree"
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "problem_id": "1136",
+      "problem_title": "Actors and Directors Who Cooperated At Least Three Times",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
+      "tags": [
+        "Database"
       ]
     }
   ]
