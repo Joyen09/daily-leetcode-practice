@@ -1,9 +1,9 @@
 {
-  "total_problems": 213,
+  "total_problems": 214,
   "problems_by_difficulty": {
     "Easy": 53,
     "Medium": 112,
-    "Hard": 48
+    "Hard": 49
   },
   "tags_frequency": {
     "algorithm": 4,
@@ -11,13 +11,13 @@
     "Dynamic Programming": 32,
     "Prefix Sum": 12,
     "Hash Table": 39,
-    "String": 53,
+    "String": 54,
     "Enumeration": 10,
-    "Backtracking": 3,
+    "Backtracking": 4,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 40,
+    "Math": 41,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 18,
@@ -2591,6 +2591,18 @@
       "url": "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "problem_id": "282",
+      "problem_title": "Expression Add Operators",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/expression-add-operators",
+      "tags": [
+        "Math",
+        "String",
+        "Backtracking"
       ]
     }
   ]
