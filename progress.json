@@ -1,16 +1,16 @@
 {
-  "total_problems": 214,
+  "total_problems": 215,
   "problems_by_difficulty": {
     "Easy": 53,
-    "Medium": 112,
+    "Medium": 113,
     "Hard": 49
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 100,
+    "Array": 101,
     "Dynamic Programming": 32,
     "Prefix Sum": 12,
-    "Hash Table": 39,
+    "Hash Table": 40,
     "String": 54,
     "Enumeration": 10,
     "Backtracking": 4,
@@ -2603,6 +2603,17 @@
         "Math",
         "String",
         "Backtracking"
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "problem_id": "2838",
+      "problem_title": "Sum of Matrix After Queries",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sum-of-matrix-after-queries",
+      "tags": [
+        "Array",
+        "Hash Table"
       ]
     }
   ]
