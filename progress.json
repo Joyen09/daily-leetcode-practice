@@ -1,8 +1,8 @@
 {
-  "total_problems": 215,
+  "total_problems": 216,
   "problems_by_difficulty": {
     "Easy": 53,
-    "Medium": 113,
+    "Medium": 114,
     "Hard": 49
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 41,
+    "Math": 42,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 18,
@@ -34,7 +34,7 @@
     "Database": 17,
     "Tree": 16,
     "Binary Tree": 10,
-    "Greedy": 18,
+    "Greedy": 19,
     "Graph": 12,
     "Binary Search Tree": 2,
     "Binary Search": 15,
@@ -2614,6 +2614,17 @@
       "tags": [
         "Array",
         "Hash Table"
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "problem_id": "3111",
+      "problem_title": "Smallest Number With Given Digit Product",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/smallest-number-with-given-digit-product",
+      "tags": [
+        "Math",
+        "Greedy"
       ]
     }
   ]
