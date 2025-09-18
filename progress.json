@@ -1,15 +1,15 @@
 {
-  "total_problems": 216,
+  "total_problems": 217,
   "problems_by_difficulty": {
     "Easy": 53,
-    "Medium": 114,
+    "Medium": 115,
     "Hard": 49
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 101,
+    "Array": 102,
     "Dynamic Programming": 32,
-    "Prefix Sum": 12,
+    "Prefix Sum": 13,
     "Hash Table": 40,
     "String": 54,
     "Enumeration": 10,
@@ -44,7 +44,7 @@
     "Number Theory": 3,
     "Shortest Path": 4,
     "Queue": 4,
-    "Sliding Window": 8,
+    "Sliding Window": 9,
     "Linked List": 4,
     "Binary Indexed Tree": 2,
     "Segment Tree": 4,
@@ -2625,6 +2625,18 @@
       "tags": [
         "Math",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-09-18",
+      "problem_id": "3980",
+      "problem_title": "Best Time to Buy and Sell Stock using Strategy",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy",
+      "tags": [
+        "Array",
+        "Sliding Window",
+        "Prefix Sum"
       ]
     }
   ]
