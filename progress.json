@@ -1,8 +1,8 @@
 {
-  "total_problems": 217,
+  "total_problems": 218,
   "problems_by_difficulty": {
     "Easy": 53,
-    "Medium": 115,
+    "Medium": 116,
     "Hard": 49
   },
   "tags_frequency": {
@@ -13,7 +13,7 @@
     "Hash Table": 40,
     "String": 54,
     "Enumeration": 10,
-    "Backtracking": 4,
+    "Backtracking": 5,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
@@ -2637,6 +2637,16 @@
         "Array",
         "Sliding Window",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "problem_id": "254",
+      "problem_title": "Factor Combinations",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/factor-combinations",
+      "tags": [
+        "Backtracking"
       ]
     }
   ]
