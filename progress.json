@@ -1,13 +1,13 @@
 {
-  "total_problems": 218,
+  "total_problems": 219,
   "problems_by_difficulty": {
     "Easy": 53,
     "Medium": 116,
-    "Hard": 49
+    "Hard": 50
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 102,
+    "Array": 103,
     "Dynamic Programming": 32,
     "Prefix Sum": 13,
     "Hash Table": 40,
@@ -37,17 +37,17 @@
     "Greedy": 19,
     "Graph": 12,
     "Binary Search Tree": 2,
-    "Binary Search": 15,
+    "Binary Search": 16,
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
-    "Ordered Set": 3,
+    "Ordered Set": 4,
     "Number Theory": 3,
     "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 9,
     "Linked List": 4,
-    "Binary Indexed Tree": 2,
-    "Segment Tree": 4,
+    "Binary Indexed Tree": 3,
+    "Segment Tree": 5,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 3,
@@ -60,7 +60,9 @@
     "Randomized": 1,
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
-    "Interactive": 1
+    "Interactive": 1,
+    "Divide and Conquer": 1,
+    "Merge Sort": 1
   },
   "daily_records": [
     {
@@ -2647,6 +2649,22 @@
       "url": "https://leetcode.com/problems/factor-combinations",
       "tags": [
         "Backtracking"
+      ]
+    },
+    {
+      "date": "2025-09-20",
+      "problem_id": "315",
+      "problem_title": "Count of Smaller Numbers After Self",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer",
+        "Binary Indexed Tree",
+        "Segment Tree",
+        "Merge Sort",
+        "Ordered Set"
       ]
     }
   ]
