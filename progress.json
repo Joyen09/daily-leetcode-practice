@@ -1,7 +1,7 @@
 {
-  "total_problems": 219,
+  "total_problems": 220,
   "problems_by_difficulty": {
-    "Easy": 53,
+    "Easy": 54,
     "Medium": 116,
     "Hard": 50
   },
@@ -31,7 +31,7 @@
     "Sorting": 29,
     "Design": 7,
     "Trie": 2,
-    "Database": 17,
+    "Database": 18,
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 19,
@@ -2665,6 +2665,16 @@
         "Segment Tree",
         "Merge Sort",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-09-21",
+      "problem_id": "1625",
+      "problem_title": "Group Sold Products By The Date",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/group-sold-products-by-the-date",
+      "tags": [
+        "Database"
       ]
     }
   ]
