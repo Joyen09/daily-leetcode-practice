@@ -1,8 +1,8 @@
 {
-  "total_problems": 220,
+  "total_problems": 221,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 116,
+    "Medium": 117,
     "Hard": 50
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 42,
+    "Math": 43,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 18,
@@ -2675,6 +2675,16 @@
       "url": "https://leetcode.com/problems/group-sold-products-by-the-date",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "problem_id": "1276",
+      "problem_title": "Closest Divisors",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/closest-divisors",
+      "tags": [
+        "Math"
       ]
     }
   ]
