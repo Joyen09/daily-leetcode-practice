@@ -1,9 +1,9 @@
 {
-  "total_problems": 222,
+  "total_problems": 223,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 117,
-    "Hard": 51
+    "Hard": 52
   },
   "tags_frequency": {
     "algorithm": 4,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 16,
     "Union Find": 11,
     "Sorting": 29,
-    "Design": 7,
+    "Design": 8,
     "Trie": 2,
     "Database": 18,
     "Tree": 16,
@@ -37,7 +37,7 @@
     "Greedy": 19,
     "Graph": 12,
     "Binary Search Tree": 2,
-    "Binary Search": 16,
+    "Binary Search": 17,
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 5,
@@ -46,8 +46,8 @@
     "Queue": 4,
     "Sliding Window": 9,
     "Linked List": 4,
-    "Binary Indexed Tree": 3,
-    "Segment Tree": 5,
+    "Binary Indexed Tree": 4,
+    "Segment Tree": 6,
     "Geometry": 1,
     "Topological Sort": 1,
     "Combinatorics": 3,
@@ -2698,6 +2698,19 @@
         "Union Find",
         "Prefix Sum",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "problem_id": "2380",
+      "problem_title": "Booking Concert Tickets in Groups",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/booking-concert-tickets-in-groups",
+      "tags": [
+        "Binary Search",
+        "Design",
+        "Binary Indexed Tree",
+        "Segment Tree"
       ]
     }
   ]
