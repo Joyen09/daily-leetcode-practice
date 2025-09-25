@@ -1,8 +1,8 @@
 {
-  "total_problems": 223,
+  "total_problems": 224,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 117,
+    "Medium": 118,
     "Hard": 52
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 29,
     "Design": 8,
     "Trie": 2,
-    "Database": 18,
+    "Database": 19,
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 19,
@@ -2711,6 +2711,16 @@
         "Design",
         "Binary Indexed Tree",
         "Segment Tree"
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "problem_id": "3358",
+      "problem_title": "Friends With No Mutual Friends",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/friends-with-no-mutual-friends",
+      "tags": [
+        "Database"
       ]
     }
   ]
