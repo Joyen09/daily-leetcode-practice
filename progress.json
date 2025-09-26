@@ -1,14 +1,14 @@
 {
-  "total_problems": 224,
+  "total_problems": 225,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 118,
-    "Hard": 52
+    "Hard": 53
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 104,
-    "Dynamic Programming": 32,
+    "Array": 105,
+    "Dynamic Programming": 33,
     "Prefix Sum": 14,
     "Hash Table": 40,
     "String": 54,
@@ -2721,6 +2721,17 @@
       "url": "https://leetcode.com/problems/friends-with-no-mutual-friends",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-09-26",
+      "problem_id": "993",
+      "problem_title": "Tallest Billboard",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/tallest-billboard",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
