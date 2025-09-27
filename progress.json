@@ -1,17 +1,17 @@
 {
-  "total_problems": 225,
+  "total_problems": 226,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 118,
+    "Medium": 119,
     "Hard": 53
   },
   "tags_frequency": {
     "algorithm": 4,
     "Array": 105,
-    "Dynamic Programming": 33,
+    "Dynamic Programming": 34,
     "Prefix Sum": 14,
-    "Hash Table": 40,
-    "String": 54,
+    "Hash Table": 41,
+    "String": 55,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
@@ -2731,6 +2731,18 @@
       "url": "https://leetcode.com/problems/tallest-billboard",
       "tags": [
         "Array",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-09-27",
+      "problem_id": "2444",
+      "problem_title": "Longest Ideal Subsequence",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-ideal-subsequence",
+      "tags": [
+        "Hash Table",
+        "String",
         "Dynamic Programming"
       ]
     }
