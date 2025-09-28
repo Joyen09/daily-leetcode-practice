@@ -1,17 +1,17 @@
 {
-  "total_problems": 226,
+  "total_problems": 227,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 119,
-    "Hard": 53
+    "Hard": 54
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 105,
+    "Array": 106,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 41,
-    "String": 55,
+    "String": 56,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
@@ -25,8 +25,8 @@
     "Monotonic Stack": 4,
     "Two Pointers": 14,
     "Shell": 1,
-    "Depth-First Search": 23,
-    "Breadth-First Search": 16,
+    "Depth-First Search": 24,
+    "Breadth-First Search": 17,
     "Union Find": 11,
     "Sorting": 29,
     "Design": 8,
@@ -35,7 +35,7 @@
     "Tree": 16,
     "Binary Tree": 10,
     "Greedy": 19,
-    "Graph": 12,
+    "Graph": 13,
     "Binary Search Tree": 2,
     "Binary Search": 17,
     "Heap (Priority Queue)": 10,
@@ -49,7 +49,7 @@
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
     "Geometry": 1,
-    "Topological Sort": 1,
+    "Topological Sort": 2,
     "Combinatorics": 3,
     "Data Stream": 1,
     "Recursion": 2,
@@ -2744,6 +2744,21 @@
         "Hash Table",
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-09-28",
+      "problem_id": "269",
+      "problem_title": "Alien Dictionary",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/alien-dictionary",
+      "tags": [
+        "Array",
+        "String",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph",
+        "Topological Sort"
       ]
     }
   ]
