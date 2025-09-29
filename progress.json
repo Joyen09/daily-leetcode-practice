@@ -1,13 +1,13 @@
 {
-  "total_problems": 227,
+  "total_problems": 228,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 119,
+    "Medium": 120,
     "Hard": 54
   },
   "tags_frequency": {
     "algorithm": 4,
-    "Array": 106,
+    "Array": 107,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 41,
@@ -23,18 +23,18 @@
     "Simulation": 18,
     "Stack": 11,
     "Monotonic Stack": 4,
-    "Two Pointers": 14,
+    "Two Pointers": 15,
     "Shell": 1,
     "Depth-First Search": 24,
     "Breadth-First Search": 17,
     "Union Find": 11,
-    "Sorting": 29,
+    "Sorting": 30,
     "Design": 8,
     "Trie": 2,
     "Database": 19,
     "Tree": 16,
     "Binary Tree": 10,
-    "Greedy": 19,
+    "Greedy": 20,
     "Graph": 13,
     "Binary Search Tree": 2,
     "Binary Search": 17,
@@ -2759,6 +2759,19 @@
         "Breadth-First Search",
         "Graph",
         "Topological Sort"
+      ]
+    },
+    {
+      "date": "2025-09-29",
+      "problem_id": "2664",
+      "problem_title": "Maximize Greatness of an Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximize-greatness-of-an-array",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
