@@ -1,12 +1,12 @@
 {
-  "total_problems": 228,
+  "total_problems": 229,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 120,
-    "Hard": 54
+    "Hard": 55
   },
   "tags_frequency": {
-    "algorithm": 4,
+    "algorithm": 5,
     "Array": 107,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
@@ -2772,6 +2772,16 @@
         "Two Pointers",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "problem_id": "3962",
+      "problem_title": "Number of ZigZag Arrays I",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-zigzag-arrays-i",
+      "tags": [
+        "algorithm"
       ]
     }
   ]
