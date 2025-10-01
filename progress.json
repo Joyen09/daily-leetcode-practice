@@ -1,13 +1,13 @@
 {
-  "total_problems": 229,
+  "total_problems": 230,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 120,
+    "Medium": 121,
     "Hard": 55
   },
   "tags_frequency": {
     "algorithm": 5,
-    "Array": 107,
+    "Array": 108,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 41,
@@ -28,13 +28,13 @@
     "Depth-First Search": 24,
     "Breadth-First Search": 17,
     "Union Find": 11,
-    "Sorting": 30,
+    "Sorting": 31,
     "Design": 8,
     "Trie": 2,
     "Database": 19,
     "Tree": 16,
     "Binary Tree": 10,
-    "Greedy": 20,
+    "Greedy": 21,
     "Graph": 13,
     "Binary Search Tree": 2,
     "Binary Search": 17,
@@ -2782,6 +2782,18 @@
       "url": "https://leetcode.com/problems/number-of-zigzag-arrays-i",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2025-10-01",
+      "problem_id": "1616",
+      "problem_title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
