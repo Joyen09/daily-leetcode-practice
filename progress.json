@@ -1,13 +1,13 @@
 {
-  "total_problems": 230,
+  "total_problems": 231,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 121,
-    "Hard": 55
+    "Hard": 56
   },
   "tags_frequency": {
     "algorithm": 5,
-    "Array": 108,
+    "Array": 109,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 41,
@@ -17,11 +17,11 @@
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 43,
+    "Math": 44,
     "Counting": 10,
     "Matrix": 15,
     "Simulation": 18,
-    "Stack": 11,
+    "Stack": 12,
     "Monotonic Stack": 4,
     "Two Pointers": 15,
     "Shell": 1,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 5,
-    "Number Theory": 3,
+    "Number Theory": 4,
     "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 9,
@@ -2794,6 +2794,19 @@
         "Array",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-10-02",
+      "problem_id": "2307",
+      "problem_title": "Replace Non-Coprime Numbers in Array",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/replace-non-coprime-numbers-in-array",
+      "tags": [
+        "Array",
+        "Math",
+        "Stack",
+        "Number Theory"
       ]
     }
   ]
