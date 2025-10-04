@@ -1,8 +1,8 @@
 {
-  "total_problems": 232,
+  "total_problems": 233,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 121,
+    "Medium": 122,
     "Hard": 57
   },
   "tags_frequency": {
@@ -32,11 +32,11 @@
     "Design": 8,
     "Trie": 2,
     "Database": 19,
-    "Tree": 16,
-    "Binary Tree": 10,
+    "Tree": 17,
+    "Binary Tree": 11,
     "Greedy": 21,
     "Graph": 13,
-    "Binary Search Tree": 2,
+    "Binary Search Tree": 3,
     "Binary Search": 17,
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
@@ -2817,6 +2817,18 @@
       "url": "https://leetcode.com/problems/maximize-alternating-sum-using-swaps",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2025-10-04",
+      "problem_id": "509",
+      "problem_title": "Inorder Successor in BST II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/inorder-successor-in-bst-ii",
+      "tags": [
+        "Tree",
+        "Binary Search Tree",
+        "Binary Tree"
       ]
     }
   ]
