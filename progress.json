@@ -1,8 +1,8 @@
 {
-  "total_problems": 233,
+  "total_problems": 234,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 122,
+    "Medium": 123,
     "Hard": 57
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 31,
     "Design": 8,
     "Trie": 2,
-    "Database": 19,
+    "Database": 20,
     "Tree": 17,
     "Binary Tree": 11,
     "Greedy": 21,
@@ -2829,6 +2829,16 @@
         "Tree",
         "Binary Search Tree",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-10-05",
+      "problem_id": "580",
+      "problem_title": "Count Student Number in Departments",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-student-number-in-departments",
+      "tags": [
+        "Database"
       ]
     }
   ]
