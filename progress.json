@@ -1,25 +1,25 @@
 {
-  "total_problems": 234,
+  "total_problems": 235,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 123,
+    "Medium": 124,
     "Hard": 57
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 109,
+    "Array": 110,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
-    "Hash Table": 41,
+    "Hash Table": 42,
     "String": 56,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 44,
+    "Math": 45,
     "Counting": 10,
-    "Matrix": 15,
+    "Matrix": 16,
     "Simulation": 18,
     "Stack": 12,
     "Monotonic Stack": 4,
@@ -2839,6 +2839,19 @@
       "url": "https://leetcode.com/problems/count-student-number-in-departments",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-10-06",
+      "problem_id": "870",
+      "problem_title": "Magic Squares In Grid",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/magic-squares-in-grid",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Matrix"
       ]
     }
   ]
