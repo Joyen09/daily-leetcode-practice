@@ -1,23 +1,23 @@
 {
-  "total_problems": 235,
+  "total_problems": 236,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 124,
-    "Hard": 57
+    "Hard": 58
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 110,
+    "Array": 111,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
-    "Hash Table": 42,
+    "Hash Table": 43,
     "String": 56,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 45,
+    "Math": 46,
     "Counting": 10,
     "Matrix": 16,
     "Simulation": 18,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 5,
-    "Number Theory": 4,
+    "Number Theory": 5,
     "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 9,
@@ -2852,6 +2852,19 @@
         "Hash Table",
         "Math",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-10-07",
+      "problem_id": "2647",
+      "problem_title": "Split the Array to Make Coprime Products",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/split-the-array-to-make-coprime-products",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Number Theory"
       ]
     }
   ]
