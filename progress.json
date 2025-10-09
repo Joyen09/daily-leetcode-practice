@@ -1,13 +1,13 @@
 {
-  "total_problems": 237,
+  "total_problems": 238,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 125,
-    "Hard": 58
+    "Hard": 59
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 111,
+    "Array": 112,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 43,
@@ -20,15 +20,15 @@
     "Math": 47,
     "Counting": 10,
     "Matrix": 16,
-    "Simulation": 18,
-    "Stack": 12,
+    "Simulation": 19,
+    "Stack": 13,
     "Monotonic Stack": 4,
     "Two Pointers": 15,
     "Shell": 1,
     "Depth-First Search": 24,
     "Breadth-First Search": 17,
     "Union Find": 11,
-    "Sorting": 31,
+    "Sorting": 32,
     "Design": 8,
     "Trie": 2,
     "Database": 20,
@@ -2877,6 +2877,19 @@
         "Math",
         "Binary Search",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-10-09",
+      "problem_id": "2846",
+      "problem_title": "Robot Collisions",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/robot-collisions",
+      "tags": [
+        "Array",
+        "Stack",
+        "Sorting",
+        "Simulation"
       ]
     }
   ]
