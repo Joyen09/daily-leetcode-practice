@@ -1,9 +1,9 @@
 {
-  "total_problems": 238,
+  "total_problems": 239,
   "problems_by_difficulty": {
     "Easy": 54,
     "Medium": 125,
-    "Hard": 59
+    "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
@@ -31,7 +31,7 @@
     "Sorting": 32,
     "Design": 8,
     "Trie": 2,
-    "Database": 20,
+    "Database": 21,
     "Tree": 17,
     "Binary Tree": 11,
     "Greedy": 22,
@@ -2890,6 +2890,16 @@
         "Stack",
         "Sorting",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-10-10",
+      "problem_id": "2382",
+      "problem_title": "Dynamic Unpivoting of a Table",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/dynamic-unpivoting-of-a-table",
+      "tags": [
+        "Database"
       ]
     }
   ]
