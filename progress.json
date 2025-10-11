@@ -1,13 +1,13 @@
 {
-  "total_problems": 239,
+  "total_problems": 240,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 125,
+    "Medium": 126,
     "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 112,
+    "Array": 113,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 43,
@@ -2900,6 +2900,16 @@
       "url": "https://leetcode.com/problems/dynamic-unpivoting-of-a-table",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-10-11",
+      "problem_id": "2779",
+      "problem_title": "Number of Adjacent Elements With the Same Color",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color",
+      "tags": [
+        "Array"
       ]
     }
   ]
