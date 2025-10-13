@@ -1,23 +1,23 @@
 {
-  "total_problems": 241,
+  "total_problems": 242,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 127,
+    "Medium": 128,
     "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 113,
+    "Array": 114,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
-    "Hash Table": 43,
+    "Hash Table": 44,
     "String": 56,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 48,
+    "Math": 49,
     "Counting": 10,
     "Matrix": 16,
     "Simulation": 19,
@@ -26,7 +26,7 @@
     "Two Pointers": 15,
     "Shell": 1,
     "Depth-First Search": 24,
-    "Breadth-First Search": 17,
+    "Breadth-First Search": 18,
     "Union Find": 11,
     "Sorting": 32,
     "Design": 8,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 5,
-    "Number Theory": 5,
+    "Number Theory": 6,
     "Shortest Path": 4,
     "Queue": 4,
     "Sliding Window": 9,
@@ -2921,6 +2921,20 @@
       "tags": [
         "Math",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-10-13",
+      "problem_id": "3933",
+      "problem_title": "Minimum Jumps to Reach End via Prime Teleportation",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Breadth-First Search",
+        "Number Theory"
       ]
     }
   ]
