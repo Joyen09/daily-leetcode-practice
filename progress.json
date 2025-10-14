@@ -1,8 +1,8 @@
 {
-  "total_problems": 242,
+  "total_problems": 243,
   "problems_by_difficulty": {
     "Easy": 54,
-    "Medium": 128,
+    "Medium": 129,
     "Hard": 60
   },
   "tags_frequency": {
@@ -25,17 +25,17 @@
     "Monotonic Stack": 4,
     "Two Pointers": 15,
     "Shell": 1,
-    "Depth-First Search": 24,
-    "Breadth-First Search": 18,
-    "Union Find": 11,
+    "Depth-First Search": 25,
+    "Breadth-First Search": 19,
+    "Union Find": 12,
     "Sorting": 32,
     "Design": 8,
     "Trie": 2,
     "Database": 21,
-    "Tree": 17,
-    "Binary Tree": 11,
+    "Tree": 18,
+    "Binary Tree": 12,
     "Greedy": 23,
-    "Graph": 13,
+    "Graph": 14,
     "Binary Search Tree": 3,
     "Binary Search": 18,
     "Heap (Priority Queue)": 10,
@@ -2935,6 +2935,21 @@
         "Math",
         "Breadth-First Search",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2025-10-14",
+      "problem_id": "1275",
+      "problem_title": "Validate Binary Tree Nodes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/validate-binary-tree-nodes",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Graph",
+        "Binary Tree"
       ]
     }
   ]
