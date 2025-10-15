@@ -1,13 +1,13 @@
 {
-  "total_problems": 243,
+  "total_problems": 244,
   "problems_by_difficulty": {
-    "Easy": 54,
+    "Easy": 55,
     "Medium": 129,
     "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 114,
+    "Array": 115,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 44,
@@ -2950,6 +2950,16 @@
         "Union Find",
         "Graph",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-10-15",
+      "problem_id": "978",
+      "problem_title": "Valid Mountain Array",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-mountain-array",
+      "tags": [
+        "Array"
       ]
     }
   ]
