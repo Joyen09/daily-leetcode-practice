@@ -1,13 +1,13 @@
 {
-  "total_problems": 245,
+  "total_problems": 246,
   "problems_by_difficulty": {
     "Easy": 56,
-    "Medium": 129,
+    "Medium": 130,
     "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 116,
+    "Array": 117,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 44,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 50,
     "Counting": 10,
-    "Matrix": 16,
+    "Matrix": 17,
     "Simulation": 19,
     "Stack": 13,
     "Monotonic Stack": 4,
@@ -37,7 +37,7 @@
     "Greedy": 23,
     "Graph": 14,
     "Binary Search Tree": 3,
-    "Binary Search": 18,
+    "Binary Search": 19,
     "Heap (Priority Queue)": 10,
     "Hash Function": 2,
     "Ordered Set": 5,
@@ -60,7 +60,7 @@
     "Randomized": 1,
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
-    "Interactive": 1,
+    "Interactive": 2,
     "Divide and Conquer": 1,
     "Merge Sort": 1
   },
@@ -2971,6 +2971,19 @@
       "tags": [
         "Array",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-10-17",
+      "problem_id": "1374",
+      "problem_title": "Leftmost Column with at Least a One",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/leftmost-column-with-at-least-a-one",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Matrix",
+        "Interactive"
       ]
     }
   ]
