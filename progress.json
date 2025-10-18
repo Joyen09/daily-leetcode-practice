@@ -1,7 +1,7 @@
 {
-  "total_problems": 246,
+  "total_problems": 247,
   "problems_by_difficulty": {
-    "Easy": 56,
+    "Easy": 57,
     "Medium": 130,
     "Hard": 60
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
     "Hash Table": 44,
-    "String": 56,
+    "String": 57,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
@@ -23,7 +23,7 @@
     "Simulation": 19,
     "Stack": 13,
     "Monotonic Stack": 4,
-    "Two Pointers": 15,
+    "Two Pointers": 16,
     "Shell": 1,
     "Depth-First Search": 25,
     "Breadth-First Search": 19,
@@ -34,7 +34,7 @@
     "Database": 21,
     "Tree": 18,
     "Binary Tree": 12,
-    "Greedy": 23,
+    "Greedy": 24,
     "Graph": 14,
     "Binary Search Tree": 3,
     "Binary Search": 19,
@@ -2984,6 +2984,18 @@
         "Binary Search",
         "Matrix",
         "Interactive"
+      ]
+    },
+    {
+      "date": "2025-10-18",
+      "problem_id": "2816",
+      "problem_title": "Lexicographically Smallest Palindrome",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-palindrome",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Greedy"
       ]
     }
   ]
