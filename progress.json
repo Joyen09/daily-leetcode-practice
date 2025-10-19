@@ -1,8 +1,8 @@
 {
-  "total_problems": 247,
+  "total_problems": 248,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 130,
+    "Medium": 131,
     "Hard": 60
   },
   "tags_frequency": {
@@ -10,8 +10,8 @@
     "Array": 117,
     "Dynamic Programming": 34,
     "Prefix Sum": 14,
-    "Hash Table": 44,
-    "String": 57,
+    "Hash Table": 45,
+    "String": 58,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
@@ -21,7 +21,7 @@
     "Counting": 10,
     "Matrix": 17,
     "Simulation": 19,
-    "Stack": 13,
+    "Stack": 14,
     "Monotonic Stack": 4,
     "Two Pointers": 16,
     "Shell": 1,
@@ -34,7 +34,7 @@
     "Database": 21,
     "Tree": 18,
     "Binary Tree": 12,
-    "Greedy": 24,
+    "Greedy": 25,
     "Graph": 14,
     "Binary Search Tree": 3,
     "Binary Search": 19,
@@ -2995,6 +2995,19 @@
       "tags": [
         "Two Pointers",
         "String",
+        "Greedy"
+      ]
+    },
+    {
+      "date": "2025-10-19",
+      "problem_id": "2520",
+      "problem_title": "Using a Robot to Print the Lexicographically Smallest String",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Stack",
         "Greedy"
       ]
     }
