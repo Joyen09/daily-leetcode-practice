@@ -1,17 +1,17 @@
 {
-  "total_problems": 248,
+  "total_problems": 249,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 131,
+    "Medium": 132,
     "Hard": 60
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 117,
-    "Dynamic Programming": 34,
+    "Array": 118,
+    "Dynamic Programming": 35,
     "Prefix Sum": 14,
     "Hash Table": 45,
-    "String": 58,
+    "String": 59,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
@@ -3009,6 +3009,18 @@
         "String",
         "Stack",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-10-20",
+      "problem_id": "3142",
+      "problem_title": "Longest Unequal Adjacent Groups Subsequence II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii",
+      "tags": [
+        "Array",
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
