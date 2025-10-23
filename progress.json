@@ -1,23 +1,23 @@
 {
-  "total_problems": 251,
+  "total_problems": 252,
   "problems_by_difficulty": {
     "Easy": 57,
     "Medium": 132,
-    "Hard": 62
+    "Hard": 63
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 119,
+    "Array": 120,
     "Dynamic Programming": 35,
     "Prefix Sum": 14,
-    "Hash Table": 46,
+    "Hash Table": 47,
     "String": 59,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 13,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 50,
+    "Math": 51,
     "Counting": 10,
     "Matrix": 18,
     "Simulation": 19,
@@ -48,14 +48,14 @@
     "Linked List": 4,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
-    "Geometry": 1,
+    "Geometry": 2,
     "Topological Sort": 2,
     "Combinatorics": 3,
     "Data Stream": 1,
     "Recursion": 2,
     "Game Theory": 1,
     "Suffix Array": 1,
-    "Line Sweep": 1,
+    "Line Sweep": 2,
     "Reservoir Sampling": 1,
     "Randomized": 1,
     "Rolling Hash": 1,
@@ -3045,6 +3045,20 @@
         "Breadth-First Search",
         "Heap (Priority Queue)",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-10-23",
+      "problem_id": "391",
+      "problem_title": "Perfect Rectangle",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/perfect-rectangle",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Geometry",
+        "Line Sweep"
       ]
     }
   ]
