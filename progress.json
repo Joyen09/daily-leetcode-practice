@@ -1,9 +1,9 @@
 {
-  "total_problems": 252,
+  "total_problems": 253,
   "problems_by_difficulty": {
     "Easy": 57,
     "Medium": 132,
-    "Hard": 63
+    "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
@@ -21,24 +21,24 @@
     "Counting": 10,
     "Matrix": 18,
     "Simulation": 19,
-    "Stack": 14,
+    "Stack": 15,
     "Monotonic Stack": 4,
-    "Two Pointers": 16,
+    "Two Pointers": 17,
     "Shell": 1,
-    "Depth-First Search": 25,
+    "Depth-First Search": 26,
     "Breadth-First Search": 20,
     "Union Find": 12,
     "Sorting": 32,
     "Design": 8,
     "Trie": 2,
     "Database": 21,
-    "Tree": 18,
-    "Binary Tree": 12,
+    "Tree": 19,
+    "Binary Tree": 13,
     "Greedy": 25,
     "Graph": 15,
-    "Binary Search Tree": 3,
+    "Binary Search Tree": 4,
     "Binary Search": 19,
-    "Heap (Priority Queue)": 11,
+    "Heap (Priority Queue)": 12,
     "Hash Function": 2,
     "Ordered Set": 5,
     "Number Theory": 6,
@@ -3059,6 +3059,22 @@
         "Math",
         "Geometry",
         "Line Sweep"
+      ]
+    },
+    {
+      "date": "2025-10-24",
+      "problem_id": "272",
+      "problem_title": "Closest Binary Search Tree Value II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/closest-binary-search-tree-value-ii",
+      "tags": [
+        "Two Pointers",
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Heap (Priority Queue)",
+        "Binary Tree"
       ]
     }
   ]
