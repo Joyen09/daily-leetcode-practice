@@ -1,15 +1,15 @@
 {
-  "total_problems": 253,
+  "total_problems": 254,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 132,
+    "Medium": 133,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 120,
+    "Array": 121,
     "Dynamic Programming": 35,
-    "Prefix Sum": 14,
+    "Prefix Sum": 15,
     "Hash Table": 47,
     "String": 59,
     "Enumeration": 10,
@@ -23,12 +23,12 @@
     "Simulation": 19,
     "Stack": 15,
     "Monotonic Stack": 4,
-    "Two Pointers": 17,
+    "Two Pointers": 18,
     "Shell": 1,
     "Depth-First Search": 26,
     "Breadth-First Search": 20,
     "Union Find": 12,
-    "Sorting": 32,
+    "Sorting": 33,
     "Design": 8,
     "Trie": 2,
     "Database": 21,
@@ -37,7 +37,7 @@
     "Greedy": 25,
     "Graph": 15,
     "Binary Search Tree": 4,
-    "Binary Search": 19,
+    "Binary Search": 20,
     "Heap (Priority Queue)": 12,
     "Hash Function": 2,
     "Ordered Set": 5,
@@ -3075,6 +3075,20 @@
         "Binary Search Tree",
         "Heap (Priority Queue)",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-10-25",
+      "problem_id": "3101",
+      "problem_title": "Maximum Coins Heroes Can Collect",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-coins-heroes-can-collect",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting",
+        "Prefix Sum"
       ]
     }
   ]
