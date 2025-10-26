@@ -1,20 +1,20 @@
 {
-  "total_problems": 254,
+  "total_problems": 255,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 133,
+    "Medium": 134,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
     "Array": 121,
     "Dynamic Programming": 35,
-    "Prefix Sum": 15,
-    "Hash Table": 47,
-    "String": 59,
+    "Prefix Sum": 16,
+    "Hash Table": 48,
+    "String": 60,
     "Enumeration": 10,
     "Backtracking": 5,
-    "Bit Manipulation": 13,
+    "Bit Manipulation": 14,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 51,
@@ -3088,6 +3088,19 @@
         "Two Pointers",
         "Binary Search",
         "Sorting",
+        "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-10-26",
+      "problem_id": "1473",
+      "problem_title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Bit Manipulation",
         "Prefix Sum"
       ]
     }
