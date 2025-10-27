@@ -1,8 +1,8 @@
 {
-  "total_problems": 255,
+  "total_problems": 256,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 134,
+    "Medium": 135,
     "Hard": 64
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 33,
     "Design": 8,
     "Trie": 2,
-    "Database": 21,
+    "Database": 22,
     "Tree": 19,
     "Binary Tree": 13,
     "Greedy": 25,
@@ -3102,6 +3102,16 @@
         "String",
         "Bit Manipulation",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-10-27",
+      "problem_id": "1198",
+      "problem_title": "Unpopular Books",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/unpopular-books",
+      "tags": [
+        "Database"
       ]
     }
   ]
