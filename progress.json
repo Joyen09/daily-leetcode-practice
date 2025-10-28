@@ -1,8 +1,8 @@
 {
-  "total_problems": 256,
+  "total_problems": 257,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 135,
+    "Medium": 136,
     "Hard": 64
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 33,
     "Design": 8,
     "Trie": 2,
-    "Database": 22,
+    "Database": 23,
     "Tree": 19,
     "Binary Tree": 13,
     "Greedy": 25,
@@ -3110,6 +3110,16 @@
       "problem_title": "Unpopular Books",
       "difficulty": "Medium",
       "url": "https://leetcode.com/problems/unpopular-books",
+      "tags": [
+        "Database"
+      ]
+    },
+    {
+      "date": "2025-10-28",
+      "problem_id": "2484",
+      "problem_title": "Compute the Rank as a Percentage",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/compute-the-rank-as-a-percentage",
       "tags": [
         "Database"
       ]
