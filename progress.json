@@ -1,14 +1,14 @@
 {
-  "total_problems": 257,
+  "total_problems": 258,
   "problems_by_difficulty": {
     "Easy": 57,
-    "Medium": 136,
+    "Medium": 137,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 121,
-    "Dynamic Programming": 35,
+    "Array": 122,
+    "Dynamic Programming": 36,
     "Prefix Sum": 16,
     "Hash Table": 48,
     "String": 60,
@@ -44,7 +44,7 @@
     "Number Theory": 6,
     "Shortest Path": 4,
     "Queue": 4,
-    "Sliding Window": 9,
+    "Sliding Window": 10,
     "Linked List": 4,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
@@ -3122,6 +3122,18 @@
       "url": "https://leetcode.com/problems/compute-the-rank-as-a-percentage",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-10-29",
+      "problem_id": "487",
+      "problem_title": "Max Consecutive Ones II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/max-consecutive-ones-ii",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Sliding Window"
       ]
     }
   ]
