@@ -1,7 +1,7 @@
 {
-  "total_problems": 258,
+  "total_problems": 259,
   "problems_by_difficulty": {
-    "Easy": 57,
+    "Easy": 58,
     "Medium": 137,
     "Hard": 64
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 36,
     "Prefix Sum": 16,
     "Hash Table": 48,
-    "String": 60,
+    "String": 61,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -34,7 +34,7 @@
     "Database": 23,
     "Tree": 19,
     "Binary Tree": 13,
-    "Greedy": 25,
+    "Greedy": 26,
     "Graph": 15,
     "Binary Search Tree": 4,
     "Binary Search": 20,
@@ -3134,6 +3134,17 @@
         "Array",
         "Dynamic Programming",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-10-30",
+      "problem_id": "1858",
+      "problem_title": "Latest Time by Replacing Hidden Digits",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/latest-time-by-replacing-hidden-digits",
+      "tags": [
+        "String",
+        "Greedy"
       ]
     }
   ]
