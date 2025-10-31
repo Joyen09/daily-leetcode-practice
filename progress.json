@@ -1,16 +1,16 @@
 {
-  "total_problems": 259,
+  "total_problems": 260,
   "problems_by_difficulty": {
-    "Easy": 58,
+    "Easy": 59,
     "Medium": 137,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 122,
+    "Array": 123,
     "Dynamic Programming": 36,
     "Prefix Sum": 16,
-    "Hash Table": 48,
+    "Hash Table": 49,
     "String": 61,
     "Enumeration": 10,
     "Backtracking": 5,
@@ -23,12 +23,12 @@
     "Simulation": 19,
     "Stack": 15,
     "Monotonic Stack": 4,
-    "Two Pointers": 18,
+    "Two Pointers": 19,
     "Shell": 1,
     "Depth-First Search": 26,
     "Breadth-First Search": 20,
     "Union Find": 12,
-    "Sorting": 33,
+    "Sorting": 34,
     "Design": 8,
     "Trie": 2,
     "Database": 23,
@@ -37,7 +37,7 @@
     "Greedy": 26,
     "Graph": 15,
     "Binary Search Tree": 4,
-    "Binary Search": 20,
+    "Binary Search": 21,
     "Heap (Priority Queue)": 12,
     "Hash Function": 2,
     "Ordered Set": 5,
@@ -3145,6 +3145,20 @@
       "tags": [
         "String",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "problem_id": "350",
+      "problem_title": "Intersection of Two Arrays II",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
       ]
     }
   ]
