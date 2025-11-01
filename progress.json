@@ -1,7 +1,7 @@
 {
-  "total_problems": 260,
+  "total_problems": 261,
   "problems_by_difficulty": {
-    "Easy": 59,
+    "Easy": 60,
     "Medium": 137,
     "Hard": 64
   },
@@ -31,7 +31,7 @@
     "Sorting": 34,
     "Design": 8,
     "Trie": 2,
-    "Database": 23,
+    "Database": 24,
     "Tree": 19,
     "Binary Tree": 13,
     "Greedy": 26,
@@ -3159,6 +3159,16 @@
         "Two Pointers",
         "Binary Search",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-11-01",
+      "problem_id": "3481",
+      "problem_title": "Second Day Verification",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/second-day-verification",
+      "tags": [
+        "Database"
       ]
     }
   ]
