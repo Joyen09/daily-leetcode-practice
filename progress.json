@@ -1,17 +1,17 @@
 {
-  "total_problems": 261,
+  "total_problems": 262,
   "problems_by_difficulty": {
     "Easy": 60,
-    "Medium": 137,
+    "Medium": 138,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 123,
+    "Array": 124,
     "Dynamic Programming": 36,
-    "Prefix Sum": 16,
+    "Prefix Sum": 17,
     "Hash Table": 49,
-    "String": 61,
+    "String": 62,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -3169,6 +3169,18 @@
       "url": "https://leetcode.com/problems/second-day-verification",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-11-02",
+      "problem_id": "3591",
+      "problem_title": "Shift Distance Between Two Strings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/shift-distance-between-two-strings",
+      "tags": [
+        "Array",
+        "String",
+        "Prefix Sum"
       ]
     }
   ]
