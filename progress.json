@@ -1,8 +1,8 @@
 {
-  "total_problems": 262,
+  "total_problems": 263,
   "problems_by_difficulty": {
     "Easy": 60,
-    "Medium": 138,
+    "Medium": 139,
     "Hard": 64
   },
   "tags_frequency": {
@@ -35,14 +35,14 @@
     "Tree": 19,
     "Binary Tree": 13,
     "Greedy": 26,
-    "Graph": 15,
+    "Graph": 16,
     "Binary Search Tree": 4,
     "Binary Search": 21,
-    "Heap (Priority Queue)": 12,
+    "Heap (Priority Queue)": 13,
     "Hash Function": 2,
     "Ordered Set": 5,
     "Number Theory": 6,
-    "Shortest Path": 4,
+    "Shortest Path": 5,
     "Queue": 4,
     "Sliding Window": 10,
     "Linked List": 4,
@@ -3181,6 +3181,18 @@
         "Array",
         "String",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-11-03",
+      "problem_id": "3916",
+      "problem_title": "Minimum Time to Reach Destination in Directed Graph",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-time-to-reach-destination-in-directed-graph",
+      "tags": [
+        "Graph",
+        "Heap (Priority Queue)",
+        "Shortest Path"
       ]
     }
   ]
