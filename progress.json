@@ -1,13 +1,13 @@
 {
-  "total_problems": 263,
+  "total_problems": 264,
   "problems_by_difficulty": {
     "Easy": 60,
-    "Medium": 139,
+    "Medium": 140,
     "Hard": 64
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 124,
+    "Array": 125,
     "Dynamic Programming": 36,
     "Prefix Sum": 17,
     "Hash Table": 49,
@@ -34,7 +34,7 @@
     "Database": 24,
     "Tree": 19,
     "Binary Tree": 13,
-    "Greedy": 26,
+    "Greedy": 27,
     "Graph": 16,
     "Binary Search Tree": 4,
     "Binary Search": 21,
@@ -3193,6 +3193,17 @@
         "Graph",
         "Heap (Priority Queue)",
         "Shortest Path"
+      ]
+    },
+    {
+      "date": "2025-11-04",
+      "problem_id": "134",
+      "problem_title": "Gas Station",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/gas-station",
+      "tags": [
+        "Array",
+        "Greedy"
       ]
     }
   ]
