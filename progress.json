@@ -1,14 +1,14 @@
 {
-  "total_problems": 264,
+  "total_problems": 265,
   "problems_by_difficulty": {
     "Easy": 60,
     "Medium": 140,
-    "Hard": 64
+    "Hard": 65
   },
   "tags_frequency": {
     "algorithm": 6,
     "Array": 125,
-    "Dynamic Programming": 36,
+    "Dynamic Programming": 37,
     "Prefix Sum": 17,
     "Hash Table": 49,
     "String": 62,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 14,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 51,
+    "Math": 52,
     "Counting": 10,
     "Matrix": 18,
     "Simulation": 19,
@@ -3204,6 +3204,17 @@
       "tags": [
         "Array",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "problem_id": "1068",
+      "problem_title": "Digit Count in Range",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/digit-count-in-range",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
       ]
     }
   ]
