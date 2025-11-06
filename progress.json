@@ -1,13 +1,13 @@
 {
-  "total_problems": 265,
+  "total_problems": 266,
   "problems_by_difficulty": {
     "Easy": 60,
-    "Medium": 140,
+    "Medium": 141,
     "Hard": 65
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 125,
+    "Array": 126,
     "Dynamic Programming": 37,
     "Prefix Sum": 17,
     "Hash Table": 49,
@@ -37,7 +37,7 @@
     "Greedy": 27,
     "Graph": 16,
     "Binary Search Tree": 4,
-    "Binary Search": 21,
+    "Binary Search": 22,
     "Heap (Priority Queue)": 13,
     "Hash Function": 2,
     "Ordered Set": 5,
@@ -3215,6 +3215,17 @@
       "tags": [
         "Math",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-11-06",
+      "problem_id": "33",
+      "problem_title": "Search in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+      "tags": [
+        "Array",
+        "Binary Search"
       ]
     }
   ]
