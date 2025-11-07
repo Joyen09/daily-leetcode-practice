@@ -1,15 +1,15 @@
 {
-  "total_problems": 266,
+  "total_problems": 267,
   "problems_by_difficulty": {
     "Easy": 60,
     "Medium": 141,
-    "Hard": 65
+    "Hard": 66
   },
   "tags_frequency": {
     "algorithm": 6,
-    "Array": 126,
-    "Dynamic Programming": 37,
-    "Prefix Sum": 17,
+    "Array": 127,
+    "Dynamic Programming": 38,
+    "Prefix Sum": 18,
     "Hash Table": 49,
     "String": 62,
     "Enumeration": 10,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 52,
     "Counting": 10,
-    "Matrix": 18,
+    "Matrix": 19,
     "Simulation": 19,
     "Stack": 15,
     "Monotonic Stack": 4,
@@ -62,7 +62,8 @@
     "Strongly Connected Component": 1,
     "Interactive": 2,
     "Divide and Conquer": 1,
-    "Merge Sort": 1
+    "Merge Sort": 1,
+    "Memoization": 1
   },
   "daily_records": [
     {
@@ -3226,6 +3227,20 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "problem_id": "1555",
+      "problem_title": "Number of Ways of Cutting a Pizza",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Memoization",
+        "Matrix",
+        "Prefix Sum"
       ]
     }
   ]
