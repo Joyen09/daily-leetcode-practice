@@ -1,14 +1,14 @@
 {
-  "total_problems": 268,
+  "total_problems": 269,
   "problems_by_difficulty": {
-    "Easy": 61,
+    "Easy": 62,
     "Medium": 141,
     "Hard": 66
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 127,
-    "Dynamic Programming": 38,
+    "Array": 128,
+    "Dynamic Programming": 39,
     "Prefix Sum": 18,
     "Hash Table": 49,
     "String": 62,
@@ -3251,6 +3251,17 @@
       "url": "https://leetcode.com/problems/sleep",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2025-11-09",
+      "problem_id": "118",
+      "problem_title": "Pascal's Triangle",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/pascals-triangle",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
