@@ -1,13 +1,13 @@
 {
-  "total_problems": 269,
+  "total_problems": 270,
   "problems_by_difficulty": {
     "Easy": 62,
     "Medium": 141,
-    "Hard": 66
+    "Hard": 67
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 128,
+    "Array": 129,
     "Dynamic Programming": 39,
     "Prefix Sum": 18,
     "Hash Table": 49,
@@ -20,7 +20,7 @@
     "Math": 52,
     "Counting": 10,
     "Matrix": 19,
-    "Simulation": 19,
+    "Simulation": 20,
     "Stack": 15,
     "Monotonic Stack": 4,
     "Two Pointers": 19,
@@ -38,9 +38,9 @@
     "Graph": 16,
     "Binary Search Tree": 4,
     "Binary Search": 22,
-    "Heap (Priority Queue)": 13,
+    "Heap (Priority Queue)": 14,
     "Hash Function": 2,
-    "Ordered Set": 5,
+    "Ordered Set": 6,
     "Number Theory": 6,
     "Shortest Path": 5,
     "Queue": 4,
@@ -3262,6 +3262,19 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-11-10",
+      "problem_id": "1710",
+      "problem_title": "Find Servers That Handled Most Number of Requests",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests",
+      "tags": [
+        "Array",
+        "Heap (Priority Queue)",
+        "Simulation",
+        "Ordered Set"
       ]
     }
   ]
