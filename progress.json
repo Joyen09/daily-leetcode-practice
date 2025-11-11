@@ -1,23 +1,23 @@
 {
-  "total_problems": 270,
+  "total_problems": 271,
   "problems_by_difficulty": {
     "Easy": 62,
-    "Medium": 141,
+    "Medium": 142,
     "Hard": 67
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 129,
+    "Array": 130,
     "Dynamic Programming": 39,
-    "Prefix Sum": 18,
-    "Hash Table": 49,
+    "Prefix Sum": 19,
+    "Hash Table": 50,
     "String": 62,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 52,
+    "Math": 53,
     "Counting": 10,
     "Matrix": 19,
     "Simulation": 20,
@@ -44,7 +44,7 @@
     "Number Theory": 6,
     "Shortest Path": 5,
     "Queue": 4,
-    "Sliding Window": 10,
+    "Sliding Window": 11,
     "Linked List": 4,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
@@ -3275,6 +3275,20 @@
         "Heap (Priority Queue)",
         "Simulation",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "problem_id": "1370",
+      "problem_title": "Count Number of Nice Subarrays",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-number-of-nice-subarrays",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Sliding Window",
+        "Prefix Sum"
       ]
     }
   ]
