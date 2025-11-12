@@ -1,8 +1,8 @@
 {
-  "total_problems": 271,
+  "total_problems": 272,
   "problems_by_difficulty": {
     "Easy": 62,
-    "Medium": 142,
+    "Medium": 143,
     "Hard": 67
   },
   "tags_frequency": {
@@ -26,13 +26,13 @@
     "Two Pointers": 19,
     "Shell": 1,
     "Depth-First Search": 26,
-    "Breadth-First Search": 20,
+    "Breadth-First Search": 21,
     "Union Find": 12,
     "Sorting": 34,
     "Design": 8,
     "Trie": 2,
     "Database": 24,
-    "Tree": 19,
+    "Tree": 20,
     "Binary Tree": 13,
     "Greedy": 27,
     "Graph": 16,
@@ -3289,6 +3289,17 @@
         "Math",
         "Sliding Window",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-11-12",
+      "problem_id": "764",
+      "problem_title": "N-ary Tree Level Order Traversal",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/n-ary-tree-level-order-traversal",
+      "tags": [
+        "Tree",
+        "Breadth-First Search"
       ]
     }
   ]
