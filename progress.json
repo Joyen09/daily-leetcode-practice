@@ -1,13 +1,13 @@
 {
-  "total_problems": 272,
+  "total_problems": 273,
   "problems_by_difficulty": {
     "Easy": 62,
-    "Medium": 143,
+    "Medium": 144,
     "Hard": 67
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 130,
+    "Array": 131,
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
     "Hash Table": 50,
@@ -19,15 +19,15 @@
     "String Matching": 1,
     "Math": 53,
     "Counting": 10,
-    "Matrix": 19,
+    "Matrix": 20,
     "Simulation": 20,
     "Stack": 15,
     "Monotonic Stack": 4,
     "Two Pointers": 19,
     "Shell": 1,
-    "Depth-First Search": 26,
-    "Breadth-First Search": 21,
-    "Union Find": 12,
+    "Depth-First Search": 27,
+    "Breadth-First Search": 22,
+    "Union Find": 13,
     "Sorting": 34,
     "Design": 8,
     "Trie": 2,
@@ -3300,6 +3300,20 @@
       "tags": [
         "Tree",
         "Breadth-First Search"
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "problem_id": "2764",
+      "problem_title": "Maximum Number of Fish in a Grid",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-number-of-fish-in-a-grid",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union Find",
+        "Matrix"
       ]
     }
   ]
