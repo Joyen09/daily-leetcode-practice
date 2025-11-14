@@ -1,8 +1,8 @@
 {
-  "total_problems": 273,
+  "total_problems": 274,
   "problems_by_difficulty": {
     "Easy": 62,
-    "Medium": 144,
+    "Medium": 145,
     "Hard": 67
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
     "Hash Table": 50,
-    "String": 62,
+    "String": 63,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -21,11 +21,11 @@
     "Counting": 10,
     "Matrix": 20,
     "Simulation": 20,
-    "Stack": 15,
+    "Stack": 16,
     "Monotonic Stack": 4,
     "Two Pointers": 19,
     "Shell": 1,
-    "Depth-First Search": 27,
+    "Depth-First Search": 28,
     "Breadth-First Search": 22,
     "Union Find": 13,
     "Sorting": 34,
@@ -3314,6 +3314,18 @@
         "Breadth-First Search",
         "Union Find",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-11-14",
+      "problem_id": "388",
+      "problem_title": "Longest Absolute File Path",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-absolute-file-path",
+      "tags": [
+        "String",
+        "Stack",
+        "Depth-First Search"
       ]
     }
   ]
