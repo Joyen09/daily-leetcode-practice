@@ -1,17 +1,17 @@
 {
-  "total_problems": 274,
+  "total_problems": 275,
   "problems_by_difficulty": {
     "Easy": 62,
     "Medium": 145,
-    "Hard": 67
+    "Hard": 68
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 131,
+    "Array": 132,
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
     "Hash Table": 50,
-    "String": 63,
+    "String": 64,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -20,7 +20,7 @@
     "Math": 53,
     "Counting": 10,
     "Matrix": 20,
-    "Simulation": 20,
+    "Simulation": 21,
     "Stack": 16,
     "Monotonic Stack": 4,
     "Two Pointers": 19,
@@ -3326,6 +3326,18 @@
         "String",
         "Stack",
         "Depth-First Search"
+      ]
+    },
+    {
+      "date": "2025-11-15",
+      "problem_id": "68",
+      "problem_title": "Text Justification",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/text-justification",
+      "tags": [
+        "Array",
+        "String",
+        "Simulation"
       ]
     }
   ]
