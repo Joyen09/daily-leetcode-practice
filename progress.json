@@ -1,16 +1,16 @@
 {
-  "total_problems": 275,
+  "total_problems": 276,
   "problems_by_difficulty": {
-    "Easy": 62,
+    "Easy": 63,
     "Medium": 145,
     "Hard": 68
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 132,
+    "Array": 133,
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
-    "Hash Table": 50,
+    "Hash Table": 51,
     "String": 64,
     "Enumeration": 10,
     "Backtracking": 5,
@@ -18,7 +18,7 @@
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 53,
-    "Counting": 10,
+    "Counting": 11,
     "Matrix": 20,
     "Simulation": 21,
     "Stack": 16,
@@ -28,7 +28,7 @@
     "Depth-First Search": 28,
     "Breadth-First Search": 22,
     "Union Find": 13,
-    "Sorting": 34,
+    "Sorting": 35,
     "Design": 8,
     "Trie": 2,
     "Database": 24,
@@ -3338,6 +3338,19 @@
         "Array",
         "String",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2025-11-16",
+      "problem_id": "2331",
+      "problem_title": "Intersection of Multiple Arrays",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/intersection-of-multiple-arrays",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Counting"
       ]
     }
   ]
