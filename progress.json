@@ -1,7 +1,7 @@
 {
-  "total_problems": 276,
+  "total_problems": 277,
   "problems_by_difficulty": {
-    "Easy": 63,
+    "Easy": 64,
     "Medium": 145,
     "Hard": 68
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
     "Hash Table": 51,
-    "String": 64,
+    "String": 65,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 16,
     "Monotonic Stack": 4,
-    "Two Pointers": 19,
+    "Two Pointers": 20,
     "Shell": 1,
     "Depth-First Search": 28,
     "Breadth-First Search": 22,
@@ -3351,6 +3351,17 @@
         "Hash Table",
         "Sorting",
         "Counting"
+      ]
+    },
+    {
+      "date": "2025-11-17",
+      "problem_id": "1894",
+      "problem_title": "Merge Strings Alternately",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/merge-strings-alternately",
+      "tags": [
+        "Two Pointers",
+        "String"
       ]
     }
   ]
