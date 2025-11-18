@@ -1,13 +1,13 @@
 {
-  "total_problems": 277,
+  "total_problems": 278,
   "problems_by_difficulty": {
     "Easy": 64,
-    "Medium": 145,
+    "Medium": 146,
     "Hard": 68
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 133,
+    "Array": 134,
     "Dynamic Programming": 39,
     "Prefix Sum": 19,
     "Hash Table": 51,
@@ -19,14 +19,14 @@
     "String Matching": 1,
     "Math": 53,
     "Counting": 11,
-    "Matrix": 20,
+    "Matrix": 21,
     "Simulation": 21,
     "Stack": 16,
     "Monotonic Stack": 4,
     "Two Pointers": 20,
     "Shell": 1,
-    "Depth-First Search": 28,
-    "Breadth-First Search": 22,
+    "Depth-First Search": 29,
+    "Breadth-First Search": 23,
     "Union Find": 13,
     "Sorting": 35,
     "Design": 8,
@@ -35,14 +35,14 @@
     "Tree": 20,
     "Binary Tree": 13,
     "Greedy": 27,
-    "Graph": 16,
+    "Graph": 17,
     "Binary Search Tree": 4,
     "Binary Search": 22,
-    "Heap (Priority Queue)": 14,
+    "Heap (Priority Queue)": 15,
     "Hash Function": 2,
     "Ordered Set": 6,
     "Number Theory": 6,
-    "Shortest Path": 5,
+    "Shortest Path": 6,
     "Queue": 4,
     "Sliding Window": 11,
     "Linked List": 4,
@@ -3362,6 +3362,22 @@
       "tags": [
         "Two Pointers",
         "String"
+      ]
+    },
+    {
+      "date": "2025-11-18",
+      "problem_id": "505",
+      "problem_title": "The Maze II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/the-maze-ii",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph",
+        "Heap (Priority Queue)",
+        "Matrix",
+        "Shortest Path"
       ]
     }
   ]
