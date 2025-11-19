@@ -1,17 +1,17 @@
 {
-  "total_problems": 278,
+  "total_problems": 279,
   "problems_by_difficulty": {
     "Easy": 64,
-    "Medium": 146,
+    "Medium": 147,
     "Hard": 68
   },
   "tags_frequency": {
     "algorithm": 7,
     "Array": 134,
-    "Dynamic Programming": 39,
+    "Dynamic Programming": 40,
     "Prefix Sum": 19,
     "Hash Table": 51,
-    "String": 65,
+    "String": 66,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 14,
@@ -3378,6 +3378,17 @@
         "Heap (Priority Queue)",
         "Matrix",
         "Shortest Path"
+      ]
+    },
+    {
+      "date": "2025-11-19",
+      "problem_id": "72",
+      "problem_title": "Edit Distance",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/edit-distance",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
