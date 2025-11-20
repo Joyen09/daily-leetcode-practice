@@ -1,13 +1,13 @@
 {
-  "total_problems": 279,
+  "total_problems": 280,
   "problems_by_difficulty": {
     "Easy": 64,
     "Medium": 147,
-    "Hard": 68
+    "Hard": 69
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 134,
+    "Array": 135,
     "Dynamic Programming": 40,
     "Prefix Sum": 19,
     "Hash Table": 51,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 53,
     "Counting": 11,
-    "Matrix": 21,
+    "Matrix": 22,
     "Simulation": 21,
     "Stack": 16,
     "Monotonic Stack": 4,
@@ -35,7 +35,7 @@
     "Tree": 20,
     "Binary Tree": 13,
     "Greedy": 27,
-    "Graph": 17,
+    "Graph": 18,
     "Binary Search Tree": 4,
     "Binary Search": 22,
     "Heap (Priority Queue)": 15,
@@ -49,7 +49,7 @@
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
     "Geometry": 2,
-    "Topological Sort": 2,
+    "Topological Sort": 3,
     "Combinatorics": 3,
     "Data Stream": 1,
     "Recursion": 2,
@@ -3389,6 +3389,19 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-11-20",
+      "problem_id": "2472",
+      "problem_title": "Build a Matrix With Conditions",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/build-a-matrix-with-conditions",
+      "tags": [
+        "Array",
+        "Graph",
+        "Topological Sort",
+        "Matrix"
       ]
     }
   ]
