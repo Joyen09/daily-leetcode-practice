@@ -1,20 +1,20 @@
 {
-  "total_problems": 280,
+  "total_problems": 281,
   "problems_by_difficulty": {
     "Easy": 64,
     "Medium": 147,
-    "Hard": 69
+    "Hard": 70
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 135,
+    "Array": 136,
     "Dynamic Programming": 40,
     "Prefix Sum": 19,
     "Hash Table": 51,
     "String": 66,
     "Enumeration": 10,
     "Backtracking": 5,
-    "Bit Manipulation": 14,
+    "Bit Manipulation": 15,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 53,
@@ -30,7 +30,7 @@
     "Union Find": 13,
     "Sorting": 35,
     "Design": 8,
-    "Trie": 2,
+    "Trie": 3,
     "Database": 24,
     "Tree": 20,
     "Binary Tree": 13,
@@ -3402,6 +3402,18 @@
         "Graph",
         "Topological Sort",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "problem_id": "1907",
+      "problem_title": "Count Pairs With XOR in a Range",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-pairs-with-xor-in-a-range",
+      "tags": [
+        "Array",
+        "Bit Manipulation",
+        "Trie"
       ]
     }
   ]
