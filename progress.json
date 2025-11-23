@@ -1,15 +1,15 @@
 {
-  "total_problems": 282,
+  "total_problems": 283,
   "problems_by_difficulty": {
     "Easy": 64,
     "Medium": 147,
-    "Hard": 71
+    "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 137,
+    "Array": 138,
     "Dynamic Programming": 40,
-    "Prefix Sum": 19,
+    "Prefix Sum": 20,
     "Hash Table": 52,
     "String": 66,
     "Enumeration": 10,
@@ -37,14 +37,14 @@
     "Greedy": 27,
     "Graph": 18,
     "Binary Search Tree": 4,
-    "Binary Search": 22,
+    "Binary Search": 23,
     "Heap (Priority Queue)": 15,
     "Hash Function": 2,
     "Ordered Set": 6,
     "Number Theory": 6,
     "Shortest Path": 6,
     "Queue": 4,
-    "Sliding Window": 11,
+    "Sliding Window": 12,
     "Linked List": 4,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
@@ -3428,6 +3428,19 @@
         "Bit Manipulation",
         "Breadth-First Search",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-11-23",
+      "problem_id": "2229",
+      "problem_title": "Maximum Fruits Harvested After at Most K Steps",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
       ]
     }
   ]
