@@ -1,7 +1,7 @@
 {
-  "total_problems": 283,
+  "total_problems": 284,
   "problems_by_difficulty": {
-    "Easy": 64,
+    "Easy": 65,
     "Medium": 147,
     "Hard": 72
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 40,
     "Prefix Sum": 20,
     "Hash Table": 52,
-    "String": 66,
+    "String": 67,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 16,
@@ -21,9 +21,9 @@
     "Counting": 11,
     "Matrix": 23,
     "Simulation": 21,
-    "Stack": 16,
+    "Stack": 17,
     "Monotonic Stack": 4,
-    "Two Pointers": 20,
+    "Two Pointers": 21,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 24,
@@ -3441,6 +3441,18 @@
         "Binary Search",
         "Sliding Window",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2025-11-24",
+      "problem_id": "2128",
+      "problem_title": "Reverse Prefix of Word",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reverse-prefix-of-word",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Stack"
       ]
     }
   ]
