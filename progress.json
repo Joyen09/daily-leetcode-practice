@@ -1,13 +1,13 @@
 {
-  "total_problems": 284,
+  "total_problems": 285,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 147,
+    "Medium": 148,
     "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 138,
+    "Array": 139,
     "Dynamic Programming": 40,
     "Prefix Sum": 20,
     "Hash Table": 52,
@@ -44,7 +44,7 @@
     "Number Theory": 6,
     "Shortest Path": 6,
     "Queue": 4,
-    "Sliding Window": 12,
+    "Sliding Window": 13,
     "Linked List": 4,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
@@ -3453,6 +3453,17 @@
         "Two Pointers",
         "String",
         "Stack"
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "problem_id": "3523",
+      "problem_title": "Find the Power of K-Size Subarrays II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii",
+      "tags": [
+        "Array",
+        "Sliding Window"
       ]
     }
   ]
