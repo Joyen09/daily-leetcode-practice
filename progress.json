@@ -1,14 +1,14 @@
 {
-  "total_problems": 285,
+  "total_problems": 286,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 148,
+    "Medium": 149,
     "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 139,
-    "Dynamic Programming": 40,
+    "Array": 140,
+    "Dynamic Programming": 41,
     "Prefix Sum": 20,
     "Hash Table": 52,
     "String": 67,
@@ -3464,6 +3464,17 @@
       "tags": [
         "Array",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "problem_id": "3686",
+      "problem_title": "Count Beautiful Splits in an Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-beautiful-splits-in-an-array",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
