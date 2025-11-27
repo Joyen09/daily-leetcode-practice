@@ -1,14 +1,14 @@
 {
-  "total_problems": 286,
+  "total_problems": 287,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 149,
+    "Medium": 150,
     "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 140,
-    "Dynamic Programming": 41,
+    "Array": 141,
+    "Dynamic Programming": 42,
     "Prefix Sum": 20,
     "Hash Table": 52,
     "String": 67,
@@ -32,9 +32,9 @@
     "Design": 8,
     "Trie": 3,
     "Database": 24,
-    "Tree": 20,
-    "Binary Tree": 13,
-    "Greedy": 27,
+    "Tree": 21,
+    "Binary Tree": 14,
+    "Greedy": 28,
     "Graph": 18,
     "Binary Search Tree": 4,
     "Binary Search": 23,
@@ -3475,6 +3475,20 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-11-27",
+      "problem_id": "2780",
+      "problem_title": "Make Costs of Paths Equal in a Binary Tree",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Greedy",
+        "Tree",
+        "Binary Tree"
       ]
     }
   ]
