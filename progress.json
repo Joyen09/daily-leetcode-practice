@@ -1,8 +1,8 @@
 {
-  "total_problems": 287,
+  "total_problems": 288,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 150,
+    "Medium": 151,
     "Hard": 72
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 16,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 53,
+    "Math": 54,
     "Counting": 11,
     "Matrix": 23,
     "Simulation": 21,
@@ -63,7 +63,8 @@
     "Interactive": 2,
     "Divide and Conquer": 1,
     "Merge Sort": 1,
-    "Memoization": 1
+    "Memoization": 1,
+    "Brainteaser": 1
   },
   "daily_records": [
     {
@@ -3489,6 +3490,17 @@
         "Greedy",
         "Tree",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "problem_id": "3925",
+      "problem_title": "Minimum Cost Path with Alternating Directions I",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-i",
+      "tags": [
+        "Math",
+        "Brainteaser"
       ]
     }
   ]
