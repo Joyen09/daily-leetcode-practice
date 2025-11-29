@@ -1,20 +1,20 @@
 {
-  "total_problems": 288,
+  "total_problems": 289,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 151,
+    "Medium": 152,
     "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 141,
+    "Array": 142,
     "Dynamic Programming": 42,
     "Prefix Sum": 20,
     "Hash Table": 52,
     "String": 67,
     "Enumeration": 10,
     "Backtracking": 5,
-    "Bit Manipulation": 16,
+    "Bit Manipulation": 17,
     "Bitmask": 4,
     "String Matching": 1,
     "Math": 54,
@@ -34,7 +34,7 @@
     "Database": 24,
     "Tree": 21,
     "Binary Tree": 14,
-    "Greedy": 28,
+    "Greedy": 29,
     "Graph": 18,
     "Binary Search Tree": 4,
     "Binary Search": 23,
@@ -3501,6 +3501,18 @@
       "tags": [
         "Math",
         "Brainteaser"
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "problem_id": "1662",
+      "problem_title": "Minimum Numbers of Function Calls to Make Target Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Bit Manipulation"
       ]
     }
   ]
