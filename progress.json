@@ -1,17 +1,17 @@
 {
-  "total_problems": 289,
+  "total_problems": 290,
   "problems_by_difficulty": {
     "Easy": 65,
-    "Medium": 152,
+    "Medium": 153,
     "Hard": 72
   },
   "tags_frequency": {
     "algorithm": 7,
-    "Array": 142,
+    "Array": 143,
     "Dynamic Programming": 42,
     "Prefix Sum": 20,
-    "Hash Table": 52,
-    "String": 67,
+    "Hash Table": 53,
+    "String": 68,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 17,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 24,
     "Union Find": 13,
     "Sorting": 35,
-    "Design": 8,
+    "Design": 9,
     "Trie": 3,
     "Database": 24,
     "Tree": 21,
@@ -3513,6 +3513,19 @@
         "Array",
         "Greedy",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2025-11-30",
+      "problem_id": "2555",
+      "problem_title": "Design SQL",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/design-sql",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Design"
       ]
     }
   ]
