@@ -1,13 +1,13 @@
 {
-  "total_problems": 291,
+  "total_problems": 292,
   "problems_by_difficulty": {
-    "Easy": 65,
+    "Easy": 66,
     "Medium": 153,
     "Hard": 73
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 143,
+    "Array": 144,
     "Dynamic Programming": 42,
     "Prefix Sum": 20,
     "Hash Table": 53,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 17,
     "Bitmask": 4,
     "String Matching": 1,
-    "Math": 54,
+    "Math": 55,
     "Counting": 11,
     "Matrix": 23,
     "Simulation": 21,
@@ -3536,6 +3536,17 @@
       "url": "https://leetcode.com/problems/find-zombie-sessions",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "problem_id": "3367",
+      "problem_title": "Find the Sum of Encrypted Integers",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-sum-of-encrypted-integers",
+      "tags": [
+        "Array",
+        "Math"
       ]
     }
   ]
