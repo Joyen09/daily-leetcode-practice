@@ -1,8 +1,8 @@
 {
-  "total_problems": 292,
+  "total_problems": 293,
   "problems_by_difficulty": {
     "Easy": 66,
-    "Medium": 153,
+    "Medium": 154,
     "Hard": 73
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 35,
     "Design": 9,
     "Trie": 3,
-    "Database": 24,
+    "Database": 25,
     "Tree": 21,
     "Binary Tree": 14,
     "Greedy": 29,
@@ -3547,6 +3547,16 @@
       "tags": [
         "Array",
         "Math"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "problem_id": "626",
+      "problem_title": "Exchange Seats",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/exchange-seats",
+      "tags": [
+        "Database"
       ]
     }
   ]
