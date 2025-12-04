@@ -1,21 +1,21 @@
 {
-  "total_problems": 293,
+  "total_problems": 294,
   "problems_by_difficulty": {
     "Easy": 66,
     "Medium": 154,
-    "Hard": 73
+    "Hard": 74
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 144,
-    "Dynamic Programming": 42,
+    "Array": 145,
+    "Dynamic Programming": 43,
     "Prefix Sum": 20,
     "Hash Table": 53,
     "String": 68,
     "Enumeration": 10,
     "Backtracking": 5,
-    "Bit Manipulation": 17,
-    "Bitmask": 4,
+    "Bit Manipulation": 18,
+    "Bitmask": 5,
     "String Matching": 1,
     "Math": 55,
     "Counting": 11,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 17,
     "Monotonic Stack": 4,
-    "Two Pointers": 21,
+    "Two Pointers": 22,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 24,
@@ -37,10 +37,10 @@
     "Greedy": 29,
     "Graph": 18,
     "Binary Search Tree": 4,
-    "Binary Search": 23,
+    "Binary Search": 24,
     "Heap (Priority Queue)": 15,
     "Hash Function": 2,
-    "Ordered Set": 6,
+    "Ordered Set": 7,
     "Number Theory": 6,
     "Shortest Path": 6,
     "Queue": 4,
@@ -3557,6 +3557,22 @@
       "url": "https://leetcode.com/problems/exchange-seats",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "problem_id": "2162",
+      "problem_title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Ordered Set",
+        "Bitmask"
       ]
     }
   ]
