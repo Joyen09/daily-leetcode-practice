@@ -1,7 +1,7 @@
 {
-  "total_problems": 294,
+  "total_problems": 295,
   "problems_by_difficulty": {
-    "Easy": 66,
+    "Easy": 67,
     "Medium": 154,
     "Hard": 74
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 43,
     "Prefix Sum": 20,
     "Hash Table": 53,
-    "String": 68,
+    "String": 69,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 18,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 17,
     "Monotonic Stack": 4,
-    "Two Pointers": 22,
+    "Two Pointers": 23,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 24,
@@ -3573,6 +3573,17 @@
         "Bit Manipulation",
         "Ordered Set",
         "Bitmask"
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "problem_id": "557",
+      "problem_title": "Reverse Words in a String III",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reverse-words-in-a-string-iii",
+      "tags": [
+        "Two Pointers",
+        "String"
       ]
     }
   ]
