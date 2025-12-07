@@ -1,17 +1,17 @@
 {
-  "total_problems": 296,
+  "total_problems": 297,
   "problems_by_difficulty": {
     "Easy": 68,
-    "Medium": 154,
+    "Medium": 155,
     "Hard": 74
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 146,
-    "Dynamic Programming": 43,
+    "Dynamic Programming": 44,
     "Prefix Sum": 20,
     "Hash Table": 53,
-    "String": 69,
+    "String": 70,
     "Enumeration": 10,
     "Backtracking": 5,
     "Bit Manipulation": 18,
@@ -3594,6 +3594,17 @@
       "url": "https://leetcode.com/problems/maximum-difference-between-increasing-elements",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2025-12-07",
+      "problem_id": "91",
+      "problem_title": "Decode Ways",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/decode-ways",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
