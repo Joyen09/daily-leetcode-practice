@@ -1,13 +1,13 @@
 {
-  "total_problems": 297,
+  "total_problems": 298,
   "problems_by_difficulty": {
     "Easy": 68,
-    "Medium": 155,
+    "Medium": 156,
     "Hard": 74
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 146,
+    "Array": 147,
     "Dynamic Programming": 44,
     "Prefix Sum": 20,
     "Hash Table": 53,
@@ -28,7 +28,7 @@
     "Depth-First Search": 29,
     "Breadth-First Search": 24,
     "Union Find": 13,
-    "Sorting": 35,
+    "Sorting": 36,
     "Design": 9,
     "Trie": 3,
     "Database": 25,
@@ -3605,6 +3605,17 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-12-08",
+      "problem_id": "56",
+      "problem_title": "Merge Intervals",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/merge-intervals",
+      "tags": [
+        "Array",
+        "Sorting"
       ]
     }
   ]
