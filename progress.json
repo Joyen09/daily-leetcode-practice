@@ -1,19 +1,19 @@
 {
-  "total_problems": 299,
+  "total_problems": 300,
   "problems_by_difficulty": {
     "Easy": 68,
-    "Medium": 157,
+    "Medium": 158,
     "Hard": 74
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 147,
+    "Array": 148,
     "Dynamic Programming": 44,
     "Prefix Sum": 20,
     "Hash Table": 53,
-    "String": 70,
-    "Enumeration": 10,
-    "Backtracking": 5,
+    "String": 71,
+    "Enumeration": 11,
+    "Backtracking": 6,
     "Bit Manipulation": 18,
     "Bitmask": 5,
     "String Matching": 1,
@@ -3628,6 +3628,19 @@
         "Two Pointers",
         "Graph",
         "Interactive"
+      ]
+    },
+    {
+      "date": "2025-12-10",
+      "problem_id": "986",
+      "problem_title": "Largest Time for Given Digits",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/largest-time-for-given-digits",
+      "tags": [
+        "Array",
+        "String",
+        "Backtracking",
+        "Enumeration"
       ]
     }
   ]
