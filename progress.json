@@ -1,32 +1,32 @@
 {
-  "total_problems": 301,
+  "total_problems": 302,
   "problems_by_difficulty": {
     "Easy": 68,
     "Medium": 159,
-    "Hard": 74
+    "Hard": 75
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 148,
+    "Array": 149,
     "Dynamic Programming": 44,
     "Prefix Sum": 20,
-    "Hash Table": 53,
+    "Hash Table": 54,
     "String": 71,
     "Enumeration": 11,
     "Backtracking": 6,
-    "Bit Manipulation": 18,
+    "Bit Manipulation": 19,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 55,
     "Counting": 11,
-    "Matrix": 23,
+    "Matrix": 24,
     "Simulation": 21,
     "Stack": 17,
     "Monotonic Stack": 4,
     "Two Pointers": 25,
     "Shell": 1,
     "Depth-First Search": 29,
-    "Breadth-First Search": 24,
+    "Breadth-First Search": 25,
     "Union Find": 13,
     "Sorting": 37,
     "Design": 9,
@@ -3653,6 +3653,20 @@
         "Linked List",
         "Two Pointers",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2025-12-12",
+      "problem_id": "1409",
+      "problem_title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation",
+        "Breadth-First Search",
+        "Matrix"
       ]
     }
   ]
