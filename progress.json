@@ -1,8 +1,8 @@
 {
-  "total_problems": 302,
+  "total_problems": 303,
   "problems_by_difficulty": {
     "Easy": 68,
-    "Medium": 159,
+    "Medium": 160,
     "Hard": 75
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 44,
     "Prefix Sum": 20,
     "Hash Table": 54,
-    "String": 71,
+    "String": 72,
     "Enumeration": 11,
     "Backtracking": 6,
     "Bit Manipulation": 19,
@@ -21,7 +21,7 @@
     "Counting": 11,
     "Matrix": 24,
     "Simulation": 21,
-    "Stack": 17,
+    "Stack": 18,
     "Monotonic Stack": 4,
     "Two Pointers": 25,
     "Shell": 1,
@@ -34,7 +34,7 @@
     "Database": 25,
     "Tree": 21,
     "Binary Tree": 14,
-    "Greedy": 29,
+    "Greedy": 30,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 24,
@@ -3667,6 +3667,18 @@
         "Bit Manipulation",
         "Breadth-First Search",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-12-13",
+      "problem_id": "2221",
+      "problem_title": "Check if a Parentheses String Can Be Valid",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid",
+      "tags": [
+        "String",
+        "Stack",
+        "Greedy"
       ]
     }
   ]
