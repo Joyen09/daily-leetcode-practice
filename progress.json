@@ -1,7 +1,7 @@
 {
-  "total_problems": 303,
+  "total_problems": 304,
   "problems_by_difficulty": {
-    "Easy": 68,
+    "Easy": 69,
     "Medium": 160,
     "Hard": 75
   },
@@ -17,7 +17,7 @@
     "Bit Manipulation": 19,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 55,
+    "Math": 56,
     "Counting": 11,
     "Matrix": 24,
     "Simulation": 21,
@@ -3679,6 +3679,16 @@
         "String",
         "Stack",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-12-14",
+      "problem_id": "2608",
+      "problem_title": "Count the Digits That Divide a Number",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/count-the-digits-that-divide-a-number",
+      "tags": [
+        "Math"
       ]
     }
   ]
