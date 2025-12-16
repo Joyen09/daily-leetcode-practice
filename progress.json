@@ -1,7 +1,7 @@
 {
-  "total_problems": 305,
+  "total_problems": 306,
   "problems_by_difficulty": {
-    "Easy": 70,
+    "Easy": 71,
     "Medium": 160,
     "Hard": 75
   },
@@ -14,10 +14,10 @@
     "String": 72,
     "Enumeration": 11,
     "Backtracking": 6,
-    "Bit Manipulation": 19,
+    "Bit Manipulation": 20,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 57,
+    "Math": 58,
     "Counting": 11,
     "Matrix": 24,
     "Simulation": 21,
@@ -52,7 +52,7 @@
     "Topological Sort": 3,
     "Combinatorics": 3,
     "Data Stream": 1,
-    "Recursion": 2,
+    "Recursion": 3,
     "Game Theory": 1,
     "Suffix Array": 1,
     "Line Sweep": 2,
@@ -3699,6 +3699,18 @@
       "url": "https://leetcode.com/problems/palindrome-number",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2025-12-16",
+      "problem_id": "231",
+      "problem_title": "Power of Two",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/power-of-two",
+      "tags": [
+        "Math",
+        "Bit Manipulation",
+        "Recursion"
       ]
     }
   ]
