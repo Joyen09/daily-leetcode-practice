@@ -1,23 +1,23 @@
 {
-  "total_problems": 306,
+  "total_problems": 307,
   "problems_by_difficulty": {
     "Easy": 71,
-    "Medium": 160,
+    "Medium": 161,
     "Hard": 75
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 149,
+    "Array": 150,
     "Dynamic Programming": 44,
     "Prefix Sum": 20,
     "Hash Table": 54,
     "String": 72,
-    "Enumeration": 11,
+    "Enumeration": 12,
     "Backtracking": 6,
-    "Bit Manipulation": 20,
+    "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 58,
+    "Math": 59,
     "Counting": 11,
     "Matrix": 24,
     "Simulation": 21,
@@ -3711,6 +3711,19 @@
         "Math",
         "Bit Manipulation",
         "Recursion"
+      ]
+    },
+    {
+      "date": "2025-12-17",
+      "problem_id": "3820",
+      "problem_title": "Number of Unique XOR Triplets II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii",
+      "tags": [
+        "Array",
+        "Math",
+        "Bit Manipulation",
+        "Enumeration"
       ]
     }
   ]
