@@ -1,13 +1,13 @@
 {
-  "total_problems": 308,
+  "total_problems": 309,
   "problems_by_difficulty": {
     "Easy": 72,
     "Medium": 161,
-    "Hard": 75
+    "Hard": 76
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 151,
+    "Array": 152,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 54,
@@ -19,7 +19,7 @@
     "String Matching": 1,
     "Math": 59,
     "Counting": 11,
-    "Matrix": 24,
+    "Matrix": 25,
     "Simulation": 21,
     "Stack": 18,
     "Monotonic Stack": 4,
@@ -27,7 +27,7 @@
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
-    "Union Find": 13,
+    "Union Find": 14,
     "Sorting": 37,
     "Design": 9,
     "Trie": 3,
@@ -3735,6 +3735,18 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "problem_id": "821",
+      "problem_title": "Bricks Falling When Hit",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/bricks-falling-when-hit",
+      "tags": [
+        "Array",
+        "Union Find",
+        "Matrix"
       ]
     }
   ]
