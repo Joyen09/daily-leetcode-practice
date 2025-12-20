@@ -1,13 +1,13 @@
 {
-  "total_problems": 309,
+  "total_problems": 310,
   "problems_by_difficulty": {
     "Easy": 72,
-    "Medium": 161,
+    "Medium": 162,
     "Hard": 76
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 152,
+    "Array": 153,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 54,
@@ -34,7 +34,7 @@
     "Database": 25,
     "Tree": 21,
     "Binary Tree": 14,
-    "Greedy": 30,
+    "Greedy": 31,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 24,
@@ -3747,6 +3747,17 @@
         "Array",
         "Union Find",
         "Matrix"
+      ]
+    },
+    {
+      "date": "2025-12-20",
+      "problem_id": "1049",
+      "problem_title": "Minimum Domino Rotations For Equal Row",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row",
+      "tags": [
+        "Array",
+        "Greedy"
       ]
     }
   ]
