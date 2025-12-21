@@ -1,13 +1,13 @@
 {
-  "total_problems": 310,
+  "total_problems": 311,
   "problems_by_difficulty": {
-    "Easy": 72,
+    "Easy": 73,
     "Medium": 162,
     "Hard": 76
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 153,
+    "Array": 154,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 54,
@@ -3758,6 +3758,16 @@
       "tags": [
         "Array",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-12-21",
+      "problem_id": "3952",
+      "problem_title": "Trionic Array I",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/trionic-array-i",
+      "tags": [
+        "Array"
       ]
     }
   ]
