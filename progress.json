@@ -1,8 +1,8 @@
 {
-  "total_problems": 311,
+  "total_problems": 312,
   "problems_by_difficulty": {
     "Easy": 73,
-    "Medium": 162,
+    "Medium": 163,
     "Hard": 76
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 37,
     "Design": 9,
     "Trie": 3,
-    "Database": 25,
+    "Database": 26,
     "Tree": 21,
     "Binary Tree": 14,
     "Greedy": 31,
@@ -3768,6 +3768,16 @@
       "url": "https://leetcode.com/problems/trionic-array-i",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "problem_id": "3624",
+      "problem_title": "Find Top Performing Driver",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-top-performing-driver",
+      "tags": [
+        "Database"
       ]
     }
   ]
