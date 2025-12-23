@@ -1,16 +1,16 @@
 {
-  "total_problems": 312,
+  "total_problems": 313,
   "problems_by_difficulty": {
-    "Easy": 73,
+    "Easy": 74,
     "Medium": 163,
     "Hard": 76
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 154,
+    "Array": 155,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
-    "Hash Table": 54,
+    "Hash Table": 55,
     "String": 72,
     "Enumeration": 12,
     "Backtracking": 6,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 25,
     "Union Find": 14,
     "Sorting": 37,
-    "Design": 9,
+    "Design": 10,
     "Trie": 3,
     "Database": 26,
     "Tree": 21,
@@ -39,13 +39,13 @@
     "Binary Search Tree": 4,
     "Binary Search": 24,
     "Heap (Priority Queue)": 15,
-    "Hash Function": 2,
+    "Hash Function": 3,
     "Ordered Set": 7,
     "Number Theory": 6,
     "Shortest Path": 6,
     "Queue": 4,
     "Sliding Window": 13,
-    "Linked List": 5,
+    "Linked List": 6,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
     "Geometry": 2,
@@ -3778,6 +3778,20 @@
       "url": "https://leetcode.com/problems/find-top-performing-driver",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "problem_id": "816",
+      "problem_title": "Design HashSet",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/design-hashset",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Linked List",
+        "Design",
+        "Hash Function"
       ]
     }
   ]
