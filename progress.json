@@ -1,7 +1,7 @@
 {
-  "total_problems": 314,
+  "total_problems": 315,
   "problems_by_difficulty": {
-    "Easy": 75,
+    "Easy": 76,
     "Medium": 163,
     "Hard": 76
   },
@@ -12,12 +12,12 @@
     "Prefix Sum": 20,
     "Hash Table": 55,
     "String": 72,
-    "Enumeration": 12,
+    "Enumeration": 13,
     "Backtracking": 6,
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 59,
+    "Math": 60,
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 15,
     "Hash Function": 3,
     "Ordered Set": 7,
-    "Number Theory": 6,
+    "Number Theory": 7,
     "Shortest Path": 6,
     "Queue": 4,
     "Sliding Window": 13,
@@ -3803,6 +3803,18 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "problem_id": "2083",
+      "problem_title": "Three Divisors",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/three-divisors",
+      "tags": [
+        "Math",
+        "Enumeration",
+        "Number Theory"
       ]
     }
   ]
