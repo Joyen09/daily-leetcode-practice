@@ -1,13 +1,13 @@
 {
-  "total_problems": 315,
+  "total_problems": 316,
   "problems_by_difficulty": {
     "Easy": 76,
-    "Medium": 163,
+    "Medium": 164,
     "Hard": 76
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 156,
+    "Array": 157,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 55,
@@ -28,7 +28,7 @@
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
     "Union Find": 14,
-    "Sorting": 37,
+    "Sorting": 38,
     "Design": 10,
     "Trie": 3,
     "Database": 26,
@@ -38,7 +38,7 @@
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 25,
-    "Heap (Priority Queue)": 15,
+    "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 7,
     "Number Theory": 7,
@@ -3815,6 +3815,18 @@
         "Math",
         "Enumeration",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "problem_id": "1052",
+      "problem_title": "Campus Bikes",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/campus-bikes",
+      "tags": [
+        "Array",
+        "Sorting",
+        "Heap (Priority Queue)"
       ]
     }
   ]
