@@ -1,8 +1,8 @@
 {
-  "total_problems": 316,
+  "total_problems": 317,
   "problems_by_difficulty": {
     "Easy": 76,
-    "Medium": 164,
+    "Medium": 165,
     "Hard": 76
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 60,
+    "Math": 61,
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
@@ -34,7 +34,7 @@
     "Database": 26,
     "Tree": 21,
     "Binary Tree": 14,
-    "Greedy": 31,
+    "Greedy": 32,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 25,
@@ -3827,6 +3827,17 @@
         "Array",
         "Sorting",
         "Heap (Priority Queue)"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "problem_id": "670",
+      "problem_title": "Maximum Swap",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-swap",
+      "tags": [
+        "Math",
+        "Greedy"
       ]
     }
   ]
