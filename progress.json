@@ -1,13 +1,13 @@
 {
-  "total_problems": 317,
+  "total_problems": 318,
   "problems_by_difficulty": {
     "Easy": 76,
     "Medium": 165,
-    "Hard": 76
+    "Hard": 77
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 157,
+    "Array": 158,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 55,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 61,
+    "Math": 62,
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
@@ -28,7 +28,7 @@
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
     "Union Find": 14,
-    "Sorting": 38,
+    "Sorting": 39,
     "Design": 10,
     "Trie": 3,
     "Database": 26,
@@ -40,7 +40,7 @@
     "Binary Search": 25,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
-    "Ordered Set": 7,
+    "Ordered Set": 8,
     "Number Theory": 7,
     "Shortest Path": 6,
     "Queue": 4,
@@ -48,7 +48,7 @@
     "Linked List": 6,
     "Binary Indexed Tree": 4,
     "Segment Tree": 6,
-    "Geometry": 2,
+    "Geometry": 3,
     "Topological Sort": 3,
     "Combinatorics": 3,
     "Data Stream": 1,
@@ -61,7 +61,7 @@
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
     "Interactive": 3,
-    "Divide and Conquer": 1,
+    "Divide and Conquer": 2,
     "Merge Sort": 1,
     "Memoization": 1,
     "Brainteaser": 1
@@ -3838,6 +3838,21 @@
       "tags": [
         "Math",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2025-12-28",
+      "problem_id": "2719",
+      "problem_title": "Beautiful Pairs",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/beautiful-pairs",
+      "tags": [
+        "Array",
+        "Math",
+        "Divide and Conquer",
+        "Geometry",
+        "Sorting",
+        "Ordered Set"
       ]
     }
   ]
