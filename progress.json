@@ -1,7 +1,7 @@
 {
-  "total_problems": 318,
+  "total_problems": 319,
   "problems_by_difficulty": {
-    "Easy": 76,
+    "Easy": 77,
     "Medium": 165,
     "Hard": 77
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 55,
-    "String": 72,
+    "String": 73,
     "Enumeration": 13,
     "Backtracking": 6,
     "Bit Manipulation": 21,
@@ -3853,6 +3853,16 @@
         "Geometry",
         "Sorting",
         "Ordered Set"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "problem_id": "2999",
+      "problem_title": "Check if Strings Can be Made Equal With Operations I",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i",
+      "tags": [
+        "String"
       ]
     }
   ]
