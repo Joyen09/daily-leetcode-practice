@@ -1,8 +1,8 @@
 {
-  "total_problems": 319,
+  "total_problems": 320,
   "problems_by_difficulty": {
     "Easy": 77,
-    "Medium": 165,
+    "Medium": 166,
     "Hard": 77
   },
   "tags_frequency": {
@@ -11,9 +11,9 @@
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
     "Hash Table": 55,
-    "String": 73,
+    "String": 74,
     "Enumeration": 13,
-    "Backtracking": 6,
+    "Backtracking": 7,
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 25,
     "Union Find": 14,
     "Sorting": 39,
-    "Design": 10,
+    "Design": 11,
     "Trie": 3,
     "Database": 26,
     "Tree": 21,
@@ -64,7 +64,8 @@
     "Divide and Conquer": 2,
     "Merge Sort": 1,
     "Memoization": 1,
-    "Brainteaser": 1
+    "Brainteaser": 1,
+    "Iterator": 1
   },
   "daily_records": [
     {
@@ -3863,6 +3864,19 @@
       "url": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "problem_id": "1211",
+      "problem_title": "Iterator for Combination",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/iterator-for-combination",
+      "tags": [
+        "String",
+        "Backtracking",
+        "Design",
+        "Iterator"
       ]
     }
   ]
