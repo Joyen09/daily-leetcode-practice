@@ -1,7 +1,7 @@
 {
-  "total_problems": 320,
+  "total_problems": 321,
   "problems_by_difficulty": {
-    "Easy": 77,
+    "Easy": 78,
     "Medium": 166,
     "Hard": 77
   },
@@ -31,7 +31,7 @@
     "Sorting": 39,
     "Design": 11,
     "Trie": 3,
-    "Database": 26,
+    "Database": 27,
     "Tree": 21,
     "Binary Tree": 14,
     "Greedy": 32,
@@ -3877,6 +3877,16 @@
         "Backtracking",
         "Design",
         "Iterator"
+      ]
+    },
+    {
+      "date": "2025-12-31",
+      "problem_id": "1301",
+      "problem_title": "Reformat Department Table",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/reformat-department-table",
+      "tags": [
+        "Database"
       ]
     }
   ]
