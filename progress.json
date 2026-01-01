@@ -1,16 +1,16 @@
 {
-  "total_problems": 321,
+  "total_problems": 322,
   "problems_by_difficulty": {
     "Easy": 78,
-    "Medium": 166,
+    "Medium": 167,
     "Hard": 77
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 158,
+    "Array": 159,
     "Dynamic Programming": 45,
     "Prefix Sum": 20,
-    "Hash Table": 55,
+    "Hash Table": 56,
     "String": 74,
     "Enumeration": 13,
     "Backtracking": 7,
@@ -28,13 +28,13 @@
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
     "Union Find": 14,
-    "Sorting": 39,
+    "Sorting": 40,
     "Design": 11,
     "Trie": 3,
     "Database": 27,
     "Tree": 21,
     "Binary Tree": 14,
-    "Greedy": 32,
+    "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 25,
@@ -3887,6 +3887,19 @@
       "url": "https://leetcode.com/problems/reformat-department-table",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "problem_id": "1422",
+      "problem_title": "Divide Array in Sets of K Consecutive Numbers",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
