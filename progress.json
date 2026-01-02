@@ -1,7 +1,7 @@
 {
-  "total_problems": 322,
+  "total_problems": 323,
   "problems_by_difficulty": {
-    "Easy": 78,
+    "Easy": 79,
     "Medium": 167,
     "Hard": 77
   },
@@ -31,7 +31,7 @@
     "Sorting": 40,
     "Design": 11,
     "Trie": 3,
-    "Database": 27,
+    "Database": 28,
     "Tree": 21,
     "Binary Tree": 14,
     "Greedy": 33,
@@ -3900,6 +3900,16 @@
         "Hash Table",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "problem_id": "1462",
+      "problem_title": "List the Products Ordered in a Period",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/list-the-products-ordered-in-a-period",
+      "tags": [
+        "Database"
       ]
     }
   ]
