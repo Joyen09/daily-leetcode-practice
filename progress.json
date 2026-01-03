@@ -1,17 +1,17 @@
 {
-  "total_problems": 323,
+  "total_problems": 324,
   "problems_by_difficulty": {
     "Easy": 79,
     "Medium": 167,
-    "Hard": 77
+    "Hard": 78
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 159,
-    "Dynamic Programming": 45,
+    "Dynamic Programming": 46,
     "Prefix Sum": 20,
     "Hash Table": 56,
-    "String": 74,
+    "String": 75,
     "Enumeration": 13,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -3910,6 +3910,17 @@
       "url": "https://leetcode.com/problems/list-the-products-ordered-in-a-period",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "problem_id": "639",
+      "problem_title": "Decode Ways II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/decode-ways-ii",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
