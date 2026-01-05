@@ -1,13 +1,13 @@
 {
-  "total_problems": 325,
+  "total_problems": 326,
   "problems_by_difficulty": {
     "Easy": 79,
     "Medium": 167,
-    "Hard": 79
+    "Hard": 80
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 160,
+    "Array": 161,
     "Dynamic Programming": 47,
     "Prefix Sum": 20,
     "Hash Table": 56,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 62,
+    "Math": 63,
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
@@ -32,7 +32,7 @@
     "Design": 11,
     "Trie": 3,
     "Database": 28,
-    "Tree": 21,
+    "Tree": 22,
     "Binary Tree": 14,
     "Greedy": 33,
     "Graph": 19,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 8,
-    "Number Theory": 7,
+    "Number Theory": 8,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
@@ -3938,6 +3938,19 @@
         "Queue",
         "Monotonic Stack",
         "Monotonic Queue"
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "problem_id": "3989",
+      "problem_title": "Sum of Beautiful Subsequences",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/sum-of-beautiful-subsequences",
+      "tags": [
+        "Array",
+        "Math",
+        "Tree",
+        "Number Theory"
       ]
     }
   ]
