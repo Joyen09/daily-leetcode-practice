@@ -1,8 +1,8 @@
 {
-  "total_problems": 326,
+  "total_problems": 327,
   "problems_by_difficulty": {
     "Easy": 79,
-    "Medium": 167,
+    "Medium": 168,
     "Hard": 80
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 47,
     "Prefix Sum": 20,
     "Hash Table": 56,
-    "String": 75,
+    "String": 76,
     "Enumeration": 13,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 19,
     "Monotonic Stack": 5,
-    "Two Pointers": 25,
+    "Two Pointers": 26,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
@@ -3951,6 +3951,17 @@
         "Math",
         "Tree",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "problem_id": "1739",
+      "problem_title": "Split Two Strings to Make Palindrome",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/split-two-strings-to-make-palindrome",
+      "tags": [
+        "Two Pointers",
+        "String"
       ]
     }
   ]
