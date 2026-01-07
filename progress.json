@@ -1,8 +1,8 @@
 {
-  "total_problems": 327,
+  "total_problems": 328,
   "problems_by_difficulty": {
     "Easy": 79,
-    "Medium": 168,
+    "Medium": 169,
     "Hard": 80
   },
   "tags_frequency": {
@@ -12,7 +12,7 @@
     "Prefix Sum": 20,
     "Hash Table": 56,
     "String": 76,
-    "Enumeration": 13,
+    "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
     "Bitmask": 5,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 19,
     "Monotonic Stack": 5,
-    "Two Pointers": 26,
+    "Two Pointers": 27,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
@@ -37,7 +37,7 @@
     "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 26,
+    "Binary Search": 27,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 8,
@@ -3962,6 +3962,18 @@
       "tags": [
         "Two Pointers",
         "String"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "problem_id": "4073",
+      "problem_title": "Lexicographically Smallest String After Reverse",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-reverse",
+      "tags": [
+        "Two Pointers",
+        "Binary Search",
+        "Enumeration"
       ]
     }
   ]
