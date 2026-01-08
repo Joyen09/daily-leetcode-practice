@@ -1,13 +1,13 @@
 {
-  "total_problems": 328,
+  "total_problems": 329,
   "problems_by_difficulty": {
     "Easy": 79,
-    "Medium": 169,
+    "Medium": 170,
     "Hard": 80
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 161,
+    "Array": 162,
     "Dynamic Programming": 47,
     "Prefix Sum": 20,
     "Hash Table": 56,
@@ -21,8 +21,8 @@
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
-    "Stack": 19,
-    "Monotonic Stack": 5,
+    "Stack": 20,
+    "Monotonic Stack": 6,
     "Two Pointers": 27,
     "Shell": 1,
     "Depth-First Search": 29,
@@ -3974,6 +3974,18 @@
         "Two Pointers",
         "Binary Search",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-01-08",
+      "problem_id": "2227",
+      "problem_title": "Sum of Subarray Ranges",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sum-of-subarray-ranges",
+      "tags": [
+        "Array",
+        "Stack",
+        "Monotonic Stack"
       ]
     }
   ]
