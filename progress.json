@@ -1,17 +1,17 @@
 {
-  "total_problems": 329,
+  "total_problems": 330,
   "problems_by_difficulty": {
     "Easy": 79,
-    "Medium": 170,
+    "Medium": 171,
     "Hard": 80
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 162,
+    "Array": 163,
     "Dynamic Programming": 47,
     "Prefix Sum": 20,
-    "Hash Table": 56,
-    "String": 76,
+    "Hash Table": 57,
+    "String": 77,
     "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -23,12 +23,12 @@
     "Simulation": 21,
     "Stack": 20,
     "Monotonic Stack": 6,
-    "Two Pointers": 27,
+    "Two Pointers": 28,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
     "Union Find": 14,
-    "Sorting": 40,
+    "Sorting": 41,
     "Design": 11,
     "Trie": 3,
     "Database": 28,
@@ -3986,6 +3986,20 @@
         "Array",
         "Stack",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "problem_id": "522",
+      "problem_title": "Longest Uncommon Subsequence II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-uncommon-subsequence-ii",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "String",
+        "Sorting"
       ]
     }
   ]
