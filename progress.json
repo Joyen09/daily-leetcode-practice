@@ -1,17 +1,17 @@
 {
-  "total_problems": 330,
+  "total_problems": 331,
   "problems_by_difficulty": {
     "Easy": 79,
     "Medium": 171,
-    "Hard": 80
+    "Hard": 81
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 163,
-    "Dynamic Programming": 47,
+    "Dynamic Programming": 48,
     "Prefix Sum": 20,
     "Hash Table": 57,
-    "String": 77,
+    "String": 78,
     "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -4000,6 +4000,17 @@
         "Two Pointers",
         "String",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "problem_id": "730",
+      "problem_title": "Count Different Palindromic Subsequences",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-different-palindromic-subsequences",
+      "tags": [
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
