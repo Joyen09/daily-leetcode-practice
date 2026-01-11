@@ -1,17 +1,17 @@
 {
-  "total_problems": 331,
+  "total_problems": 332,
   "problems_by_difficulty": {
     "Easy": 79,
-    "Medium": 171,
+    "Medium": 172,
     "Hard": 81
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 163,
+    "Array": 164,
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
-    "Hash Table": 57,
-    "String": 78,
+    "Hash Table": 58,
+    "String": 79,
     "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 25,
     "Union Find": 14,
     "Sorting": 41,
-    "Design": 11,
+    "Design": 12,
     "Trie": 3,
     "Database": 28,
     "Tree": 22,
@@ -4011,6 +4011,19 @@
       "tags": [
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-01-11",
+      "problem_id": "2285",
+      "problem_title": "Design Bitset",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/design-bitset",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Design"
       ]
     }
   ]
