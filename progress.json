@@ -1,7 +1,7 @@
 {
-  "total_problems": 332,
+  "total_problems": 333,
   "problems_by_difficulty": {
-    "Easy": 79,
+    "Easy": 80,
     "Medium": 172,
     "Hard": 81
   },
@@ -11,13 +11,13 @@
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
     "Hash Table": 58,
-    "String": 79,
+    "String": 80,
     "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 63,
+    "Math": 64,
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
@@ -4024,6 +4024,17 @@
         "Hash Table",
         "String",
         "Design"
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "problem_id": "171",
+      "problem_title": "Excel Sheet Column Number",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/excel-sheet-column-number",
+      "tags": [
+        "Math",
+        "String"
       ]
     }
   ]
