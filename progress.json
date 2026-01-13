@@ -1,13 +1,13 @@
 {
-  "total_problems": 333,
+  "total_problems": 334,
   "problems_by_difficulty": {
     "Easy": 80,
-    "Medium": 172,
+    "Medium": 173,
     "Hard": 81
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 164,
+    "Array": 165,
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
     "Hash Table": 58,
@@ -23,12 +23,12 @@
     "Simulation": 21,
     "Stack": 20,
     "Monotonic Stack": 6,
-    "Two Pointers": 28,
+    "Two Pointers": 29,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
     "Union Find": 14,
-    "Sorting": 41,
+    "Sorting": 42,
     "Design": 12,
     "Trie": 3,
     "Database": 28,
@@ -37,7 +37,7 @@
     "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 27,
+    "Binary Search": 28,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 8,
@@ -4035,6 +4035,19 @@
       "tags": [
         "Math",
         "String"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "problem_id": "2036",
+      "problem_title": "Count Pairs in Two Arrays",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-pairs-in-two-arrays",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
       ]
     }
   ]
