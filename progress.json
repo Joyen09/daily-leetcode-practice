@@ -1,7 +1,7 @@
 {
-  "total_problems": 334,
+  "total_problems": 335,
   "problems_by_difficulty": {
-    "Easy": 80,
+    "Easy": 81,
     "Medium": 173,
     "Hard": 81
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
     "Hash Table": 58,
-    "String": 80,
+    "String": 81,
     "Enumeration": 14,
     "Backtracking": 7,
     "Bit Manipulation": 21,
@@ -21,7 +21,7 @@
     "Counting": 11,
     "Matrix": 25,
     "Simulation": 21,
-    "Stack": 20,
+    "Stack": 21,
     "Monotonic Stack": 6,
     "Two Pointers": 29,
     "Shell": 1,
@@ -4048,6 +4048,17 @@
         "Two Pointers",
         "Binary Search",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "problem_id": "20",
+      "problem_title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-parentheses",
+      "tags": [
+        "String",
+        "Stack"
       ]
     }
   ]
