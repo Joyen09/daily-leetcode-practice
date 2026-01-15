@@ -1,8 +1,8 @@
 {
-  "total_problems": 335,
+  "total_problems": 336,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 173,
+    "Medium": 174,
     "Hard": 81
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 165,
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
-    "Hash Table": 58,
+    "Hash Table": 59,
     "String": 81,
     "Enumeration": 14,
     "Backtracking": 7,
@@ -23,7 +23,7 @@
     "Simulation": 21,
     "Stack": 21,
     "Monotonic Stack": 6,
-    "Two Pointers": 29,
+    "Two Pointers": 30,
     "Shell": 1,
     "Depth-First Search": 29,
     "Breadth-First Search": 25,
@@ -32,8 +32,8 @@
     "Design": 12,
     "Trie": 3,
     "Database": 28,
-    "Tree": 22,
-    "Binary Tree": 14,
+    "Tree": 23,
+    "Binary Tree": 15,
     "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -4059,6 +4059,19 @@
       "tags": [
         "String",
         "Stack"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "problem_id": "1790",
+      "problem_title": "Lowest Common Ancestor of a Binary Tree III",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii",
+      "tags": [
+        "Hash Table",
+        "Two Pointers",
+        "Tree",
+        "Binary Tree"
       ]
     }
   ]
