@@ -1,8 +1,8 @@
 {
-  "total_problems": 337,
+  "total_problems": 338,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 175,
+    "Medium": 176,
     "Hard": 81
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 42,
     "Design": 12,
     "Trie": 3,
-    "Database": 28,
+    "Database": 29,
     "Tree": 23,
     "Binary Tree": 15,
     "Greedy": 33,
@@ -4084,6 +4084,16 @@
         "String",
         "Stack",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "problem_id": "3488",
+      "problem_title": "Find Top Scoring Students",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-top-scoring-students",
+      "tags": [
+        "Database"
       ]
     }
   ]
