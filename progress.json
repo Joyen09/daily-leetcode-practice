@@ -1,9 +1,9 @@
 {
-  "total_problems": 338,
+  "total_problems": 339,
   "problems_by_difficulty": {
     "Easy": 81,
     "Medium": 176,
-    "Hard": 81
+    "Hard": 82
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 25,
     "Union Find": 14,
     "Sorting": 42,
-    "Design": 12,
+    "Design": 13,
     "Trie": 3,
     "Database": 29,
     "Tree": 23,
@@ -40,14 +40,14 @@
     "Binary Search": 28,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
-    "Ordered Set": 8,
+    "Ordered Set": 9,
     "Number Theory": 8,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
     "Linked List": 6,
     "Binary Indexed Tree": 4,
-    "Segment Tree": 6,
+    "Segment Tree": 7,
     "Geometry": 3,
     "Topological Sort": 3,
     "Combinatorics": 3,
@@ -4094,6 +4094,18 @@
       "url": "https://leetcode.com/problems/find-top-scoring-students",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-01-18",
+      "problem_id": "715",
+      "problem_title": "Range Module",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/range-module",
+      "tags": [
+        "Design",
+        "Segment Tree",
+        "Ordered Set"
       ]
     }
   ]
