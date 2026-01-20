@@ -1,8 +1,8 @@
 {
-  "total_problems": 340,
+  "total_problems": 341,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 176,
+    "Medium": 177,
     "Hard": 83
   },
   "tags_frequency": {
@@ -25,14 +25,14 @@
     "Monotonic Stack": 6,
     "Two Pointers": 30,
     "Shell": 1,
-    "Depth-First Search": 29,
-    "Breadth-First Search": 25,
+    "Depth-First Search": 30,
+    "Breadth-First Search": 26,
     "Union Find": 14,
     "Sorting": 42,
     "Design": 13,
     "Trie": 3,
     "Database": 29,
-    "Tree": 23,
+    "Tree": 24,
     "Binary Tree": 15,
     "Greedy": 33,
     "Graph": 19,
@@ -4118,6 +4118,18 @@
         "Array",
         "Math",
         "Geometry"
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "problem_id": "1492",
+      "problem_title": "Time Needed to Inform All Employees",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/time-needed-to-inform-all-employees",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search"
       ]
     }
   ]
