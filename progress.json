@@ -1,20 +1,20 @@
 {
-  "total_problems": 341,
+  "total_problems": 342,
   "problems_by_difficulty": {
     "Easy": 81,
     "Medium": 177,
-    "Hard": 83
+    "Hard": 84
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 166,
+    "Array": 167,
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
-    "Hash Table": 59,
+    "Hash Table": 60,
     "String": 82,
     "Enumeration": 14,
     "Backtracking": 7,
-    "Bit Manipulation": 21,
+    "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 65,
@@ -37,7 +37,7 @@
     "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 28,
+    "Binary Search": 29,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -4130,6 +4130,19 @@
         "Tree",
         "Depth-First Search",
         "Breadth-First Search"
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "problem_id": "2430",
+      "problem_title": "Number of Excellent Pairs",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-excellent-pairs",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Binary Search",
+        "Bit Manipulation"
       ]
     }
   ]
