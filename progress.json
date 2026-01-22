@@ -1,16 +1,16 @@
 {
-  "total_problems": 342,
+  "total_problems": 343,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 177,
+    "Medium": 178,
     "Hard": 84
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 167,
+    "Array": 168,
     "Dynamic Programming": 48,
     "Prefix Sum": 20,
-    "Hash Table": 60,
+    "Hash Table": 61,
     "String": 82,
     "Enumeration": 14,
     "Backtracking": 7,
@@ -18,7 +18,7 @@
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 65,
-    "Counting": 11,
+    "Counting": 12,
     "Matrix": 25,
     "Simulation": 22,
     "Stack": 22,
@@ -28,7 +28,7 @@
     "Depth-First Search": 30,
     "Breadth-First Search": 26,
     "Union Find": 14,
-    "Sorting": 42,
+    "Sorting": 43,
     "Design": 13,
     "Trie": 3,
     "Database": 29,
@@ -4143,6 +4143,19 @@
         "Hash Table",
         "Binary Search",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "problem_id": "1354",
+      "problem_title": "Find Players With Zero or One Losses",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-players-with-zero-or-one-losses",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Counting"
       ]
     }
   ]
