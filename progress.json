@@ -1,14 +1,14 @@
 {
-  "total_problems": 344,
+  "total_problems": 345,
   "problems_by_difficulty": {
     "Easy": 81,
     "Medium": 179,
-    "Hard": 84
+    "Hard": 85
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 169,
-    "Dynamic Programming": 48,
+    "Dynamic Programming": 49,
     "Prefix Sum": 20,
     "Hash Table": 61,
     "String": 82,
@@ -4168,6 +4168,16 @@
         "Array",
         "Math",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "problem_id": "1527",
+      "problem_title": "Number of Ways to Paint N × 3 Grid",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid",
+      "tags": [
+        "Dynamic Programming"
       ]
     }
   ]
