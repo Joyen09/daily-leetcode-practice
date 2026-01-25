@@ -1,9 +1,9 @@
 {
-  "total_problems": 345,
+  "total_problems": 346,
   "problems_by_difficulty": {
     "Easy": 81,
     "Medium": 179,
-    "Hard": 85
+    "Hard": 86
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -11,8 +11,8 @@
     "Dynamic Programming": 49,
     "Prefix Sum": 20,
     "Hash Table": 61,
-    "String": 82,
-    "Enumeration": 14,
+    "String": 83,
+    "Enumeration": 15,
     "Backtracking": 7,
     "Bit Manipulation": 22,
     "Bitmask": 5,
@@ -37,7 +37,7 @@
     "Greedy": 33,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 29,
+    "Binary Search": 30,
     "Heap (Priority Queue)": 16,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -4178,6 +4178,18 @@
       "url": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid",
       "tags": [
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "problem_id": "2563",
+      "problem_title": "Split Message Based on Limit",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/split-message-based-on-limit",
+      "tags": [
+        "String",
+        "Binary Search",
+        "Enumeration"
       ]
     }
   ]
