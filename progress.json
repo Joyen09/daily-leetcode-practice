@@ -1,9 +1,9 @@
 {
-  "total_problems": 346,
+  "total_problems": 347,
   "problems_by_difficulty": {
     "Easy": 81,
     "Medium": 179,
-    "Hard": 86
+    "Hard": 87
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -26,7 +26,7 @@
     "Two Pointers": 30,
     "Shell": 1,
     "Depth-First Search": 30,
-    "Breadth-First Search": 26,
+    "Breadth-First Search": 27,
     "Union Find": 14,
     "Sorting": 44,
     "Design": 13,
@@ -66,7 +66,8 @@
     "Memoization": 1,
     "Brainteaser": 1,
     "Iterator": 1,
-    "Monotonic Queue": 1
+    "Monotonic Queue": 1,
+    "Graph Theory": 1
   },
   "daily_records": [
     {
@@ -4190,6 +4191,17 @@
         "String",
         "Binary Search",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "problem_id": "2671",
+      "problem_title": "Shortest Cycle in a Graph",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/shortest-cycle-in-a-graph",
+      "tags": [
+        "Breadth-First Search",
+        "Graph Theory"
       ]
     }
   ]
