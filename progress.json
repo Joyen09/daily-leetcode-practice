@@ -1,8 +1,8 @@
 {
-  "total_problems": 347,
+  "total_problems": 348,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 179,
+    "Medium": 180,
     "Hard": 87
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 66,
+    "Math": 67,
     "Counting": 12,
     "Matrix": 25,
     "Simulation": 22,
@@ -34,7 +34,7 @@
     "Database": 29,
     "Tree": 24,
     "Binary Tree": 15,
-    "Greedy": 33,
+    "Greedy": 34,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
@@ -52,7 +52,7 @@
     "Topological Sort": 3,
     "Combinatorics": 3,
     "Data Stream": 1,
-    "Recursion": 3,
+    "Recursion": 4,
     "Game Theory": 1,
     "Suffix Array": 1,
     "Line Sweep": 2,
@@ -4202,6 +4202,18 @@
       "tags": [
         "Breadth-First Search",
         "Graph Theory"
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "problem_id": "2100",
+      "problem_title": "Minimum Non-Zero Product of the Array Elements",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements",
+      "tags": [
+        "Math",
+        "Greedy",
+        "Recursion"
       ]
     }
   ]
