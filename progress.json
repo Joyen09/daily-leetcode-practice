@@ -1,8 +1,8 @@
 {
-  "total_problems": 348,
+  "total_problems": 349,
   "problems_by_difficulty": {
     "Easy": 81,
-    "Medium": 180,
+    "Medium": 181,
     "Hard": 87
   },
   "tags_frequency": {
@@ -23,7 +23,7 @@
     "Simulation": 22,
     "Stack": 22,
     "Monotonic Stack": 6,
-    "Two Pointers": 30,
+    "Two Pointers": 31,
     "Shell": 1,
     "Depth-First Search": 30,
     "Breadth-First Search": 27,
@@ -45,7 +45,7 @@
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
-    "Linked List": 6,
+    "Linked List": 7,
     "Binary Indexed Tree": 4,
     "Segment Tree": 7,
     "Geometry": 4,
@@ -4214,6 +4214,17 @@
         "Math",
         "Greedy",
         "Recursion"
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "problem_id": "61",
+      "problem_title": "Rotate List",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/rotate-list",
+      "tags": [
+        "Linked List",
+        "Two Pointers"
       ]
     }
   ]
