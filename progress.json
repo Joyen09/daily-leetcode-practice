@@ -1,7 +1,7 @@
 {
-  "total_problems": 351,
+  "total_problems": 352,
   "problems_by_difficulty": {
-    "Easy": 81,
+    "Easy": 82,
     "Medium": 182,
     "Hard": 88
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 49,
     "Prefix Sum": 20,
     "Hash Table": 61,
-    "String": 84,
+    "String": 85,
     "Enumeration": 16,
     "Backtracking": 8,
     "Bit Manipulation": 22,
@@ -4251,6 +4251,16 @@
         "String",
         "Backtracking",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "problem_id": "1660",
+      "problem_title": "Thousand Separator",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/thousand-separator",
+      "tags": [
+        "String"
       ]
     }
   ]
