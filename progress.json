@@ -1,7 +1,7 @@
 {
-  "total_problems": 352,
+  "total_problems": 353,
   "problems_by_difficulty": {
-    "Easy": 82,
+    "Easy": 83,
     "Medium": 182,
     "Hard": 88
   },
@@ -17,7 +17,7 @@
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 68,
+    "Math": 69,
     "Counting": 12,
     "Matrix": 25,
     "Simulation": 22,
@@ -4261,6 +4261,16 @@
       "url": "https://leetcode.com/problems/thousand-separator",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "problem_id": "3817",
+      "problem_title": "Maximum Containers on a Ship",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/maximum-containers-on-a-ship",
+      "tags": [
+        "Math"
       ]
     }
   ]
