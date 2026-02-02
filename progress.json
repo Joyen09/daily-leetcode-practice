@@ -1,13 +1,13 @@
 {
-  "total_problems": 353,
+  "total_problems": 354,
   "problems_by_difficulty": {
     "Easy": 83,
-    "Medium": 182,
+    "Medium": 183,
     "Hard": 88
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 171,
+    "Array": 172,
     "Dynamic Programming": 49,
     "Prefix Sum": 20,
     "Hash Table": 61,
@@ -21,20 +21,20 @@
     "Counting": 12,
     "Matrix": 25,
     "Simulation": 22,
-    "Stack": 23,
-    "Monotonic Stack": 6,
-    "Two Pointers": 31,
+    "Stack": 24,
+    "Monotonic Stack": 7,
+    "Two Pointers": 32,
     "Shell": 1,
     "Depth-First Search": 30,
     "Breadth-First Search": 27,
     "Union Find": 14,
-    "Sorting": 44,
+    "Sorting": 45,
     "Design": 13,
     "Trie": 3,
     "Database": 29,
     "Tree": 24,
     "Binary Tree": 15,
-    "Greedy": 34,
+    "Greedy": 35,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
@@ -4271,6 +4271,21 @@
       "url": "https://leetcode.com/problems/maximum-containers-on-a-ship",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "problem_id": "581",
+      "problem_title": "Shortest Unsorted Continuous Subarray",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Stack",
+        "Greedy",
+        "Sorting",
+        "Monotonic Stack"
       ]
     }
   ]
