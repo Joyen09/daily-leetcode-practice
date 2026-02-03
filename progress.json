@@ -1,9 +1,9 @@
 {
-  "total_problems": 354,
+  "total_problems": 355,
   "problems_by_difficulty": {
     "Easy": 83,
     "Medium": 183,
-    "Hard": 88
+    "Hard": 89
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -31,7 +31,7 @@
     "Sorting": 45,
     "Design": 13,
     "Trie": 3,
-    "Database": 29,
+    "Database": 30,
     "Tree": 24,
     "Binary Tree": 15,
     "Greedy": 35,
@@ -4286,6 +4286,16 @@
         "Greedy",
         "Sorting",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "problem_id": "3792",
+      "problem_title": "Find Invalid IP Addresses",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-invalid-ip-addresses",
+      "tags": [
+        "Database"
       ]
     }
   ]
