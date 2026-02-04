@@ -1,7 +1,7 @@
 {
-  "total_problems": 355,
+  "total_problems": 356,
   "problems_by_difficulty": {
-    "Easy": 83,
+    "Easy": 84,
     "Medium": 183,
     "Hard": 89
   },
@@ -17,10 +17,10 @@
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 69,
+    "Math": 70,
     "Counting": 12,
     "Matrix": 25,
-    "Simulation": 22,
+    "Simulation": 23,
     "Stack": 24,
     "Monotonic Stack": 7,
     "Two Pointers": 32,
@@ -4296,6 +4296,17 @@
       "url": "https://leetcode.com/problems/find-invalid-ip-addresses",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "problem_id": "2857",
+      "problem_title": "Total Distance Traveled",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/total-distance-traveled",
+      "tags": [
+        "Math",
+        "Simulation"
       ]
     }
   ]
