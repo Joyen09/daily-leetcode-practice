@@ -1,14 +1,14 @@
 {
-  "total_problems": 356,
+  "total_problems": 357,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 183,
+    "Medium": 184,
     "Hard": 89
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 172,
-    "Dynamic Programming": 49,
+    "Dynamic Programming": 50,
     "Prefix Sum": 20,
     "Hash Table": 61,
     "String": 85,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 70,
+    "Math": 71,
     "Counting": 12,
     "Matrix": 25,
     "Simulation": 23,
@@ -50,7 +50,7 @@
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 3,
-    "Combinatorics": 3,
+    "Combinatorics": 4,
     "Data Stream": 1,
     "Recursion": 4,
     "Game Theory": 1,
@@ -4307,6 +4307,18 @@
       "tags": [
         "Math",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "problem_id": "634",
+      "problem_title": "Find the Derangement of An Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-derangement-of-an-array",
+      "tags": [
+        "Math",
+        "Dynamic Programming",
+        "Combinatorics"
       ]
     }
   ]
