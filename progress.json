@@ -1,8 +1,8 @@
 {
-  "total_problems": 357,
+  "total_problems": 358,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 184,
+    "Medium": 185,
     "Hard": 89
   },
   "tags_frequency": {
@@ -11,9 +11,9 @@
     "Dynamic Programming": 50,
     "Prefix Sum": 20,
     "Hash Table": 61,
-    "String": 85,
+    "String": 86,
     "Enumeration": 16,
-    "Backtracking": 8,
+    "Backtracking": 9,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
@@ -4319,6 +4319,17 @@
         "Math",
         "Dynamic Programming",
         "Combinatorics"
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "problem_id": "93",
+      "problem_title": "Restore IP Addresses",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/restore-ip-addresses",
+      "tags": [
+        "String",
+        "Backtracking"
       ]
     }
   ]
