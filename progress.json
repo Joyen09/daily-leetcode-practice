@@ -1,8 +1,8 @@
 {
-  "total_problems": 358,
+  "total_problems": 359,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 185,
+    "Medium": 186,
     "Hard": 89
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 45,
     "Design": 13,
     "Trie": 3,
-    "Database": 30,
+    "Database": 31,
     "Tree": 24,
     "Binary Tree": 15,
     "Greedy": 35,
@@ -4330,6 +4330,16 @@
       "tags": [
         "String",
         "Backtracking"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "problem_id": "2840",
+      "problem_title": "Immediate Food Delivery III",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/immediate-food-delivery-iii",
+      "tags": [
+        "Database"
       ]
     }
   ]
