@@ -1,9 +1,9 @@
 {
-  "total_problems": 361,
+  "total_problems": 362,
   "problems_by_difficulty": {
     "Easy": 84,
     "Medium": 186,
-    "Hard": 91
+    "Hard": 92
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -11,8 +11,8 @@
     "Dynamic Programming": 51,
     "Prefix Sum": 20,
     "Hash Table": 61,
-    "String": 86,
-    "Enumeration": 16,
+    "String": 87,
+    "Enumeration": 17,
     "Backtracking": 9,
     "Bit Manipulation": 22,
     "Bitmask": 5,
@@ -23,7 +23,7 @@
     "Simulation": 24,
     "Stack": 24,
     "Monotonic Stack": 7,
-    "Two Pointers": 32,
+    "Two Pointers": 33,
     "Shell": 1,
     "Depth-First Search": 30,
     "Breadth-First Search": 27,
@@ -4369,6 +4369,18 @@
         "Array",
         "Heap (Priority Queue)",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "problem_id": "4037",
+      "problem_title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Enumeration"
       ]
     }
   ]
