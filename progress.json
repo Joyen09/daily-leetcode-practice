@@ -1,8 +1,8 @@
 {
-  "total_problems": 362,
+  "total_problems": 363,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 186,
+    "Medium": 187,
     "Hard": 92
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 174,
     "Dynamic Programming": 51,
     "Prefix Sum": 20,
-    "Hash Table": 61,
+    "Hash Table": 62,
     "String": 87,
     "Enumeration": 17,
     "Backtracking": 9,
@@ -25,15 +25,15 @@
     "Monotonic Stack": 7,
     "Two Pointers": 33,
     "Shell": 1,
-    "Depth-First Search": 30,
+    "Depth-First Search": 31,
     "Breadth-First Search": 27,
     "Union Find": 14,
     "Sorting": 45,
     "Design": 13,
     "Trie": 3,
     "Database": 31,
-    "Tree": 24,
-    "Binary Tree": 15,
+    "Tree": 25,
+    "Binary Tree": 16,
     "Greedy": 35,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -4381,6 +4381,19 @@
         "Two Pointers",
         "String",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "problem_id": "1816",
+      "problem_title": "Lowest Common Ancestor of a Binary Tree IV",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv",
+      "tags": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
