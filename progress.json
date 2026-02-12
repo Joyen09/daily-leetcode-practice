@@ -1,24 +1,24 @@
 {
-  "total_problems": 363,
+  "total_problems": 364,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 187,
+    "Medium": 188,
     "Hard": 92
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 174,
+    "Array": 175,
     "Dynamic Programming": 51,
     "Prefix Sum": 20,
-    "Hash Table": 62,
+    "Hash Table": 63,
     "String": 87,
     "Enumeration": 17,
     "Backtracking": 9,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 72,
-    "Counting": 12,
+    "Math": 73,
+    "Counting": 13,
     "Matrix": 26,
     "Simulation": 24,
     "Stack": 24,
@@ -4394,6 +4394,19 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "problem_id": "2448",
+      "problem_title": "Count Number of Bad Pairs",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-number-of-bad-pairs",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Counting"
       ]
     }
   ]
