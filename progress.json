@@ -1,9 +1,9 @@
 {
-  "total_problems": 364,
+  "total_problems": 365,
   "problems_by_difficulty": {
     "Easy": 84,
     "Medium": 188,
-    "Hard": 92
+    "Hard": 93
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -11,13 +11,13 @@
     "Dynamic Programming": 51,
     "Prefix Sum": 20,
     "Hash Table": 63,
-    "String": 87,
+    "String": 88,
     "Enumeration": 17,
-    "Backtracking": 9,
+    "Backtracking": 10,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 73,
+    "Math": 74,
     "Counting": 13,
     "Matrix": 26,
     "Simulation": 24,
@@ -34,14 +34,14 @@
     "Database": 31,
     "Tree": 25,
     "Binary Tree": 16,
-    "Greedy": 35,
+    "Greedy": 36,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
     "Heap (Priority Queue)": 17,
     "Hash Function": 3,
     "Ordered Set": 9,
-    "Number Theory": 9,
+    "Number Theory": 10,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
@@ -4407,6 +4407,20 @@
         "Hash Table",
         "Math",
         "Counting"
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "problem_id": "3635",
+      "problem_title": "Smallest Divisible Digit Product II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii",
+      "tags": [
+        "Math",
+        "String",
+        "Backtracking",
+        "Greedy",
+        "Number Theory"
       ]
     }
   ]
