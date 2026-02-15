@@ -1,8 +1,8 @@
 {
-  "total_problems": 366,
+  "total_problems": 367,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 188,
+    "Medium": 189,
     "Hard": 94
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 52,
     "Prefix Sum": 20,
     "Hash Table": 63,
-    "String": 88,
+    "String": 89,
     "Enumeration": 17,
     "Backtracking": 10,
     "Bit Manipulation": 22,
@@ -34,7 +34,7 @@
     "Database": 31,
     "Tree": 25,
     "Binary Tree": 16,
-    "Greedy": 37,
+    "Greedy": 38,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
@@ -4431,6 +4431,17 @@
       "url": "https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing",
       "tags": [
         "Dynamic Programming",
+        "Greedy"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "problem_id": "4156",
+      "problem_title": "Minimum Cost to Make Two Binary Strings Equal",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-cost-to-make-two-binary-strings-equal",
+      "tags": [
+        "String",
         "Greedy"
       ]
     }
