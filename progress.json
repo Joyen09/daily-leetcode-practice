@@ -1,23 +1,23 @@
 {
-  "total_problems": 367,
+  "total_problems": 368,
   "problems_by_difficulty": {
     "Easy": 84,
     "Medium": 189,
-    "Hard": 94
+    "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 175,
-    "Dynamic Programming": 52,
+    "Dynamic Programming": 53,
     "Prefix Sum": 20,
     "Hash Table": 63,
-    "String": 89,
+    "String": 90,
     "Enumeration": 17,
     "Backtracking": 10,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 74,
+    "Math": 75,
     "Counting": 13,
     "Matrix": 26,
     "Simulation": 24,
@@ -34,14 +34,14 @@
     "Database": 31,
     "Tree": 25,
     "Binary Tree": 16,
-    "Greedy": 38,
+    "Greedy": 39,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
     "Heap (Priority Queue)": 17,
     "Hash Function": 3,
     "Ordered Set": 9,
-    "Number Theory": 10,
+    "Number Theory": 11,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
@@ -4443,6 +4443,20 @@
       "tags": [
         "String",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "problem_id": "3552",
+      "problem_title": "Find the Largest Palindrome Divisible by K",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k",
+      "tags": [
+        "Math",
+        "String",
+        "Dynamic Programming",
+        "Greedy",
+        "Number Theory"
       ]
     }
   ]
