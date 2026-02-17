@@ -1,13 +1,13 @@
 {
-  "total_problems": 368,
+  "total_problems": 369,
   "problems_by_difficulty": {
     "Easy": 84,
-    "Medium": 189,
+    "Medium": 190,
     "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 175,
+    "Array": 176,
     "Dynamic Programming": 53,
     "Prefix Sum": 20,
     "Hash Table": 63,
@@ -28,13 +28,13 @@
     "Depth-First Search": 31,
     "Breadth-First Search": 27,
     "Union Find": 14,
-    "Sorting": 45,
+    "Sorting": 46,
     "Design": 13,
     "Trie": 3,
     "Database": 31,
     "Tree": 25,
     "Binary Tree": 16,
-    "Greedy": 39,
+    "Greedy": 40,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 30,
@@ -4457,6 +4457,18 @@
         "Dynamic Programming",
         "Greedy",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "problem_id": "3151",
+      "problem_title": "Minimum Processing Time",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-processing-time",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
