@@ -1,7 +1,7 @@
 {
-  "total_problems": 369,
+  "total_problems": 370,
   "problems_by_difficulty": {
-    "Easy": 84,
+    "Easy": 85,
     "Medium": 190,
     "Hard": 95
   },
@@ -25,15 +25,15 @@
     "Monotonic Stack": 7,
     "Two Pointers": 33,
     "Shell": 1,
-    "Depth-First Search": 31,
-    "Breadth-First Search": 27,
+    "Depth-First Search": 32,
+    "Breadth-First Search": 28,
     "Union Find": 14,
     "Sorting": 46,
     "Design": 13,
     "Trie": 3,
     "Database": 31,
-    "Tree": 25,
-    "Binary Tree": 16,
+    "Tree": 26,
+    "Binary Tree": 17,
     "Greedy": 40,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -4469,6 +4469,19 @@
         "Array",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "problem_id": "112",
+      "problem_title": "Path Sum",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/path-sum",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
       ]
     }
   ]
