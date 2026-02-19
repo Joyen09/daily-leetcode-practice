@@ -1,8 +1,8 @@
 {
-  "total_problems": 370,
+  "total_problems": 371,
   "problems_by_difficulty": {
     "Easy": 85,
-    "Medium": 190,
+    "Medium": 191,
     "Hard": 95
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 46,
     "Design": 13,
     "Trie": 3,
-    "Database": 31,
+    "Database": 32,
     "Tree": 26,
     "Binary Tree": 17,
     "Greedy": 40,
@@ -4482,6 +4482,16 @@
         "Depth-First Search",
         "Breadth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "problem_id": "1405",
+      "problem_title": "All People Report to the Given Manager",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/all-people-report-to-the-given-manager",
+      "tags": [
+        "Database"
       ]
     }
   ]
