@@ -1,7 +1,7 @@
 {
-  "total_problems": 371,
+  "total_problems": 372,
   "problems_by_difficulty": {
-    "Easy": 85,
+    "Easy": 86,
     "Medium": 191,
     "Hard": 95
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 53,
     "Prefix Sum": 20,
     "Hash Table": 63,
-    "String": 90,
+    "String": 91,
     "Enumeration": 17,
     "Backtracking": 10,
     "Bit Manipulation": 22,
@@ -4492,6 +4492,16 @@
       "url": "https://leetcode.com/problems/all-people-report-to-the-given-manager",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "problem_id": "851",
+      "problem_title": "Goat Latin",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/goat-latin",
+      "tags": [
+        "String"
       ]
     }
   ]
