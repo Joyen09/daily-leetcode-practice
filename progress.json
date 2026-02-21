@@ -1,13 +1,13 @@
 {
-  "total_problems": 372,
+  "total_problems": 373,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 191,
+    "Medium": 192,
     "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 176,
+    "Array": 177,
     "Dynamic Programming": 53,
     "Prefix Sum": 20,
     "Hash Table": 63,
@@ -37,7 +37,7 @@
     "Greedy": 40,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 30,
+    "Binary Search": 31,
     "Heap (Priority Queue)": 17,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -4502,6 +4502,17 @@
       "url": "https://leetcode.com/problems/goat-latin",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "problem_id": "882",
+      "problem_title": "Peak Index in a Mountain Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array",
+      "tags": [
+        "Array",
+        "Binary Search"
       ]
     }
   ]
