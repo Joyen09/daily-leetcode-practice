@@ -1,16 +1,16 @@
 {
-  "total_problems": 373,
+  "total_problems": 374,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 192,
+    "Medium": 193,
     "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 177,
+    "Array": 178,
     "Dynamic Programming": 53,
-    "Prefix Sum": 20,
-    "Hash Table": 63,
+    "Prefix Sum": 21,
+    "Hash Table": 64,
     "String": 91,
     "Enumeration": 17,
     "Backtracking": 10,
@@ -4513,6 +4513,18 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "problem_id": "1694",
+      "problem_title": "Make Sum Divisible by P",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/make-sum-divisible-by-p",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Prefix Sum"
       ]
     }
   ]
