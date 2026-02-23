@@ -1,13 +1,13 @@
 {
-  "total_problems": 374,
+  "total_problems": 375,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 193,
+    "Medium": 194,
     "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 178,
+    "Array": 179,
     "Dynamic Programming": 53,
     "Prefix Sum": 21,
     "Hash Table": 64,
@@ -28,17 +28,17 @@
     "Depth-First Search": 32,
     "Breadth-First Search": 28,
     "Union Find": 14,
-    "Sorting": 46,
+    "Sorting": 47,
     "Design": 13,
     "Trie": 3,
     "Database": 32,
     "Tree": 26,
     "Binary Tree": 17,
-    "Greedy": 40,
+    "Greedy": 41,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 31,
-    "Heap (Priority Queue)": 17,
+    "Heap (Priority Queue)": 18,
     "Hash Function": 3,
     "Ordered Set": 9,
     "Number Theory": 11,
@@ -4525,6 +4525,19 @@
         "Array",
         "Hash Table",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "problem_id": "3818",
+      "problem_title": "Maximize Profit from Task Assignment",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximize-profit-from-task-assignment",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)"
       ]
     }
   ]
