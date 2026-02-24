@@ -1,13 +1,13 @@
 {
-  "total_problems": 375,
+  "total_problems": 376,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 194,
+    "Medium": 195,
     "Hard": 95
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 179,
+    "Array": 180,
     "Dynamic Programming": 53,
     "Prefix Sum": 21,
     "Hash Table": 64,
@@ -28,7 +28,7 @@
     "Depth-First Search": 32,
     "Breadth-First Search": 28,
     "Union Find": 14,
-    "Sorting": 47,
+    "Sorting": 48,
     "Design": 13,
     "Trie": 3,
     "Database": 32,
@@ -4538,6 +4538,17 @@
         "Greedy",
         "Sorting",
         "Heap (Priority Queue)"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "problem_id": "2355",
+      "problem_title": "Maximum Consecutive Floors Without Special Floors",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors",
+      "tags": [
+        "Array",
+        "Sorting"
       ]
     }
   ]
