@@ -1,9 +1,9 @@
 {
-  "total_problems": 376,
+  "total_problems": 377,
   "problems_by_difficulty": {
     "Easy": 86,
     "Medium": 195,
-    "Hard": 95
+    "Hard": 96
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -11,8 +11,8 @@
     "Dynamic Programming": 53,
     "Prefix Sum": 21,
     "Hash Table": 64,
-    "String": 91,
-    "Enumeration": 17,
+    "String": 92,
+    "Enumeration": 18,
     "Backtracking": 10,
     "Bit Manipulation": 22,
     "Bitmask": 5,
@@ -4549,6 +4549,17 @@
       "tags": [
         "Array",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "problem_id": "2563",
+      "problem_title": "Split Message Based on Limit",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/split-message-based-on-limit",
+      "tags": [
+        "String",
+        "Enumeration"
       ]
     }
   ]
