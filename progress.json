@@ -1,14 +1,14 @@
 {
-  "total_problems": 377,
+  "total_problems": 378,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 195,
+    "Medium": 196,
     "Hard": 96
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 180,
-    "Dynamic Programming": 53,
+    "Array": 181,
+    "Dynamic Programming": 54,
     "Prefix Sum": 21,
     "Hash Table": 64,
     "String": 92,
@@ -4560,6 +4560,17 @@
       "tags": [
         "String",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "problem_id": "309",
+      "problem_title": "Best Time to Buy and Sell Stock with Cooldown",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
       ]
     }
   ]
