@@ -1,16 +1,16 @@
 {
-  "total_problems": 378,
+  "total_problems": 379,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 196,
+    "Medium": 197,
     "Hard": 96
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 181,
+    "Array": 182,
     "Dynamic Programming": 54,
     "Prefix Sum": 21,
-    "Hash Table": 64,
+    "Hash Table": 65,
     "String": 92,
     "Enumeration": 18,
     "Backtracking": 10,
@@ -18,7 +18,7 @@
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 75,
-    "Counting": 13,
+    "Counting": 14,
     "Matrix": 26,
     "Simulation": 24,
     "Stack": 24,
@@ -4571,6 +4571,18 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "problem_id": "1055",
+      "problem_title": "Pairs of Songs With Total Durations Divisible by 60",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Counting"
       ]
     }
   ]
