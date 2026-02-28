@@ -1,8 +1,8 @@
 {
-  "total_problems": 379,
+  "total_problems": 380,
   "problems_by_difficulty": {
     "Easy": 86,
-    "Medium": 197,
+    "Medium": 198,
     "Hard": 96
   },
   "tags_frequency": {
@@ -12,12 +12,12 @@
     "Prefix Sum": 21,
     "Hash Table": 65,
     "String": 92,
-    "Enumeration": 18,
+    "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 75,
+    "Math": 76,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 24,
@@ -4583,6 +4583,17 @@
         "Array",
         "Hash Table",
         "Counting"
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "problem_id": "2351",
+      "problem_title": "Number of Ways to Buy Pens and Pencils",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils",
+      "tags": [
+        "Math",
+        "Enumeration"
       ]
     }
   ]
