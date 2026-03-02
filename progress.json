@@ -1,13 +1,13 @@
 {
-  "total_problems": 381,
+  "total_problems": 382,
   "problems_by_difficulty": {
-    "Easy": 87,
+    "Easy": 88,
     "Medium": 198,
     "Hard": 96
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 182,
+    "Array": 183,
     "Dynamic Programming": 54,
     "Prefix Sum": 21,
     "Hash Table": 65,
@@ -4606,6 +4606,16 @@
         "String",
         "Stack",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "problem_id": "978",
+      "problem_title": "Valid Mountain Array",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-mountain-array",
+      "tags": [
+        "Array"
       ]
     }
   ]
