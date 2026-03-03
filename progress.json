@@ -1,23 +1,23 @@
 {
-  "total_problems": 382,
+  "total_problems": 383,
   "problems_by_difficulty": {
     "Easy": 88,
-    "Medium": 198,
+    "Medium": 199,
     "Hard": 96
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 183,
+    "Array": 184,
     "Dynamic Programming": 54,
     "Prefix Sum": 21,
-    "Hash Table": 65,
+    "Hash Table": 66,
     "String": 93,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 76,
+    "Math": 77,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -4616,6 +4616,18 @@
       "url": "https://leetcode.com/problems/valid-mountain-array",
       "tags": [
         "Array"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "problem_id": "356",
+      "problem_title": "Line Reflection",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/line-reflection",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math"
       ]
     }
   ]
