@@ -1,8 +1,8 @@
 {
-  "total_problems": 383,
+  "total_problems": 384,
   "problems_by_difficulty": {
     "Easy": 88,
-    "Medium": 199,
+    "Medium": 200,
     "Hard": 96
   },
   "tags_frequency": {
@@ -17,7 +17,7 @@
     "Bit Manipulation": 22,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 77,
+    "Math": 78,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -4627,6 +4627,16 @@
       "tags": [
         "Array",
         "Hash Table",
+        "Math"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "problem_id": "3056",
+      "problem_title": "Determine if a Cell Is Reachable at a Given Time",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time",
+      "tags": [
         "Math"
       ]
     }
