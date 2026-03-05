@@ -1,23 +1,23 @@
 {
-  "total_problems": 384,
+  "total_problems": 385,
   "problems_by_difficulty": {
     "Easy": 88,
     "Medium": 200,
-    "Hard": 96
+    "Hard": 97
   },
   "tags_frequency": {
     "algorithm": 8,
     "Array": 184,
-    "Dynamic Programming": 54,
+    "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 66,
     "String": 93,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 22,
+    "Bit Manipulation": 23,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 78,
+    "Math": 79,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -50,7 +50,7 @@
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 4,
-    "Combinatorics": 4,
+    "Combinatorics": 5,
     "Data Stream": 1,
     "Recursion": 4,
     "Game Theory": 2,
@@ -63,7 +63,7 @@
     "Interactive": 3,
     "Divide and Conquer": 2,
     "Merge Sort": 1,
-    "Memoization": 2,
+    "Memoization": 3,
     "Brainteaser": 1,
     "Iterator": 1,
     "Monotonic Queue": 1,
@@ -4638,6 +4638,20 @@
       "url": "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time",
       "tags": [
         "Math"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "problem_id": "3414",
+      "problem_title": "Find Number of Ways to Reach the K-th Stair",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair",
+      "tags": [
+        "Math",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Memoization",
+        "Combinatorics"
       ]
     }
   ]
