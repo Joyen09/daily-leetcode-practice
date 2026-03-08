@@ -1,8 +1,8 @@
 {
-  "total_problems": 387,
+  "total_problems": 388,
   "problems_by_difficulty": {
     "Easy": 88,
-    "Medium": 202,
+    "Medium": 203,
     "Hard": 97
   },
   "tags_frequency": {
@@ -26,14 +26,14 @@
     "Two Pointers": 33,
     "Shell": 1,
     "Depth-First Search": 32,
-    "Breadth-First Search": 28,
+    "Breadth-First Search": 29,
     "Union Find": 14,
     "Sorting": 48,
     "Design": 13,
     "Trie": 3,
     "Database": 32,
-    "Tree": 26,
-    "Binary Tree": 17,
+    "Tree": 27,
+    "Binary Tree": 18,
     "Greedy": 41,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -4675,6 +4675,18 @@
       "tags": [
         "Math",
         "Divide and Conquer"
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "problem_id": "1745",
+      "problem_title": "Find Nearest Right Node in Binary Tree",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-nearest-right-node-in-binary-tree",
+      "tags": [
+        "Tree",
+        "Breadth-First Search",
+        "Binary Tree"
       ]
     }
   ]
