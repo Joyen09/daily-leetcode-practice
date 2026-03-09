@@ -1,13 +1,13 @@
 {
-  "total_problems": 388,
+  "total_problems": 389,
   "problems_by_difficulty": {
     "Easy": 88,
-    "Medium": 203,
+    "Medium": 204,
     "Hard": 97
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 184,
+    "Array": 185,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 67,
@@ -23,7 +23,7 @@
     "Simulation": 25,
     "Stack": 25,
     "Monotonic Stack": 7,
-    "Two Pointers": 33,
+    "Two Pointers": 34,
     "Shell": 1,
     "Depth-First Search": 32,
     "Breadth-First Search": 29,
@@ -4687,6 +4687,17 @@
         "Tree",
         "Breadth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "problem_id": "3170",
+      "problem_title": "Find Indices With Index and Value Difference II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii",
+      "tags": [
+        "Array",
+        "Two Pointers"
       ]
     }
   ]
