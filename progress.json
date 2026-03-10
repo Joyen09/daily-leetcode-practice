@@ -1,13 +1,13 @@
 {
-  "total_problems": 389,
+  "total_problems": 390,
   "problems_by_difficulty": {
     "Easy": 88,
-    "Medium": 204,
+    "Medium": 205,
     "Hard": 97
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 185,
+    "Array": 186,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 67,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 23,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 81,
+    "Math": 82,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -50,7 +50,7 @@
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 4,
-    "Combinatorics": 5,
+    "Combinatorics": 6,
     "Data Stream": 1,
     "Recursion": 4,
     "Game Theory": 2,
@@ -64,7 +64,7 @@
     "Divide and Conquer": 3,
     "Merge Sort": 1,
     "Memoization": 3,
-    "Brainteaser": 1,
+    "Brainteaser": 2,
     "Iterator": 1,
     "Monotonic Queue": 1,
     "Graph Theory": 2
@@ -4698,6 +4698,19 @@
       "tags": [
         "Array",
         "Two Pointers"
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "problem_id": "3864",
+      "problem_title": "Count the Number of Computer Unlocking Permutations",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations",
+      "tags": [
+        "Array",
+        "Math",
+        "Brainteaser",
+        "Combinatorics"
       ]
     }
   ]
