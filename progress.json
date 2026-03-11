@@ -1,7 +1,7 @@
 {
-  "total_problems": 390,
+  "total_problems": 391,
   "problems_by_difficulty": {
-    "Easy": 88,
+    "Easy": 89,
     "Medium": 205,
     "Hard": 97
   },
@@ -11,13 +11,13 @@
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 67,
-    "String": 94,
+    "String": 95,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 23,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 82,
+    "Math": 83,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -4711,6 +4711,17 @@
         "Math",
         "Brainteaser",
         "Combinatorics"
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "problem_id": "168",
+      "problem_title": "Excel Sheet Column Title",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/excel-sheet-column-title",
+      "tags": [
+        "Math",
+        "String"
       ]
     }
   ]
