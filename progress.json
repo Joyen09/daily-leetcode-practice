@@ -1,13 +1,13 @@
 {
-  "total_problems": 391,
+  "total_problems": 392,
   "problems_by_difficulty": {
     "Easy": 89,
-    "Medium": 205,
+    "Medium": 206,
     "Hard": 97
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 186,
+    "Array": 187,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 67,
@@ -21,8 +21,8 @@
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
-    "Stack": 25,
-    "Monotonic Stack": 7,
+    "Stack": 26,
+    "Monotonic Stack": 8,
     "Two Pointers": 34,
     "Shell": 1,
     "Depth-First Search": 32,
@@ -37,7 +37,7 @@
     "Greedy": 41,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 31,
+    "Binary Search": 32,
     "Heap (Priority Queue)": 18,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -4722,6 +4722,19 @@
       "tags": [
         "Math",
         "String"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "problem_id": "2111",
+      "problem_title": "Binary Searchable Numbers in an Unsorted Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Stack",
+        "Monotonic Stack"
       ]
     }
   ]
