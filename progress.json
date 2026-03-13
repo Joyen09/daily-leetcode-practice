@@ -1,20 +1,20 @@
 {
-  "total_problems": 392,
+  "total_problems": 393,
   "problems_by_difficulty": {
     "Easy": 89,
     "Medium": 206,
-    "Hard": 97
+    "Hard": 98
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 187,
+    "Array": 188,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
-    "Hash Table": 67,
-    "String": 95,
+    "Hash Table": 68,
+    "String": 96,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 23,
+    "Bit Manipulation": 24,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 83,
@@ -67,7 +67,8 @@
     "Brainteaser": 2,
     "Iterator": 1,
     "Monotonic Queue": 1,
-    "Graph Theory": 2
+    "Graph Theory": 2,
+    "Union-Find": 1
   },
   "daily_records": [
     {
@@ -4735,6 +4736,20 @@
         "Binary Search",
         "Stack",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "problem_id": "2276",
+      "problem_title": "Groups of Strings",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/groups-of-strings",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Bit Manipulation",
+        "Union-Find"
       ]
     }
   ]
