@@ -1,8 +1,8 @@
 {
-  "total_problems": 393,
+  "total_problems": 394,
   "problems_by_difficulty": {
     "Easy": 89,
-    "Medium": 206,
+    "Medium": 207,
     "Hard": 98
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 68,
-    "String": 96,
+    "String": 97,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 24,
@@ -23,7 +23,7 @@
     "Simulation": 25,
     "Stack": 26,
     "Monotonic Stack": 8,
-    "Two Pointers": 34,
+    "Two Pointers": 35,
     "Shell": 1,
     "Depth-First Search": 32,
     "Breadth-First Search": 29,
@@ -4750,6 +4750,17 @@
         "String",
         "Bit Manipulation",
         "Union-Find"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "problem_id": "3018",
+      "problem_title": "Make String a Subsequence Using Cyclic Increments",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments",
+      "tags": [
+        "Two Pointers",
+        "String"
       ]
     }
   ]
