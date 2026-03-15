@@ -1,20 +1,20 @@
 {
-  "total_problems": 394,
+  "total_problems": 395,
   "problems_by_difficulty": {
-    "Easy": 89,
+    "Easy": 90,
     "Medium": 207,
     "Hard": 98
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 188,
+    "Array": 189,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 68,
     "String": 97,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 24,
+    "Bit Manipulation": 25,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 83,
@@ -4761,6 +4761,17 @@
       "tags": [
         "Two Pointers",
         "String"
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "problem_id": "136",
+      "problem_title": "Single Number",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/single-number",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
       ]
     }
   ]
