@@ -1,23 +1,23 @@
 {
-  "total_problems": 395,
+  "total_problems": 396,
   "problems_by_difficulty": {
     "Easy": 90,
     "Medium": 207,
-    "Hard": 98
+    "Hard": 99
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 189,
+    "Array": 190,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
-    "Hash Table": 68,
+    "Hash Table": 69,
     "String": 97,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 25,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 83,
+    "Math": 84,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -41,7 +41,7 @@
     "Heap (Priority Queue)": 18,
     "Hash Function": 3,
     "Ordered Set": 9,
-    "Number Theory": 11,
+    "Number Theory": 12,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 13,
@@ -68,7 +68,7 @@
     "Iterator": 1,
     "Monotonic Queue": 1,
     "Graph Theory": 2,
-    "Union-Find": 1
+    "Union-Find": 2
   },
   "daily_records": [
     {
@@ -4772,6 +4772,20 @@
       "tags": [
         "Array",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "problem_id": "989",
+      "problem_title": "Largest Component Size by Common Factor",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/largest-component-size-by-common-factor",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Union-Find",
+        "Number Theory"
       ]
     }
   ]
