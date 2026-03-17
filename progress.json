@@ -1,17 +1,17 @@
 {
-  "total_problems": 396,
+  "total_problems": 397,
   "problems_by_difficulty": {
     "Easy": 90,
-    "Medium": 207,
+    "Medium": 208,
     "Hard": 99
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 190,
+    "Array": 191,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
-    "Hash Table": 69,
-    "String": 97,
+    "Hash Table": 70,
+    "String": 98,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 25,
@@ -30,7 +30,7 @@
     "Union Find": 14,
     "Sorting": 48,
     "Design": 13,
-    "Trie": 3,
+    "Trie": 4,
     "Database": 32,
     "Tree": 27,
     "Binary Tree": 18,
@@ -4786,6 +4786,19 @@
         "Math",
         "Union-Find",
         "Number Theory"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "problem_id": "3329",
+      "problem_title": "Find the Length of the Longest Common Prefix",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Trie"
       ]
     }
   ]
