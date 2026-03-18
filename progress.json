@@ -1,8 +1,8 @@
 {
-  "total_problems": 397,
+  "total_problems": 398,
   "problems_by_difficulty": {
     "Easy": 90,
-    "Medium": 208,
+    "Medium": 209,
     "Hard": 99
   },
   "tags_frequency": {
@@ -10,8 +10,8 @@
     "Array": 191,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
-    "Hash Table": 70,
-    "String": 98,
+    "Hash Table": 71,
+    "String": 99,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 25,
@@ -44,7 +44,7 @@
     "Number Theory": 12,
     "Shortest Path": 6,
     "Queue": 5,
-    "Sliding Window": 13,
+    "Sliding Window": 14,
     "Linked List": 7,
     "Binary Indexed Tree": 4,
     "Segment Tree": 7,
@@ -4799,6 +4799,18 @@
         "Hash Table",
         "String",
         "Trie"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "problem_id": "438",
+      "problem_title": "Find All Anagrams in a String",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
       ]
     }
   ]
