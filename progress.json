@@ -1,13 +1,13 @@
 {
-  "total_problems": 398,
+  "total_problems": 399,
   "problems_by_difficulty": {
     "Easy": 90,
     "Medium": 209,
-    "Hard": 99
+    "Hard": 100
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 191,
+    "Array": 192,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 71,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 25,
     "Bitmask": 5,
     "String Matching": 1,
-    "Math": 84,
+    "Math": 85,
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
@@ -28,7 +28,7 @@
     "Depth-First Search": 32,
     "Breadth-First Search": 29,
     "Union Find": 14,
-    "Sorting": 48,
+    "Sorting": 49,
     "Design": 13,
     "Trie": 4,
     "Database": 32,
@@ -38,10 +38,10 @@
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 32,
-    "Heap (Priority Queue)": 18,
+    "Heap (Priority Queue)": 19,
     "Hash Function": 3,
     "Ordered Set": 9,
-    "Number Theory": 12,
+    "Number Theory": 13,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 14,
@@ -4811,6 +4811,20 @@
         "Hash Table",
         "String",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "problem_id": "2423",
+      "problem_title": "Minimum Deletions to Make Array Divisible",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Number Theory"
       ]
     }
   ]
