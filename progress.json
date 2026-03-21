@@ -1,13 +1,13 @@
 {
-  "total_problems": 400,
+  "total_problems": 401,
   "problems_by_difficulty": {
     "Easy": 90,
-    "Medium": 209,
+    "Medium": 210,
     "Hard": 101
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 193,
+    "Array": 194,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 72,
@@ -21,7 +21,7 @@
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
-    "Stack": 26,
+    "Stack": 27,
     "Monotonic Stack": 8,
     "Two Pointers": 35,
     "Shell": 1,
@@ -4839,6 +4839,17 @@
         "Bit Manipulation",
         "Depth-First Search",
         "Trie"
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "problem_id": "636",
+      "problem_title": "Exclusive Time of Functions",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/exclusive-time-of-functions",
+      "tags": [
+        "Array",
+        "Stack"
       ]
     }
   ]
