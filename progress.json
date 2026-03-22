@@ -1,8 +1,8 @@
 {
-  "total_problems": 401,
+  "total_problems": 402,
   "problems_by_difficulty": {
     "Easy": 90,
-    "Medium": 210,
+    "Medium": 211,
     "Hard": 101
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 72,
-    "String": 99,
+    "String": 100,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 26,
@@ -23,7 +23,7 @@
     "Simulation": 25,
     "Stack": 27,
     "Monotonic Stack": 8,
-    "Two Pointers": 35,
+    "Two Pointers": 36,
     "Shell": 1,
     "Depth-First Search": 33,
     "Breadth-First Search": 29,
@@ -34,7 +34,7 @@
     "Database": 32,
     "Tree": 27,
     "Binary Tree": 18,
-    "Greedy": 41,
+    "Greedy": 42,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 32,
@@ -4850,6 +4850,18 @@
       "tags": [
         "Array",
         "Stack"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "problem_id": "1880",
+      "problem_title": "Largest Merge Of Two Strings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/largest-merge-of-two-strings",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Greedy"
       ]
     }
   ]
