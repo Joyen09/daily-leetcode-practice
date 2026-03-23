@@ -1,8 +1,8 @@
 {
-  "total_problems": 402,
+  "total_problems": 403,
   "problems_by_difficulty": {
     "Easy": 90,
-    "Medium": 211,
+    "Medium": 212,
     "Hard": 101
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 194,
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
-    "Hash Table": 72,
+    "Hash Table": 73,
     "String": 100,
     "Enumeration": 19,
     "Backtracking": 10,
@@ -45,7 +45,7 @@
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 14,
-    "Linked List": 7,
+    "Linked List": 8,
     "Binary Indexed Tree": 4,
     "Segment Tree": 7,
     "Geometry": 4,
@@ -4862,6 +4862,17 @@
         "Two Pointers",
         "String",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "problem_id": "138",
+      "problem_title": "Copy List with Random Pointer",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/copy-list-with-random-pointer",
+      "tags": [
+        "Hash Table",
+        "Linked List"
       ]
     }
   ]
