@@ -1,9 +1,9 @@
 {
-  "total_problems": 403,
+  "total_problems": 404,
   "problems_by_difficulty": {
     "Easy": 90,
     "Medium": 212,
-    "Hard": 101
+    "Hard": 102
   },
   "tags_frequency": {
     "algorithm": 8,
@@ -11,7 +11,7 @@
     "Dynamic Programming": 55,
     "Prefix Sum": 21,
     "Hash Table": 73,
-    "String": 100,
+    "String": 101,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 26,
@@ -25,15 +25,15 @@
     "Monotonic Stack": 8,
     "Two Pointers": 36,
     "Shell": 1,
-    "Depth-First Search": 33,
-    "Breadth-First Search": 29,
+    "Depth-First Search": 34,
+    "Breadth-First Search": 30,
     "Union Find": 14,
     "Sorting": 49,
-    "Design": 13,
+    "Design": 14,
     "Trie": 5,
     "Database": 32,
-    "Tree": 27,
-    "Binary Tree": 18,
+    "Tree": 28,
+    "Binary Tree": 19,
     "Greedy": 42,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -4873,6 +4873,21 @@
       "tags": [
         "Hash Table",
         "Linked List"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "problem_id": "297",
+      "problem_title": "Serialize and Deserialize Binary Tree",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree",
+      "tags": [
+        "String",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Design",
+        "Binary Tree"
       ]
     }
   ]
