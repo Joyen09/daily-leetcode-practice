@@ -1,17 +1,17 @@
 {
-  "total_problems": 405,
+  "total_problems": 406,
   "problems_by_difficulty": {
-    "Easy": 90,
+    "Easy": 91,
     "Medium": 212,
     "Hard": 103
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 195,
+    "Array": 196,
     "Dynamic Programming": 56,
     "Prefix Sum": 21,
     "Hash Table": 73,
-    "String": 101,
+    "String": 102,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 26,
@@ -21,7 +21,7 @@
     "Counting": 14,
     "Matrix": 26,
     "Simulation": 25,
-    "Stack": 27,
+    "Stack": 28,
     "Monotonic Stack": 8,
     "Two Pointers": 36,
     "Shell": 1,
@@ -4899,6 +4899,18 @@
       "tags": [
         "Array",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "problem_id": "1720",
+      "problem_title": "Crawler Log Folder",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/crawler-log-folder",
+      "tags": [
+        "Array",
+        "String",
+        "Stack"
       ]
     }
   ]
