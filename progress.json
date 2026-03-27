@@ -1,14 +1,14 @@
 {
-  "total_problems": 406,
+  "total_problems": 407,
   "problems_by_difficulty": {
     "Easy": 91,
     "Medium": 212,
-    "Hard": 103
+    "Hard": 104
   },
   "tags_frequency": {
     "algorithm": 8,
-    "Array": 196,
-    "Dynamic Programming": 56,
+    "Array": 197,
+    "Dynamic Programming": 57,
     "Prefix Sum": 21,
     "Hash Table": 73,
     "String": 102,
@@ -38,7 +38,7 @@
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 32,
-    "Heap (Priority Queue)": 19,
+    "Heap (Priority Queue)": 20,
     "Hash Function": 3,
     "Ordered Set": 9,
     "Number Theory": 13,
@@ -4911,6 +4911,18 @@
         "Array",
         "String",
         "Stack"
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "problem_id": "2267",
+      "problem_title": "Minimum Difference in Sums After Removal of Elements",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Heap (Priority Queue)"
       ]
     }
   ]
