@@ -1,12 +1,12 @@
 {
-  "total_problems": 408,
+  "total_problems": 409,
   "problems_by_difficulty": {
-    "Easy": 92,
+    "Easy": 93,
     "Medium": 212,
     "Hard": 104
   },
   "tags_frequency": {
-    "algorithm": 8,
+    "algorithm": 9,
     "Array": 197,
     "Dynamic Programming": 57,
     "Prefix Sum": 21,
@@ -4933,6 +4933,16 @@
       "url": "https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "problem_id": "4195",
+      "problem_title": "Find Users with High Token Usage",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-users-with-high-token-usage",
+      "tags": [
+        "algorithm"
       ]
     }
   ]
