@@ -1,14 +1,14 @@
 {
-  "total_problems": 409,
+  "total_problems": 410,
   "problems_by_difficulty": {
     "Easy": 93,
-    "Medium": 212,
+    "Medium": 213,
     "Hard": 104
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 197,
-    "Dynamic Programming": 57,
+    "Array": 198,
+    "Dynamic Programming": 58,
     "Prefix Sum": 21,
     "Hash Table": 73,
     "String": 103,
@@ -44,7 +44,7 @@
     "Number Theory": 13,
     "Shortest Path": 6,
     "Queue": 5,
-    "Sliding Window": 14,
+    "Sliding Window": 15,
     "Linked List": 8,
     "Binary Indexed Tree": 4,
     "Segment Tree": 7,
@@ -4943,6 +4943,18 @@
       "url": "https://leetcode.com/problems/find-users-with-high-token-usage",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "problem_id": "1020",
+      "problem_title": "Longest Turbulent Subarray",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/longest-turbulent-subarray",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Sliding Window"
       ]
     }
   ]
