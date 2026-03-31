@@ -1,20 +1,20 @@
 {
-  "total_problems": 410,
+  "total_problems": 411,
   "problems_by_difficulty": {
-    "Easy": 93,
+    "Easy": 94,
     "Medium": 213,
     "Hard": 104
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 198,
+    "Array": 199,
     "Dynamic Programming": 58,
     "Prefix Sum": 21,
     "Hash Table": 73,
     "String": 103,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 26,
+    "Bit Manipulation": 27,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 85,
@@ -4955,6 +4955,17 @@
         "Array",
         "Dynamic Programming",
         "Sliding Window"
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "problem_id": "3246",
+      "problem_title": "Check if Bitwise OR Has Trailing Zeros",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
       ]
     }
   ]
