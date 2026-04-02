@@ -1,8 +1,8 @@
 {
-  "total_problems": 412,
+  "total_problems": 413,
   "problems_by_difficulty": {
     "Easy": 94,
-    "Medium": 213,
+    "Medium": 214,
     "Hard": 105
   },
   "tags_frequency": {
@@ -20,7 +20,7 @@
     "Math": 85,
     "Counting": 14,
     "Matrix": 26,
-    "Simulation": 25,
+    "Simulation": 26,
     "Stack": 28,
     "Monotonic Stack": 8,
     "Two Pointers": 36,
@@ -29,7 +29,7 @@
     "Breadth-First Search": 30,
     "Union Find": 14,
     "Sorting": 49,
-    "Design": 14,
+    "Design": 15,
     "Trie": 5,
     "Database": 32,
     "Tree": 28,
@@ -4978,6 +4978,17 @@
         "Array",
         "Dynamic Programming",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "problem_id": "2178",
+      "problem_title": "Walking Robot Simulation II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/walking-robot-simulation-ii",
+      "tags": [
+        "Design",
+        "Simulation"
       ]
     }
   ]
