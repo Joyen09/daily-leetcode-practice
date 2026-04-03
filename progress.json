@@ -1,8 +1,8 @@
 {
-  "total_problems": 413,
+  "total_problems": 414,
   "problems_by_difficulty": {
     "Easy": 94,
-    "Medium": 214,
+    "Medium": 215,
     "Hard": 105
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 49,
     "Design": 15,
     "Trie": 5,
-    "Database": 32,
+    "Database": 33,
     "Tree": 28,
     "Binary Tree": 19,
     "Greedy": 42,
@@ -4989,6 +4989,16 @@
       "tags": [
         "Design",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "problem_id": "3253",
+      "problem_title": "Symmetric Coordinates",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/symmetric-coordinates",
+      "tags": [
+        "Database"
       ]
     }
   ]
