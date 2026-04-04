@@ -1,24 +1,24 @@
 {
-  "total_problems": 414,
+  "total_problems": 415,
   "problems_by_difficulty": {
-    "Easy": 94,
+    "Easy": 95,
     "Medium": 215,
     "Hard": 105
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 200,
+    "Array": 201,
     "Dynamic Programming": 59,
     "Prefix Sum": 21,
     "Hash Table": 73,
     "String": 103,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 28,
+    "Bit Manipulation": 29,
     "Bitmask": 5,
     "String Matching": 1,
     "Math": 85,
-    "Counting": 14,
+    "Counting": 15,
     "Matrix": 26,
     "Simulation": 26,
     "Stack": 28,
@@ -28,7 +28,7 @@
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 49,
+    "Sorting": 50,
     "Design": 15,
     "Trie": 5,
     "Database": 33,
@@ -4999,6 +4999,19 @@
       "url": "https://leetcode.com/problems/symmetric-coordinates",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "problem_id": "1458",
+      "problem_title": "Sort Integers by The Number of 1 Bits",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits",
+      "tags": [
+        "Array",
+        "Bit Manipulation",
+        "Sorting",
+        "Counting"
       ]
     }
   ]
