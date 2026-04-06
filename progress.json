@@ -1,16 +1,16 @@
 {
-  "total_problems": 416,
+  "total_problems": 417,
   "problems_by_difficulty": {
     "Easy": 95,
-    "Medium": 216,
+    "Medium": 217,
     "Hard": 105
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 202,
+    "Array": 203,
     "Dynamic Programming": 59,
     "Prefix Sum": 21,
-    "Hash Table": 73,
+    "Hash Table": 74,
     "String": 103,
     "Enumeration": 19,
     "Backtracking": 10,
@@ -28,7 +28,7 @@
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 50,
+    "Sorting": 51,
     "Design": 15,
     "Trie": 5,
     "Database": 33,
@@ -37,7 +37,7 @@
     "Greedy": 43,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 32,
+    "Binary Search": 33,
     "Heap (Priority Queue)": 20,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -46,7 +46,7 @@
     "Queue": 5,
     "Sliding Window": 15,
     "Linked List": 8,
-    "Binary Indexed Tree": 4,
+    "Binary Indexed Tree": 5,
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 4,
@@ -5025,6 +5025,20 @@
         "Two Pointers",
         "Greedy",
         "String Matching"
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "problem_id": "2333",
+      "problem_title": "Count Number of Rectangles Containing Each Point",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-number-of-rectangles-containing-each-point",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Binary Search",
+        "Binary Indexed Tree",
+        "Sorting"
       ]
     }
   ]
