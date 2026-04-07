@@ -1,13 +1,13 @@
 {
-  "total_problems": 417,
+  "total_problems": 418,
   "problems_by_difficulty": {
     "Easy": 95,
-    "Medium": 217,
+    "Medium": 218,
     "Hard": 105
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 203,
+    "Array": 204,
     "Dynamic Programming": 59,
     "Prefix Sum": 21,
     "Hash Table": 74,
@@ -5039,6 +5039,16 @@
         "Binary Search",
         "Binary Indexed Tree",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "problem_id": "1491",
+      "problem_title": "Number of Times Binary String Is Prefix-Aligned",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned",
+      "tags": [
+        "Array"
       ]
     }
   ]
