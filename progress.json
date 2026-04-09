@@ -1,9 +1,9 @@
 {
-  "total_problems": 419,
+  "total_problems": 420,
   "problems_by_difficulty": {
     "Easy": 96,
     "Medium": 218,
-    "Hard": 105
+    "Hard": 106
   },
   "tags_frequency": {
     "algorithm": 9,
@@ -31,7 +31,7 @@
     "Sorting": 51,
     "Design": 15,
     "Trie": 5,
-    "Database": 33,
+    "Database": 34,
     "Tree": 28,
     "Binary Tree": 19,
     "Greedy": 43,
@@ -5060,6 +5060,16 @@
       "tags": [
         "Linked List",
         "Recursion"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "problem_id": "2253",
+      "problem_title": "Build the Equation",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/build-the-equation",
+      "tags": [
+        "Database"
       ]
     }
   ]
