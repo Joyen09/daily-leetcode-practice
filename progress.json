@@ -1,16 +1,16 @@
 {
-  "total_problems": 422,
+  "total_problems": 423,
   "problems_by_difficulty": {
     "Easy": 96,
-    "Medium": 219,
+    "Medium": 220,
     "Hard": 107
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 204,
-    "Dynamic Programming": 59,
+    "Array": 205,
+    "Dynamic Programming": 60,
     "Prefix Sum": 21,
-    "Hash Table": 74,
+    "Hash Table": 75,
     "String": 104,
     "Enumeration": 19,
     "Backtracking": 10,
@@ -18,17 +18,17 @@
     "Bitmask": 5,
     "String Matching": 3,
     "Math": 86,
-    "Counting": 15,
+    "Counting": 16,
     "Matrix": 26,
     "Simulation": 26,
     "Stack": 28,
     "Monotonic Stack": 8,
-    "Two Pointers": 37,
+    "Two Pointers": 38,
     "Shell": 1,
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 51,
+    "Sorting": 52,
     "Design": 15,
     "Trie": 5,
     "Database": 34,
@@ -37,7 +37,7 @@
     "Greedy": 44,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 33,
+    "Binary Search": 34,
     "Heap (Priority Queue)": 20,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -5092,6 +5092,22 @@
       "tags": [
         "String",
         "String Matching"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "problem_id": "3437",
+      "problem_title": "Maximum Total Damage With Spell Casting",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-total-damage-with-spell-casting",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Dynamic Programming",
+        "Sorting",
+        "Counting"
       ]
     }
   ]
