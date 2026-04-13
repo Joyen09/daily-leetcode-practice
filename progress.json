@@ -1,7 +1,7 @@
 {
-  "total_problems": 423,
+  "total_problems": 424,
   "problems_by_difficulty": {
-    "Easy": 96,
+    "Easy": 97,
     "Medium": 220,
     "Hard": 107
   },
@@ -11,7 +11,7 @@
     "Dynamic Programming": 60,
     "Prefix Sum": 21,
     "Hash Table": 75,
-    "String": 104,
+    "String": 105,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 29,
@@ -5108,6 +5108,16 @@
         "Dynamic Programming",
         "Sorting",
         "Counting"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "problem_id": "2173",
+      "problem_title": "Number of Valid Words in a Sentence",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/number-of-valid-words-in-a-sentence",
+      "tags": [
+        "String"
       ]
     }
   ]
