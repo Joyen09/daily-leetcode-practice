@@ -1,16 +1,16 @@
 {
-  "total_problems": 424,
+  "total_problems": 425,
   "problems_by_difficulty": {
     "Easy": 97,
-    "Medium": 220,
+    "Medium": 221,
     "Hard": 107
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 205,
+    "Array": 206,
     "Dynamic Programming": 60,
     "Prefix Sum": 21,
-    "Hash Table": 75,
+    "Hash Table": 76,
     "String": 105,
     "Enumeration": 19,
     "Backtracking": 10,
@@ -5118,6 +5118,17 @@
       "url": "https://leetcode.com/problems/number-of-valid-words-in-a-sentence",
       "tags": [
         "String"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "problem_id": "4050",
+      "problem_title": "Minimum Index Sum of Common Elements",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-index-sum-of-common-elements",
+      "tags": [
+        "Array",
+        "Hash Table"
       ]
     }
   ]
