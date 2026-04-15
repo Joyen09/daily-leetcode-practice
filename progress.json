@@ -1,9 +1,9 @@
 {
-  "total_problems": 425,
+  "total_problems": 426,
   "problems_by_difficulty": {
     "Easy": 97,
     "Medium": 221,
-    "Hard": 107
+    "Hard": 108
   },
   "tags_frequency": {
     "algorithm": 9,
@@ -31,7 +31,7 @@
     "Sorting": 52,
     "Design": 15,
     "Trie": 5,
-    "Database": 34,
+    "Database": 35,
     "Tree": 28,
     "Binary Tree": 19,
     "Greedy": 44,
@@ -5129,6 +5129,16 @@
       "tags": [
         "Array",
         "Hash Table"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "problem_id": "3503",
+      "problem_title": "Find Top Scoring Students II",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-top-scoring-students-ii",
+      "tags": [
+        "Database"
       ]
     }
   ]
