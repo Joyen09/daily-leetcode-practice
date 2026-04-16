@@ -1,13 +1,13 @@
 {
-  "total_problems": 426,
+  "total_problems": 427,
   "problems_by_difficulty": {
     "Easy": 97,
-    "Medium": 221,
+    "Medium": 222,
     "Hard": 108
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 206,
+    "Array": 207,
     "Dynamic Programming": 60,
     "Prefix Sum": 21,
     "Hash Table": 76,
@@ -21,8 +21,8 @@
     "Counting": 16,
     "Matrix": 26,
     "Simulation": 26,
-    "Stack": 28,
-    "Monotonic Stack": 8,
+    "Stack": 29,
+    "Monotonic Stack": 9,
     "Two Pointers": 38,
     "Shell": 1,
     "Depth-First Search": 34,
@@ -5139,6 +5139,18 @@
       "url": "https://leetcode.com/problems/find-top-scoring-students-ii",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "problem_id": "3113",
+      "problem_title": "Beautiful Towers II",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/beautiful-towers-ii",
+      "tags": [
+        "Array",
+        "Stack",
+        "Monotonic Stack"
       ]
     }
   ]
