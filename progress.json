@@ -1,15 +1,15 @@
 {
-  "total_problems": 427,
+  "total_problems": 428,
   "problems_by_difficulty": {
     "Easy": 97,
     "Medium": 222,
-    "Hard": 108
+    "Hard": 109
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 207,
-    "Dynamic Programming": 60,
-    "Prefix Sum": 21,
+    "Array": 208,
+    "Dynamic Programming": 61,
+    "Prefix Sum": 22,
     "Hash Table": 76,
     "String": 105,
     "Enumeration": 19,
@@ -19,7 +19,7 @@
     "String Matching": 3,
     "Math": 86,
     "Counting": 16,
-    "Matrix": 26,
+    "Matrix": 27,
     "Simulation": 26,
     "Stack": 29,
     "Monotonic Stack": 9,
@@ -5151,6 +5151,19 @@
         "Array",
         "Stack",
         "Monotonic Stack"
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "problem_id": "3470",
+      "problem_title": "Maximum Score From Grid Operations",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximum-score-from-grid-operations",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix",
+        "Prefix Sum"
       ]
     }
   ]
