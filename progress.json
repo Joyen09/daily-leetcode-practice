@@ -1,21 +1,21 @@
 {
-  "total_problems": 428,
+  "total_problems": 429,
   "problems_by_difficulty": {
     "Easy": 97,
     "Medium": 222,
-    "Hard": 109
+    "Hard": 110
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 208,
-    "Dynamic Programming": 61,
+    "Array": 209,
+    "Dynamic Programming": 62,
     "Prefix Sum": 22,
     "Hash Table": 76,
     "String": 105,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 29,
-    "Bitmask": 5,
+    "Bit Manipulation": 30,
+    "Bitmask": 6,
     "String Matching": 3,
     "Math": 86,
     "Counting": 16,
@@ -49,7 +49,7 @@
     "Binary Indexed Tree": 5,
     "Segment Tree": 7,
     "Geometry": 4,
-    "Topological Sort": 4,
+    "Topological Sort": 5,
     "Combinatorics": 6,
     "Data Stream": 1,
     "Recursion": 5,
@@ -67,7 +67,7 @@
     "Brainteaser": 2,
     "Iterator": 1,
     "Monotonic Queue": 1,
-    "Graph Theory": 2,
+    "Graph Theory": 3,
     "Union-Find": 2
   },
   "daily_records": [
@@ -5164,6 +5164,21 @@
         "Dynamic Programming",
         "Matrix",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "problem_id": "3826",
+      "problem_title": "Maximum Profit from Valid Topological Order in DAG",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximum-profit-from-valid-topological-order-in-dag",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Graph Theory",
+        "Topological Sort",
+        "Bitmask"
       ]
     }
   ]
