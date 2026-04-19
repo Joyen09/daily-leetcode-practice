@@ -1,7 +1,7 @@
 {
-  "total_problems": 429,
+  "total_problems": 430,
   "problems_by_difficulty": {
-    "Easy": 97,
+    "Easy": 98,
     "Medium": 222,
     "Hard": 110
   },
@@ -10,8 +10,8 @@
     "Array": 209,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
-    "Hash Table": 76,
-    "String": 105,
+    "Hash Table": 77,
+    "String": 106,
     "Enumeration": 19,
     "Backtracking": 10,
     "Bit Manipulation": 30,
@@ -5179,6 +5179,17 @@
         "Graph Theory",
         "Topological Sort",
         "Bitmask"
+      ]
+    },
+    {
+      "date": "2026-04-19",
+      "problem_id": "889",
+      "problem_title": "Buddy Strings",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/buddy-strings",
+      "tags": [
+        "Hash Table",
+        "String"
       ]
     }
   ]
