@@ -1,23 +1,23 @@
 {
-  "total_problems": 431,
+  "total_problems": 432,
   "problems_by_difficulty": {
     "Easy": 98,
-    "Medium": 222,
+    "Medium": 223,
     "Hard": 111
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 210,
+    "Array": 211,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
     "Hash Table": 77,
     "String": 106,
     "Enumeration": 19,
     "Backtracking": 10,
-    "Bit Manipulation": 30,
+    "Bit Manipulation": 31,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 86,
+    "Math": 87,
     "Counting": 16,
     "Matrix": 27,
     "Simulation": 26,
@@ -5203,6 +5203,18 @@
         "Greedy",
         "Sorting",
         "Heap (Priority Queue)"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "problem_id": "2621",
+      "problem_title": "Find Xor-Beauty of Array",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-xor-beauty-of-array",
+      "tags": [
+        "Array",
+        "Math",
+        "Bit Manipulation"
       ]
     }
   ]
