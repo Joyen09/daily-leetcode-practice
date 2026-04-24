@@ -1,16 +1,16 @@
 {
-  "total_problems": 434,
+  "total_problems": 435,
   "problems_by_difficulty": {
-    "Easy": 98,
+    "Easy": 99,
     "Medium": 224,
     "Hard": 112
   },
   "tags_frequency": {
     "algorithm": 9,
-    "Array": 212,
+    "Array": 213,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
-    "Hash Table": 79,
+    "Hash Table": 80,
     "String": 107,
     "Enumeration": 19,
     "Backtracking": 10,
@@ -5239,6 +5239,17 @@
       "tags": [
         "Hash Table",
         "Math"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "problem_id": "3446",
+      "problem_title": "Find the Number of Good Pairs I",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-the-number-of-good-pairs-i",
+      "tags": [
+        "Array",
+        "Hash Table"
       ]
     }
   ]
