@@ -1,8 +1,8 @@
 {
-  "total_problems": 435,
+  "total_problems": 436,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 224,
+    "Medium": 225,
     "Hard": 112
   },
   "tags_frequency": {
@@ -31,7 +31,7 @@
     "Sorting": 53,
     "Design": 15,
     "Trie": 5,
-    "Database": 35,
+    "Database": 36,
     "Tree": 28,
     "Binary Tree": 19,
     "Greedy": 45,
@@ -5250,6 +5250,16 @@
       "tags": [
         "Array",
         "Hash Table"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "problem_id": "2030",
+      "problem_title": "Group Employees of the Same Salary",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/group-employees-of-the-same-salary",
+      "tags": [
+        "Database"
       ]
     }
   ]
