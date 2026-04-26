@@ -1,8 +1,8 @@
 {
-  "total_problems": 436,
+  "total_problems": 437,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 225,
+    "Medium": 226,
     "Hard": 112
   },
   "tags_frequency": {
@@ -11,8 +11,8 @@
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
     "Hash Table": 80,
-    "String": 107,
-    "Enumeration": 19,
+    "String": 108,
+    "Enumeration": 20,
     "Backtracking": 10,
     "Bit Manipulation": 31,
     "Bitmask": 6,
@@ -34,7 +34,7 @@
     "Database": 36,
     "Tree": 28,
     "Binary Tree": 19,
-    "Greedy": 45,
+    "Greedy": 46,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 34,
@@ -5260,6 +5260,18 @@
       "url": "https://leetcode.com/problems/group-employees-of-the-same-salary",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "problem_id": "2877",
+      "problem_title": "Shortest String That Contains Three Strings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/shortest-string-that-contains-three-strings",
+      "tags": [
+        "String",
+        "Greedy",
+        "Enumeration"
       ]
     }
   ]
