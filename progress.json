@@ -1,12 +1,12 @@
 {
-  "total_problems": 437,
+  "total_problems": 438,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 226,
+    "Medium": 227,
     "Hard": 112
   },
   "tags_frequency": {
-    "algorithm": 9,
+    "algorithm": 10,
     "Array": 213,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
@@ -5272,6 +5272,16 @@
         "String",
         "Greedy",
         "Enumeration"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "problem_id": "2735",
+      "problem_title": "JSON Deep Equal",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/json-deep-equal",
+      "tags": [
+        "algorithm"
       ]
     }
   ]
