@@ -1,16 +1,16 @@
 {
-  "total_problems": 438,
+  "total_problems": 439,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 227,
+    "Medium": 228,
     "Hard": 112
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 213,
+    "Array": 214,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
-    "Hash Table": 80,
+    "Hash Table": 81,
     "String": 108,
     "Enumeration": 20,
     "Backtracking": 10,
@@ -5282,6 +5282,17 @@
       "url": "https://leetcode.com/problems/json-deep-equal",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "problem_id": "4162",
+      "problem_title": "Minimum Number of Operations to Have Distinct Elements",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements",
+      "tags": [
+        "Array",
+        "Hash Table"
       ]
     }
   ]
