@@ -1,19 +1,19 @@
 {
-  "total_problems": 439,
+  "total_problems": 440,
   "problems_by_difficulty": {
     "Easy": 99,
     "Medium": 228,
-    "Hard": 112
+    "Hard": 113
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 214,
+    "Array": 215,
     "Dynamic Programming": 62,
     "Prefix Sum": 22,
     "Hash Table": 81,
-    "String": 108,
+    "String": 109,
     "Enumeration": 20,
-    "Backtracking": 10,
+    "Backtracking": 11,
     "Bit Manipulation": 31,
     "Bitmask": 6,
     "String Matching": 3,
@@ -30,7 +30,7 @@
     "Union Find": 14,
     "Sorting": 53,
     "Design": 15,
-    "Trie": 5,
+    "Trie": 6,
     "Database": 36,
     "Tree": 28,
     "Binary Tree": 19,
@@ -5293,6 +5293,19 @@
       "tags": [
         "Array",
         "Hash Table"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "problem_id": "425",
+      "problem_title": "Word Squares",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/word-squares",
+      "tags": [
+        "Array",
+        "String",
+        "Backtracking",
+        "Trie"
       ]
     }
   ]
