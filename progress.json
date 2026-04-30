@@ -1,17 +1,17 @@
 {
-  "total_problems": 440,
+  "total_problems": 441,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 228,
+    "Medium": 229,
     "Hard": 113
   },
   "tags_frequency": {
     "algorithm": 10,
     "Array": 215,
-    "Dynamic Programming": 62,
+    "Dynamic Programming": 63,
     "Prefix Sum": 22,
     "Hash Table": 81,
-    "String": 109,
+    "String": 110,
     "Enumeration": 20,
     "Backtracking": 11,
     "Bit Manipulation": 31,
@@ -23,7 +23,7 @@
     "Simulation": 26,
     "Stack": 29,
     "Monotonic Stack": 9,
-    "Two Pointers": 38,
+    "Two Pointers": 39,
     "Shell": 1,
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
@@ -5306,6 +5306,18 @@
         "String",
         "Backtracking",
         "Trie"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "problem_id": "647",
+      "problem_title": "Palindromic Substrings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/palindromic-substrings",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
       ]
     }
   ]
