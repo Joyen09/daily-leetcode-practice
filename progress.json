@@ -1,24 +1,24 @@
 {
-  "total_problems": 441,
+  "total_problems": 442,
   "problems_by_difficulty": {
     "Easy": 99,
     "Medium": 229,
-    "Hard": 113
+    "Hard": 114
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 215,
+    "Array": 216,
     "Dynamic Programming": 63,
-    "Prefix Sum": 22,
-    "Hash Table": 81,
+    "Prefix Sum": 23,
+    "Hash Table": 82,
     "String": 110,
     "Enumeration": 20,
     "Backtracking": 11,
     "Bit Manipulation": 31,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 88,
-    "Counting": 16,
+    "Math": 89,
+    "Counting": 17,
     "Matrix": 27,
     "Simulation": 26,
     "Stack": 29,
@@ -37,11 +37,11 @@
     "Greedy": 46,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 34,
+    "Binary Search": 35,
     "Heap (Priority Queue)": 21,
     "Hash Function": 3,
     "Ordered Set": 9,
-    "Number Theory": 13,
+    "Number Theory": 14,
     "Shortest Path": 6,
     "Queue": 5,
     "Sliding Window": 16,
@@ -50,7 +50,7 @@
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 5,
-    "Combinatorics": 6,
+    "Combinatorics": 7,
     "Data Stream": 1,
     "Recursion": 5,
     "Game Theory": 2,
@@ -5318,6 +5318,23 @@
         "Two Pointers",
         "String",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "problem_id": "3583",
+      "problem_title": "Sorted GCD Pair Queries",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/sorted-gcd-pair-queries",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Binary Search",
+        "Combinatorics",
+        "Counting",
+        "Number Theory",
+        "Prefix Sum"
       ]
     }
   ]
