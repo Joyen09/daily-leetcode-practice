@@ -1,13 +1,13 @@
 {
-  "total_problems": 442,
+  "total_problems": 443,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 229,
+    "Medium": 230,
     "Hard": 114
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 216,
+    "Array": 217,
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
     "Hash Table": 82,
@@ -23,12 +23,12 @@
     "Simulation": 26,
     "Stack": 29,
     "Monotonic Stack": 9,
-    "Two Pointers": 39,
+    "Two Pointers": 40,
     "Shell": 1,
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 53,
+    "Sorting": 54,
     "Design": 15,
     "Trie": 6,
     "Database": 36,
@@ -37,7 +37,7 @@
     "Greedy": 46,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 35,
+    "Binary Search": 36,
     "Heap (Priority Queue)": 21,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -5335,6 +5335,19 @@
         "Counting",
         "Number Theory",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "problem_id": "4079",
+      "problem_title": "Maximum Capacity Within Budget",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-capacity-within-budget",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
       ]
     }
   ]
