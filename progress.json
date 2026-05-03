@@ -1,8 +1,8 @@
 {
-  "total_problems": 443,
+  "total_problems": 444,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 230,
+    "Medium": 231,
     "Hard": 114
   },
   "tags_frequency": {
@@ -17,10 +17,10 @@
     "Bit Manipulation": 31,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 89,
+    "Math": 90,
     "Counting": 17,
     "Matrix": 27,
-    "Simulation": 26,
+    "Simulation": 27,
     "Stack": 29,
     "Monotonic Stack": 9,
     "Two Pointers": 40,
@@ -5348,6 +5348,17 @@
         "Two Pointers",
         "Binary Search",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "problem_id": "2278",
+      "problem_title": "Find Three Consecutive Integers That Sum to a Given Number",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number",
+      "tags": [
+        "Math",
+        "Simulation"
       ]
     }
   ]
