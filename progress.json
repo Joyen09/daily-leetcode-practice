@@ -1,8 +1,8 @@
 {
-  "total_problems": 444,
+  "total_problems": 445,
   "problems_by_difficulty": {
     "Easy": 99,
-    "Medium": 231,
+    "Medium": 232,
     "Hard": 114
   },
   "tags_frequency": {
@@ -11,7 +11,7 @@
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
     "Hash Table": 82,
-    "String": 110,
+    "String": 111,
     "Enumeration": 20,
     "Backtracking": 11,
     "Bit Manipulation": 31,
@@ -34,7 +34,7 @@
     "Database": 36,
     "Tree": 28,
     "Binary Tree": 19,
-    "Greedy": 46,
+    "Greedy": 47,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 36,
@@ -5359,6 +5359,17 @@
       "tags": [
         "Math",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "problem_id": "1782",
+      "problem_title": "Smallest String With A Given Numeric Value",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/smallest-string-with-a-given-numeric-value",
+      "tags": [
+        "String",
+        "Greedy"
       ]
     }
   ]
