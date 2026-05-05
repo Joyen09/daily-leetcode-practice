@@ -1,7 +1,7 @@
 {
-  "total_problems": 445,
+  "total_problems": 446,
   "problems_by_difficulty": {
-    "Easy": 99,
+    "Easy": 100,
     "Medium": 232,
     "Hard": 114
   },
@@ -17,7 +17,7 @@
     "Bit Manipulation": 31,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 90,
+    "Math": 91,
     "Counting": 17,
     "Matrix": 27,
     "Simulation": 27,
@@ -5370,6 +5370,16 @@
       "tags": [
         "String",
         "Greedy"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "problem_id": "2752",
+      "problem_title": "Sum Multiples",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/sum-multiples",
+      "tags": [
+        "Math"
       ]
     }
   ]
