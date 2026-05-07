@@ -1,17 +1,17 @@
 {
-  "total_problems": 447,
+  "total_problems": 448,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 233,
+    "Medium": 234,
     "Hard": 114
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 218,
+    "Array": 219,
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
-    "Hash Table": 82,
-    "String": 111,
+    "Hash Table": 83,
+    "String": 112,
     "Enumeration": 20,
     "Backtracking": 11,
     "Bit Manipulation": 31,
@@ -28,7 +28,7 @@
     "Depth-First Search": 34,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 55,
+    "Sorting": 56,
     "Design": 15,
     "Trie": 6,
     "Database": 36,
@@ -5390,6 +5390,19 @@
       "url": "https://leetcode.com/problems/count-days-without-meetings",
       "tags": [
         "Array",
+        "Sorting"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "problem_id": "929",
+      "problem_title": "Groups of Special-Equivalent Strings",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/groups-of-special-equivalent-strings",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
         "Sorting"
       ]
     }
