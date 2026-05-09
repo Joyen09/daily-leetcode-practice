@@ -1,13 +1,13 @@
 {
-  "total_problems": 449,
+  "total_problems": 450,
   "problems_by_difficulty": {
     "Easy": 100,
     "Medium": 234,
-    "Hard": 115
+    "Hard": 116
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 219,
+    "Array": 220,
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
     "Hash Table": 83,
@@ -37,7 +37,7 @@
     "Greedy": 47,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 36,
+    "Binary Search": 37,
     "Heap (Priority Queue)": 21,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -60,7 +60,7 @@
     "Randomized": 1,
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
-    "Interactive": 3,
+    "Interactive": 4,
     "Divide and Conquer": 3,
     "Merge Sort": 1,
     "Memoization": 3,
@@ -5414,6 +5414,18 @@
       "url": "https://leetcode.com/problems/hopper-company-queries-ii",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "problem_id": "1185",
+      "problem_title": "Find in Mountain Array",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-in-mountain-array",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Interactive"
       ]
     }
   ]
