@@ -1,13 +1,13 @@
 {
-  "total_problems": 450,
+  "total_problems": 451,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 234,
+    "Medium": 235,
     "Hard": 116
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 220,
+    "Array": 221,
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
     "Hash Table": 83,
@@ -25,15 +25,15 @@
     "Monotonic Stack": 9,
     "Two Pointers": 40,
     "Shell": 1,
-    "Depth-First Search": 34,
+    "Depth-First Search": 35,
     "Breadth-First Search": 30,
     "Union Find": 14,
     "Sorting": 56,
     "Design": 15,
     "Trie": 6,
     "Database": 37,
-    "Tree": 28,
-    "Binary Tree": 19,
+    "Tree": 29,
+    "Binary Tree": 20,
     "Greedy": 47,
     "Graph": 19,
     "Binary Search Tree": 4,
@@ -5426,6 +5426,19 @@
         "Array",
         "Binary Search",
         "Interactive"
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "problem_id": "2175",
+      "problem_title": "Count Nodes With the Highest Score",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-nodes-with-the-highest-score",
+      "tags": [
+        "Array",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
       ]
     }
   ]
