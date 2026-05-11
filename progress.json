@@ -1,13 +1,13 @@
 {
-  "total_problems": 451,
+  "total_problems": 452,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 235,
+    "Medium": 236,
     "Hard": 116
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 221,
+    "Array": 222,
     "Dynamic Programming": 63,
     "Prefix Sum": 23,
     "Hash Table": 83,
@@ -28,13 +28,13 @@
     "Depth-First Search": 35,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 56,
+    "Sorting": 57,
     "Design": 15,
     "Trie": 6,
     "Database": 37,
     "Tree": 29,
     "Binary Tree": 20,
-    "Greedy": 47,
+    "Greedy": 48,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 37,
@@ -5439,6 +5439,18 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "problem_id": "4078",
+      "problem_title": "Maximum Alternating Sum of Squares",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
