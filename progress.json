@@ -1,8 +1,8 @@
 {
-  "total_problems": 452,
+  "total_problems": 453,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 236,
+    "Medium": 237,
     "Hard": 116
   },
   "tags_frequency": {
@@ -14,7 +14,7 @@
     "String": 112,
     "Enumeration": 20,
     "Backtracking": 11,
-    "Bit Manipulation": 31,
+    "Bit Manipulation": 32,
     "Bitmask": 6,
     "String Matching": 3,
     "Math": 91,
@@ -34,7 +34,7 @@
     "Database": 37,
     "Tree": 29,
     "Binary Tree": 20,
-    "Greedy": 48,
+    "Greedy": 49,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 37,
@@ -5451,6 +5451,17 @@
         "Array",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "problem_id": "2509",
+      "problem_title": "Minimize XOR",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimize-xor",
+      "tags": [
+        "Greedy",
+        "Bit Manipulation"
       ]
     }
   ]
