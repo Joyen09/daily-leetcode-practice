@@ -1,15 +1,15 @@
 {
-  "total_problems": 453,
+  "total_problems": 454,
   "problems_by_difficulty": {
     "Easy": 100,
     "Medium": 237,
-    "Hard": 116
+    "Hard": 117
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 222,
+    "Array": 223,
     "Dynamic Programming": 63,
-    "Prefix Sum": 23,
+    "Prefix Sum": 24,
     "Hash Table": 83,
     "String": 112,
     "Enumeration": 20,
@@ -17,9 +17,9 @@
     "Bit Manipulation": 32,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 91,
+    "Math": 92,
     "Counting": 17,
-    "Matrix": 27,
+    "Matrix": 28,
     "Simulation": 27,
     "Stack": 29,
     "Monotonic Stack": 9,
@@ -5462,6 +5462,19 @@
       "tags": [
         "Greedy",
         "Bit Manipulation"
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "problem_id": "4276",
+      "problem_title": "Minimum Operations to Make All Grid Elements Equal",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/minimum-operations-to-make-all-grid-elements-equal",
+      "tags": [
+        "Array",
+        "Math",
+        "Matrix",
+        "Prefix Sum"
       ]
     }
   ]
