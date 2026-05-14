@@ -1,8 +1,8 @@
 {
-  "total_problems": 454,
+  "total_problems": 455,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 237,
+    "Medium": 238,
     "Hard": 117
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 223,
     "Dynamic Programming": 63,
     "Prefix Sum": 24,
-    "Hash Table": 83,
+    "Hash Table": 84,
     "String": 112,
     "Enumeration": 20,
     "Backtracking": 11,
@@ -28,8 +28,8 @@
     "Depth-First Search": 35,
     "Breadth-First Search": 30,
     "Union Find": 14,
-    "Sorting": 57,
-    "Design": 15,
+    "Sorting": 58,
+    "Design": 16,
     "Trie": 6,
     "Database": 37,
     "Tree": 29,
@@ -38,7 +38,7 @@
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 37,
-    "Heap (Priority Queue)": 21,
+    "Heap (Priority Queue)": 22,
     "Hash Function": 3,
     "Ordered Set": 9,
     "Number Theory": 14,
@@ -51,7 +51,7 @@
     "Geometry": 4,
     "Topological Sort": 5,
     "Combinatorics": 7,
-    "Data Stream": 1,
+    "Data Stream": 2,
     "Recursion": 5,
     "Game Theory": 2,
     "Suffix Array": 1,
@@ -5475,6 +5475,20 @@
         "Math",
         "Matrix",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "problem_id": "1640",
+      "problem_title": "Design a File Sharing System",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/design-a-file-sharing-system",
+      "tags": [
+        "Hash Table",
+        "Design",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Data Stream"
       ]
     }
   ]
