@@ -1,14 +1,14 @@
 {
-  "total_problems": 455,
+  "total_problems": 456,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 238,
+    "Medium": 239,
     "Hard": 117
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 223,
-    "Dynamic Programming": 63,
+    "Array": 224,
+    "Dynamic Programming": 64,
     "Prefix Sum": 24,
     "Hash Table": 84,
     "String": 112,
@@ -61,7 +61,7 @@
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
     "Interactive": 4,
-    "Divide and Conquer": 3,
+    "Divide and Conquer": 4,
     "Merge Sort": 1,
     "Memoization": 3,
     "Brainteaser": 2,
@@ -5489,6 +5489,18 @@
         "Sorting",
         "Heap (Priority Queue)",
         "Data Stream"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "problem_id": "53",
+      "problem_title": "Maximum Subarray",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-subarray",
+      "tags": [
+        "Array",
+        "Divide and Conquer",
+        "Dynamic Programming"
       ]
     }
   ]
