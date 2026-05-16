@@ -1,13 +1,13 @@
 {
-  "total_problems": 456,
+  "total_problems": 457,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 239,
+    "Medium": 240,
     "Hard": 117
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 224,
+    "Array": 225,
     "Dynamic Programming": 64,
     "Prefix Sum": 24,
     "Hash Table": 84,
@@ -37,7 +37,7 @@
     "Greedy": 49,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 37,
+    "Binary Search": 38,
     "Heap (Priority Queue)": 22,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -5501,6 +5501,17 @@
         "Array",
         "Divide and Conquer",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "problem_id": "3763",
+      "problem_title": "Separate Squares I",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/separate-squares-i",
+      "tags": [
+        "Array",
+        "Binary Search"
       ]
     }
   ]
