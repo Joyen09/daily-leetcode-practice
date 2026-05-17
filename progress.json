@@ -1,8 +1,8 @@
 {
-  "total_problems": 457,
+  "total_problems": 458,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 240,
+    "Medium": 241,
     "Hard": 117
   },
   "tags_frequency": {
@@ -10,7 +10,7 @@
     "Array": 225,
     "Dynamic Programming": 64,
     "Prefix Sum": 24,
-    "Hash Table": 84,
+    "Hash Table": 85,
     "String": 112,
     "Enumeration": 20,
     "Backtracking": 11,
@@ -18,21 +18,21 @@
     "Bitmask": 6,
     "String Matching": 3,
     "Math": 92,
-    "Counting": 17,
+    "Counting": 18,
     "Matrix": 28,
     "Simulation": 27,
     "Stack": 29,
     "Monotonic Stack": 9,
     "Two Pointers": 40,
     "Shell": 1,
-    "Depth-First Search": 35,
-    "Breadth-First Search": 30,
+    "Depth-First Search": 36,
+    "Breadth-First Search": 31,
     "Union Find": 14,
     "Sorting": 58,
     "Design": 16,
     "Trie": 6,
     "Database": 37,
-    "Tree": 29,
+    "Tree": 30,
     "Binary Tree": 20,
     "Greedy": 49,
     "Graph": 19,
@@ -5512,6 +5512,20 @@
       "tags": [
         "Array",
         "Binary Search"
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "problem_id": "1643",
+      "problem_title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "tags": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Counting"
       ]
     }
   ]
