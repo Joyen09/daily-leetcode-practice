@@ -1,15 +1,15 @@
 {
-  "total_problems": 458,
+  "total_problems": 459,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 241,
+    "Medium": 242,
     "Hard": 117
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 225,
+    "Array": 226,
     "Dynamic Programming": 64,
-    "Prefix Sum": 24,
+    "Prefix Sum": 25,
     "Hash Table": 85,
     "String": 112,
     "Enumeration": 20,
@@ -44,7 +44,7 @@
     "Number Theory": 14,
     "Shortest Path": 6,
     "Queue": 5,
-    "Sliding Window": 16,
+    "Sliding Window": 17,
     "Linked List": 9,
     "Binary Indexed Tree": 5,
     "Segment Tree": 7,
@@ -5526,6 +5526,18 @@
         "Depth-First Search",
         "Breadth-First Search",
         "Counting"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "problem_id": "1538",
+      "problem_title": "Maximum Points You Can Obtain from Cards",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards",
+      "tags": [
+        "Array",
+        "Sliding Window",
+        "Prefix Sum"
       ]
     }
   ]
