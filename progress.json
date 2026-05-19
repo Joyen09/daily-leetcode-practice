@@ -1,13 +1,13 @@
 {
-  "total_problems": 459,
+  "total_problems": 460,
   "problems_by_difficulty": {
     "Easy": 100,
     "Medium": 242,
-    "Hard": 117
+    "Hard": 118
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 226,
+    "Array": 227,
     "Dynamic Programming": 64,
     "Prefix Sum": 25,
     "Hash Table": 85,
@@ -28,16 +28,16 @@
     "Depth-First Search": 36,
     "Breadth-First Search": 31,
     "Union Find": 14,
-    "Sorting": 58,
+    "Sorting": 59,
     "Design": 16,
     "Trie": 6,
     "Database": 37,
     "Tree": 30,
     "Binary Tree": 20,
-    "Greedy": 49,
+    "Greedy": 50,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 38,
+    "Binary Search": 39,
     "Heap (Priority Queue)": 22,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -5538,6 +5538,19 @@
         "Array",
         "Sliding Window",
         "Prefix Sum"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "problem_id": "2263",
+      "problem_title": "Maximum Running Time of N Computers",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/maximum-running-time-of-n-computers",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Greedy",
+        "Sorting"
       ]
     }
   ]
