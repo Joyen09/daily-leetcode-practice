@@ -1,13 +1,13 @@
 {
-  "total_problems": 460,
+  "total_problems": 461,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 242,
+    "Medium": 243,
     "Hard": 118
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 227,
+    "Array": 228,
     "Dynamic Programming": 64,
     "Prefix Sum": 25,
     "Hash Table": 85,
@@ -28,7 +28,7 @@
     "Depth-First Search": 36,
     "Breadth-First Search": 31,
     "Union Find": 14,
-    "Sorting": 59,
+    "Sorting": 60,
     "Design": 16,
     "Trie": 6,
     "Database": 37,
@@ -37,7 +37,7 @@
     "Greedy": 50,
     "Graph": 19,
     "Binary Search Tree": 4,
-    "Binary Search": 39,
+    "Binary Search": 40,
     "Heap (Priority Queue)": 22,
     "Hash Function": 3,
     "Ordered Set": 9,
@@ -61,14 +61,15 @@
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
     "Interactive": 4,
-    "Divide and Conquer": 4,
+    "Divide and Conquer": 5,
     "Merge Sort": 1,
     "Memoization": 3,
     "Brainteaser": 2,
     "Iterator": 1,
     "Monotonic Queue": 1,
     "Graph Theory": 3,
-    "Union-Find": 2
+    "Union-Find": 2,
+    "Quickselect": 1
   },
   "daily_records": [
     {
@@ -5551,6 +5552,20 @@
         "Binary Search",
         "Greedy",
         "Sorting"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "problem_id": "4141",
+      "problem_title": "Count Elements With at Least K Greater Values",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/count-elements-with-at-least-k-greater-values",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer",
+        "Sorting",
+        "Quickselect"
       ]
     }
   ]
