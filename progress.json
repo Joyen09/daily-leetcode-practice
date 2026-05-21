@@ -1,13 +1,13 @@
 {
-  "total_problems": 461,
+  "total_problems": 462,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 243,
+    "Medium": 244,
     "Hard": 118
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 228,
+    "Array": 229,
     "Dynamic Programming": 64,
     "Prefix Sum": 25,
     "Hash Table": 85,
@@ -18,7 +18,7 @@
     "Bitmask": 6,
     "String Matching": 3,
     "Math": 92,
-    "Counting": 18,
+    "Counting": 19,
     "Matrix": 28,
     "Simulation": 27,
     "Stack": 29,
@@ -28,13 +28,13 @@
     "Depth-First Search": 36,
     "Breadth-First Search": 31,
     "Union Find": 14,
-    "Sorting": 60,
+    "Sorting": 61,
     "Design": 16,
     "Trie": 6,
     "Database": 37,
     "Tree": 30,
     "Binary Tree": 20,
-    "Greedy": 50,
+    "Greedy": 51,
     "Graph": 19,
     "Binary Search Tree": 4,
     "Binary Search": 40,
@@ -5566,6 +5566,19 @@
         "Divide and Conquer",
         "Sorting",
         "Quickselect"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "problem_id": "982",
+      "problem_title": "Minimum Increment to Make Array Unique",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-increment-to-make-array-unique",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Counting"
       ]
     }
   ]
