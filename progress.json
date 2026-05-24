@@ -1,24 +1,24 @@
 {
-  "total_problems": 464,
+  "total_problems": 465,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 244,
+    "Medium": 245,
     "Hard": 120
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 229,
+    "Array": 230,
     "Dynamic Programming": 64,
     "Prefix Sum": 25,
-    "Hash Table": 85,
+    "Hash Table": 86,
     "String": 113,
     "Enumeration": 21,
     "Backtracking": 11,
     "Bit Manipulation": 32,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 93,
-    "Counting": 19,
+    "Math": 94,
+    "Counting": 20,
     "Matrix": 28,
     "Simulation": 27,
     "Stack": 29,
@@ -5601,6 +5601,19 @@
       "url": "https://leetcode.com/problems/analyze-organization-hierarchy",
       "tags": [
         "Database"
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "problem_id": "3416",
+      "problem_title": "Sum of Digit Differences of All Pairs",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Counting"
       ]
     }
   ]
