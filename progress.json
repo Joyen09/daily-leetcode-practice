@@ -1,14 +1,14 @@
 {
-  "total_problems": 466,
+  "total_problems": 467,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 246,
+    "Medium": 247,
     "Hard": 120
   },
   "tags_frequency": {
     "algorithm": 10,
-    "Array": 230,
-    "Dynamic Programming": 64,
+    "Array": 231,
+    "Dynamic Programming": 65,
     "Prefix Sum": 25,
     "Hash Table": 87,
     "String": 113,
@@ -17,7 +17,7 @@
     "Bit Manipulation": 32,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 94,
+    "Math": 95,
     "Counting": 20,
     "Matrix": 28,
     "Simulation": 27,
@@ -5627,6 +5627,18 @@
         "Tree",
         "Depth-First Search",
         "Binary Tree"
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "problem_id": "396",
+      "problem_title": "Rotate Function",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/rotate-function",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming"
       ]
     }
   ]
