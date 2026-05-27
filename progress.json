@@ -1,8 +1,8 @@
 {
-  "total_problems": 467,
+  "total_problems": 468,
   "problems_by_difficulty": {
     "Easy": 100,
-    "Medium": 247,
+    "Medium": 248,
     "Hard": 120
   },
   "tags_frequency": {
@@ -10,15 +10,15 @@
     "Array": 231,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
-    "Hash Table": 87,
-    "String": 113,
+    "Hash Table": 88,
+    "String": 114,
     "Enumeration": 21,
-    "Backtracking": 11,
+    "Backtracking": 12,
     "Bit Manipulation": 32,
     "Bitmask": 6,
     "String Matching": 3,
     "Math": 95,
-    "Counting": 20,
+    "Counting": 21,
     "Matrix": 28,
     "Simulation": 27,
     "Stack": 29,
@@ -5639,6 +5639,19 @@
         "Array",
         "Math",
         "Dynamic Programming"
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "problem_id": "1160",
+      "problem_title": "Letter Tile Possibilities",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/letter-tile-possibilities",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Backtracking",
+        "Counting"
       ]
     }
   ]
