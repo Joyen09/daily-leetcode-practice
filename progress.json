@@ -1,12 +1,12 @@
 {
-  "total_problems": 468,
+  "total_problems": 469,
   "problems_by_difficulty": {
-    "Easy": 100,
+    "Easy": 101,
     "Medium": 248,
     "Hard": 120
   },
   "tags_frequency": {
-    "algorithm": 10,
+    "algorithm": 11,
     "Array": 231,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
@@ -5652,6 +5652,16 @@
         "String",
         "Backtracking",
         "Counting"
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "problem_id": "3063",
+      "problem_title": "Method Chaining",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/method-chaining",
+      "tags": [
+        "algorithm"
       ]
     }
   ]
