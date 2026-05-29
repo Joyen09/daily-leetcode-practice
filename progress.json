@@ -1,13 +1,13 @@
 {
-  "total_problems": 469,
+  "total_problems": 470,
   "problems_by_difficulty": {
     "Easy": 101,
     "Medium": 248,
-    "Hard": 120
+    "Hard": 121
   },
   "tags_frequency": {
     "algorithm": 11,
-    "Array": 231,
+    "Array": 232,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
     "Hash Table": 88,
@@ -60,8 +60,8 @@
     "Randomized": 1,
     "Rolling Hash": 1,
     "Strongly Connected Component": 1,
-    "Interactive": 4,
-    "Divide and Conquer": 5,
+    "Interactive": 5,
+    "Divide and Conquer": 6,
     "Merge Sort": 1,
     "Memoization": 3,
     "Brainteaser": 2,
@@ -5662,6 +5662,18 @@
       "url": "https://leetcode.com/problems/method-chaining",
       "tags": [
         "algorithm"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "problem_id": "1233",
+      "problem_title": "Number of Ships in a Rectangle",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/number-of-ships-in-a-rectangle",
+      "tags": [
+        "Array",
+        "Divide and Conquer",
+        "Interactive"
       ]
     }
   ]
