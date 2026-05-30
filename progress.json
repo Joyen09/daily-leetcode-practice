@@ -1,16 +1,16 @@
 {
-  "total_problems": 470,
+  "total_problems": 471,
   "problems_by_difficulty": {
     "Easy": 101,
-    "Medium": 248,
+    "Medium": 249,
     "Hard": 121
   },
   "tags_frequency": {
     "algorithm": 11,
-    "Array": 232,
+    "Array": 233,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
-    "Hash Table": 88,
+    "Hash Table": 89,
     "String": 114,
     "Enumeration": 21,
     "Backtracking": 12,
@@ -5674,6 +5674,17 @@
         "Array",
         "Divide and Conquer",
         "Interactive"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "problem_id": "4162",
+      "problem_title": "Minimum Number of Operations to Have Distinct Elements",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements",
+      "tags": [
+        "Array",
+        "Hash Table"
       ]
     }
   ]
