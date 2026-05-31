@@ -1,28 +1,28 @@
 {
-  "total_problems": 471,
+  "total_problems": 472,
   "problems_by_difficulty": {
     "Easy": 101,
     "Medium": 249,
-    "Hard": 121
+    "Hard": 122
   },
   "tags_frequency": {
     "algorithm": 11,
-    "Array": 233,
+    "Array": 234,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
     "Hash Table": 89,
     "String": 114,
     "Enumeration": 21,
     "Backtracking": 12,
-    "Bit Manipulation": 32,
+    "Bit Manipulation": 33,
     "Bitmask": 6,
     "String Matching": 3,
     "Math": 95,
     "Counting": 21,
     "Matrix": 28,
     "Simulation": 27,
-    "Stack": 29,
-    "Monotonic Stack": 9,
+    "Stack": 30,
+    "Monotonic Stack": 10,
     "Two Pointers": 40,
     "Shell": 1,
     "Depth-First Search": 37,
@@ -5685,6 +5685,19 @@
       "tags": [
         "Array",
         "Hash Table"
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "problem_id": "4222",
+      "problem_title": "Count Good Subarrays",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/count-good-subarrays",
+      "tags": [
+        "Array",
+        "Stack",
+        "Bit Manipulation",
+        "Monotonic Stack"
       ]
     }
   ]
