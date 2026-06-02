@@ -1,23 +1,23 @@
 {
-  "total_problems": 473,
+  "total_problems": 474,
   "problems_by_difficulty": {
     "Easy": 102,
     "Medium": 249,
-    "Hard": 122
+    "Hard": 123
   },
   "tags_frequency": {
     "algorithm": 11,
     "Array": 235,
     "Dynamic Programming": 65,
     "Prefix Sum": 25,
-    "Hash Table": 89,
+    "Hash Table": 90,
     "String": 114,
-    "Enumeration": 21,
+    "Enumeration": 22,
     "Backtracking": 12,
     "Bit Manipulation": 33,
     "Bitmask": 6,
     "String Matching": 3,
-    "Math": 95,
+    "Math": 96,
     "Counting": 21,
     "Matrix": 29,
     "Simulation": 28,
@@ -50,7 +50,7 @@
     "Segment Tree": 7,
     "Geometry": 4,
     "Topological Sort": 5,
-    "Combinatorics": 7,
+    "Combinatorics": 8,
     "Data Stream": 2,
     "Recursion": 5,
     "Game Theory": 2,
@@ -5710,6 +5710,19 @@
         "Array",
         "Matrix",
         "Simulation"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "problem_id": "3548",
+      "problem_title": "Find the Count of Good Integers",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/find-the-count-of-good-integers",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "Combinatorics",
+        "Enumeration"
       ]
     }
   ]
